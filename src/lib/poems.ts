@@ -598,5 +598,221 @@ export const allPoems = [
       'He guards the objectives of nature,',
       'Either the man of the desert or the man of the mountains.'
     ]
+  },
+  {
+    title: 'Manzil Se Aage Barh Kar Manzil Talash Kar',
+    englishTitle: 'Move Beyond the Destination to Seek a New Destination',
+    urdu: [
+      'منزل سے آگے بڑھ کر منزل تلاش کر',
+      'مل جائے تجھ کو دریا تو سمندر تلاش کر'
+    ],
+    english: [
+      'Move beyond the destination to seek a new destination,',
+      'If you find a river, then search for the ocean.'
+    ]
+  },
+  {
+    title: 'Sitaron Se Agay Jahan Aur Bhi Hain',
+    englishTitle: 'There are other worlds beyond the stars',
+    urdu: [
+      'ستاروں سے آگے جہاں اور بھی ہیں',
+      'ابھی عشق کے امتحاں اور بھی ہیں'
+    ],
+    english: [
+      'There are other worlds beyond the stars,',
+      'There are still more trials of love to come.'
+    ]
+  },
+  {
+    title: 'Khirad-Mandon Se Kya Puchun Ke Meri Ibtida Kya Hai',
+    englishTitle: 'What Should I Ask the Wise About My Origin?',
+    urdu: [
+      'خردمندوں سے کیا پوچھوں کہ میری ابتدا کیا ہے',
+      'کہ میں اس فکر میں رہتا ہوں، میری انتہا کیا ہے'
+    ],
+    english: [
+      'What should I ask the wise about my origin?',
+      'For I am engrossed in this thought: what is my ultimate end?'
+    ]
+  },
+  {
+    title: 'Parwaz Hai Dono Ki Isi Aik Faza Mein',
+    englishTitle: 'The Flight of Both is in This Same Realm',
+    urdu: [
+      'پرواز ہے دونوں کی اسی ایک فضا میں',
+      'کرگس کا جہاں اور ہے، شاہیں کا جہاں اور'
+    ],
+    english: [
+      'The flight of both is in this same atmosphere,',
+      'But the world of the vulture is different from the world of the falcon.'
+    ]
+  },
+  {
+    title: 'Aql Ayar Hai, Sou Bhais Bana Leti Hai',
+    englishTitle: 'Intellect is Cunning, It Assumes a Hundred Disguises',
+    urdu: [
+      'عقل عیار ہے، سو بھیس بنا لیتی ہے',
+      'عشق بےچارہ نہ ملا ہے نہ زاہد نہ حکیم'
+    ],
+    english: [
+      'Intellect is cunning, it assumes a hundred disguises,',
+      'Poor love is neither a mullah, nor an ascetic, nor a sage.'
+    ]
+  },
+  {
+    title: 'Sakon-e-Dil Ke Liye Ishq Ka Junoon Kafi Hai',
+    englishTitle: 'For the Peace of the Heart, the Madness of Love is Enough',
+    urdu: [
+      'سکون دل کے لئے عشق کا جنوں کافی ہے',
+      'ورنہ اس دنیا میں رکھا کیا ہے'
+    ],
+    english: [
+      'For the peace of the heart, the madness of love is enough,',
+      'Otherwise, what is there in this world?'
+    ]
+  },
+  {
+    title: 'Chamak Teri Ayan Hai Bijli Mein, Aatish Mein',
+    englishTitle: 'Your Gleam is Manifest in Lightning, in Fire',
+    urdu: [
+      'چمک تیری عیاں ہے بجلی میں، آتش میں',
+      'جھلک تیری ہویدا چاند میں، سورج میں، تاروں میں'
+    ],
+    english: [
+      'Your gleam is manifest in lightning, in fire,',
+      'Your reflection is visible in the moon, the sun, the stars.'
+    ]
+  },
+  {
+    title: 'Guftaar-e-Siyasat Mein Watan Aur Hi Kuch Hai',
+    englishTitle: 'In Political Discourse, the Homeland is Something Else',
+    urdu: [
+      'گفتار سیاست میں وطن اور ہی کچھ ہے',
+      'ارشاد نبوت میں وطن اور ہی کچھ ہے'
+    ],
+    english: [
+      'In the discourse of politics, the homeland is something else,',
+      'In the guidance of Prophethood, the homeland is something else.'
+    ]
+  },
+  {
+    title: 'Zindagi Insan Ki Ek Dam Ke Siwa Kuch Bhi Nahin',
+    englishTitle: 'Human Life is Nothing More Than a Single Breath',
+    urdu: [
+      'زندگی انساں کی اک دم کے سوا کچھ بھی نہیں',
+      'دم ہوا کی موج ہے، رم کے سوا کچھ بھی نہیں'
+    ],
+    english: [
+      'Human life is nothing more than a single breath,',
+      'Breath is a wave of air, nothing more than a fleeting moment.'
+    ]
+  },
+  {
+    title: 'Pooch Us Se Ke Maqsood Hain Kya Deen Ke',
+    englishTitle: 'Ask Him What are the Objectives of Faith',
+    urdu: [
+      'پوچھ اس سے کہ مقصود ہیں کیا دین کے',
+      'حلقہ شوق میں جو ہیں نہیں داخل'
+    ],
+    english: [
+      'Ask him what the objectives of faith are,',
+      'Who has not entered the circle of longing.'
+    ]
+  },
+  {
+    title: 'Ae Tair-e-Lahooti, Us Rizq Se Maut Achi',
+    englishTitle: 'O Celestial Bird, Death is Better Than That Sustenance',
+    urdu: [
+      'اے طائر لاہوتی، اس رزق سے موت اچھی',
+      'جس رزق سے آتی ہو پرواز میں کوتاہی'
+    ],
+    english: [
+      'O celestial bird, death is better than that sustenance,',
+      'From which comes a hindrance in flight.'
+    ]
+  },
+  {
+    title: 'Jamhooriyat Ek Tarz-e-Hukoomat Hai Ke Jis Mein',
+    englishTitle: 'Democracy is a Form of Government in Which',
+    urdu: [
+      'جمہوریت اک طرز حکومت ہے کہ جس میں',
+      'بندوں کو گنا کرتے ہیں، تولا نہیں کرتے'
+    ],
+    english: [
+      'Democracy is a form of government in which,',
+      'Men are counted, not weighed.'
+    ]
+  },
+  {
+    title: 'Haqeeqat Khurafaat Mein Kho Gayi',
+    englishTitle: 'Truth Was Lost in Superstitions',
+    urdu: [
+      'حقیقت خرافات میں کھو گئی',
+      'یہ امت روایات میں کھو گئی'
+    ],
+    english: [
+      'Truth was lost in absurdities,',
+      'This nation was lost in traditions.'
+    ]
+  },
+  {
+    title: 'Har Lehza Hai Momin Ki Nayi Shaan, Nayi Aan',
+    englishTitle: 'Every Moment, a Believer Has New Dignity, New Grace',
+    urdu: [
+      'ہر لحظہ ہے مومن کی نئی شان، نئی آن',
+      'گفتار میں، کردار میں، اللہ کی برہان'
+    ],
+    english: [
+      'Every moment, a believer has new dignity, new grace,',
+      'In speech, in character, the proof of God.'
+    ]
+  },
+  {
+    title: 'Woh Faraib Khurdah Shaheen Ke Pala Ho Kargasun Mein',
+    englishTitle: 'That Deceived Falcon, Raised Among Vultures',
+    urdu: [
+      'وہ فریب خوردہ شاہیں کہ پلا ہو کرگسوں میں',
+      'اسے کیا خبر کہ کیا ہے رہ و رسم شاہبازی'
+    ],
+    english: [
+      'That deceived falcon who was raised among vultures,',
+      'What does he know of the ways and customs of falconry?'
+    ]
+  },
+  {
+    title: 'Tere Seene Mein Dam Hai, Dil Nahin Hai',
+    englishTitle: 'You Have Breath in Your Chest, But No Heart',
+    urdu: [
+      'تیرے سینے میں دم ہے، دل نہیں ہے',
+      'ترا دم گرمئ محفل نہیں ہے'
+    ],
+    english: [
+      'There is breath in your chest, but there is no heart,',
+      'Your breath does not warm the gathering.'
+    ]
+  },
+  {
+    title: 'Buton Se Tujh Ko Umeedein, Khuda Se Naumeedi',
+    englishTitle: 'You Have Hopes from Idols, and Despair from God',
+    urdu: [
+      'بتوں سے تجھ کو امیدیں، خدا سے نومیدی',
+      'مجھے بتا تو سہی اور کافری کیا ہے؟'
+    ],
+    english: [
+      'You have hopes from idols, and despair from God,',
+      'Tell me then, what else is disbelief?'
+    ]
+  },
+  {
+    title: 'Mera Tareeq Ameeri Nahin, Faqeeri Hai',
+    englishTitle: 'My Way is Not of Wealth, But of Poverty',
+    urdu: [
+      'مرا طریق امیری نہیں، فقیری ہے',
+      'خودی نہ بیچ، غریبی میں نام پیدا کر'
+    ],
+    english: [
+      'My way is not of wealth, but of spiritual poverty,',
+      'Do not sell your self; make a name for yourself in poverty.'
+    ]
   }
 ];
