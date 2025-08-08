@@ -21,7 +21,8 @@ export function PoetryDisplay() {
   const [currentPage, setCurrentPage] = useState(1);
   const { theme } = useTheme();
   const mounted = useMounted();
-  const totalPages = Math.ceil(allPoems.length / PAGE_SIZE);
+  const totalPoems = allPoems.length;
+  const totalPages = Math.ceil(totalPoems / PAGE_SIZE);
 
   const startIndex = (currentPage - 1) * PAGE_SIZE;
   const endIndex = startIndex + PAGE_SIZE;
@@ -42,46 +43,54 @@ export function PoetryDisplay() {
   return (
     <div className="mx-auto max-w-7xl pb-24">
       <div className="space-y-8">
-        {displayedPoems.map((poem, index) => (
-          <Card
-            key={`${startIndex}-${index}`}
-            className="poem-card overflow-hidden shadow-lg transition-all duration-300 ease-in-out hover:shadow-xl"
-            style={getAnimationDelay(index)}
-          >
-            <CardHeader>
-              <CardTitle className="font-headline text-2xl">{poem.englishTitle}</CardTitle>
-              <CardDescription className="text-lg">{poem.title}</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
-                <div className="space-y-2 text-right" dir="rtl">
-                  <h3 className="mb-2 text-xl font-semibold text-primary">اردو</h3>
-                  {poem.urdu.map((line, lineIndex) => (
-                    <p key={lineIndex} className="poem-text font-body text-xl">
-                      {line}
-                    </p>
-                  ))}
+        {displayedPoems.map((poem, index) => {
+          const poemNumber = totalPoems - (startIndex + index);
+          return (
+            <Card
+              key={`${startIndex}-${index}`}
+              className="poem-card overflow-hidden shadow-lg transition-all duration-300 ease-in-out hover:shadow-xl"
+              style={getAnimationDelay(index)}
+            >
+              <CardHeader>
+                <div className="flex items-baseline gap-4">
+                  <span className="text-xl font-bold text-primary/80">#{poemNumber}</span>
+                  <div className="flex-1">
+                    <CardTitle className="font-headline text-2xl">{poem.englishTitle}</CardTitle>
+                    <CardDescription className="text-lg">{poem.title}</CardDescription>
+                  </div>
                 </div>
-                <div className="space-y-2">
-                   <h3 className="mb-2 text-xl font-semibold text-primary">Roman</h3>
-                   {poem.romanUrdu && poem.romanUrdu.map((line, lineIndex) => (
-                    <p key={lineIndex} className="poem-text font-body text-lg">
-                      {line}
-                    </p>
-                  ))}
+              </CardHeader>
+              <CardContent>
+                <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+                  <div className="space-y-2 text-right" dir="rtl">
+                    <h3 className="mb-2 text-xl font-semibold text-primary">اردو</h3>
+                    {poem.urdu.map((line, lineIndex) => (
+                      <p key={lineIndex} className="poem-text font-body text-xl">
+                        {line}
+                      </p>
+                    ))}
+                  </div>
+                  <div className="space-y-2">
+                     <h3 className="mb-2 text-xl font-semibold text-primary">Roman</h3>
+                     {poem.romanUrdu && poem.romanUrdu.map((line, lineIndex) => (
+                      <p key={lineIndex} className="poem-text font-body text-lg">
+                        {line}
+                      </p>
+                    ))}
+                  </div>
+                  <div className="space-y-2">
+                    <h3 className="mb-2 text-xl font-semibold text-primary">English</h3>
+                    {poem.english.map((line, lineIndex) => (
+                      <p key={lineIndex} className="poem-text font-body text-lg italic">
+                        {line}
+                      </p>
+                    ))}
+                  </div>
                 </div>
-                <div className="space-y-2">
-                  <h3 className="mb-2 text-xl font-semibold text-primary">English</h3>
-                  {poem.english.map((line, lineIndex) => (
-                    <p key={lineIndex} className="poem-text font-body text-lg italic">
-                      {line}
-                    </p>
-                  ))}
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-        ))}
+              </CardContent>
+            </Card>
+          )
+        })}
       </div>
 
       <StaticPaginationControl
@@ -98,5 +107,3 @@ export function PoetryDisplay() {
     </div>
   );
 }
-
-    
