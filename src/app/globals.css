@@ -59,25 +59,25 @@
   }
 
   .blue {
-    --background: 222 70% 12%; /* Deep blue background */
-    --foreground: 210 40% 98%; /* Light text */
-    --card: 222 60% 18%; /* Slightly lighter blue for cards */
+    --background: 224 71% 4%;
+    --foreground: 210 40% 98%;
+    --card: 224 71% 8%;
     --card-foreground: 210 40% 98%;
-    --popover: 222 70% 12%;
+    --popover: 224 71% 4%;
     --popover-foreground: 210 40% 98%;
-    --primary: 210 90% 60%; /* Bright blue for primary actions */
-    --primary-foreground: 222 70% 12%;
+    --primary: 198 93% 60%;
+    --primary-foreground: 224 71% 4%;
     --secondary: 217 33% 25%;
-    --secondary-foreground: 210 40% 98%;
-    --muted: 217 33% 25%;
+    --secondary-foreground: 198 93% 60%;
+    --muted: 217 33% 15%;
     --muted-foreground: 215 20% 65%;
-    --accent: 210 90% 70%; /* Lighter blue for accents */
-    --accent-foreground: 222 70% 12%;
+    --accent: 300 100% 70%;
+    --accent-foreground: 210 40% 98%;
     --destructive: 0 72% 51%;
     --destructive-foreground: 210 40% 98%;
-    --border: 217 33% 30%;
-    --input: 217 33% 30%;
-    --ring: 210 90% 60%;
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --ring: 198 93% 60%;
   }
 }
 
@@ -93,9 +93,9 @@
 /* Animations for Blue Theme */
 @layer utilities {
   .blue .page-title {
-    animation: slideInDown 0.7s ease-out forwards;
+    animation: slideInDown 0.7s ease-out forwards, text-glow 2s ease-in-out infinite alternate;
   }
-
+  
   .blue .page-description {
      animation: slideInUp 0.7s ease-out 0.2s forwards;
      opacity: 0;
@@ -104,11 +104,14 @@
   .blue .poem-card {
     animation: fadeIn 0.8s ease-out forwards;
     opacity: 0;
+    border-color: transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
   .blue .poem-card:hover {
-    @apply shadow-2xl shadow-primary/20;
-    transform: translateY(-4px);
+    transform: translateY(-5px) scale(1.02);
+    @apply shadow-2xl;
+    box-shadow: 0 0 15px hsl(var(--primary) / 0.5), 0 0 30px hsl(var(--accent) / 0.3);
   }
 
   .blue .pagination-control-container {
@@ -119,6 +122,29 @@
     @apply bg-primary/80;
     transform: scale(1.1);
   }
+
+  .blue .theme-toggle-button {
+    animation: icon-glow 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes text-glow {
+    from {
+      text-shadow: 0 0 4px hsl(var(--primary)), 0 0 8px hsl(var(--primary)), 0 0 12px hsl(var(--accent));
+    }
+    to {
+      text-shadow: 0 0 8px hsl(var(--primary)), 0 0 16px hsl(var(--primary)), 0 0 24px hsl(var(--accent));
+    }
+  }
+
+  @keyframes icon-glow {
+    from {
+      filter: drop-shadow(0 0 3px hsl(var(--primary)));
+    }
+    to {
+      filter: drop-shadow(0 0 6px hsl(var(--primary)));
+    }
+  }
+  
 
   @keyframes fadeIn {
     from {
