@@ -1,6 +1,7 @@
 import { ThemeToggle } from '@/components/theme-toggle';
 import Image from 'next/image';
 import Link from 'next/link';
+import { SearchDialog } from './search-dialog';
 
 export function Header() {
   return (
@@ -14,11 +15,14 @@ export function Header() {
             height={40}
             className="rounded-full"
           />
-          <h1 className="font-headline text-xl font-bold text-primary sm:text-2xl">
-            Allama Iqbal
+          <h1 className="font-headline text-lg font-bold text-primary sm:text-xl">
+            allamaiqbal.huzi.pk
           </h1>
         </Link>
-        <ThemeToggle />
+        <div className="flex items-center gap-2">
+          <SearchDialog />
+          <ThemeToggle />
+        </div>
       </div>
     </header>
   );
