@@ -30,9 +30,12 @@ export function PoetryDisplay() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  useEffect(() => {
-    // This effect can be used for any client-side logic that depends on the theme
-  }, [theme]);
+  const getAnimationDelay = (index: number) => {
+    if (mounted && theme === 'blue') {
+      return { animationDelay: `${index * 100}ms` };
+    }
+    return {};
+  };
 
   return (
     <div className="mx-auto max-w-4xl pb-24">
@@ -41,9 +44,7 @@ export function PoetryDisplay() {
           <Card
             key={`${startIndex}-${index}`}
             className="poem-card overflow-hidden shadow-lg transition-all duration-300 ease-in-out hover:shadow-xl"
-            style={{ 
-              animationDelay: mounted && theme === 'blue' ? `${index * 100}ms` : '0ms' 
-            }}
+            style={getAnimationDelay(index)}
           >
             <CardHeader>
               <CardTitle className="font-headline text-2xl">{poem.englishTitle}</CardTitle>
@@ -53,14 +54,14 @@ export function PoetryDisplay() {
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
                 <div className="space-y-2 text-right" dir="rtl">
                   {poem.urdu.map((line, lineIndex) => (
-                    <p key={lineIndex} className="font-body text-xl">
+                    <p key={lineIndex} className="poem-text font-body text-xl">
                       {line}
                     </p>
                   ))}
                 </div>
                 <div className="space-y-2">
                   {poem.english.map((line, lineIndex) => (
-                    <p key={lineIndex} className="font-body text-lg italic">
+                    <p key={lineIndex} className="poem-text font-body text-lg italic">
                       {line}
                     </p>
                   ))}
