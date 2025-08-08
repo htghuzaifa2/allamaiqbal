@@ -8,39 +8,26 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
 import { allPoems } from '@/lib/poems';
+import { PaginationControl } from '@/components/pagination-control';
 
 const PAGE_SIZE = 25;
-const MAX_POEMS = 50;
 
 export function PoetryDisplay() {
-  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
-  const [startIndex, setStartIndex] = useState(0);
+  const [currentPage, setCurrentPage] = useState(1);
+  const totalPages = Math.ceil(allPoems.length / PAGE_SIZE);
 
-  const handleLoadMore = () => {
-    const newVisibleCount = visibleCount + PAGE_SIZE;
+  const startIndex = (currentPage - 1) * PAGE_SIZE;
+  const endIndex = startIndex + PAGE_SIZE;
+  const displayedPoems = allPoems.slice(startIndex, endIndex);
 
-    if (newVisibleCount > MAX_POEMS) {
-      // We have 50 poems, slide the window
-      const newStartIndex = startIndex + PAGE_SIZE;
-      if (newStartIndex + MAX_POEMS > allPoems.length) {
-        // Not enough poems to slide a full window, just go to the end
-        setStartIndex(allPoems.length - MAX_POEMS);
-      } else {
-        setStartIndex(newStartIndex);
-      }
-    } else {
-      // We have less than 50 poems, just add more
-      setVisibleCount(newVisibleCount);
-    }
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
-  
-  const displayedPoems = allPoems.slice(startIndex, startIndex + visibleCount);
-  const canLoadMore = (startIndex + visibleCount) < allPoems.length;
 
   return (
-    <div className="mx-auto max-w-4xl">
+    <div className="mx-auto max-w-4xl pb-24">
       <div className="space-y-8">
         {displayedPoems.map((poem, index) => (
           <Card key={`${startIndex}-${index}`} className="overflow-hidden shadow-lg transition-all duration-500 ease-in-out hover:shadow-xl">
@@ -69,13 +56,11 @@ export function PoetryDisplay() {
           </Card>
         ))}
       </div>
-      {canLoadMore && (
-        <div className="mt-12 flex justify-center">
-          <Button onClick={handleLoadMore} size="lg">
-            Load More
-          </Button>
-        </div>
-      )}
+      <PaginationControl
+        currentPage={currentPage}
+        totalPages={totalPages}
+        onPageChange={handlePageChange}
+      />
     </div>
   );
 }
