@@ -5,9 +5,32 @@ import { Header } from '@/components/header';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'IqbalVerse',
+  title: 'IqbalVerse | Allama Iqbal Poetry',
   description:
-    "A bilingual Allama Iqbal poetry website with Urdu and English translations.",
+    "An extensive collection of Allama Iqbal's poetry in Urdu with English translations. Explore the profound verses and wisdom of the Spiritual Father of Pakistan on allamaiqbal.huzi.pk.",
+  keywords: ['Allama Iqbal', 'Iqbal poetry', 'Urdu poetry', 'English translation', 'IqbalVerse', 'Spiritual Father of Pakistan', 'allamaiqbal.huzi.pk'],
+  openGraph: {
+    title: 'IqbalVerse | Allama Iqbal Poetry',
+    description: "An extensive collection of Allama Iqbal's poetry in Urdu with English translations.",
+    url: 'https://allamaiqbal.huzi.pk',
+    siteName: 'IqbalVerse',
+    images: [
+      {
+        url: 'https://placehold.co/1200x630.png', // Waiting for user to provide logo
+        width: 1200,
+        height: 630,
+        alt: 'IqbalVerse Logo',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'IqbalVerse | Allama Iqbal Poetry',
+    description: "An extensive collection of Allama Iqbal's poetry in Urdu with English translations.",
+    images: ['https://placehold.co/1200x630.png'], // Waiting for user to provide logo
+  },
 };
 
 export default function RootLayout({
