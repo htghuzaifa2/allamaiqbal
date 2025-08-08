@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import {
   Card,
   CardContent,
@@ -12,6 +12,7 @@ import { allPoems } from '@/lib/poems';
 import { PaginationControl } from '@/components/pagination-control';
 import { useTheme } from 'next-themes';
 import { useMounted } from '@/hooks/use-mounted';
+import { StaticPaginationControl } from './static-pagination-control';
 
 const PAGE_SIZE = 50;
 
@@ -71,6 +72,13 @@ export function PoetryDisplay() {
           </Card>
         ))}
       </div>
+
+      <StaticPaginationControl
+        currentPage={currentPage}
+        totalPages={totalPages}
+        onPageChange={handlePageChange}
+      />
+
       <PaginationControl
         currentPage={currentPage}
         totalPages={totalPages}
