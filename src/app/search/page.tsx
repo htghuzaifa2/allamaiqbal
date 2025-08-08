@@ -9,14 +9,18 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
-import { useMemo } from 'react';
+import { useMemo, useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, ChevronDown, ChevronUp } from 'lucide-react';
+
+const PAGE_SIZE = 50;
 
 export default function SearchPage() {
   const searchParams = useSearchParams();
   const query = searchParams.get('q') || '';
+  const [currentPage, setCurrentPage] = useState(1);
+  const resultsContainerRef = useRef<HTMLDivElement>(null);
 
   const searchResults = useMemo(() => {
     if (!query) {
@@ -31,8 +35,23 @@ export default function SearchPage() {
     );
   }, [query]);
 
+  const totalPages = Math.ceil(searchResults.length / PAGE_SIZE);
+  const startIndex = (currentPage - 1) * PAGE_SIZE;
+  const endIndex = startIndex + PAGE_SIZE;
+  const paginatedResults = searchResults.slice(startIndex, endIndex);
+
+  const handlePageChange = (newPage: number) => {
+    setCurrentPage(newPage);
+  };
+
+  useEffect(() => {
+    if (resultsContainerRef.current) {
+      resultsContainerRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, [currentPage]);
+
   return (
-    <div className="container mx-auto px-4 py-8 md:py-12">
+    <div className="container mx-auto px-4 py-8 md:py-12" ref={resultsContainerRef}>
         <Button asChild variant="outline" className="mb-8">
             <Link href="/">
                 <ArrowLeft className="mr-2 h-4 w-4" />
@@ -46,16 +65,25 @@ export default function SearchPage() {
         </h1>
         <p className="page-description mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
           {searchResults.length > 0
-            ? `Found ${searchResults.length} poem(s) for "${query}"`
+            ? `Showing ${paginatedResults.length} of ${searchResults.length} results for "${query}"`
             : `No results found for "${query}"`}
         </p>
       </section>
 
       <div className="mx-auto max-w-4xl">
+        {currentPage > 1 && (
+          <div className="mb-8 flex justify-center">
+            <Button variant="outline" onClick={() => handlePageChange(currentPage - 1)}>
+              <ChevronUp className="mr-2 h-4 w-4" />
+              Load Previous
+            </Button>
+          </div>
+        )}
+
         <div className="space-y-8">
-          {searchResults.map((poem, index) => (
+          {paginatedResults.map((poem, index) => (
             <Card
-              key={index}
+              key={`${poem.englishTitle}-${index}`}
               className="poem-card overflow-hidden shadow-lg transition-all duration-300 ease-in-out hover:shadow-xl"
             >
               <CardHeader>
@@ -83,6 +111,15 @@ export default function SearchPage() {
             </Card>
           ))}
         </div>
+
+        {currentPage < totalPages && (
+          <div className="mt-8 flex justify-center">
+            <Button onClick={() => handlePageChange(currentPage + 1)}>
+              Load More
+              <ChevronDown className="ml-2 h-4 w-4" />
+            </Button>
+          </div>
+        )}
       </div>
     </div>
   );
