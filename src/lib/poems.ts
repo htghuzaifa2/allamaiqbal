@@ -1,6 +1,186 @@
 
 export const allPoems = [
   {
+    title: 'Faqr-e-Shahin',
+    englishTitle: 'The Falcon\'s Poverty',
+    urdu: [
+      'پرندوں کی دنیا کا درویش ہوں میں',
+      'کہ شاہیں بناتا نہیں آشیانہ'
+    ],
+    english: [
+      'I am the dervish of the world of birds,',
+      'For a falcon does not build a nest.'
+    ]
+  },
+  {
+    title: 'Tere Siwa Koi Nahin',
+    englishTitle: 'There is None Besides You',
+    urdu: [
+      'یہ کائنات چھپاتی نہیں ضمیر اپنا',
+      'کہ ذرہ ذرہ میں ہے ذوق آشکارائی'
+    ],
+    english: [
+      'This universe does not hide its conscience,',
+      'For in every particle, there is a desire for revelation.'
+    ]
+  },
+  {
+    title: 'Mard-e-Momin',
+    englishTitle: 'The Man of Faith',
+    urdu: [
+      'ہو حلقۂ یاراں تو بریشم کی طرح نرم',
+      'رزم حق و باطل ہو تو فولاد ہے مومن'
+    ],
+    english: [
+      'In the circle of friends, he is soft as silk,',
+      'In the battle of truth and falsehood, the believer is steel.'
+    ]
+  },
+  {
+    title: 'Zauq-e-Yaqeen',
+    englishTitle: 'The Taste of Conviction',
+    urdu: [
+      'یقیں افراد کا سرمایہ تعمیر ملت ہے',
+      'یہی قوت ہے جو صورت گر تقدیر ملت ہے'
+    ],
+    english: [
+      'The conviction of individuals is the asset for building a nation,',
+      'This is the power that shapes the destiny of the nation.'
+    ]
+  },
+  {
+    title: 'Jahan-e-Rung-o-Boo',
+    englishTitle: 'The World of Color and Scent',
+    urdu: [
+      'کھو نہ جا اس سحر و شام میں اے صاحب ہوش',
+      'اک جہاں اور بھی ہے جس میں نہ فردا ہے نہ دوش'
+    ],
+    english: [
+      'Do not get lost in this dawn and dusk, O man of sense,',
+      'There is another world in which there is no tomorrow and no yesterday.'
+    ]
+  },
+  {
+    title: 'Ilm-o-Hikmat',
+    englishTitle: 'Knowledge and Wisdom',
+    urdu: [
+      'علم کی حد سے پرے، بندہ مومن کے لیے',
+      'شوق نظارہ ہے، تسلیم و رضا کی منزل'
+    ],
+    english: [
+      'Beyond the limits of knowledge, for the man of faith,',
+      'Is the passion for vision, the destination of submission and contentment.'
+    ]
+  },
+  {
+    title: 'Ishq-e-Mustafa',
+    englishTitle: 'Love for the Prophet',
+    urdu: [
+      'کی محمد سے وفا تو نے تو ہم تیرے ہیں',
+      'یہ جہاں چیز ہے کیا، لوح و قلم تیرے ہیں'
+    ],
+    english: [
+      'If you are loyal to Muhammad, then We are yours,',
+      'What is this world? The Tablet and the Pen are yours.'
+    ]
+  },
+  {
+    title: 'Shaheen-o-Mahi',
+    englishTitle: 'The Falcon and the Fish',
+    urdu: [
+      'کہتا ہے مچھلی سے اک دن یہ شاہیں',
+      'کیا تو نے دیکھے ہیں دریا کے ساحل؟'
+    ],
+    english: [
+      'One day the falcon says to the fish,',
+      '"Have you seen the shores of the river?"'
+    ]
+  },
+  {
+    title: 'Taqdeer-o-Tadbeer',
+    englishTitle: 'Destiny and Effort',
+    urdu: [
+      'خدا نے آج تک اس قوم کی حالت نہیں بدلی',
+      'نہ ہو جس کو خیال آپ اپنی حالت کے بدلنے کا'
+    ],
+    english: [
+      'God has never changed the condition of a nation,',
+      'That has no thought of changing its own condition.'
+    ]
+  },
+  {
+    title: 'Zawal-e-Bandagi',
+    englishTitle: 'The Decline of Servitude',
+    urdu: [
+      'جب عشق سکھاتا ہے آداب خود آگاہی',
+      'کھلتے ہیں غلاموں پر اسرار شہنشاہی'
+    ],
+    english: [
+      'When love teaches the etiquette of self-awareness,',
+      'The secrets of sovereignty are revealed to the slaves.'
+    ]
+  },
+  {
+    title: 'Ishq o Aql',
+    englishTitle: 'Love and Intellect',
+    urdu: [
+        'گزر جا عقل سے آگے کہ یہ نور',
+        'چراغ راہ ہے، منزل نہیں ہے'
+    ],
+    english: [
+        'Move beyond intellect, for this light',
+        'Is a lamp for the path, not the destination.'
+    ]
+  },
+  {
+    title: 'Qalandar Ki Pehchan',
+    englishTitle: 'The Identity of a Qalandar',
+    urdu: [
+        'نہ تخت و تاج میں، نے لشکر و سپاہ میں ہے',
+        'جو بات مرد قلندر کی بارگاہ میں ہے'
+    ],
+    english: [
+        'It is not in the throne or crown, nor in armies or soldiers,',
+        'The quality that is found in the court of a man of God.'
+    ]
+  },
+  {
+    title: 'Dars-e-Haq',
+    englishTitle: 'The Lesson of Truth',
+    urdu: [
+        'خدا کے بندے تو ہیں ہزاروں، بنوں میں پھرتے ہیں مارے مارے',
+        'میں اس کا بندہ بنوں گا جس کو خدا کے بندوں سے پیار ہوگا'
+    ],
+    english: [
+        'There are thousands of servants of God, wandering lost in the wilderness,',
+        'I will become a servant of him who loves the servants of God.'
+    ]
+  },
+  {
+    title: 'Falsafa-e-Gham',
+    englishTitle: 'The Philosophy of Sorrow',
+    urdu: [
+        'غم نہ کر، زندگی بہت بڑی ہے',
+        'محبت کی محفل تیرے لئے سجی ہے'
+    ],
+    english: [
+        'Do not grieve, life is vast,',
+        'The assembly of love is adorned for you.'
+    ]
+  },
+  {
+    title: 'Sair-e-Falak',
+    englishTitle: 'The Journey of the Heavens',
+    urdu: [
+        'عقابی روح جب بیدار ہوتی ہے جوانوں میں',
+        'نظر آتی ہے ان کو اپنی منزل آسمانوں میں'
+    ],
+    english: [
+        'When the eagle\'s spirit awakens in the youth,',
+        'They see their destination in the heavens.'
+    ]
+  },
+  {
     title: 'Khudi Ko Kar Buland Itna',
     englishTitle: 'Elevate Your Self So High',
     urdu: [
