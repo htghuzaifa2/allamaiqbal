@@ -8,7 +8,7 @@ import React, {
   useCallback,
 } from 'react';
 
-type Theme = 'dark' | 'light';
+type Theme = 'dark' | 'light' | 'blue';
 
 type ThemeProviderProps = {
   children: React.ReactNode;
@@ -38,13 +38,19 @@ export function ThemeProvider({
     if (typeof window === 'undefined') {
       return defaultTheme;
     }
-    return (localStorage.getItem(storageKey) as Theme) || defaultTheme;
+    const storedTheme = localStorage.getItem(storageKey) as Theme;
+    if (storedTheme) {
+      return storedTheme;
+    }
+    // Set theme based on system preference
+    const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    return systemTheme;
   });
 
   useEffect(() => {
     const root = window.document.documentElement;
 
-    root.classList.remove('light', 'dark');
+    root.classList.remove('light', 'dark', 'blue');
     root.classList.add(theme);
   }, [theme]);
 
