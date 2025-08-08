@@ -92,6 +92,15 @@
 
 /* Animations for Blue Theme */
 @layer utilities {
+  .blue .page-title {
+    animation: slideInDown 0.7s ease-out forwards;
+  }
+
+  .blue .page-description {
+     animation: slideInUp 0.7s ease-out 0.2s forwards;
+     opacity: 0;
+  }
+
   .blue .poem-card {
     animation: fadeIn 0.8s ease-out forwards;
     opacity: 0;
@@ -130,6 +139,28 @@
     to {
       opacity: 1;
       transform: scale(1);
+    }
+  }
+
+  @keyframes slideInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
     }
   }
 }

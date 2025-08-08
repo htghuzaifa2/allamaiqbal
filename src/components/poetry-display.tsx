@@ -12,7 +12,7 @@ import { allPoems } from '@/lib/poems';
 import { PaginationControl } from '@/components/pagination-control';
 import { useTheme } from '@/components/theme-provider';
 
-const PAGE_SIZE = 25;
+const PAGE_SIZE = 50;
 
 export function PoetryDisplay() {
   const [currentPage, setCurrentPage] = useState(1);
