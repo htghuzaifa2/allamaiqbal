@@ -39,7 +39,7 @@ export function PoetryDisplay() {
   };
 
   return (
-    <div className="mx-auto max-w-4xl pb-24">
+    <div className="mx-auto max-w-7xl pb-24">
       <div className="space-y-8">
         {displayedPoems.map((poem, index) => (
           <Card
@@ -52,8 +52,9 @@ export function PoetryDisplay() {
               <CardDescription className="text-lg">{poem.title}</CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+              <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
                 <div className="space-y-2 text-right" dir="rtl">
+                  <h3 className="mb-2 text-xl font-semibold text-primary">اردو</h3>
                   {poem.urdu.map((line, lineIndex) => (
                     <p key={lineIndex} className="poem-text font-body text-xl">
                       {line}
@@ -61,6 +62,15 @@ export function PoetryDisplay() {
                   ))}
                 </div>
                 <div className="space-y-2">
+                   <h3 className="mb-2 text-xl font-semibold text-primary">Roman</h3>
+                   {poem.romanUrdu.map((line, lineIndex) => (
+                    <p key={lineIndex} className="poem-text font-body text-lg">
+                      {line}
+                    </p>
+                  ))}
+                </div>
+                <div className="space-y-2">
+                  <h3 className="mb-2 text-xl font-semibold text-primary">English</h3>
                   {poem.english.map((line, lineIndex) => (
                     <p key={lineIndex} className="poem-text font-body text-lg italic">
                       {line}

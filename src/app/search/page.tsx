@@ -31,7 +31,8 @@ export default function SearchPage() {
       poem.englishTitle.toLowerCase().includes(lowerCaseQuery) ||
       poem.title.toLowerCase().includes(lowerCaseQuery) ||
       poem.english.some(line => line.toLowerCase().includes(lowerCaseQuery)) ||
-      poem.urdu.some(line => line.toLowerCase().includes(lowerCaseQuery))
+      poem.urdu.some(line => line.toLowerCase().includes(lowerCaseQuery)) ||
+      (poem.romanUrdu && poem.romanUrdu.some(line => line.toLowerCase().includes(lowerCaseQuery)))
     );
   }, [query]);
 
@@ -70,7 +71,7 @@ export default function SearchPage() {
         </p>
       </section>
 
-      <div className="mx-auto max-w-4xl">
+      <div className="mx-auto max-w-7xl">
         {currentPage > 1 && (
           <div className="mb-8 flex justify-center">
             <Button variant="outline" onClick={() => handlePageChange(currentPage - 1)}>
@@ -91,15 +92,25 @@ export default function SearchPage() {
                 <CardDescription className="text-lg">{poem.title}</CardDescription>
               </CardHeader>
               <CardContent>
-                <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+                <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
                   <div className="space-y-2 text-right" dir="rtl">
+                    <h3 className="mb-2 text-xl font-semibold text-primary">اردو</h3>
                     {poem.urdu.map((line, lineIndex) => (
                       <p key={lineIndex} className="font-body text-xl">
                         {line}
                       </p>
                     ))}
                   </div>
+                   <div className="space-y-2">
+                     <h3 className="mb-2 text-xl font-semibold text-primary">Roman</h3>
+                     {poem.romanUrdu.map((line, lineIndex) => (
+                      <p key={lineIndex} className="font-body text-lg">
+                        {line}
+                      </p>
+                    ))}
+                  </div>
                   <div className="space-y-2">
+                    <h3 className="mb-2 text-xl font-semibold text-primary">English</h3>
                     {poem.english.map((line, lineIndex) => (
                       <p key={lineIndex} className="font-body text-lg italic">
                         {line}
