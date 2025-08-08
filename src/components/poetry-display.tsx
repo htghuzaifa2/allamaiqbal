@@ -10,7 +10,7 @@ import {
 } from '@/components/ui/card';
 import { allPoems } from '@/lib/poems';
 import { PaginationControl } from '@/components/pagination-control';
-import { useTheme } from '@/components/theme-provider';
+import { useTheme } from 'next-themes';
 import { useMounted } from '@/hooks/use-mounted';
 
 const PAGE_SIZE = 50;
@@ -29,6 +29,10 @@ export function PoetryDisplay() {
     setCurrentPage(page);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
+
+  useEffect(() => {
+    // This effect can be used for any client-side logic that depends on the theme
+  }, [theme]);
 
   return (
     <div className="mx-auto max-w-4xl pb-24">
