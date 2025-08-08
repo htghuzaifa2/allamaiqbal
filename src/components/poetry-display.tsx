@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useState } from 'react';
@@ -63,7 +64,7 @@ export function PoetryDisplay() {
                 </div>
                 <div className="space-y-2">
                    <h3 className="mb-2 text-xl font-semibold text-primary">Roman</h3>
-                   {poem.romanUrdu.map((line, lineIndex) => (
+                   {poem.romanUrdu && poem.romanUrdu.map((line, lineIndex) => (
                     <p key={lineIndex} className="poem-text font-body text-lg">
                       {line}
                     </p>
@@ -97,3 +98,5 @@ export function PoetryDisplay() {
     </div>
   );
 }
+
+    

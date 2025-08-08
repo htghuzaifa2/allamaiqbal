@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useSearchParams } from 'next/navigation';
@@ -135,3 +136,5 @@ export default function SearchPage() {
     </div>
   );
 }
+
+    

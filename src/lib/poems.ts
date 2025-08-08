@@ -32,7 +32,7 @@ export const allPoems = [
       'From which the Self weaves its robe of attributes.',
     ]
   },
-    {
+  {
     title: 'مسجد قرطبہ (Masjid-e-Qurtaba)',
     englishTitle: 'The Mosque of Cordoba',
     urdu: [
@@ -895,5 +895,513 @@ export const allPoems = [
       'Love is the first guide of intellect, heart, and sight,',
       'If there is no love, religion and law are but an idol-temple of ideas.'
     ]
+  },
+  {
+    title: "Bang-e-Dara: Bachon Ki Dua",
+    englishTitle: "The Call of the Marching Bell: A Child's Prayer",
+    urdu: [
+      "زندگی ہو مری پروانے کی صورت یارب",
+      "علم کی شمع سے ہو مجھ کو محبت یارب"
+    ],
+    romanUrdu: [
+      "Zindagi ho meri parwane ki surat Ya Rab!",
+      "Ilm ki shama se ho mujhko mohabbat Ya Rab!"
+    ],
+    english: [
+      "May my life be like that of a moth, O Lord!",
+      "May I love the candle of knowledge, O Lord!"
+    ]
+  },
+  {
+    title: "Bang-e-Dara: Bachon Ki Dua",
+    englishTitle: "The Call of the Marching Bell: A Child's Prayer",
+    urdu: [
+      "ہو مرا کام غریبوں کی حمایت کرنا",
+      "دردمندوں سے ضعیفوں سے محبت کرنا"
+    ],
+    romanUrdu: [
+      "Ho mera kaam ghareebon ki himayat karna,",
+      "Dardmando se, zaeefon se mohabbat karna"
+    ],
+    english: [
+      "May my work be to protect the poor,",
+      "To love the pained and the weak"
+    ]
+  },
+  {
+    title: "Bang-e-Dara: Bachon Ki Dua",
+    englishTitle: "The Call of the Marching Bell: A Child's Prayer",
+    urdu: [
+      "مرے اللہ! برائی سے بچانا مجھ کو",
+      "نیک جو راہ ہو اس رہ پہ چلانا مجھ کو"
+    ],
+    romanUrdu: [
+      "Mere Allah! Burai se bachana mujhko,",
+      "Naik jo raah ho uss reh pe chalana mujhko"
+    ],
+    english: [
+      "My God! Protect me from evil,",
+      "Guide me on the path that is righteous"
+    ]
+  },
+  {
+    title: "Bang-e-Dara: Tarana-e-Milli",
+    englishTitle: "The Call of the Marching Bell: Anthem of the Community",
+    urdu: [
+      "چین و عرب ہمارا، ہندوستان ہمارا",
+      "مسلم ہیں ہم، وطن ہے سارا جہاں ہمارا"
+    ],
+    romanUrdu: [
+      "Cheen o Arab hamara, Hindustan hamara,",
+      "Muslim hain hum, watan hai saara jahan hamara"
+    ],
+    english: [
+      "China and Arabia are ours, India is ours,",
+      "We are Muslims, the whole world is our homeland"
+    ]
+  },
+  {
+    title: "Bang-e-Dara: Tarana-e-Milli",
+    englishTitle: "The Call of the Marching Bell: Anthem of the Community",
+    urdu: [
+      "توحید کی امانت سینوں میں ہے ہمارے",
+      "آساں نہیں مٹانا نام و نشاں ہمارا"
+    ],
+    romanUrdu: [
+      "Tauheed ki amanat seenon mein hai hamare,",
+      "Aasan nahin mitana naam o nishan hamara"
+    ],
+    english: [
+      "The trust of monotheism is in our chests,",
+      "It is not easy to erase our name and sign"
+    ]
+  },
+  {
+    title: "Bang-e-Dara: Tarana-e-Hindi",
+    englishTitle: "The Call of the Marching Bell: Song of India",
+    urdu: [
+      "سارے جہاں سے اچھا ہندوستان ہمارا",
+      "ہم بلبلیں ہیں اس کی، یہ گلستاں ہمارا"
+    ],
+    romanUrdu: [
+      "Saare jahan se achha Hindustan hamara,",
+      "Hum bulbulain hain iski, yeh gulistan hamara"
+    ],
+    english: [
+      "Better than the entire world is our India,",
+      "We are its nightingales, and it is our garden"
+    ]
+  },
+  {
+    title: "Bang-e-Dara: Tarana-e-Hindi",
+    englishTitle: "The Call of the Marching Bell: Song of India",
+    urdu: [
+      "مذہب نہیں سکھاتا آپس میں بیر رکھنا",
+      "ہندی ہیں ہم، وطن ہے ہندوستان ہمارا"
+    ],
+    romanUrdu: [
+      "Mazhab nahin sikhata aapas mein bair rakhna,",
+      "Hindi hain hum, watan hai Hindustan hamara"
+    ],
+    english: [
+      "Religion does not teach us to bear animosity toward each other,",
+      "We are of Hind, and our homeland is Hindustan"
+    ]
+  },
+  {
+    title: "Bang-e-Dara: Shikwa (Stanza 1)",
+    englishTitle: "The Call of the Marching Bell: The Complaint (Stanza 1)",
+    urdu: [
+      "کیوں زیاں کار بنوں، سود فراموش رہوں",
+      "فکر فردا نہ کروں محو غم دوش رہوں"
+    ],
+    romanUrdu: [
+      "Kyun ziyan kaar banun, sood faramosh rahun,",
+      "Fikr-e-farda na karun, mehv-e-gham-e-dosh rahun"
+    ],
+    english: [
+      "Why should I be a loser, forgetting all gain?",
+      "Why not think of tomorrow, and bewail yesterday's pain?"
+    ]
+  },
+  {
+    title: "Bang-e-Dara: Shikwa (Stanza 2)",
+    englishTitle: "The Call of the Marching Bell: The Complaint (Stanza 2)",
+    urdu: [
+      "نالے بلبل کے سنوں اور ہمہ تن گوش رہوں",
+      "ہم نوا میں بھی کوئی گل ہوں کہ خاموش رہوں"
+    ],
+    romanUrdu: [
+      "Naale bulbul ke sunoon aur hama tan gosh rahun,",
+      "Hum nawa main bhi koi gul hoon ke khamosh rahun"
+    ],
+    english: [
+      "Why should I listen to the nightingale’s lament and be all ears?",
+      "Am I, my companion, a flower to remain silent?"
+    ]
+  },
+  {
+    title: "Bang-e-Dara: Jawab-e-Shikwa (Stanza 1)",
+    englishTitle: "The Call of the Marching Bell: Answer to the Complaint (Stanza 1)",
+    urdu: [
+      "دل سے جو بات نکلتی ہے، اثر رکھتی ہے",
+      "پر نہیں، طاقت پرواز مگر رکھتی ہے"
+    ],
+    romanUrdu: [
+      "Dil se jo baat nikalti hai, asar rakhti hai,",
+      "Par nahin, taaqat-e-parwaz magar rakhti hai"
+    ],
+    english: [
+      "The word that comes from the heart has an effect,",
+      "It has no wings, but it has the power to fly"
+    ]
+  },
+  {
+    title: "Bang-e-Dara: Jawab-e-Shikwa (Stanza 2)",
+    englishTitle: "The Call of the Marching Bell: Answer to the Complaint (Stanza 2)",
+    urdu: [
+      "ہم تو مائل بہ کرم ہیں، کوئی سائل ہی نہیں",
+      "راہ دکھلائیں کسے، رہرو منزل ہی نہیں"
+    ],
+    romanUrdu: [
+      "Hum toh mayal ba-karam hain, koi sa'il hi nahin,",
+      "Raah dikhlayen kisey, rehrav-e-manzil hi nahin"
+    ],
+    english: [
+      "We are inclined to be merciful, but there is no one who asks,",
+      "Whom should we show the way? There is no traveler to the destination"
+    ]
+  },
+  {
+    title: "Ramooz-e-Bekhudi: Nuktah-e-Tauhid",
+    englishTitle: "The Secrets of Selflessness: The Point of Monotheism",
+    urdu: [
+      "در معنی اینکہ ملت از اختلاط افراد پیدا می شود",
+      "و تکمیل تربیت او از نبوت است"
+    ],
+    romanUrdu: [
+      "Dar ma'ni eenkeh millat az ikhtilat-e-afrad paida mi shawad",
+      "Wa takmil-e-tarbiyat-e-oo az nabuwwat ast"
+    ],
+    english: [
+      "In the meaning that the nation is born from the mixing of individuals",
+      "And the completion of its training is from Prophethood"
+    ]
+  },
+  {
+    title: "Payam-e-Mashriq: Lala-e-Sahra",
+    englishTitle: "Message of the East: The Tulip of the Desert",
+    urdu: [
+      "گفتم، ای سوسن! تو را رنگیں قبا از کیست؟",
+      "گفتا، ز خون من است این جامہ زیبا"
+    ],
+    romanUrdu: [
+      "Guftam, ay susan! To ra rangeen qaba az keest?",
+      "Gufta, za khoon-e-man ast een jama-e-zeba"
+    ],
+    english: [
+      "I said, O Lily! From whom is your colorful robe?",
+      "It said, this beautiful garment is from my own blood"
+    ]
+  },
+  {
+    title: "Zabur-e-Ajam: Dua",
+    englishTitle: "Persian Psalms: Prayer",
+    urdu: [
+      "یارب درون سینہ دل با خبر بدہ",
+      "در بادہ نشہ را نگرم آن نظر بدہ"
+    ],
+    romanUrdu: [
+      "Ya Rab daroon-e-seena dil-e-bakhabar bideh,",
+      "Dar baada nasha ra nigaram aan nazar bideh"
+    ],
+    english: [
+      "O Lord, give me a knowing heart within my chest,",
+      "Give me the sight to see the intoxication in the wine"
+    ]
+  },
+  {
+    title: "Javid Nama: Tamheed-e-Asmani",
+    englishTitle: "The Book of Eternity: Celestial Prelude",
+    urdu: [
+      "آسمان گفت، ای فلک! این پیچ و تاب تست",
+      "یا درون سینہ من اضطراب تست"
+    ],
+    romanUrdu: [
+      "Aasman guft, ay falak! Een paich-o-taab-e-tust,",
+      "Ya daroon-e-seena-e-man iztirab-e-tust"
+    ],
+    english: [
+      "The sky said, O heavens! Is this your twisting and turning,",
+      "Or is it your restlessness within my heart?"
+    ]
+  },
+  {
+    title: "Pas Cheh Bayad Kard: Khitab Ba Javid",
+    englishTitle: "What Should Then Be Done: Address to Javid",
+    urdu: [
+      "اے پسر! ذوق نگہ از پدر آموز",
+      "رمز جان از نفس شعلہ ور آموز"
+    ],
+    romanUrdu: [
+      "Ay pisar! Zauq-e-nigah az pidar aamoz,",
+      "Ramz-e-jaan az nafas-e-sho'la war aamoz"
+    ],
+    english: [
+      "O son! Learn the joy of seeing from your father,",
+      "Learn the secret of the soul from the flaming breath"
+    ]
+  },
+  {
+    title: "Armaghan-e-Hijaz: Iblees Ki Majlis-e-Shura",
+    englishTitle: "Gift of Hijaz: The Parliament of Iblis",
+    urdu: [
+      "گفت شیطان کہ جہان رنگ و بو",
+      "ما گرفتیم از خدایان کہ او"
+    ],
+    romanUrdu: [
+      "Guft Shaitan keh jahan-e-rang-o-boo,",
+      "Ma giriftem az khudayan keh oo"
+    ],
+    english: [
+      "Satan said that this world of color and smell,",
+      "We took it from the gods that he created"
+    ]
+  },
+  {
+    title: "Armaghan-e-Hijaz: Iblees Ki Majlis-e-Shura",
+    englishTitle: "Gift of Hijaz: The Parliament of Iblis",
+    urdu: [
+      "جمہوریت اک طرز حکومت ہے کہ جس میں",
+      "بندوں کو گنا کرتے ہیں تولا نہیں کرتے"
+    ],
+    romanUrdu: [
+      "Jamhooriyat ek tarz-e-hukoomat hai ke jis mein",
+      "Bandon ko gina karte hain, tola nahin karte"
+    ],
+    english: [
+      "Democracy is a system of government in which",
+      "Men are counted, not weighed"
+    ]
+  },
+  {
+    title: "Armaghan-e-Hijaz: Mullah Aur Bahisht",
+    englishTitle: "Gift of Hijaz: The Mullah and Paradise",
+    urdu: [
+      "من بہ مسجد رفتم از بہر نماز",
+      "ملایان گفتند، راه تو دراز"
+    ],
+    romanUrdu: [
+      "Man ba masjid raftam az bahr-e-namaz,",
+      "Mullayan guftand, rah-e-to daraz"
+    ],
+    english: [
+      "I went to the mosque for prayer,",
+      "The mullahs said, your path is long"
+    ]
+  },
+  {
+    title: "Bal-e-Jibril: Aik Aarzu",
+    englishTitle: "Gabriel's Wing: A Wish",
+    urdu: [
+      "دنیا کی محفلوں سے اکتا گیا ہوں یارب",
+      "کیا لطف انجمن کا جب دل ہی بجھ گیا ہو"
+    ],
+    romanUrdu: [
+      "Dunya ki mehfilon se ukta gaya hoon Ya Rab,",
+      "Kya lutf anjuman ka jab dil hi bujh gaya ho"
+    ],
+    english: [
+      "I am weary of the gatherings of the world, O Lord,",
+      "What is the joy of an assembly when the heart itself is extinguished?"
+    ]
+  },
+  {
+    title: "Bal-e-Jibril: Saqi Nama",
+    englishTitle: "Gabriel's Wing: The Book of the Saqi",
+    urdu: [
+      "ہوا خیمہ زن کاروان بہار",
+      "ارم بن گیا دامن کوہسار"
+    ],
+    romanUrdu: [
+      "Hua khaima-zan karvan-e-bahar,",
+      "Iram ban gaya daman-e-kohsar"
+    ],
+    english: [
+      "The caravan of spring has pitched its tent,",
+      "The foothills have become the Garden of Iram"
+    ]
+  },
+  {
+    title: "Bal-e-Jibril: Masjid-e-Qurtaba",
+    englishTitle: "Gabriel's Wing: The Mosque of Cordoba",
+    urdu: [
+      "مرد خدا کا عمل، عشق سے صاحب فروغ",
+      "عشق ہے اصل حیات، موت ہے اس پر حرام"
+    ],
+    romanUrdu: [
+      "Mard-e-Khuda ka amal, ishq se sahib-e-furogh,",
+      "Ishq hai asl-e-hayat, maut hai is par haram"
+    ],
+    english: [
+      "The action of the man of God gains radiance from Love,",
+      "Love is the essence of life, death is forbidden to it"
+    ]
+  },
+  {
+    title: "Zarb-e-Kaleem: Shaheen",
+    englishTitle: "The Rod of Moses: The Eagle",
+    urdu: [
+      "کیا میں نے اس خاکداں سے کنارا",
+      "جہاں رزق کا نام ہے آب و دانہ"
+    ],
+    romanUrdu: [
+      "Kiya maine uss khakdan se kinara,",
+      "Jahan rizq ka naam hai aab o dana"
+    ],
+    english: [
+      "I have turned away from that dust-heap,",
+      "Where sustenance is called water and grain"
+    ]
+  },
+  {
+    title: "Zarb-e-Kaleem: Ilm-o-Ishq",
+    englishTitle: "The Rod of Moses: Knowledge and Love",
+    urdu: [
+      "علم نے مجھ سے کہا عشق ہے دیوانہ پن",
+      "عشق نے مجھ سے کہا علم ہے تخمین و ظن"
+    ],
+    romanUrdu: [
+      "Ilm ne mujhse kaha ishq hai deewana-pan,",
+      "Ishq ne mujhse kaha ilm hai takhmeen-o-zan"
+    ],
+    english: [
+      "Knowledge said to me, love is madness,",
+      "Love said to me, knowledge is conjecture and doubt"
+    ]
+  },
+  {
+    title: "Zarb-e-Kaleem: La-Deen Siyasat",
+    englishTitle: "The Rod of Moses: Godless Politics",
+    urdu: [
+      "ہو دیں سیاست سے جدا تو رہ جاتی ہے چنگیزی",
+      "نگاہ مسلم میں ہے سلطانی و درویشی"
+    ],
+    romanUrdu: [
+      "Ho deen siyasat se juda toh reh jaati hai changezi,",
+      "Nigah-e-muslim mein hai sultani-o-darveshi"
+    ],
+    english: [
+      "If religion is separated from politics, what remains is barbarism,",
+      "In the eyes of a Muslim is sovereignty and asceticism"
+    ]
+  },
+  {
+    title: "Bang-e-Dara: Maa ka Khwab",
+    englishTitle: "The Call of the Marching Bell: A Mother's Dream",
+    urdu: [
+      "میں سوئی جو اک شب تو دیکھا یہ خواب",
+      "بڑھا اور جس سے مرا اضطراب"
+    ],
+    romanUrdu: [
+      "Main soyi jo ik shab toh dekha yeh khwab,",
+      "Badha aur jis se mera iztirab"
+    ],
+    english: [
+      "One night as I slept, I saw this dream,",
+      "Which increased my anxiety even more"
+    ]
+  },
+  {
+    title: "Bang-e-Dara: Himala",
+    englishTitle: "The Call of the Marching Bell: The Himalayas",
+    urdu: [
+      "اے ہمالہ! اے فصیل کشور ہندوستاں",
+      "چومتا ہے تیری پیشانی کو جھک کر آسماں"
+    ],
+    romanUrdu: [
+      "Ae Himala! Ae faseel-e-kishwar-e-Hindustan,",
+      "Choomta hai teri peshani ko jhuk kar aasman"
+    ],
+    english: [
+      "O Himalayas! O rampart of the country of India,",
+      "The sky bows to kiss your forehead"
+    ]
+  },
+  {
+    title: "Bal-e-Jibril: Lenin Khuda Ke Huzoor Mein",
+    englishTitle: "Gabriel's Wing: Lenin in God's Presence",
+    urdu: [
+      "اے کہ ترے ضمیر پر جب سے ہے انکشاف ذات",
+      "ذوق سخن بہانہ ہے، اصل ہے واردات قلب"
+    ],
+    romanUrdu: [
+      "Ae ke tere zameer par jab se hai inkishaf-e-zaat,",
+      "Zauq-e-sukhan bahana hai, asl hai waridat-e-qalb"
+    ],
+    english: [
+      "O you, on whose conscience since the revelation of the self,",
+      "The taste for poetry is an excuse, the reality is the heart's experiences"
+    ]
+  },
+  {
+    title: "Zarb-e-Kaleem: Ijtihad",
+    englishTitle: "The Rod of Moses: Independent Reasoning",
+    urdu: [
+      "ہند میں حکمت دیں کوئی کہاں سے سیکھے",
+      "نہ کہیں لذت کردار، نہ افکار عمیق"
+    ],
+    romanUrdu: [
+      "Hind mein hikmat-e-deen koi kahan se seekhe,",
+      "Na kahin lazzat-e-kirdar, na afkar-e-ameeq"
+    ],
+    english: [
+      "From where can one learn the wisdom of religion in India?",
+      "There is neither the joy of character, nor profound thoughts"
+    ]
+  },
+  {
+    title: 'Shikwa (The Complaint)',
+    englishTitle: 'The Complaint',
+    urdu: ['نطق کو سو ناز ہیں تیرے لبِ اعجاز پر', 'ہر نفس میرا ہے مدیونِ دمِ عیسٰی ترا'],
+    romanUrdu: ['Nutuq ko sau naaz hain tere lab-e-ijaz par', 'Har nafas mera hai madyun-e-dam-e-Isa tera'],
+    english: ['My speech is proud of your miraculous lips', 'Every breath of mine is indebted to your Christ-like breath'],
+  },
+  {
+    title: 'Shikwa (The Complaint)',
+    englishTitle: 'The Complaint',
+    urdu: ['ہم سے پہلے تھا عجب تیرے جہاں کا منظر', 'کہیں مسجود تھے پتھر، کہیں معبود شجر'],
+    romanUrdu: ['Hum se pehle tha ajab tere jahan ka manzar', 'Kahin masjood thay pathar, kahin ma\'bood shajar'],
+    english: ['Before us, the scene of your world was strange', 'Somewhere stones were worshipped, somewhere trees were deities'],
+  },
+  {
+    title: 'Jawab-e-Shikwa (Answer to the Complaint)',
+    englishTitle: 'Answer to the Complaint',
+    urdu: ['آئی آواز، غم انگیز ہے افسانہ ترا', 'اشکِ بے تاب سے لبریز ہے پیمانہ ترا'],
+    romanUrdu: ['Aayi awaaz, gham-angez hai afsana tera', 'Ashk-e-betaab se labrez hai paimana tera'],
+    english: ['A voice came, "Your tale is sorrowful"', '"Your cup is overflowing with restless tears"'],
+  },
+  {
+    title: 'Jawab-e-Shikwa (Answer to the Complaint)',
+    englishTitle: 'Answer to the Complaint',
+    urdu: ['عقل ہے تیری سپر، عشق ہے شمشیر تری', 'مرے درویش! خلافت ہے جہاں گیر تری'],
+    romanUrdu: ['Aql hai teri sipar, ishq hai shamsheer teri', 'Mere darvesh! Khilafat hai jahan-geer teri'],
+    english: ['Intellect is your shield, love is your sword', 'My dervish! Your dominion is world-conquering'],
+  },
+  {
+    title: 'Tulu-e-Islam (The Rise of Islam)',
+    englishTitle: 'The Rise of Islam',
+    urdu: ['دلیل صبح روشن ہے ستاروں کی تنک تابی', 'افق سے آفتاب ابھرا گیا دور گراں خوابی'],
+    romanUrdu: ['Daleel-e-subh-e-roshan hai sitaron ki tunuk-taabi', 'Ufaq se aaftab ubhra, gaya daur-e-giraan-khwabi'],
+    english: ['The faintness of the stars is a sign of a bright morning', 'The sun has risen from the horizon, the era of deep slumber is over'],
+  },
+  {
+    title: 'Tulu-e-Islam (The Rise of Islam)',
+    englishTitle: 'The Rise of Islam',
+    urdu: ['مسلماں کو مسلماں کر دیا طوفان مغرب نے', 'تلاطم ہائے دریا ہی سے ہے گوہر کی سیرابی'],
+    romanUrdu: ['Musalman ko musalman kar diya toofan-e-maghrib ne', 'Talatum-haaye darya hi se hai gohar ki sairabi'],
+    english: ['The storm from the West has made the Muslim a true Muslim', 'The nourishment of the pearl comes from the tumult of the sea'],
   }
 ];
+
+    
