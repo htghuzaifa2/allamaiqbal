@@ -14,6 +14,7 @@ import { useMemo, useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft, ChevronDown, ChevronUp } from 'lucide-react';
+import { StaticPaginationControl } from '@/components/static-pagination-control';
 
 const PAGE_SIZE = 50;
 
@@ -67,25 +68,16 @@ export default function SearchPage() {
         </h1>
         <p className="page-description mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
           {searchResults.length > 0
-            ? `Showing ${paginatedResults.length} of ${searchResults.length} results for "${query}"`
+            ? `Showing ${startIndex + 1}-${Math.min(endIndex, searchResults.length)} of ${searchResults.length} results for "${query}"`
             : `No results found for "${query}"`}
         </p>
       </section>
 
       <div className="mx-auto max-w-7xl">
-        {currentPage > 1 && (
-          <div className="mb-8 flex justify-center">
-            <Button variant="outline" onClick={() => handlePageChange(currentPage - 1)}>
-              <ChevronUp className="mr-2 h-4 w-4" />
-              Load Previous
-            </Button>
-          </div>
-        )}
-
         <div className="space-y-8">
           {paginatedResults.map((poem, index) => (
             <Card
-              key={`${poem.englishTitle}-${index}`}
+              key={`${poem.englishTitle}-${startIndex}-${index}`}
               className="poem-card overflow-hidden shadow-lg transition-all duration-300 ease-in-out hover:shadow-xl"
             >
               <CardHeader>
@@ -104,7 +96,7 @@ export default function SearchPage() {
                   </div>
                    <div className="space-y-2">
                      <h3 className="mb-2 text-xl font-semibold text-primary">Roman</h3>
-                     {poem.romanUrdu.map((line, lineIndex) => (
+                     {poem.romanUrdu && poem.romanUrdu.map((line, lineIndex) => (
                       <p key={lineIndex} className="font-body text-lg">
                         {line}
                       </p>
@@ -124,17 +116,14 @@ export default function SearchPage() {
           ))}
         </div>
 
-        {currentPage < totalPages && (
-          <div className="mt-8 flex justify-center">
-            <Button onClick={() => handlePageChange(currentPage + 1)}>
-              Load More
-              <ChevronDown className="ml-2 h-4 w-4" />
-            </Button>
-          </div>
+        {searchResults.length > PAGE_SIZE && (
+          <StaticPaginationControl 
+            currentPage={currentPage}
+            totalPages={totalPages}
+            onPageChange={handlePageChange}
+          />
         )}
       </div>
     </div>
   );
 }
-
-    
