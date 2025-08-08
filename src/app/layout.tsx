@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: 'Allama Iqbal Poetry',
     images: [
       {
-        url: 'https://placehold.co/1200x630.png', 
+        url: 'https://i.postimg.cc/sxTp3Zkv/Dr-allama-muhammad-iqbal.webp',
         width: 1200,
         height: 630,
         alt: 'Allama Iqbal Poetry Logo',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Allama Iqbal Poetry | allamaiqbal.huzi.pk',
     description: "An extensive collection of Allama Iqbal's poetry in Urdu with English translations.",
-    images: ['https://placehold.co/1200x630.png'], 
+    images: ['https://i.postimg.cc/sxTp3Zkv/Dr-allama-muhammad-iqbal.webp'],
   },
 };
 
@@ -41,6 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <link rel="icon" href="https://i.postimg.cc/sxTp3Zkv/Dr-allama-muhammad-iqbal.webp" sizes="any" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
