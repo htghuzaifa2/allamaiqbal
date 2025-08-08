@@ -814,5 +814,305 @@ export const allPoems = [
       'My way is not of wealth, but of spiritual poverty,',
       'Do not sell your self; make a name for yourself in poverty.'
     ]
+  },
+  {
+    title: 'Paani Paani Kar Gayi Mujhko Qalandar Ki Woh Baat',
+    englishTitle: 'The Words of the Qalandar Made Me Ashamed',
+    urdu: [
+      'پانی پانی کر گئی مجھ کو قلندر کی یہ بات',
+      'تو جھکا جب غیر کے آگے، نہ من تیرا نہ تن'
+    ],
+    english: [
+      'The words of the Qalandar completely shamed me,',
+      'When you bow before others, neither your soul nor your body is yours.'
+    ]
+  },
+  {
+    title: 'Apne Kirdar Pe Daal Ke Parda Iqbal',
+    englishTitle: 'Iqbal, Covering Your Own Character with a Veil',
+    urdu: [
+      'اپنے کردار پہ ڈال کے پردہ اقبال',
+      'ہر شخص کہہ رہا ہے، زمانہ خراب ہے'
+    ],
+    english: [
+      'By casting a veil on their own character, Iqbal,',
+      'Every person is saying, "The times are bad."'
+    ]
+  },
+  {
+    title: 'Kafir Hai To Shamsheer Pe Karta Hai Bharosa',
+    englishTitle: 'The Infidel Relies on the Sword',
+    urdu: [
+      'کافر ہے تو شمشیر پہ کرتا ہے بھروسا',
+      'مومن ہے تو بے تیغ بھی لڑتا ہے سپاہی'
+    ],
+    english: [
+      'If one is an unbeliever, he relies on the sword,',
+      'If one is a believer, the soldier fights even without a sword.'
+    ]
+  },
+  {
+    title: 'Yaqeen Mohkam, Amal Peham, Mohabbat Faateh-e-Alam',
+    englishTitle: 'Firm Faith, Constant Action, Love, the Conqueror of the World',
+    urdu: [
+      'یقین محکم، عمل پیہم، محبت فاتح عالم',
+      'جہاد زندگانی میں ہیں یہ مردوں کی شمشیریں'
+    ],
+    english: [
+      'Firm faith, constant action, and love, the conqueror of the world,',
+      'In the struggle of life, these are the swords of men.'
+    ]
+  },
+  {
+    title: 'Azad Ki Ek Aan Hai, Mahkoom Ka Ek Saal',
+    englishTitle: 'A Moment for the Free is a Year for the Enslaved',
+    urdu: [
+      'آزاد کی اک آن ہے محکوم کا اک سال',
+      'کس درجہ گراں سیر ہیں محکوم کے اوقات'
+    ],
+    english: [
+      'A moment for the free is a year for the enslaved,',
+      'How slowly the moments pass for the subjugated.'
+    ]
+  },
+  {
+    title: 'Na Cheen Hamaara, Na Arab Hamaara, Hindustan Hamaara',
+    englishTitle: 'Neither China is Ours, Nor Arabia, India is Ours',
+    urdu: [
+      'چین و عرب ہمارا، ہندوستان ہمارا',
+      'مسلم ہیں ہم، وطن ہے سارا جہاں ہمارا'
+    ],
+    english: [
+      'China and Arabia are ours, India is ours,',
+      'We are Muslims, the whole world is our homeland.'
+    ]
+  },
+  {
+    title: 'Shor Hai, Ho Gaye Dunya Se Musalman Nabood',
+    englishTitle: 'There is a Clamor that Muslims Have Vanished from the World',
+    urdu: [
+      'شور ہے، ہو گئے دنیا سے مسلماں نابود',
+      'ہم یہ کہتے ہیں کہ تھے بھی کہیں مسلم موجود؟'
+    ],
+    english: [
+      'There is a clamor that Muslims have vanished from the world,',
+      'We ask, were there any Muslims present anywhere in the first place?'
+    ]
+  },
+  {
+    title: 'Uth Ke Ab Bazm-e-Jahan Ka Aur Hi Andaz Hai',
+    englishTitle: 'Arise, for the Order of the World is Now Different',
+    urdu: [
+      'اٹھ کہ اب بزم جہاں کا اور ہی انداز ہے',
+      'مشرق و مغرب میں تیرے دور کا آغاز ہے'
+    ],
+    english: [
+      'Arise, for the order of the world\'s assembly is now different,',
+      'In the East and the West, your era has begun.'
+    ]
+  },
+  {
+    title: 'Fitrat Ne Na Bakhsha Mujhe Andesha-e-Chalak',
+    englishTitle: 'Nature Did Not Grant Me a Cunning Mind',
+    urdu: [
+      'فطرت نے نہ بخشا مجھے اندیشہ چالاک',
+      'دیتی ہے مری ہر خطا پر مجھے سزا'
+    ],
+    english: [
+      'Nature did not grant me a cunning intellect,',
+      'It punishes me for my every mistake.'
+    ]
+  },
+  {
+    title: 'Sabaq Mila Hai Yeh Meraj-e-Mustafa Se Mujhe',
+    englishTitle: 'This is the Lesson I Learned from the Ascension of Mustafa',
+    urdu: [
+      'سبق ملا ہے یہ معراج مصطفی سے مجھے',
+      'کہ عالم بشریت کی زد میں ہے گردوں'
+    ],
+    english: [
+      'This is the lesson I have learned from the Ascension of the Prophet,',
+      'That the celestial sphere is within the reach of humanity.'
+    ]
+  },
+  {
+    title: 'Zindagi Ki Haqeeqat Kocha-e-Dildar Mein Dekh',
+    englishTitle: 'See the Reality of Life in the Beloved\'s Lane',
+    urdu: [
+      'زندگی کی حقیقت کوچہء دلدار میں دیکھ',
+      'مرگ کو بھی تو اک بار سر بازار میں دیکھ'
+    ],
+    english: [
+      'See the reality of life in the lane of the beloved,',
+      'And see death, too, for once in the open marketplace.'
+    ]
+  },
+  {
+    title: 'Tu Abhi Reh Guzar Mein Hai, Qaid-e-Maqam Se Guzar',
+    englishTitle: 'You Are Still on the Path, Move Beyond the Prison of Place',
+    urdu: [
+      'تو ابھی رہ گزر میں ہے قید مقام سے گزر',
+      'مصر و حجاز سے گزر، پارس و شام سے گزر'
+    ],
+    english: [
+      'You are still on the path, pass beyond the confinement of place,',
+      'Pass beyond Egypt and Hijaz, pass beyond Persia and Syria.'
+    ]
+  },
+  {
+    title: 'Aag Hai, Aulad-e-Ibrahim Hai, Namrood Hai',
+    englishTitle: 'There is Fire, the Progeny of Abraham, and Nimrod',
+    urdu: [
+      'آگ ہے، اولاد ابراہیم ہے، نمرود ہے',
+      'کیا کسی کو پھر کسی کا امتحاں مقصود ہے'
+    ],
+    english: [
+      'There is fire, there is the progeny of Abraham, there is Nimrod,',
+      'Does someone again intend to test someone?'
+    ]
+  },
+  {
+    title: 'Dil Murda Nahin Hai, Ise Zinda Kar Dobara',
+    englishTitle: 'The Heart is Not Dead, Revive it Again',
+    urdu: [
+      'دل مردہ نہیں ہے، اسے زندہ کر دوبارہ',
+      'کہ یہی ہے امتوں کے مرض کہن کا چارہ'
+    ],
+    english: [
+      'The heart is not dead, revive it once again,',
+      'For this is the only cure for the ancient malady of nations.'
+    ]
+  },
+  {
+    title: 'Ata Momina, Faqar O Masti O Razaq',
+    englishTitle: 'Faith Bestows Poverty, Ecstasy, and Contentment',
+    urdu: [
+      'عطا مومن، فقر و مستی و رزاق',
+      'یہ عناصر ہیں تشکیل مسلم کے'
+    ],
+    english: [
+      'Faith gives poverty, ecstasy, and providence,',
+      'These are the elements that constitute a Muslim.'
+    ]
+  },
+  {
+    title: 'Aaqa O Ghulam, Banda O Sahib',
+    englishTitle: 'Master and Slave, Servant and Lord',
+    urdu: [
+      'آقا و غلام، بندہ و صاحب',
+      'مومن کی نہیں کوئی سرحد'
+    ],
+    english: [
+      'Master and slave, servant and lord,',
+      'A believer has no boundaries.'
+    ]
+  },
+  {
+    title: 'Zauq-e-Nazar Hai, Ya Shauq-e-Manzil',
+    englishTitle: 'Is it the Joy of Sight, or the Longing for the Destination?',
+    urdu: [
+      'ذوق نظر ہے یا شوق منزل',
+      'ہر گام پہ مجھ کو منزل سے بہتر'
+    ],
+    english: [
+      'Is it the joy of sight, or the yearning for the destination?',
+      'At every step, it seems better than the destination to me.'
+    ]
+  },
+  {
+    title: 'Aa Ke Ek Baar To Is Bazm Mein Bhi Aey Saqi',
+    englishTitle: 'O Saqi, Come to This Gathering at Least Once',
+    urdu: [
+      'آ کہ اک بار تو اس بزم میں بھی اے ساقی',
+      'جام گردش میں ہے، پر کوئی نہیں پینے والا'
+    ],
+    english: [
+      'O Saqi, come to this gathering at least once,',
+      'The cup is in circulation, but there is no one to drink.'
+    ]
+  },
+  {
+    title: 'Dil Mein Khuda Ka Hona Lazim Hai Iqbal',
+    englishTitle: 'It is Necessary to Have God in the Heart, Iqbal',
+    urdu: [
+      'دل میں خدا کا ہونا لازم ہے اقبال',
+      'سجدوں میں پڑے رہنے سے جنت نہیں ملتی'
+    ],
+    english: [
+      'It is necessary to have God in the heart, Iqbal,',
+      'Paradise is not attained by merely remaining in prostration.'
+    ]
+  },
+  {
+    title: 'Apni Millat Par Qiyas Aqwam-e-Maghrib Se Na Kar',
+    englishTitle: 'Do Not Compare Your Nation with the Nations of the West',
+    urdu: [
+      'اپنی ملت پر قیاس اقوام مغرب سے نہ کر',
+      'خاص ہے ترکیب میں قوم رسول ہاشمی'
+    ],
+    english: [
+      'Do not compare your nation with the nations of the West,',
+      'The nation of the Hashimi Prophet is special in its composition.'
+    ]
+  },
+  {
+    title: 'Kaha Iqbal Ne Sheikh Se',
+    englishTitle: 'Iqbal Said to the Sheikh',
+    urdu: [
+      'کہا اقبال نے شیخ سے، واہ رے آپ کے نصیب',
+      'بیچتے ہیں آپ حرم، اور خریدتے ہیں صلیب'
+    ],
+    english: [
+      'Iqbal said to the Sheikh, "Bravo, what a fate you have!",',
+      'You sell the Haram (Kaaba) and buy the cross.'
+    ]
+  },
+  {
+    title: 'Shorish-e-Dauran Mein Bhi Tu Zinda O Paainda Hai',
+    englishTitle: 'Even in the Tumult of Time, You Are Alive and Enduring',
+    urdu: [
+      'شورش دوراں میں بھی تو زندہ و پائندہ ہے',
+      'تیرا جوہر، صورت خورشید تابندہ ہے'
+    ],
+    english: [
+      'Even in the tumult of the age, you are alive and enduring,',
+      'Your essence is radiant like the sun.'
+    ]
+  },
+  {
+    title: 'Masjid To Bana Di, Par Namazi Na Mile',
+    englishTitle: 'The Mosque Was Built, But No Worshippers Were Found',
+    urdu: [
+      'مسجد تو بنا دی، پر نمازی نہ ملے',
+      'دل تو بنا دیا، پر وہ دلدار نہ ملا'
+    ],
+    english: [
+      'The mosque was built, but no worshippers were found,',
+      'The heart was created, but that beloved was not found.'
+    ]
+  },
+  {
+    title: 'Bhari Bazm Mein Raaz Ki Baat Keh Di',
+    englishTitle: 'I Spoke a Secret in a Crowded Assembly',
+    urdu: [
+      'بھری بزم میں راز کی بات کہہ دی',
+      'بڑا بے ادب ہوں، سزا چاہتا ہوں'
+    ],
+    english: [
+      'I have revealed a secret in a crowded gathering,',
+      'I am very disrespectful, I desire punishment.'
+    ]
+  },
+  {
+    title: 'Kyun Ziyaan Kaar Banun, Sood Faramosh Rahun',
+    englishTitle: 'Why Should I Be a Loser, and Remain Oblivious to Gain?',
+    urdu: [
+      'کیوں زیاں کار بنوں، سود فراموش رہوں',
+      'فکر فردا نہ کروں، محو غم دوش رہوں'
+    ],
+    english: [
+      'Why should I become a loser, and remain forgetful of profit?',
+      'Why should I not worry about tomorrow, and remain engrossed in the sorrow of yesterday?'
+    ]
   }
 ];
