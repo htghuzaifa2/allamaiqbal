@@ -5,21 +5,21 @@ import { Header } from '@/components/header';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'IqbalVerse | Allama Iqbal Poetry',
+  title: 'Allama Iqbal Poetry | allamaiqbal.huzi.pk',
   description:
     "An extensive collection of Allama Iqbal's poetry in Urdu with English translations. Explore the profound verses and wisdom of the Spiritual Father of Pakistan on allamaiqbal.huzi.pk.",
   keywords: ['Allama Iqbal', 'Iqbal poetry', 'Urdu poetry', 'English translation', 'IqbalVerse', 'Spiritual Father of Pakistan', 'allamaiqbal.huzi.pk'],
   openGraph: {
-    title: 'IqbalVerse | Allama Iqbal Poetry',
+    title: 'Allama Iqbal Poetry | allamaiqbal.huzi.pk',
     description: "An extensive collection of Allama Iqbal's poetry in Urdu with English translations.",
     url: 'https://allamaiqbal.huzi.pk',
-    siteName: 'IqbalVerse',
+    siteName: 'Allama Iqbal Poetry',
     images: [
       {
-        url: 'https://placehold.co/1200x630.png', // Waiting for user to provide logo
+        url: 'https://placehold.co/1200x630.png', 
         width: 1200,
         height: 630,
-        alt: 'IqbalVerse Logo',
+        alt: 'Allama Iqbal Poetry Logo',
       },
     ],
     locale: 'en_US',
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'IqbalVerse | Allama Iqbal Poetry',
+    title: 'Allama Iqbal Poetry | allamaiqbal.huzi.pk',
     description: "An extensive collection of Allama Iqbal's poetry in Urdu with English translations.",
-    images: ['https://placehold.co/1200x630.png'], // Waiting for user to provide logo
+    images: ['https://placehold.co/1200x630.png'], 
   },
 };
 
