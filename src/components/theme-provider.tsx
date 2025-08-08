@@ -22,7 +22,7 @@ type ThemeProviderState = {
 };
 
 const initialState: ThemeProviderState = {
-  theme: 'light',
+  theme: 'dark',
   setTheme: () => null,
 };
 
@@ -30,7 +30,7 @@ const ThemeProviderContext = createContext<ThemeProviderState>(initialState);
 
 export function ThemeProvider({
   children,
-  defaultTheme = 'light',
+  defaultTheme = 'dark',
   storageKey = 'iqbalverse-theme',
   ...props
 }: ThemeProviderProps) {
@@ -39,12 +39,7 @@ export function ThemeProvider({
       return defaultTheme;
     }
     const storedTheme = localStorage.getItem(storageKey) as Theme;
-    if (storedTheme) {
-      return storedTheme;
-    }
-    // Set theme based on system preference
-    const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-    return systemTheme;
+    return storedTheme || defaultTheme;
   });
 
   useEffect(() => {

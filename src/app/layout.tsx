@@ -32,7 +32,7 @@ export default function RootLayout({
       <body className="font-body antialiased">
         <ThemeProvider
           storageKey="iqbalverse-theme"
-          defaultTheme="light"
+          defaultTheme="dark"
         >
           <div className="flex min-h-screen flex-col bg-background">
             <Header />
