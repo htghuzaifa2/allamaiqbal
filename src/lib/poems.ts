@@ -1091,186 +1091,6 @@ export const allPoems = [
     ]
   },
   {
-    title: 'Faqr-e-Shahin',
-    englishTitle: 'The Falcon\'s Poverty',
-    urdu: [
-      'پرندوں کی دنیا کا درویش ہوں میں',
-      'کہ شاہیں بناتا نہیں آشیانہ'
-    ],
-    english: [
-      'I am the dervish of the world of birds,',
-      'For a falcon does not build a nest.'
-    ]
-  },
-  {
-    title: 'Tere Siwa Koi Nahin',
-    englishTitle: 'There is None Besides You',
-    urdu: [
-      'یہ کائنات چھپاتی نہیں ضمیر اپنا',
-      'کہ ذرہ ذرہ میں ہے ذوق آشکارائی'
-    ],
-    english: [
-      'This universe does not hide its conscience,',
-      'For in every particle, there is a desire for revelation.'
-    ]
-  },
-  {
-    title: 'Mard-e-Momin',
-    englishTitle: 'The Man of Faith',
-    urdu: [
-      'ہو حلقۂ یاراں تو بریشم کی طرح نرم',
-      'رزم حق و باطل ہو تو فولاد ہے مومن'
-    ],
-    english: [
-      'In the circle of friends, he is soft as silk,',
-      'In the battle of truth and falsehood, the believer is steel.'
-    ]
-  },
-  {
-    title: 'Zauq-e-Yaqeen',
-    englishTitle: 'The Taste of Conviction',
-    urdu: [
-      'یقیں افراد کا سرمایہ تعمیر ملت ہے',
-      'یہی قوت ہے جو صورت گر تقدیر ملت ہے'
-    ],
-    english: [
-      'The conviction of individuals is the asset for building a nation,',
-      'This is the power that shapes the destiny of the nation.'
-    ]
-  },
-  {
-    title: 'Jahan-e-Rung-o-Boo',
-    englishTitle: 'The World of Color and Scent',
-    urdu: [
-      'کھو نہ جا اس سحر و شام میں اے صاحب ہوش',
-      'اک جہاں اور بھی ہے جس میں نہ فردا ہے نہ دوش'
-    ],
-    english: [
-      'Do not get lost in this dawn and dusk, O man of sense,',
-      'There is another world in which there is no tomorrow and no yesterday.'
-    ]
-  },
-  {
-    title: 'Ilm-o-Hikmat',
-    englishTitle: 'Knowledge and Wisdom',
-    urdu: [
-      'علم کی حد سے پرے، بندہ مومن کے لیے',
-      'شوق نظارہ ہے، تسلیم و رضا کی منزل'
-    ],
-    english: [
-      'Beyond the limits of knowledge, for the man of faith,',
-      'Is the passion for vision, the destination of submission and contentment.'
-    ]
-  },
-  {
-    title: 'Ishq-e-Mustafa',
-    englishTitle: 'Love for the Prophet',
-    urdu: [
-      'کی محمد سے وفا تو نے تو ہم تیرے ہیں',
-      'یہ جہاں چیز ہے کیا، لوح و قلم تیرے ہیں'
-    ],
-    english: [
-      'If you are loyal to Muhammad, then We are yours,',
-      'What is this world? The Tablet and the Pen are yours.'
-    ]
-  },
-  {
-    title: 'Shaheen-o-Mahi',
-    englishTitle: 'The Falcon and the Fish',
-    urdu: [
-      'کہتا ہے مچھلی سے اک دن یہ شاہیں',
-      'کیا تو نے دیکھے ہیں دریا کے ساحل؟'
-    ],
-    english: [
-      'One day the falcon says to the fish,',
-      '"Have you seen the shores of the river?"'
-    ]
-  },
-  {
-    title: 'Taqdeer-o-Tadbeer',
-    englishTitle: 'Destiny and Effort',
-    urdu: [
-      'خدا نے آج تک اس قوم کی حالت نہیں بدلی',
-      'نہ ہو جس کو خیال آپ اپنی حالت کے بدلنے کا'
-    ],
-    english: [
-      'God has never changed the condition of a nation,',
-      'That has no thought of changing its own condition.'
-    ]
-  },
-  {
-    title: 'Zawal-e-Bandagi',
-    englishTitle: 'The Decline of Servitude',
-    urdu: [
-      'جب عشق سکھاتا ہے آداب خود آگاہی',
-      'کھلتے ہیں غلاموں پر اسرار شہنشاہی'
-    ],
-    english: [
-      'When love teaches the etiquette of self-awareness,',
-      'The secrets of sovereignty are revealed to the slaves.'
-    ]
-  },
-  {
-    title: 'Ishq o Aql',
-    englishTitle: 'Love and Intellect',
-    urdu: [
-        'گزر جا عقل سے آگے کہ یہ نور',
-        'چراغ راہ ہے، منزل نہیں ہے'
-    ],
-    english: [
-        'Move beyond intellect, for this light',
-        'Is a lamp for the path, not the destination.'
-    ]
-  },
-  {
-    title: 'Qalandar Ki Pehchan',
-    englishTitle: 'The Identity of a Qalandar',
-    urdu: [
-        'نہ تخت و تاج میں، نے لشکر و سپاہ میں ہے',
-        'جو بات مرد قلندر کی بارگاہ میں ہے'
-    ],
-    english: [
-        'It is not in the throne or crown, nor in armies or soldiers,',
-        'The quality that is found in the court of a man of God.'
-    ]
-  },
-  {
-    title: 'Dars-e-Haq',
-    englishTitle: 'The Lesson of Truth',
-    urdu: [
-        'خدا کے بندے تو ہیں ہزاروں، بنوں میں پھرتے ہیں مارے مارے',
-        'میں اس کا بندہ بنوں گا جس کو خدا کے بندوں سے پیار ہوگا'
-    ],
-    english: [
-        'There are thousands of servants of God, wandering lost in the wilderness,',
-        'I will become a servant of him who loves the servants of God.'
-    ]
-  },
-  {
-    title: 'Falsafa-e-Gham',
-    englishTitle: 'The Philosophy of Sorrow',
-    urdu: [
-        'غم نہ کر، زندگی بہت بڑی ہے',
-        'محبت کی محفل تیرے لئے سجی ہے'
-    ],
-    english: [
-        'Do not grieve, life is vast,',
-        'The assembly of love is adorned for you.'
-    ]
-  },
-  {
-    title: 'Sair-e-Falak',
-    englishTitle: 'The Journey of the Heavens',
-    urdu: [
-        'عقابی روح جب بیدار ہوتی ہے جوانوں میں',
-        'نظر آتی ہے ان کو اپنی منزل آسمانوں میں'
-    ],
-    english: [
-        'When the eagle\'s spirit awakens in the youth,',
-        'They see their destination in the heavens.'
-    ]
-  },
-  {
     title: 'Khudi Ko Kar Buland Itna',
     englishTitle: 'Elevate Your Self So High',
     urdu: [
@@ -1300,22 +1120,30 @@ export const allPoems = [
     urdu: [
       'لب پہ آتی ہے دعا بن کے تمنا میری',
       'زندگی شمع کی صورت ہو خدایا میری',
+      'دور دنیا کا مرے دم سے اندھیرا ہو جائے',
+      'ہر جگہ میرے چمکنے سے اجالا ہو جائے',
+      'ہو مرے دم سے یونہی میرے وطن کی زینت',
+      'جس طرح پھول سے ہوتی ہے چمن کی زینت',
+      'زندگی ہو مری پروانے کی صورت یا رب',
+      'علم کی شمع سے ہو مجھ کو محبت یا رب',
+      'ہو مرا کام غریبوں کی حمایت کرنا',
+      'دردمندوں سے ضعیفوں سے محبت کرنا',
+      'مرے اللہ! برائی سے بچانا مجھ کو',
+      'نیک جو راہ ہو اس رہ پہ چلانا مجھ کو'
     ],
     english: [
       'My longing comes to my lips as a prayer.',
       'May my life be like that of a candle, O Lord!',
-    ],
-  },
-  {
-    title: 'Masjid To Bana Di Shab Bhar Mein',
-    englishTitle: 'You Built a Mosque in a Night',
-    urdu: [
-      'مسجد تو بنا دی شب بھر میں ایماں کی حرارت والوں نے',
-      'من اپنا پرانا پاپی ہے، برسوں میں نمازی بن نہ سکا',
-    ],
-    english: [
-      'The men of zeal built the mosque in a single night,',
-      'But my heart, an old sinner, could not become a worshipper in years.',
+      'May the world\'s darkness disappear through my life!',
+      'May every place be illuminated by my radiance!',
+      'May my life be an adornment to my homeland,',
+      'Just as a flower is an adornment to the garden.',
+      'May my life be like that of a moth, O Lord.',
+      'May I love the candle of knowledge, O Lord.',
+      'May my work be to support the poor,',
+      'To love the suffering and the weak.',
+      'My Allah! Protect me from evil.',
+      'Show me the path that is good and make me walk upon it.'
     ],
   },
   {
@@ -1328,18 +1156,6 @@ export const allPoems = [
     english: [
         'I desire the zenith of Your love,',
         'Look at my simplicity, what is it that I desire?'
-    ]
-  },
-  {
-    title: 'Hazaron Saal Nargis Apni Be-Noori Pe Roti Hai',
-    englishTitle: 'For a Thousand Years the Narcissus Laments its Lack of Light',
-    urdu: [
-        'ہزاروں سال نرگس اپنی بے نوری پہ روتی ہے',
-        'بڑی مشکل سے ہوتا ہے چمن میں دیدہ ور پیدا'
-    ],
-    english: [
-        'For thousands of years the narcissus has been lamenting its lack of light,',
-        'With great difficulty the one with true vision is born in the garden.'
     ]
   },
   {
@@ -1364,18 +1180,6 @@ export const allPoems = [
     english: [
         'Life is made by action, both paradise and hell,',
         'This earthly creature in its nature is neither of light nor of fire.'
-    ]
-  },
-  {
-    title: 'Dunya Ki Mehfilon Se Ukta Gaya Hun Ya Rab',
-    englishTitle: 'I Am Weary of the World\'s Gatherings, O Lord',
-    urdu: [
-        'دنیا کی محفلوں سے اکتا گیا ہوں یا رب',
-        'کیا لطف انجمن کا جب دل ہی بجھ گیا ہو'
-    ],
-    english: [
-        'I have grown weary of the gatherings of the world, O Lord,',
-        'What pleasure is there in an assembly when the heart itself is extinguished?'
     ]
   },
   {
@@ -1415,18 +1219,6 @@ export const allPoems = [
     ]
   },
   {
-    title: 'Dil Se Jo Baat Nikalti Hai, Asar Rakhti Hai',
-    englishTitle: 'What Comes from the Heart, Has an Effect',
-    urdu: [
-        'دل سے جو بات نکلتی ہے، اثر رکھتی ہے',
-        'پر نہیں، طاقت پرواز مگر رکھتی ہے'
-    ],
-    english: [
-        'The word that originates from the heart has its effect,',
-        'It has no wings, but it still has the power of flight.'
-    ]
-  },
-  {
     title: 'Ya Rab, Dil-e-Muslim Ko Woh Zinda Tamanna De',
     englishTitle: 'O Lord, Grant the Muslim Heart That Living Aspiration',
     urdu: [
@@ -1436,30 +1228,6 @@ export const allPoems = [
     english: [
         'O Lord, grant the Muslim heart that living aspiration,',
         'Which may warm the heart and stir the soul.'
-    ]
-  },
-  {
-    title: 'Baagh-e-Bahisht Se Mujhe Hukm-e-Safar Dia Tha Kyun',
-    englishTitle: 'Why Did You Order Me to Depart from the Garden of Paradise?',
-    urdu: [
-        'باغ بہشت سے مجھے حکم سفر دیا تھا کیوں',
-        'کار جہاں دراز ہے اب مرا انتظار کر'
-    ],
-    english: [
-        'Why did you order me to depart from the Garden of Paradise?',
-        'The work of the world is long, now wait for me.'
-    ]
-  },
-  {
-    title: 'Har Shai Musafir, Har Cheez Rahi',
-    englishTitle: 'Everything is a Traveler, Everything is on a Path',
-    urdu: [
-        'ہر شے مسافر، ہر چیز راہی',
-        'کیا چاند تارے، کیا مرغ و ماہی'
-    ],
-    english: [
-        'Everything is a traveler, everything is on a path,',
-        'Be it the moon and stars, or the birds and fish.'
     ]
   },
   {
@@ -1499,30 +1267,6 @@ export const allPoems = [
     ]
   },
   {
-    title: 'Masoom Mohabbat Ka Bas Itna Fasana Hai',
-    englishTitle: 'The Tale of Innocent Love is Just This',
-    urdu: [
-        'معصوم محبت کا بس اتنا فسانہ ہے',
-        'کاغذ کی حویلی ہے، بارش کا زمانہ ہے'
-    ],
-    english: [
-        'The tale of innocent love is just this,',
-        'It is a paper mansion in a time of rain.'
-    ]
-  },
-  {
-    title: 'Zamanay Ke Andaz Badle Gaye',
-    englishTitle: 'The Ways of the World Have Changed',
-    urdu: [
-        'زمانے کے انداز بدلے گئے',
-        'نیا راگ ہے، ساز بدلے گئے'
-    ],
-    english: [
-        'The ways of the world have changed,',
-        'The melody is new, the instruments have changed.'
-    ]
-  },
-  {
     title: 'Apne Man Mein Doob Kar Pa Ja Suragh-e-Zindagi',
     englishTitle: 'Delve Into Your Own Heart and Find the Secret of Life',
     urdu: [
@@ -1547,30 +1291,6 @@ export const allPoems = [
     ]
   },
   {
-    title: 'Acha Hai Dil Ke Sath Rahe Pasban-e-Aql',
-    englishTitle: 'It is Good That the Guardian of Intellect Stays with the Heart',
-    urdu: [
-        'اچھا ہے دل کے ساتھ رہے پاسبان عقل',
-        'لیکن کبھی کبھی اسے تنہا بھی چھوڑ دے'
-    ],
-    english: [
-        'It is good for the guardian of intellect to remain with the heart,',
-        'But sometimes, leave it alone as well.'
-    ]
-  },
-  {
-    title: 'Jafa Jo Ishq Mein Hoti Hai Woh Jafa Hi Nahin',
-    englishTitle: 'The Cruelty in Love is Not Cruelty at All',
-    urdu: [
-        'جفا جو عشق میں ہوتی ہے وہ جفا ہی نہیں',
-        'ستم نہ ہو تو محبت میں کچھ مزا ہی نہیں'
-    ],
-    english: [
-        'The cruelty that exists in love is not cruelty at all,',
-        'If there is no oppression, there is no pleasure in love.'
-    ]
-  },
-  {
     title: 'Dyar-e-Ishq Mein Apna Maqam Paida Kar',
     englishTitle: 'Create Your Own Place in the Realm of Love',
     urdu: [
@@ -1580,30 +1300,6 @@ export const allPoems = [
     english: [
       'Create your own place in the realm of love,',
       'Create a new era, new mornings, and new evenings.'
-    ]
-  },
-  {
-    title: 'Haya Nahin Hai Zamane Ki Ankh Mein Baqi',
-    englishTitle: 'There is No Modesty Left in the Eyes of the World',
-    urdu: [
-      'حیا نہیں ہے زمانے کی آنکھ میں باقی',
-      'خدا کرے کہ جوانی تری رہے بے داغ'
-    ],
-    english: [
-      'There is no modesty left in the eyes of the world,',
-      'May God keep your youth unblemished.'
-    ]
-  },
-  {
-    title: 'Ishq Qatil Se Bhi, Maqtool Se Hamdardi Bhi',
-    englishTitle: 'Love for the Murderer, and Sympathy for the Victim Too',
-    urdu: [
-      'عشق قاتل سے بھی، مقتول سے ہمدردی بھی',
-      'یہ بتا کس سے محبت کی جزا مانگے گا'
-    ],
-    english: [
-      'Love for the murderer, and sympathy for the victim too,',
-      'Tell me, from whom will you seek the reward for your love?'
     ]
   },
   {
@@ -1655,18 +1351,6 @@ export const allPoems = [
     ]
   },
   {
-    title: 'Ishq Bhi Ho Hijab Mein, Husn Bhi Ho Hijab Mein',
-    englishTitle: 'Let Love be Veiled, and Beauty Too be Veiled',
-    urdu: [
-      'عشق بھی ہو حجاب میں، حسن بھی ہو حجاب میں',
-      'یا تو خود آشکار ہو یا مجھے آشکار کر'
-    ],
-    english: [
-      'Let love be veiled, and beauty too be veiled,',
-      'Either reveal yourself, or reveal me.'
-    ]
-  },
-  {
     title: 'Wujood-e-Zan Se Hai Tasveer-e-Kainat Mein Rang',
     englishTitle: 'From the Existence of Woman, the Picture of the Universe has Color',
     urdu: [
@@ -1676,30 +1360,6 @@ export const allPoems = [
     english: [
       'From the existence of woman, the picture of the universe has color,',
       'From her instrument is the inner passion of life.'
-    ]
-  },
-  {
-    title: 'Aql Ko Tang-o-Tar-e-Daaman Na Kar',
-    englishTitle: 'Do Not Make the Intellect Confined and Limited',
-    urdu: [
-      'عقل کو تنگ و تار دامن نہ کر',
-      'عشق بےچارہ کو نامحرم نہ کر'
-    ],
-    english: [
-      'Do not make the intellect confined and limited,',
-      'Do not make poor love a stranger.'
-    ]
-  },
-  {
-    title: 'Jin Ke Angan Mein Ameeri Ka Shajar Lagta Hai',
-    englishTitle: 'In Whose Courtyard the Tree of Wealth Grows',
-    urdu: [
-      'جن کے آنگن میں امیری کا شجر لگتا ہے',
-      'ان کا ہر عیب زمانے کو ہنر لگتا ہے'
-    ],
-    english: [
-      'Those in whose courtyard the tree of wealth grows,',
-      'Their every flaw appears as a skill to the world.'
     ]
   },
   {
@@ -1715,30 +1375,6 @@ export const allPoems = [
     ]
   },
   {
-    title: 'Salamat Rahe Teri Ankhon Ki Masti',
-    englishTitle: 'May the Intoxication of Your Eyes Remain Safe',
-    urdu: [
-      ' سلامت رہے تیری آنکھوں کی مستی',
-      'مجھے مے کشی کی لت کیوں ڈالتے ہو'
-    ],
-    english: [
-      'May the intoxication of your eyes remain safe,',
-      'Why do you make me addicted to wine-drinking?'
-    ]
-  },
-  {
-    title: 'Dhoondta Phirta Hun Main Iqbal Apne Aap Ko',
-    englishTitle: 'I, Iqbal, Roam Around Searching for Myself',
-    urdu: [
-      'ڈھونڈتا پھرتا ہوں میں اقبال اپنے آپ کو',
-      'آپ ہی گویا مسافر، آپ ہی منزل ہوں میں'
-    ],
-    english: [
-      'I, Iqbal, wander around searching for myself,',
-      'I am the traveler, and I am the destination.'
-    ]
-  },
-  {
     title: 'Jahan Mein Ahl-e-Iman Soorat-e-Khursheed Jeete Hain',
     englishTitle: 'In the World, People of Faith Live Like the Sun',
     urdu: [
@@ -1748,18 +1384,6 @@ export const allPoems = [
     english: [
       'In the world, the people of faith live like the sun,',
       'They set here and rise there, set there and rise here.'
-    ]
-  },
-  {
-    title: 'Anokhi Waza Hai, Saare Zamane Se Nirale Hain',
-    englishTitle: 'Their Style is Unique, They are Different From the Whole World',
-    urdu: [
-      'انوکھی وضع ہے، سارے زمانے سے نرالے ہیں',
-      'یہ عاشق کون سی بستی کے یا رب رہنے والے ہیں'
-    ],
-    english: [
-      'Their style is unique, they are different from the whole world,',
-      'O Lord, to which settlement do these lovers belong?'
     ]
   },
   {
@@ -1775,18 +1399,6 @@ export const allPoems = [
     ]
   },
   {
-    title: 'Fanoos Ban Ke Jis Ki Hifazat Hawa Kare',
-    englishTitle: 'Becoming a Lantern Whose Protection the Wind Provides',
-    urdu: [
-      'فانوس بن کے جس کی حفاظت ہوا کرے',
-      'وہ شمع کیا بجھے جسے روشن خدا کرے'
-    ],
-    english: [
-      'Becoming a lantern whose protection the wind itself provides,',
-      'How can that candle be extinguished which God illuminates?'
-    ]
-  },
-  {
     title: 'Batil Se Dabne Wale Ae Aasman Nahin Hum',
     englishTitle: 'O Sky, We Are Not the Ones to be Suppressed by Falsehood',
     urdu: [
@@ -1799,42 +1411,6 @@ export const allPoems = [
     ]
   },
   {
-    title: 'Rasm-e-Azaan Reh Gayi, Rooh-e-Bilali Na Rahi',
-    englishTitle: 'The Ritual of Azaan Remained, but the Spirit of Bilal Did Not',
-    urdu: [
-      'رسم اذاں رہ گئی، روح بلالی نہ رہی',
-      'فلسفہ رہ گیا، تلقین غزالی نہ رہی'
-    ],
-    english: [
-      'The ritual of the call to prayer remained, but the spirit of Bilal did not,',
-      'Philosophy remained, but the teaching of Ghazali did not.'
-    ]
-  },
-  {
-    title: 'Sone Walo, Jaagte Rehna',
-    englishTitle: 'O Sleepers, Remain Awake',
-    urdu: [
-        'نیند کو موت کا بھائی کہتے ہیں',
-        'سونے والو، جاگتے رہنا'
-    ],
-    english: [
-        'They call sleep the brother of death,',
-        'O you who are sleeping, stay awake.'
-    ]
-  },
-  {
-    title: 'Tere Azad Bandon Ki Na Yeh Dunya, Na Woh Dunya',
-    englishTitle: 'For Your Free Servants, Neither This World Nor That',
-    urdu: [
-        'تیرے آزاد بندوں کی نہ یہ دنیا، نہ وہ دنیا',
-        'یہاں مرنے کی پابندی، وہاں جینے کی پابندی'
-    ],
-    english: [
-        'For Your free servants, there is neither this world nor that world,',
-        'Here there is a restriction on dying, there a restriction on living.'
-    ]
-  },
-  {
     title: 'Aain-e-Jawanmardan, Haq Goi o Bebaki',
     englishTitle: 'The Code of the Youthful: Truthfulness and Fearlessness',
     urdu: [
@@ -1844,18 +1420,6 @@ export const allPoems = [
     english: [
         'The code of the chivalrous is truthfulness and fearlessness,',
         'The lions of God do not know cunningness.'
-    ]
-  },
-  {
-    title: 'Ho Mera Kaam Gharibon Ki Himayat Karna',
-    englishTitle: 'May My Work Be to Support the Poor',
-    urdu: [
-        'ہو میرا کام غریبوں کی حمایت کرنا',
-        'دردمندوں سے، ضعیفوں سے محبت کرنا'
-    ],
-    english: [
-        'May my work be to support the poor,',
-        'To love the pained and the weak.'
     ]
   },
   {
@@ -1883,18 +1447,6 @@ export const allPoems = [
     ]
   },
   {
-    title: 'Sitaron Se Agay Jahan Aur Bhi Hain',
-    englishTitle: 'There are other worlds beyond the stars',
-    urdu: [
-      'ستاروں سے آگے جہاں اور بھی ہیں',
-      'ابھی عشق کے امتحاں اور بھی ہیں'
-    ],
-    english: [
-      'There are other worlds beyond the stars,',
-      'There are still more trials of love to come.'
-    ]
-  },
-  {
     title: 'Khirad-Mandon Se Kya Puchun Ke Meri Ibtida Kya Hai',
     englishTitle: 'What Should I Ask the Wise About My Origin?',
     urdu: [
@@ -1916,78 +1468,6 @@ export const allPoems = [
     english: [
       'The flight of both is in this same atmosphere,',
       'But the world of the vulture is different from the world of the falcon.'
-    ]
-  },
-  {
-    title: 'Aql Ayar Hai, Sou Bhais Bana Leti Hai',
-    englishTitle: 'Intellect is Cunning, It Assumes a Hundred Disguises',
-    urdu: [
-      'عقل عیار ہے، سو بھیس بنا لیتی ہے',
-      'عشق بےچارہ نہ ملا ہے نہ زاہد نہ حکیم'
-    ],
-    english: [
-      'Intellect is cunning, it assumes a hundred disguises,',
-      'Poor love is neither a mullah, nor an ascetic, nor a sage.'
-    ]
-  },
-  {
-    title: 'Sakon-e-Dil Ke Liye Ishq Ka Junoon Kafi Hai',
-    englishTitle: 'For the Peace of the Heart, the Madness of Love is Enough',
-    urdu: [
-      'سکون دل کے لئے عشق کا جنوں کافی ہے',
-      'ورنہ اس دنیا میں رکھا کیا ہے'
-    ],
-    english: [
-      'For the peace of the heart, the madness of love is enough,',
-      'Otherwise, what is there in this world?'
-    ]
-  },
-  {
-    title: 'Chamak Teri Ayan Hai Bijli Mein, Aatish Mein',
-    englishTitle: 'Your Gleam is Manifest in Lightning, in Fire',
-    urdu: [
-      'چمک تیری عیاں ہے بجلی میں، آتش میں',
-      'جھلک تیری ہویدا چاند میں، سورج میں، تاروں میں'
-    ],
-    english: [
-      'Your gleam is manifest in lightning, in fire,',
-      'Your reflection is visible in the moon, the sun, the stars.'
-    ]
-  },
-  {
-    title: 'Guftaar-e-Siyasat Mein Watan Aur Hi Kuch Hai',
-    englishTitle: 'In Political Discourse, the Homeland is Something Else',
-    urdu: [
-      'گفتار سیاست میں وطن اور ہی کچھ ہے',
-      'ارشاد نبوت میں وطن اور ہی کچھ ہے'
-    ],
-    english: [
-      'In the discourse of politics, the homeland is something else,',
-      'In the guidance of Prophethood, the homeland is something else.'
-    ]
-  },
-  {
-    title: 'Zindagi Insan Ki Ek Dam Ke Siwa Kuch Bhi Nahin',
-    englishTitle: 'Human Life is Nothing More Than a Single Breath',
-    urdu: [
-      'زندگی انساں کی اک دم کے سوا کچھ بھی نہیں',
-      'دم ہوا کی موج ہے، رم کے سوا کچھ بھی نہیں'
-    ],
-    english: [
-      'Human life is nothing more than a single breath,',
-      'Breath is a wave of air, nothing more than a fleeting moment.'
-    ]
-  },
-  {
-    title: 'Pooch Us Se Ke Maqsood Hain Kya Deen Ke',
-    englishTitle: 'Ask Him What are the Objectives of Faith',
-    urdu: [
-      'پوچھ اس سے کہ مقصود ہیں کیا دین کے',
-      'حلقہ شوق میں جو ہیں نہیں داخل'
-    ],
-    english: [
-      'Ask him what the objectives of faith are,',
-      'Who has not entered the circle of longing.'
     ]
   },
   {
@@ -2039,30 +1519,6 @@ export const allPoems = [
     ]
   },
   {
-    title: 'Woh Faraib Khurdah Shaheen Ke Pala Ho Kargasun Mein',
-    englishTitle: 'That Deceived Falcon, Raised Among Vultures',
-    urdu: [
-      'وہ فریب خوردہ شاہیں کہ پلا ہو کرگسوں میں',
-      'اسے کیا خبر کہ کیا ہے رہ و رسم شاہبازی'
-    ],
-    english: [
-      'That deceived falcon who was raised among vultures,',
-      'What does he know of the ways and customs of falconry?'
-    ]
-  },
-  {
-    title: 'Tere Seene Mein Dam Hai, Dil Nahin Hai',
-    englishTitle: 'You Have Breath in Your Chest, But No Heart',
-    urdu: [
-      'تیرے سینے میں دم ہے، دل نہیں ہے',
-      'ترا دم گرمئ محفل نہیں ہے'
-    ],
-    english: [
-      'There is breath in your chest, but there is no heart,',
-      'Your breath does not warm the gathering.'
-    ]
-  },
-  {
     title: 'Buton Se Tujh Ko Umeedein, Khuda Se Naumeedi',
     englishTitle: 'You Have Hopes from Idols, and Despair from God',
     urdu: [
@@ -2084,30 +1540,6 @@ export const allPoems = [
     english: [
       'My way is not of wealth, but of spiritual poverty,',
       'Do not sell your self; make a name for yourself in poverty.'
-    ]
-  },
-  {
-    title: 'Paani Paani Kar Gayi Mujhko Qalandar Ki Woh Baat',
-    englishTitle: 'The Words of the Qalandar Made Me Ashamed',
-    urdu: [
-      'پانی پانی کر گئی مجھ کو قلندر کی یہ بات',
-      'تو جھکا جب غیر کے آگے، نہ من تیرا نہ تن'
-    ],
-    english: [
-      'The words of the Qalandar completely shamed me,',
-      'When you bow before others, neither your soul nor your body is yours.'
-    ]
-  },
-  {
-    title: 'Apne Kirdar Pe Daal Ke Parda Iqbal',
-    englishTitle: 'Iqbal, Covering Your Own Character with a Veil',
-    urdu: [
-      'اپنے کردار پہ ڈال کے پردہ اقبال',
-      'ہر شخص کہہ رہا ہے، زمانہ خراب ہے'
-    ],
-    english: [
-      'By casting a veil on their own character, Iqbal,',
-      'Every person is saying, "The times are bad."'
     ]
   },
   {
@@ -2135,30 +1567,6 @@ export const allPoems = [
     ]
   },
   {
-    title: 'Azad Ki Ek Aan Hai, Mahkoom Ka Ek Saal',
-    englishTitle: 'A Moment for the Free is a Year for the Enslaved',
-    urdu: [
-      'آزاد کی اک آن ہے محکوم کا اک سال',
-      'کس درجہ گراں سیر ہیں محکوم کے اوقات'
-    ],
-    english: [
-      'A moment for the free is a year for the enslaved,',
-      'How slowly the moments pass for the subjugated.'
-    ]
-  },
-  {
-    title: 'Na Cheen Hamaara, Na Arab Hamaara, Hindustan Hamaara',
-    englishTitle: 'Neither China is Ours, Nor Arabia, India is Ours',
-    urdu: [
-      'چین و عرب ہمارا، ہندوستان ہمارا',
-      'مسلم ہیں ہم، وطن ہے سارا جہاں ہمارا'
-    ],
-    english: [
-      'China and Arabia are ours, India is ours,',
-      'We are Muslims, the whole world is our homeland.'
-    ]
-  },
-  {
     title: 'Shor Hai, Ho Gaye Dunya Se Musalman Nabood',
     englishTitle: 'There is a Clamor that Muslims Have Vanished from the World',
     urdu: [
@@ -2180,42 +1588,6 @@ export const allPoems = [
     english: [
       'Arise, for the order of the world\'s assembly is now different,',
       'In the East and the West, your era has begun.'
-    ]
-  },
-  {
-    title: 'Fitrat Ne Na Bakhsha Mujhe Andesha-e-Chalak',
-    englishTitle: 'Nature Did Not Grant Me a Cunning Mind',
-    urdu: [
-      'فطرت نے نہ بخشا مجھے اندیشہ چالاک',
-      'دیتی ہے مری ہر خطا پر مجھے سزا'
-    ],
-    english: [
-      'Nature did not grant me a cunning intellect,',
-      'It punishes me for my every mistake.'
-    ]
-  },
-  {
-    title: 'Sabaq Mila Hai Yeh Meraj-e-Mustafa Se Mujhe',
-    englishTitle: 'This is the Lesson I Learned from the Ascension of Mustafa',
-    urdu: [
-      'سبق ملا ہے یہ معراج مصطفی سے مجھے',
-      'کہ عالم بشریت کی زد میں ہے گردوں'
-    ],
-    english: [
-      'This is the lesson I have learned from the Ascension of the Prophet,',
-      'That the celestial sphere is within the reach of humanity.'
-    ]
-  },
-  {
-    title: 'Zindagi Ki Haqeeqat Kocha-e-Dildar Mein Dekh',
-    englishTitle: 'See the Reality of Life in the Beloved\'s Lane',
-    urdu: [
-      'زندگی کی حقیقت کوچہء دلدار میں دیکھ',
-      'مرگ کو بھی تو اک بار سر بازار میں دیکھ'
-    ],
-    english: [
-      'See the reality of life in the lane of the beloved,',
-      'And see death, too, for once in the open marketplace.'
     ]
   },
   {
@@ -2243,78 +1615,6 @@ export const allPoems = [
     ]
   },
   {
-    title: 'Dil Murda Nahin Hai, Ise Zinda Kar Dobara',
-    englishTitle: 'The Heart is Not Dead, Revive it Again',
-    urdu: [
-      'دل مردہ نہیں ہے، اسے زندہ کر دوبارہ',
-      'کہ یہی ہے امتوں کے مرض کہن کا چارہ'
-    ],
-    english: [
-      'The heart is not dead, revive it once again,',
-      'For this is the only cure for the ancient malady of nations.'
-    ]
-  },
-  {
-    title: 'Ata Momina, Faqar O Masti O Razaq',
-    englishTitle: 'Faith Bestows Poverty, Ecstasy, and Contentment',
-    urdu: [
-      'عطا مومن، فقر و مستی و رزاق',
-      'یہ عناصر ہیں تشکیل مسلم کے'
-    ],
-    english: [
-      'Faith gives poverty, ecstasy, and providence,',
-      'These are the elements that constitute a Muslim.'
-    ]
-  },
-  {
-    title: 'Aaqa O Ghulam, Banda O Sahib',
-    englishTitle: 'Master and Slave, Servant and Lord',
-    urdu: [
-      'آقا و غلام، بندہ و صاحب',
-      'مومن کی نہیں کوئی سرحد'
-    ],
-    english: [
-      'Master and slave, servant and lord,',
-      'A believer has no boundaries.'
-    ]
-  },
-  {
-    title: 'Zauq-e-Nazar Hai, Ya Shauq-e-Manzil',
-    englishTitle: 'Is it the Joy of Sight, or the Longing for the Destination?',
-    urdu: [
-      'ذوق نظر ہے یا شوق منزل',
-      'ہر گام پہ مجھ کو منزل سے بہتر'
-    ],
-    english: [
-      'Is it the joy of sight, or the yearning for the destination?',
-      'At every step, it seems better than the destination to me.'
-    ]
-  },
-  {
-    title: 'Aa Ke Ek Baar To Is Bazm Mein Bhi Aey Saqi',
-    englishTitle: 'O Saqi, Come to This Gathering at Least Once',
-    urdu: [
-      'آ کہ اک بار تو اس بزم میں بھی اے ساقی',
-      'جام گردش میں ہے، پر کوئی نہیں پینے والا'
-    ],
-    english: [
-      'O Saqi, come to this gathering at least once,',
-      'The cup is in circulation, but there is no one to drink.'
-    ]
-  },
-  {
-    title: 'Dil Mein Khuda Ka Hona Lazim Hai Iqbal',
-    englishTitle: 'It is Necessary to Have God in the Heart, Iqbal',
-    urdu: [
-      'دل میں خدا کا ہونا لازم ہے اقبال',
-      'سجدوں میں پڑے رہنے سے جنت نہیں ملتی'
-    ],
-    english: [
-      'It is necessary to have God in the heart, Iqbal,',
-      'Paradise is not attained by merely remaining in prostration.'
-    ]
-  },
-  {
     title: 'Apni Millat Par Qiyas Aqwam-e-Maghrib Se Na Kar',
     englishTitle: 'Do Not Compare Your Nation with the Nations of the West',
     urdu: [
@@ -2324,42 +1624,6 @@ export const allPoems = [
     english: [
       'Do not compare your nation with the nations of the West,',
       'The nation of the Hashimi Prophet is special in its composition.'
-    ]
-  },
-  {
-    title: 'Kaha Iqbal Ne Sheikh Se',
-    englishTitle: 'Iqbal Said to the Sheikh',
-    urdu: [
-      'کہا اقبال نے شیخ سے، واہ رے آپ کے نصیب',
-      'بیچتے ہیں آپ حرم، اور خریدتے ہیں صلیب'
-    ],
-    english: [
-      'Iqbal said to the Sheikh, "Bravo, what a fate you have!",',
-      'You sell the Haram (Kaaba) and buy the cross.'
-    ]
-  },
-  {
-    title: 'Shorish-e-Dauran Mein Bhi Tu Zinda O Paainda Hai',
-    englishTitle: 'Even in the Tumult of Time, You Are Alive and Enduring',
-    urdu: [
-      'شورش دوراں میں بھی تو زندہ و پائندہ ہے',
-      'تیرا جوہر، صورت خورشید تابندہ ہے'
-    ],
-    english: [
-      'Even in the tumult of the age, you are alive and enduring,',
-      'Your essence is radiant like the sun.'
-    ]
-  },
-  {
-    title: 'Masjid To Bana Di, Par Namazi Na Mile',
-    englishTitle: 'The Mosque Was Built, But No Worshippers Were Found',
-    urdu: [
-      'مسجد تو بنا دی، پر نمازی نہ ملے',
-      'دل تو بنا دیا، پر وہ دلدار نہ ملا'
-    ],
-    english: [
-      'The mosque was built, but no worshippers were found,',
-      'The heart was created, but that beloved was not found.'
     ]
   },
   {
@@ -2399,42 +1663,6 @@ export const allPoems = [
     ]
   },
   {
-    title: 'Gesu-e-Tabdar Ko Aur Bhi Tabdar Kar',
-    englishTitle: 'Make the Radiant Tresses Even More Radiant',
-    urdu: [
-      'گیسوئے تابدار کو اور بھی تابدار کر',
-      'ہوش و خرد شکار کر، قلب و نظر شکار کر'
-    ],
-    english: [
-      'Make the radiant tresses even more radiant,',
-      'Hunt for wisdom and intellect, hunt for heart and sight.'
-    ]
-  },
-  {
-    title: 'Yeh Jannat Mubarak Rahe Zahidon Ko',
-    englishTitle: 'May This Paradise Be Blessed for the Ascetics',
-    urdu: [
-      'یہ جنت مبارک رہے زاہدوں کو',
-      'کہ میں آپ کا سامنا چاہتا ہوں'
-    ],
-    english: [
-      'May this paradise remain blessed for the ascetics,',
-      'For I desire to face You.'
-    ]
-  },
-  {
-    title: 'Khoon-e-Dil De Ke Nikharenge Rukh-e-Barg-e-Gulab',
-    englishTitle: 'We Will Beautify the Face of the Rose Petal with the Blood of Our Hearts',
-    urdu: [
-      'خون دل دے کے نکھاریں گے رخ برگ گلاب',
-      'ہم نے گلشن کے تحفظ کی قسم کھائی ہے'
-    ],
-    english: [
-      'We will nourish the face of the rose petal with the blood of our hearts,',
-      'We have sworn to protect the garden.'
-    ]
-  },
-  {
     title: 'Har Ek Maqam Se Aage Maqam Hai Tera',
     englishTitle: 'Your Station is Beyond Every Station',
     urdu: [
@@ -2444,18 +1672,6 @@ export const allPoems = [
     english: [
       'Your station is beyond every other station,',
       'Life is nothing but the joy of travel.'
-    ]
-  },
-  {
-    title: 'Zamana Dekhega Jab Mere Dil Se Mehshar Uthega',
-    englishTitle: 'The World Will See When the Day of Judgment Rises from My Heart',
-    urdu: [
-      'زمانہ دیکھے گا جب مرے دل سے محشر اٹھے گا',
-      'کہ اب تک پردہء افلاک میں پوشیدہ ہوں میں'
-    ],
-    english: [
-      'The world will see when the Resurrection arises from my heart,',
-      'For until now, I have been hidden in the veil of the heavens.'
     ]
   },
   {
@@ -2504,126 +1720,6 @@ export const allPoems = [
     english: [
       'Love is the first guide of intellect, heart, and sight,',
       'If there is no love, religion and law are but an idol-temple of ideas.'
-    ]
-  },
-  {
-    title: 'Bulandi Der Tak Kis Shakhs Ki Qismat Mein Rehti Hai',
-    englishTitle: 'For How Long Does Highness Remain in One\'s Fate?',
-    urdu: [
-      'بلندی دیر تک کس شخص کی قسمت میں رہتی ہے',
-      'بہت اونچی عمارت ہو تو خطرہ ہے کہ گر جائے'
-    ],
-    english: [
-      'For how long does elevation remain in a person\'s fate?',
-      'If a building is too high, there is a danger of it falling.'
-    ]
-  },
-  {
-    title: 'Ishq Se Paida Nawa-e-Zindagi Mein Zair-o-Bam',
-    englishTitle: 'From Love, the High and Low Notes in the Melody of Life are Born',
-    urdu: [
-      'عشق سے پیدا نوائے زندگی میں زیر و بم',
-      'عشق سے ماٹی کی تصویروں میں سوز دم بدم'
-    ],
-    english: [
-      'From love, the high and low notes in the melody of life are born,',
-      'From love, there is a constant burning in the pictures of clay.'
-    ]
-  },
-  {
-    title: 'Tere Ameer Maal Mast, Tere Ghareeb Haal Mast',
-    englishTitle: 'Your Rich are Drunk with Wealth, Your Poor are Drunk with their State',
-    urdu: [
-      'تیرے امیر مال مست، تیرے غریب حال مست',
-      'مئے یقیں سے دور ہیں، سبھی خیال مست'
-    ],
-    english: [
-      'Your rich are intoxicated with wealth, your poor with their spiritual state,',
-      'They are far from the wine of certainty, all are lost in their own thoughts.'
-    ]
-  },
-  {
-    title: 'Farang Mein Koi Din Aur Bhi Thehar Jaun',
-    englishTitle: 'Should I Stay a Few More Days in Europe',
-    urdu: [
-      'فرنگ میں کوئی دن اور بھی ٹھہر جاؤں',
-      'مگر یہ فکر کہ پیدا نہ ہو تعفن'
-    ],
-    english: [
-      'I would stay a few more days in Europe,',
-      'But for the fear that rot might set in.'
-    ]
-  },
-  {
-    title: 'Dilon Mein Walwalaye Nau Nahin Hain',
-    englishTitle: 'There are No New Fervors in the Hearts',
-    urdu: [
-      'دلوں میں ولولہ نو نہیں ہیں',
-      'نگاہیں لذت ذوق سے خالی'
-    ],
-    english: [
-      'There are no new fervors in the hearts,',
-      'The eyes are devoid of the pleasure of taste.'
-    ]
-  },
-  {
-    title: 'Tu Abhi Se Kyun Ghabra Gaya',
-    englishTitle: 'Why Have You Become So Worried Already?',
-    urdu: [
-      'تو ابھی سے کیوں گھبرا گیا',
-      'ابھی تو منزل باقی ہے'
-    ],
-    english: [
-      'Why have you become so worried already?',
-      'The destination is still ahead.'
-    ]
-  },
-  {
-    title: 'Zindagi Ki Raho Mein',
-    englishTitle: 'On the Paths of Life',
-    urdu: [
-      'زندگی کی راہوں میں رنج و غم کے میلے ہیں',
-      'بھیڑ ہے قیامت کی اور ہم اکیلے ہیں'
-    ],
-    english: [
-      'On the paths of life, there are fairs of sorrow and grief,',
-      'There is a crowd of قیامت (doomsday), and we are alone.'
-    ]
-  },
-  {
-    title: 'Zindagi Mein Rang Bharna Hai',
-    englishTitle: 'To Fill Life with Color',
-    urdu: [
-      'زندگی میں رنگ بھرنا ہے تو پھر',
-      'دل کو ہر اک رنگ میں رنگنا پڑے گا'
-    ],
-    english: [
-      'If you want to fill life with color, then',
-      'You will have to dye your heart in every color.'
-    ]
-  },
-  {
-    title: 'Safar-e-Manzil-e-Shab',
-    englishTitle: 'Journey to the Destination of the Night',
-    urdu: [
-      'سفر منزل شب یاد نہیں',
-      'لوگ رخصت ہوئے کب یاد نہیں'
-    ],
-    english: [
-      'I do not remember the journey to the destination of the night,',
-      'I do not remember when the people departed.'
-    ]
-  },
-  {
-    title: 'Hazar Gham Thay Meri Zindagi Mein',
-    englishTitle: 'There Were a Thousand Sorrows in My Life',
-    urdu: [
-      'ہزار غم تھے میری زندگی میں',
-      'پر اس غم جیسا کوئی غم نہیں'
-    ],
-    english: [
-      'There were a thousand sorrows in my life,',
-      'But there is no sorrow like this one.'
     ]
   }
 ];
