@@ -2123,5 +2123,245 @@ export const allPoems = [
       'Why should I become a loser, and remain forgetful of profit?',
       'Why should I not worry about tomorrow, and remain engrossed in the sorrow of yesterday?'
     ]
+  },
+  {
+    title: 'Tu Raaz-e-Kun Fakan Hai',
+    englishTitle: 'You Are the Secret of Creation',
+    urdu: [
+      'تو راز کن فکاں ہے، اپنی آنکھوں پر عیاں ہو جا',
+      'خودی کا رازداں ہو جا، خدا کا ترجماں ہو جا'
+    ],
+    english: [
+      'You are the secret of "Be, and it is," become manifest to your own eyes,',
+      'Become the knower of the secret of the self, become the interpreter of God.'
+    ]
+  },
+  {
+    title: 'Gesu-e-Tabdar Ko Aur Bhi Tabdar Kar',
+    englishTitle: 'Make the Radiant Tresses Even More Radiant',
+    urdu: [
+      'گیسوئے تابدار کو اور بھی تابدار کر',
+      'ہوش و خرد شکار کر، قلب و نظر شکار کر'
+    ],
+    english: [
+      'Make the radiant tresses even more radiant,',
+      'Hunt for wisdom and intellect, hunt for heart and sight.'
+    ]
+  },
+  {
+    title: 'Yeh Jannat Mubarak Rahe Zahidon Ko',
+    englishTitle: 'May This Paradise Be Blessed for the Ascetics',
+    urdu: [
+      'یہ جنت مبارک رہے زاہدوں کو',
+      'کہ میں آپ کا سامنا چاہتا ہوں'
+    ],
+    english: [
+      'May this paradise remain blessed for the ascetics,',
+      'For I desire to face You.'
+    ]
+  },
+  {
+    title: 'Khoon-e-Dil De Ke Nikharenge Rukh-e-Barg-e-Gulab',
+    englishTitle: 'We Will Beautify the Face of the Rose Petal with the Blood of Our Hearts',
+    urdu: [
+      'خون دل دے کے نکھاریں گے رخ برگ گلاب',
+      'ہم نے گلشن کے تحفظ کی قسم کھائی ہے'
+    ],
+    english: [
+      'We will nourish the face of the rose petal with the blood of our hearts,',
+      'We have sworn to protect the garden.'
+    ]
+  },
+  {
+    title: 'Har Ek Maqam Se Aage Maqam Hai Tera',
+    englishTitle: 'Your Station is Beyond Every Station',
+    urdu: [
+      'ہر ایک مقام سے آگے مقام ہے تیرا',
+      'حیات ذوق سفر کے سوا کچھ اور نہیں'
+    ],
+    english: [
+      'Your station is beyond every other station,',
+      'Life is nothing but the joy of travel.'
+    ]
+  },
+  {
+    title: 'Zamana Dekhega Jab Mere Dil Se Mehshar Uthega',
+    englishTitle: 'The World Will See When the Day of Judgment Rises from My Heart',
+    urdu: [
+      'زمانہ دیکھے گا جب مرے دل سے محشر اٹھے گا',
+      'کہ اب تک پردہء افلاک میں پوشیدہ ہوں میں'
+    ],
+    english: [
+      'The world will see when the Resurrection arises from my heart,',
+      'For until now, I have been hidden in the veil of the heavens.'
+    ]
+  },
+  {
+    title: 'Nahin Tera Nasheman Qasr-e-Sultani Ke Gumbad Par',
+    englishTitle: 'Your Abode is Not on the Dome of a Royal Palace',
+    urdu: [
+      'نہیں تیرا نشیمن قصر سلطانی کے گنبد پر',
+      'تو شاہیں ہے، بسیرا کر پہاڑوں کی چٹانوں میں'
+    ],
+    english: [
+      'Your abode is not on the dome of a royal palace,',
+      'You are a falcon, make your dwelling on the cliffs of mountains.'
+    ]
+  },
+  {
+    title: 'Yeh Ghazi, Yeh Tere Purisrar Bande',
+    englishTitle: 'These Warriors, These Mysterious Servants of Yours',
+    urdu: [
+      'یہ غازی، یہ تیرے پراسرار بندے',
+      'جنھیں تو نے بخشا ہے ذوق خدائی'
+    ],
+    english: [
+      'These warriors, these mysterious servants of Yours,',
+      'Whom You have granted the taste of divinity.'
+    ]
+  },
+  {
+    title: 'Wohi Jahan Hai Tera Jis Ko Tu Kare Paida',
+    englishTitle: 'Your World is the One That You Create',
+    urdu: [
+      'وہی جہاں ہے ترا جس کو تو کرے پیدا',
+      'یہ سنگ و خشت نہیں جو تری نگاہ میں ہے'
+    ],
+    english: [
+      'Your world is the one that you create,',
+      'Not this world of stone and brick that is in your sight.'
+    ]
+  },
+  {
+    title: 'Aql-o-Dil',
+    englishTitle: 'Intellect and Heart',
+    urdu: [
+      'عقل و دل و نگاہ کا مرشد اولیں ہے عشق',
+      'عشق نہ ہو تو شرع و دیں بت کدہ تصورات'
+    ],
+    english: [
+      'Love is the first guide of intellect, heart, and sight,',
+      'If there is no love, religion and law are but an idol-temple of ideas.'
+    ]
+  },
+  {
+    title: 'Bulandi Der Tak Kis Shakhs Ki Qismat Mein Rehti Hai',
+    englishTitle: 'For How Long Does Highness Remain in One\'s Fate?',
+    urdu: [
+      'بلندی دیر تک کس شخص کی قسمت میں رہتی ہے',
+      'بہت اونچی عمارت ہو تو خطرہ ہے کہ گر جائے'
+    ],
+    english: [
+      'For how long does elevation remain in a person\'s fate?',
+      'If a building is too high, there is a danger of it falling.'
+    ]
+  },
+  {
+    title: 'Ishq Se Paida Nawa-e-Zindagi Mein Zair-o-Bam',
+    englishTitle: 'From Love, the High and Low Notes in the Melody of Life are Born',
+    urdu: [
+      'عشق سے پیدا نوائے زندگی میں زیر و بم',
+      'عشق سے ماٹی کی تصویروں میں سوز دم بدم'
+    ],
+    english: [
+      'From love, the high and low notes in the melody of life are born,',
+      'From love, there is a constant burning in the pictures of clay.'
+    ]
+  },
+  {
+    title: 'Tere Ameer Maal Mast, Tere Ghareeb Haal Mast',
+    englishTitle: 'Your Rich are Drunk with Wealth, Your Poor are Drunk with their State',
+    urdu: [
+      'تیرے امیر مال مست، تیرے غریب حال مست',
+      'مئے یقیں سے دور ہیں، سبھی خیال مست'
+    ],
+    english: [
+      'Your rich are intoxicated with wealth, your poor with their spiritual state,',
+      'They are far from the wine of certainty, all are lost in their own thoughts.'
+    ]
+  },
+  {
+    title: 'Farang Mein Koi Din Aur Bhi Thehar Jaun',
+    englishTitle: 'Should I Stay a Few More Days in Europe',
+    urdu: [
+      'فرنگ میں کوئی دن اور بھی ٹھہر جاؤں',
+      'مگر یہ فکر کہ پیدا نہ ہو تعفن'
+    ],
+    english: [
+      'I would stay a few more days in Europe,',
+      'But for the fear that rot might set in.'
+    ]
+  },
+  {
+    title: 'Dilon Mein Walwalaye Nau Nahin Hain',
+    englishTitle: 'There are No New Fervors in the Hearts',
+    urdu: [
+      'دلوں میں ولولہ نو نہیں ہیں',
+      'نگاہیں لذت ذوق سے خالی'
+    ],
+    english: [
+      'There are no new fervors in the hearts,',
+      'The eyes are devoid of the pleasure of taste.'
+    ]
+  },
+  {
+    title: 'Tu Abhi Se Kyun Ghabra Gaya',
+    englishTitle: 'Why Have You Become So Worried Already?',
+    urdu: [
+      'تو ابھی سے کیوں گھبرا گیا',
+      'ابھی تو منزل باقی ہے'
+    ],
+    english: [
+      'Why have you become so worried already?',
+      'The destination is still ahead.'
+    ]
+  },
+  {
+    title: 'Zindagi Ki Raho Mein',
+    englishTitle: 'On the Paths of Life',
+    urdu: [
+      'زندگی کی راہوں میں رنج و غم کے میلے ہیں',
+      'بھیڑ ہے قیامت کی اور ہم اکیلے ہیں'
+    ],
+    english: [
+      'On the paths of life, there are fairs of sorrow and grief,',
+      'There is a crowd of قیامت (doomsday), and we are alone.'
+    ]
+  },
+  {
+    title: 'Zindagi Mein Rang Bharna Hai',
+    englishTitle: 'To Fill Life with Color',
+    urdu: [
+      'زندگی میں رنگ بھرنا ہے تو پھر',
+      'دل کو ہر اک رنگ میں رنگنا پڑے گا'
+    ],
+    english: [
+      'If you want to fill life with color, then',
+      'You will have to dye your heart in every color.'
+    ]
+  },
+  {
+    title: 'Safar-e-Manzil-e-Shab',
+    englishTitle: 'Journey to the Destination of the Night',
+    urdu: [
+      'سفر منزل شب یاد نہیں',
+      'لوگ رخصت ہوئے کب یاد نہیں'
+    ],
+    english: [
+      'I do not remember the journey to the destination of the night,',
+      'I do not remember when the people departed.'
+    ]
+  },
+  {
+    title: 'Hazar Gham Thay Meri Zindagi Mein',
+    englishTitle: 'There Were a Thousand Sorrows in My Life',
+    urdu: [
+      'ہزار غم تھے میری زندگی میں',
+      'پر اس غم جیسا کوئی غم نہیں'
+    ],
+    english: [
+      'There were a thousand sorrows in my life,',
+      'But there is no sorrow like this one.'
+    ]
   }
 ];
