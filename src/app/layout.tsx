@@ -7,7 +7,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'IqbalVerse',
   description:
-    "A bilingual Allama Iqbal poetry website with Urdu, English, and sentiment analysis.",
+    "A bilingual Allama Iqbal poetry website with Urdu and English translations.",
 };
 
 export default function RootLayout({
