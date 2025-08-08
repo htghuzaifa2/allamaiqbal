@@ -10,11 +10,13 @@ import {
 } from '@/components/ui/card';
 import { allPoems } from '@/lib/poems';
 import { PaginationControl } from '@/components/pagination-control';
+import { useTheme } from '@/components/theme-provider';
 
 const PAGE_SIZE = 25;
 
 export function PoetryDisplay() {
   const [currentPage, setCurrentPage] = useState(1);
+  const { theme } = useTheme();
   const totalPages = Math.ceil(allPoems.length / PAGE_SIZE);
 
   const startIndex = (currentPage - 1) * PAGE_SIZE;
@@ -30,7 +32,11 @@ export function PoetryDisplay() {
     <div className="mx-auto max-w-4xl pb-24">
       <div className="space-y-8">
         {displayedPoems.map((poem, index) => (
-          <Card key={`${startIndex}-${index}`} className="overflow-hidden shadow-lg transition-all duration-500 ease-in-out hover:shadow-xl">
+          <Card 
+            key={`${startIndex}-${index}`} 
+            className="poem-card overflow-hidden shadow-lg transition-all duration-300 ease-in-out hover:shadow-xl"
+            style={{ animationDelay: theme === 'blue' ? `${index * 100}ms` : '0ms' }}
+          >
             <CardHeader>
               <CardTitle className="font-headline text-2xl">{poem.englishTitle}</CardTitle>
               <CardDescription className="text-lg">{poem.title}</CardDescription>

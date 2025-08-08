@@ -38,7 +38,7 @@ export function PaginationControl({ currentPage, totalPages, onPageChange }: Pag
           size="icon"
           variant={i === currentPage ? 'default' : 'outline'}
           onClick={() => handlePageClick(i)}
-          className="h-8 w-8 rounded-full"
+          className="pagination-button h-8 w-8 rounded-full transition-all duration-200"
         >
           {i}
         </Button>
@@ -48,19 +48,20 @@ export function PaginationControl({ currentPage, totalPages, onPageChange }: Pag
   };
   
   return (
-    <div className="fixed bottom-4 right-4 z-50">
+    <div className="pagination-control-container fixed bottom-4 right-4 z-50">
        <div className={cn("flex items-center gap-1 transition-all duration-300 ease-in-out", isOpen ? "translate-x-0 opacity-100" : "translate-x-10 opacity-0 pointer-events-none")}>
-         <Button onClick={() => handlePageClick(1)} size="icon" variant="outline" disabled={currentPage === 1} className="h-8 w-8 rounded-full"><ChevronsLeft /></Button>
-         <Button onClick={() => handlePageClick(currentPage - 1)} size="icon" variant="outline" disabled={currentPage === 1} className="h-8 w-8 rounded-full"><ChevronLeft /></Button>
+         <Button onClick={() => handlePageClick(1)} size="icon" variant="outline" disabled={currentPage === 1} className="pagination-button h-8 w-8 rounded-full transition-all duration-200"><ChevronsLeft /></Button>
+         <Button onClick={() => handlePageClick(currentPage - 1)} size="icon" variant="outline" disabled={currentPage === 1} className="pagination-button h-8 w-8 rounded-full transition-all duration-200"><ChevronLeft /></Button>
         {renderPageNumbers()}
-         <Button onClick={() => handlePageClick(currentPage + 1)} size="icon" variant="outline" disabled={currentPage === totalPages} className="h-8 w-8 rounded-full"><ChevronRight /></Button>
-         <Button onClick={() => handlePageClick(totalPages)} size="icon" variant="outline" disabled={currentPage === totalPages} className="h-8 w-8 rounded-full"><ChevronsRight /></Button>
+         <Button onClick={() => handlePageClick(currentPage + 1)} size="icon" variant="outline" disabled={currentPage === totalPages} className="pagination-button h-8 w-8 rounded-full transition-all duration-200"><ChevronRight /></Button>
+         <Button onClick={() => handlePageClick(totalPages)} size="icon" variant="outline" disabled={currentPage === totalPages} className="pagination-button h-8 w-8 rounded-full transition-all duration-200"><ChevronsRight /></Button>
       </div>
 
       <Button
         size="icon"
         onClick={() => setIsOpen(!isOpen)}
-        className="rounded-full shadow-lg absolute bottom-0 right-0"
+        className="rounded-full shadow-lg absolute bottom-0 right-0 transition-transform duration-300 hover:scale-110"
+        aria-expanded={isOpen}
       >
         {isOpen ? <X className="h-5 w-5" /> : <MoreHorizontal className="h-5 w-5" />}
         <span className="sr-only">Toggle Pagination</span>

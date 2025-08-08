@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --background: 0 0% 96.1%;
+    --background: 0 0% 98%;
     --foreground: 222.2 84% 4.9%;
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
@@ -32,25 +32,25 @@
   }
 
   .dark {
-    --background: 0 0% 18.8%;
-    --foreground: 0 0% 98%;
-    --card: 0 0% 12%;
-    --card-foreground: 0 0% 98%;
-    --popover: 0 0% 18.8%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 231 48% 48%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 0 0% 24%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 0 0% 24%;
-    --muted-foreground: 0 0% 63.9%;
-    --accent: 51 100% 50%;
-    --accent-foreground: 51 100% 10%;
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 24%;
-    --input: 0 0% 24%;
-    --ring: 231 48% 48%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 215 20.2% 65.1%;
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
@@ -59,25 +59,25 @@
   }
 
   .blue {
-    --background: 210 40% 96.1%;
-    --foreground: 215 28% 17%;
-    --card: 210 40% 100%;
-    --card-foreground: 215 28% 17%;
-    --popover: 210 40% 100%;
-    --popover-foreground: 215 28% 17%;
-    --primary: 217 91% 60%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 215.4 16.3% 46.9%;
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 217 91% 60%;
-    --accent-foreground: 210 40% 98%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 217 91% 60%;
+    --background: 222 70% 12%; /* Deep blue background */
+    --foreground: 210 40% 98%; /* Light text */
+    --card: 222 60% 18%; /* Slightly lighter blue for cards */
+    --card-foreground: 210 40% 98%;
+    --popover: 222 70% 12%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 90% 60%; /* Bright blue for primary actions */
+    --primary-foreground: 222 70% 12%;
+    --secondary: 217 33% 25%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217 33% 25%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 210 90% 70%; /* Lighter blue for accents */
+    --accent-foreground: 222 70% 12%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217 33% 30%;
+    --input: 217 33% 30%;
+    --ring: 210 90% 60%;
   }
 }
 
@@ -87,5 +87,49 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+/* Animations for Blue Theme */
+@layer utilities {
+  .blue .poem-card {
+    animation: fadeIn 0.8s ease-out forwards;
+    opacity: 0;
+  }
+
+  .blue .poem-card:hover {
+    @apply shadow-2xl shadow-primary/20;
+    transform: translateY(-4px);
+  }
+
+  .blue .pagination-control-container {
+     animation: popIn 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+  }
+  
+  .blue .pagination-button:hover {
+    @apply bg-primary/80;
+    transform: scale(1.1);
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+   @keyframes popIn {
+    from {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
   }
 }
