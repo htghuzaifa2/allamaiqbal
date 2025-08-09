@@ -1,4 +1,5 @@
 
+
 export const allPoems = [
   {
     title: 'مسجد قرطبہ (Masjid-e-Qurtaba)',
@@ -425,7 +426,7 @@ export const allPoems = [
     ],
     romanUrdu: [
         'Jahan mein ahl-e-iman soorat-e-khursheed jeete hain',
-        'Idhar doobe, udhar nikle, idhar doobe, idhar nikle'
+        'Idhar doobe, udhar nikle, idhar doobe, udhar nikle'
     ],
     english: [
       'In the world, the people of faith live like the sun,',
@@ -1109,7 +1110,7 @@ export const allPoems = [
     englishTitle: "Gift of Hijaz: The Mullah and Paradise",
     urdu: [
       "من بہ مسجد رفتم از بہر نماز",
-      "ملایان گفتند، راه تو دراز"
+      "ملایان گفتند، راہ تو دراز"
     ],
     romanUrdu: [
       "Man ba masjid raftam az bahr-e-namaz,",
@@ -1330,7 +1331,7 @@ export const allPoems = [
     english: ['The ways of the world have changed', 'The melody is new, the instruments have changed'],
   },
   {
-    title: 'Masjid-e-Qurtaba (The Mosque of Cordoba) - Part 2',
+    title: 'Masjid-e-Qurtaba (The Mosque of Cordoba) - Part 5',
     englishTitle: 'The Mosque of Cordoba - Part 5',
     urdu: ['ہے مگر اس نقش میں رنگ ثبات دوام', 'جس کو کیا ہو کسی مرد خدا نے تمام'],
     romanUrdu: ['Hai magar is naqsh mein rang-e-sabaat-e-dawaam', 'Jis ko kiya ho kisi mard-e-Khuda ne tamaam'],
@@ -1893,7 +1894,7 @@ export const allPoems = [
   {
     title: 'Peer o Mureed',
     englishTitle: 'The Spiritual Guide and the Disciple',
-    urdu: ['کہا پیر نے، "اے مریدِ کہن', 'کہاں سے تو لایا یہ فکرِ سخن؟"'],
+    urdu: ['کہا پیر نے، "اے مریدِ کہن', 'کہاں سے تو لaya یہ فکرِ سخن؟"'],
     romanUrdu: ['Kaha peer ne, "Ae mureed-e-kuhan', 'Kahan se tu laya yeh fikr-e-sukhan?"'],
     english: ['The guide asked, "O old disciple,', 'From where did you get this poetic thought?"'],
   },
@@ -3331,7 +3332,7 @@ export const allPoems = [
     "title": "Qalandar (Part 2)",
     "englishTitle": "The Qalandar (Part 2)",
     "urdu": [
-      "میرا طریق امیری نہیں، فقیری ہے",
+      "مرا طریق امیری نہیں، فقیری ہے",
       "خودی نہ بیچ، غریبی میں نام پیدا کر"
     ],
     "romanUrdu": [
@@ -4800,4 +4801,5 @@ export const allPoems = [
     ]
   }
 ];
+
 
