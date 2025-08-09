@@ -1,4 +1,3 @@
-
 'use client';
 
 import { useSearchParams } from 'next/navigation';
@@ -16,9 +15,28 @@ import { Button } from '@/components/ui/button';
 import { ArrowLeft } from 'lucide-react';
 import { StaticPaginationControl } from '@/components/static-pagination-control';
 import { Badge } from '@/components/ui/badge';
+import Fuse from 'fuse.js';
 
 const PAGE_SIZE = 50;
+
+// Create a map to get original index from the poem object
+const poemIndexMap = new Map(allPoems.map((poem, index) => [poem.englishTitle, index]));
 const totalPoems = allPoems.length;
+
+const fuseOptions = {
+  includeScore: true,
+  includeMatches: true,
+  threshold: 0.3, // Adjust this for more/less fuzzy matching
+  keys: [
+    'englishTitle',
+    'title',
+    'urdu',
+    'romanUrdu',
+    'english',
+  ],
+};
+
+const fuse = new Fuse(allPoems, fuseOptions);
 
 export function SearchResults() {
   const searchParams = useSearchParams();
@@ -30,15 +48,8 @@ export function SearchResults() {
     if (!query) {
       return [];
     }
-    const lowerCaseQuery = query.toLowerCase();
-    return allPoems.map((poem, index) => ({ poem, originalIndex: index }))
-      .filter(({ poem }) =>
-        poem.englishTitle.toLowerCase().includes(lowerCaseQuery) ||
-        poem.title.toLowerCase().includes(lowerCaseQuery) ||
-        poem.english.some(line => line.toLowerCase().includes(lowerCaseQuery)) ||
-        poem.urdu.some(line => line.toLowerCase().includes(lowerCaseQuery)) ||
-        (poem.romanUrdu && poem.romanUrdu.some(line => line.toLowerCase().includes(lowerCaseQuery)))
-    );
+    // Fuse.js returns results with item and score, we just need the item
+    return fuse.search(query).map(result => result.item);
   }, [query]);
 
   const totalPages = Math.ceil(searchResults.length / PAGE_SIZE);
@@ -78,7 +89,8 @@ export function SearchResults() {
 
       <div className="mx-auto max-w-7xl">
         <div className="space-y-8">
-          {paginatedResults.map(({ poem, originalIndex }) => {
+          {paginatedResults.map((poem) => {
+            const originalIndex = poemIndexMap.get(poem.englishTitle) ?? -1;
             const poemNumber = totalPoems - originalIndex;
             return (
               <Card
