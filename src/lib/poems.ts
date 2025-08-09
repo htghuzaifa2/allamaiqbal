@@ -2334,7 +2334,7 @@ export const allPoems = [
     ],
     romanUrdu: [
         "Khudi na ho toh sukhan kuch nahin magar ik harf",
-        "Khudi हो toh sukhan ik jahan-e-taaza"
+        "Khudi ho toh sukhan ik jahan-e-taaza"
     ],
     english: [
         "If there is no self, speech is nothing but a word,",
@@ -2724,2194 +2724,2196 @@ export const allPoems = [
   },
   {
       title: "مومن (اللہ کا ہاتھ)",
-      "englishTitle": "The Believer (Hand of God)",
-      "urdu": [
+      englishTitle: "The Believer (Hand of God)",
+      urdu: [
           "ہاتھ ہے اللہ کا بندۂ مومن کا ہاتھ",
           "غالب و کار آفریں، کار کشا، کار ساز"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Haath hai Allah ka banda-e-momin ka haath",
           "Ghalib-o-kaar-aafreen, kaar-kusha, kaar-saaz"
       ],
-      "english": [
+      english: [
           "The hand of a believer is the hand of God",
           "Dominant and creative, problem-solving, resourceful"
       ]
   },
   {
-      "title": "مسلمان اور جدید دنیا",
-      "englishTitle": "The Muslim and the Modern World",
-      "urdu": [
+      title: "مسلمان اور جدید دنیا",
+      englishTitle: "The Muslim and the Modern World",
+      urdu: [
           "یورپ کی غلامی پہ رضامند ہوا تو",
           "مجھ کو تو گلہ تجھ سے ہے، یورپ سے نہیں"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Europe ki ghulami pe razamand hua tu",
           "Mujh ko toh gila tujh se hai, Europe se nahin"
       ],
-      "english": [
+      english: [
           "You have consented to the slavery of Europe",
           "My complaint is with you, not with Europe"
       ]
   },
   {
-      "title": "شاہین (درویش)",
-      "englishTitle": "The Falcon (Dervish)",
-      "urdu": [
+      title: "شاہین (درویش)",
+      englishTitle: "The Falcon (Dervish)",
+      urdu: [
         "پرندوں کی دنیا کا درویش ہوں میں",
         "کہ شاہیں بناتا نہیں آشیانہ"
       ],
-      "romanUrdu": [
+      romanUrdu: [
         "Parindon ki duniya ka darvesh hoon main",
         "Ke shaheen banata nahin aashiyana"
       ],
-      "english": [
+      english: [
         "I am the dervish of the world of birds",
         "For the falcon does not build a nest"
       ]
   },
   {
-      "title": "علم اور عشق (دانش)",
-      "englishTitle": "Knowledge and Love (Wisdom)",
-      "urdu": [
+      title: "علم اور عشق (دانش)",
+      englishTitle: "Knowledge and Love (Wisdom)",
+      urdu: [
           "اک دانشِ نورانی، اک دانشِ برہانی",
           "ہے دانشِ برہانی، حیرت کی فراوانی"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Ik daanish-e-noorani, ik daanish-e-burhaani",
           "Hai daanish-e-burhaani, hairat ki farawani"
       ],
-      "english": [
+      english: [
           "One is luminous wisdom, one is demonstrative wisdom",
           "Demonstrative wisdom is an abundance of bewilderment"
       ]
   },
   {
-    "title": "لا و الا",
-    "englishTitle": "No and But",
-    "urdu": [
+    title: "لا و الا",
+    englishTitle: "No and But",
+    urdu: [
       "یہ مال و دولتِ دنیا، یہ رشتہ و پیوند",
       "بتانِ وہم و گماں، لا الہ الا اللہ"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Yeh maal-o-daulat-e-dunya, yeh rishta-o-paiwand",
       "Butaan-e-wehm-o-gumaan, La ilaha illallah"
     ],
-    "english": [
+    english: [
       "This wealth and property of the world, these relationships and connections",
       "Are idols of imagination and doubt, There is no god but God"
     ]
   },
   {
-    "title": "آزادی (لحظہ)",
-    "englishTitle": "Freedom (Moment)",
-    "urdu": [
+    title: "آزادی (لحظہ)",
+    englishTitle: "Freedom (Moment)",
+    urdu: [
       "آزادی کا اک لحظہ ہے بہتر",
       "اس نوے سالہ محکومی سے"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Aazadi ka ik lehza hai behtar",
       "Us nau-sala mehkoomi se"
     ],
-    "english": [
+    english: [
       "A single moment of freedom is better",
       "Than ninety years of slavery"
     ]
   },
   {
-    "title": "جاوید کے نام (فطرت شناس)",
-    "englishTitle": "To Javid (Nature Knower)",
-    "urdu": [
+    title: "جاوید کے نام (فطرت شناس)",
+    englishTitle: "To Javid (Nature Knower)",
+    urdu: [
       "خدا اگر دلِ فطرت شناس دے تجھ کو",
       "سکوتِ لالہ و گل سے کلام پیدا کر"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Khuda agar dil-e-fitrat shanaas de tujh ko",
       "Sukoot-e-lala-o-gul se kalaam paida kar"
     ],
-    "english": [
+    english: [
       "If God gives you a heart that knows nature",
       "Create speech from the silence of the tulip and the rose"
     ]
   },
   {
-    "title": "ابلیس کا فرمان (سیاست)",
-    "englishTitle": "Iblis's Command (Politics)",
-    "urdu": [
+    title: "ابلیس کا فرمان (سیاست)",
+    englishTitle: "Iblis's Command (Politics)",
+    urdu: [
       "لا کر برہمنوں کو سیاست کے بیچ میں",
       "زناریوں کو دیرِ کہن سے نکال دو"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "La kar brahmanon ko siyasat ke beech mein",
       "Zunnariyon ko dair-e-kuhan se nikal do"
     ],
-    "english": [
+    english: [
       "Bring the Brahmins into the midst of politics",
       "Expel the wearers of the sacred thread from the ancient temple"
     ]
   },
   {
-    "title": "مشرق (خداوند)",
-    "englishTitle": "The East (Lords)",
-    "urdu": [
+    title: "مشرق (خداوند)",
+    englishTitle: "The East (Lords)",
+    urdu: [
       "مشرق کے خداوند سفیدانِ فرنگی",
       "مغرب کے خداوند درخشندہ فلزات"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Mashriq ke khuda-wand safedaan-e-farangi",
       "Maghrib ke khuda-wand darakhshinda-filizzat"
     ],
-    "english": [
+    english: [
       "The lords of the East are the white men of Europe",
       "The lords of the West are shining metals"
     ]
   },
   {
-    "title": "اشتراکیت",
-    "englishTitle": "Communism",
-    "urdu": [
+    title: "اشتراکیت",
+    englishTitle: "Communism",
+    urdu: [
       "تو قادر و عادل ہے مگر تیرے جہاں میں",
       "ہیں تلخ بہت بندۂ مزدور کے اوقات"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Tu qadir o adil hai magar tere jahan mein",
       "Hain talkh bahut banda-e-mazdoor ke auqaat"
     ],
-    "english": [
+    english: [
       "You are powerful and just, but in Your world",
       "The hours of the laborer are very bitter"
     ]
   },
   {
-      "title": "سرمایہ داری",
-      "englishTitle": "Capitalism",
-      "urdu": [
+      title: "سرمایہ داری",
+      englishTitle: "Capitalism",
+      urdu: [
           "از خوابِ گراں، خوابِ گراں، خوابِ گراں خیز",
           "از خوابِ گراں خیز"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Az khwab-e-giran, khwab-e-giran, khwab-e-giran kheez",
           "Az khwab-e-giran kheez"
       ],
-      "english": [
+      english: [
           "Arise from deep slumber, deep slumber, deep slumber",
           "Arise from deep slumber"
       ]
   },
   {
-      "title": "مذہب (مسجد)",
-      "englishTitle": "Religion (Mosque)",
-      "urdu": [
+      title: "مذہب (مسجد)",
+      englishTitle: "Religion (Mosque)",
+      urdu: [
           "مسجد تو بنا دی شب بھر میں ایماں کی حرارت والوں نے",
           "من اپنا پرانا پاپی ہے، برسوں میں نمازی بن نہ سکا"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Masjid toh bana di shab bhar mein eemaan ki hararat walon ne",
           "Mann apna purana paapi hai, barson mein namazi ban na saka"
       ],
-      "english": [
+      english: [
           "The men of fervent faith built the mosque in a single night",
           "But my heart is an old sinner, it could not become a prayerful one in years"
       ]
   },
   {
-      "title": "آزادیِ نسواں",
-      "englishTitle": "Women's Freedom",
-      "urdu": [
+      title: "آزادیِ نسواں",
+      englishTitle: "Women's Freedom",
+      urdu: [
           "اس بحث میں کچھ نہیں رکھا کہ زن ہے یا مرد",
           "جس میں ہو شرر، وہی ہے صاحبِ اعجاز"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Is behas mein kuch nahin rakha ke zan hai ya mard",
           "Jis mein ho sharar, wohi hai saahib-e-ejaaz"
       ],
-      "english": [
+      english: [
           "There is nothing in this debate whether it is a woman or a man",
           "The one who has the spark is the one who performs miracles"
       ]
   },
   {
-      "title": "فلسفہ (دانش)",
-      "englishTitle": "Philosophy (Wisdom)",
-      "urdu": [
+      title: "فلسفہ (دانش)",
+      englishTitle: "Philosophy (Wisdom)",
+      urdu: [
           "ایک دانشِ برہانی، اک فلسفۂ یونانی",
           "یہ راہ دکھاتی ہے، وہ منزل سے بھٹکاتی ہے"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Ek daanish-e-burhaani, ik falsafa-e-yunaani",
           "Yeh raah dikhaati hai, woh manzil se bhatkaati hai"
       ],
-      "english": [
+      english: [
           "One is demonstrative wisdom, one is Greek philosophy",
           "This one shows the way, that one leads astray from the destination"
       ]
   },
   {
-      "title": "شعاعِ امید (نغمۂ توحید)",
-      "englishTitle": "Ray of Hope (Song of Monotheism)",
-      "urdu": [
+      title: "شعاعِ امید (نغمۂ توحید)",
+      englishTitle: "Ray of Hope (Song of Monotheism)",
+      urdu: [
           "شب گریزاں ہو گی آخر جلوۂ خورشید سے",
           "یہ چمن معمور ہو گا نغمۂ توحید سے"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Shab-e-gurezan hogi aakhir jalwa-e-khursheed se",
           "Yeh chaman ma'moor hoga naghma-e-tauheed se"
       ],
-      "english": [
+      english: [
           "The fleeing night will end with the appearance of the sun",
           "This garden will be filled with the song of monotheism"
       ]
   },
   {
-      "title": "طلوعِ اسلام - حصہ دوم",
-      "englishTitle": "The Rise of Islam - Part 2",
-      "urdu": [
+      title: "طلوعِ اسلام - حصہ دوم",
+      englishTitle: "The Rise of Islam - Part 2",
+      urdu: [
           "کوئی اندازہ کر سکتا ہے اس کے زورِ بازو کا!",
           "نگاہِ مردِ مومن سے بدل جاتی ہیں تقدیریں"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Koi andaza kar sakta hai uske zor-e-baazu ka!",
           "Nigah-e-mard-e-momin se badal jaati hain taqdeerein"
       ],
-      "english": [
+      english: [
           "Can anyone estimate the strength of his arm!",
           "Destinies are changed by the gaze of a man of faith"
       ]
   },
   {
-      "title": "مسجدِ قرطبہ - حصہ چہارم",
-      "englishTitle": "The Mosque of Cordoba - Part 4",
-      "urdu": [
+      title: "مسجدِ قرطبہ - حصہ چہارم",
+      englishTitle: "The Mosque of Cordoba - Part 4",
+      urdu: [
           "مرد خدا کا عمل، عشق سے صاحب فروغ",
           "عشق ہے اصل حیات، موت ہے اس پر حرام"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Mard-e-Khuda ka amal, ishq se sahib-e-furogh",
           "Ishq hai asl-e-hayat, maut hai is par haram"
       ],
-      "english": [
+      english: [
           "The action of the man of God gains radiance from Love",
           "Love is the essence of life, death is forbidden to it"
       ]
   },
   {
-      "title": "ساقی نامہ - حصہ دوم",
-      "englishTitle": "Book of the Saqi - Part 2",
-      "urdu": [
+      title: "ساقی نامہ - حصہ دوم",
+      englishTitle: "Book of the Saqi - Part 2",
+      urdu: [
           "زمانے کے انداز بدلے گئے",
           "نیا راگ ہے، ساز بدلے گئے"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Zamane ke andaaz badle gaye",
           "Naya raag hai, saaz badle gaye"
       ],
-      "english": [
+      english: [
           "The ways of the world have changed",
           "The melody is new, the instruments have changed"
       ]
   },
   {
-      "title": "ذوق و شوق - حصہ دوم",
-      "englishTitle": "Taste and Longing - Part 2",
-      "urdu": [
+      title: "ذوق و شوق - حصہ دوم",
+      englishTitle: "Taste and Longing - Part 2",
+      urdu: [
           "خودی ہو علم سے محکم تو غیرتِ جبریل",
           "اگر ہو عشق سے محکم تو صورِ اسرافیل"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Khudi ho ilm se mohkam to ghairat-e-Jibreel",
           "Agar ho ishq se mohkam to soor-e-Israfeel"
       ],
-      "english": [
+      english: [
           "If the self is strengthened by knowledge, it is the envy of Gabriel",
           "If it is strengthened by love, it is the trumpet of Israfil."
       ]
   },
   {
-      "title": "خودی اور بے خودی",
-      "englishTitle": "Selfhood and Selflessness",
-      "urdu": [
+      title: "خودی اور بے خودی",
+      englishTitle: "Selfhood and Selflessness",
+      urdu: [
         "خودی کی شوخی و تندی میں کبر و ناز نہیں",
         "جو ناز ہو بھی تو بے لذتِ نیاز نہیں"
       ],
-      "romanUrdu": [
+      romanUrdu: [
         "Khudi ki shokhi-o-tundi mein kibr-o-naaz nahin",
         "Jo naaz ho bhi to be-lizzat-e-niyaz nahin"
       ],
-      "english": [
+      english: [
         "In the playfulness and fierceness of the self, there is no arrogance or pride",
         "Even if there is pride, it is not without the pleasure of humility"
       ]
   },
   {
-      "title": "سیاستِ افرنگ",
-      "englishTitle": "The Politics of the West",
-      "urdu": [
+      title: "سیاستِ افرنگ",
+      englishTitle: "The Politics of the West",
+      urdu: [
           "تری حریف ہے پروردگار کی وہ قوم",
           "کہ جس کے شعلۂ پیکار سے ہو عالم سرد"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Teri hareef hai parwardigar ki woh qaum",
           "Ke jis ke sho'la-e-paikaar se ho aalam sard"
       ],
-      "english": [
+      english: [
           "Your rival is that nation of the Provider",
           "Whose flame of battle makes the world cold."
       ]
   },
   {
-      "title": "شکوہ - حصہ دوم",
-      "englishTitle": "The Complaint - Part 2",
-      "urdu": [
+      title: "شکوہ - حصہ دوم",
+      englishTitle: "The Complaint - Part 2",
+      urdu: [
           "صفحۂ دہر سے باطل کو مٹایا ہم نے",
           "نوعِ انساں کو غلامی سے چھڑایا ہم نے"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Safah-e-dehr se baatil ko mitaya hum ne",
           "Nau-e-insaan ko ghulami se chhuraya hum ne"
       ],
-      "english": [
+      english: [
           "We erased falsehood from the page of time",
           "We freed mankind from slavery"
       ]
   },
   {
-      "title": "جوابِ شکوہ - حصہ دوم",
-      "englishTitle": "Answer to the Complaint - Part 2",
-      "urdu": [
+      title: "جوابِ شکوہ - حصہ دوم",
+      englishTitle: "Answer to the Complaint - Part 2",
+      urdu: [
           "باپ کا علم نہ بیٹے کو اگر ازبر ہو",
           "پھر پسر قابلِ میراثِ پدر کیونکر ہو!"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Baap ka ilm na bete ko agar azbar ho",
           "Phir pisar qaabil-e-meeras-e-pidar kyun-kar ho!"
       ],
-      "english": [
+      english: [
           "If the son has not memorized the father's knowledge",
           "Then how can the son be worthy of the father's inheritance!"
       ]
   },
   {
-      "title": "مسجدِ قرطبہ - حصہ پنجم",
-      "englishTitle": "The Mosque of Cordoba - Part 5",
-      "urdu": [
+      title: "مسجدِ قرطبہ - حصہ پنجم",
+      englishTitle: "The Mosque of Cordoba - Part 5",
+      urdu: [
           "ہے مگر اس نقش میں رنگ ثبات دوام",
           "جس کو کیا ہو کسی مرد خدا نے تمام"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Hai magar is naqsh mein rang-e-sabaat-e-dawaam",
           "Jis ko kiya ho kisi mard-e-Khuda ne tamaam"
       ],
-      "english": [
+      english: [
           "But in this design is the color of eternal stability",
           "Which some man of God has perfected"
       ]
   },
   {
-      "title": "شکوہ - حصہ سوم",
-      "englishTitle": "The Complaint - Part 3",
-      "urdu": [
+      title: "شکوہ - حصہ سوم",
+      englishTitle: "The Complaint - Part 3",
+      urdu: [
         "آ گیا عین لڑائی میں اگر وقتِ نماز",
         "قبلہ رو ہو کے زمیں بوس ہوئی قومِ حجاز"
       ],
-      "romanUrdu": [
+      romanUrdu: [
         "Aa gaya ain larai mein agar waqt-e-Namaz",
         "Qibla-roo ho ke zameen-bos hui qaum-e-Hejaz"
       ],
-      "english": [
+      english: [
         "If the time for prayer came right in the midst of battle,",
         "The people of Hejaz, facing the Qibla, prostrated on the ground."
       ]
   },
   {
-      "title": "جوابِ شکوہ - حصہ سوم",
-      "englishTitle": "Answer to the Complaint - Part 3",
-      "urdu": [
+      title: "جوابِ شکوہ - حصہ سوم",
+      englishTitle: "Answer to the Complaint - Part 3",
+      urdu: [
         "کون ہے تارکِ آئینِ رسولِ مختار؟",
         "مصلحت وقت کی ہے کس کے عمل کا معیار؟"
       ],
-      "romanUrdu": [
+      romanUrdu: [
         "Kaun hai taarik-e-aaeen-e-Rasool-e-Mukhtar?",
         "Maslehat-e-waqt ki hai kis ke amal ka miyaar?"
       ],
-      "english": [
+      english: [
         "Who is the abandoner of the code of the chosen Prophet?",
         "Whose action's standard is the expediency of the time?"
       ]
   },
   {
-      "title": "طلوعِ اسلام - حصہ سوم",
-      "englishTitle": "The Rise of Islam - Part 3",
-      "urdu": [
+      title: "طلوعِ اسلام - حصہ سوم",
+      englishTitle: "The Rise of Islam - Part 3",
+      urdu: [
         "سبق ملا ہے یہ معراجِ مصطفیٰ سے مجھے",
         "کہ عالمِ بشریت کی زد میں ہے گردوں"
       ],
-      "romanUrdu": [
+      romanUrdu: [
         "Sabaq mila hai yeh mi'raj-e-Mustafa se mujhe",
         "Ke aalam-e-bashariyat ki zad mein hai gardoon"
       ],
-      "english": [
+      english: [
         "I have learned this lesson from the ascension of Mustafa,",
         "That the heavens are within the reach of the world of humanity."
       ]
   },
   {
-      "title": "شکوہ - حصہ چہارم",
-      "englishTitle": "The Complaint - Part 4",
-      "urdu": [
+      title: "شکوہ - حصہ چہارم",
+      englishTitle: "The Complaint - Part 4",
+      urdu: [
         "تھے ہمیں ایک ترے معرکہ آراؤں میں",
         "خشکیوں میں کبھی لڑتے، کبھی دریاؤں میں"
       ],
-      "romanUrdu": [
+      romanUrdu: [
         "The humeen ek tere maarka-aaraon mein",
         "Khushkiyon mein kabhi larte, kabhi daryaon mein"
       ],
-      "english": [
+      english: [
         "We were unique among your warriors,",
         "Sometimes fighting on land, sometimes in the rivers."
       ]
   },
   {
-      "title": "جوابِ شکوہ - حصہ چہارم",
-      "englishTitle": "Answer to the Complaint - Part 4",
-      "urdu": [
+      title: "جوابِ شکوہ - حصہ چہارم",
+      englishTitle: "Answer to the Complaint - Part 4",
+      urdu: [
         "منفعت ایک ہے اس قوم کی، نقصان بھی ایک",
         "ایک ہی سب کا نبی، دین بھی، ایمان بھی ایک"
       ],
-      "romanUrdu": [
+      romanUrdu: [
         "Manfa'at ek hai is qaum ki, nuqsaan bhi ek",
         "Ek hi sab ka Nabi, Deen bhi, Imaan bhi ek"
       ],
-      "english": [
+      english: [
         "The profit of this nation is one, its loss is also one,",
         "The Prophet of all is one, the religion is one, and the faith is one."
       ]
   },
   {
-      "title": "شکوہ - حصہ پنجم",
-      "englishTitle": "The Complaint - Part 5",
-      "urdu": [
+      title: "شکوہ - حصہ پنجم",
+      englishTitle: "The Complaint - Part 5",
+      urdu: [
         "آگ تکبیر کی سینوں میں دبی رکھتے تھے",
         "زندگی مثلِ بلال حبشی رکھتے تھے"
       ],
-      "romanUrdu": [
+      romanUrdu: [
         "Aag takbeer ki seenon mein dabi rakhte thay",
         "Zindagi misl-e-Bilal-e-Habashi rakhte thay"
       ],
-      "english": [
+      english: [
         "We kept the fire of Takbir suppressed in our chests,",
         "We lived a life like that of Bilal the Abyssinian."
       ]
   },
   {
-      "title": "جوابِ شکوہ - حصہ پنجم",
-      "englishTitle": "Answer to the Complaint - Part 5",
-      "urdu": [
+      title: "جوابِ شکوہ - حصہ پنجم",
+      englishTitle: "Answer to the Complaint - Part 5",
+      urdu: [
         "حرمِ پاک بھی، اللہ بھی، قرآن بھی ایک",
         "کچھ بڑی بات تھی ہوتے جو مسلمان بھی ایک؟"
       ],
-      "romanUrdu": [
+      romanUrdu: [
         "Haram-e-Paak bhi, Allah bhi, Qur'an bhi ek",
         "Kuch bari baat thi hote jo Musalman bhi ek?"
       ],
-      "english": [
+      english: [
         "The sacred sanctuary is one, God is one, the Quran is also one,",
         "Would it have been a big deal if the Muslims were also one?"
       ]
   },
   {
-      "title": "شکوہ - حصہ ششم",
-      "englishTitle": "The Complaint - Part 6",
-      "urdu": [
+      title: "شکوہ - حصہ ششم",
+      englishTitle: "The Complaint - Part 6",
+      urdu: [
         "پر تیرے نام پہ تلوار اٹھائی کس نے؟",
         "بات جو بگڑی ہوئی تھی، وہ بنائی کس نے؟"
       ],
-      "romanUrdu": [
+      romanUrdu: [
         "Par tere naam pe talwar uthai kis ne?",
         "Baat jo bigri hui thi, woh banai kis ne?"
       ],
-      "english": [
+      english: [
         "But who raised the sword in Your name?",
         "Who set right the matter that had gone wrong?"
       ]
   },
   {
-      "title": "جوابِ شکوہ - حصہ ششم",
-      "englishTitle": "Answer to the Complaint - Part 6",
-      "urdu": [
+      title: "جوابِ شکوہ - حصہ ششم",
+      englishTitle: "Answer to the Complaint - Part 6",
+      urdu: [
         "خود بدلتے نہیں، قرآں کو بدل دیتے ہیں",
         "ہوئے کس درجہ فقیہانِ حرم بے توفیق"
       ],
-      "romanUrdu": [
+      romanUrdu: [
         "Khud badalte nahin, Qur'an ko badal dete hain",
         "Huye kis darja faqeehan-e-haram be-taufeeq"
       ],
-      "english": [
+      english: [
         "They do not change themselves, but they change the Quran,",
         "To what an extent have the jurists of the sanctuary become graceless!"
       ]
   },
   {
-      "title": "شکوہ - حصہ ہفتم",
-      "englishTitle": "The Complaint - Part 7",
-      "urdu": [
+      title: "شکوہ - حصہ ہفتم",
+      englishTitle: "The Complaint - Part 7",
+      urdu: [
         "کبھی ہم سے، کبھی غیروں سے شناسائی ہے",
         "بات کہنے کی نہیں، تو بھی تو ہرجائی ہے"
       ],
-      "romanUrdu": [
+      romanUrdu: [
         "Kabhi hum se, kabhi ghairon se shanasai hai",
         "Baat kehne ki nahin, tu bhi toh harjaai hai"
       ],
-      "english": [
+      english: [
         "Sometimes You are acquainted with us, sometimes with strangers,",
         "It is not a thing to be said, but You too are fickle."
       ]
   },
   {
-      "title": "جوابِ شکوہ - حصہ ہفتم",
-      "englishTitle": "Answer to the Complaint - Part 7",
-      "urdu": [
+      title: "جوابِ شکوہ - حصہ ہفتم",
+      englishTitle: "Answer to the Complaint - Part 7",
+      urdu: [
         "تم ہو گفتار سراپا، وہ سراپا کردار",
         "تم ترستے ہو کلی کو، وہ گلستاں بہ کنار"
       ],
-      "romanUrdu": [
+      romanUrdu: [
         "Tum ho guftaar sarapa, woh sarapa kirdaar",
         "Tum taraste ho kali ko, woh gulistan ba-kinaar"
       ],
-      "english": [
+      english: [
         "You are all talk, they were all character,",
         "You long for a bud, they had the whole garden by their side."
       ]
   },
   {
-      "title": "شکوہ - حصہ ہشتم",
-      "englishTitle": "The Complaint - Part 8",
-      "urdu": [
+      title: "شکوہ - حصہ ہشتم",
+      englishTitle: "The Complaint - Part 8",
+      urdu: [
         "بت صنم خانوں میں کہتے ہیں، مسلماں گئے",
         "ہے خوشی ان کو کہ کعبے کے نگہباں گئے"
       ],
-      "romanUrdu": [
+      romanUrdu: [
         "But sanam-khanon mein kehte hain, Musalman gaye",
         "Hai khushi unko ke Kaabe ke nigehbaan gaye"
       ],
-      "english": [
+      english: [
         "The idols in the temples say, the Muslims are gone,",
         "They are happy that the guardians of the Kaaba are gone."
       ]
   },
   {
-      "title": "جوابِ شکوہ - حصہ ہشتم",
-      "englishTitle": "Answer to the Complaint - Part 8",
-      "urdu": [
+      title: "جوابِ شکوہ - حصہ ہشتم",
+      englishTitle: "Answer to the Complaint - Part 8",
+      urdu: [
         "وضع میں تم ہو نصاریٰ تو تمدن میں ہنود",
         "یہ مسلماں ہیں! جنھیں دیکھ کے شرمائیں یہود؟"
       ],
-      "romanUrdu": [
+      romanUrdu: [
         "Waza' mein tum ho nasara, toh tamaddun mein hunood",
         "Yeh Musalman hain! Jinhein dekh ke sharmayein Yahood?"
       ],
-      "english": [
+      english: [
         "In appearance, you are Christians, and in culture, you are Hindus,",
         "Are these the Muslims! Seeing whom even the Jews would be ashamed?"
       ]
   },
   {
-      "title": "شکوہ - حصہ نہم",
-      "englishTitle": "The Complaint - Part 9",
-      "urdu": [
+      title: "شکوہ - حصہ نہم",
+      englishTitle: "The Complaint - Part 9",
+      urdu: [
         "رحمتیں ہیں تری اغیار کے کاشانوں پر",
         "برق گرتی ہے تو بے چارے مسلمانوں پر"
       ],
-      "romanUrdu": [
+      romanUrdu: [
         "Rehmatein hain teri aghyaar ke kashanon par",
         "Barq girti hai to bechare Musalmanon par"
       ],
-      "english": [
+      english: [
         "Your blessings are on the houses of strangers,",
         "But lightning falls on the poor Muslims."
       ]
   },
   {
-      "title": "جوابِ شکوہ - حصہ نہم",
-      "englishTitle": "Answer to the Complaint - Part 9",
-      "urdu": [
+      title: "جوابِ شکوہ - حصہ نہم",
+      englishTitle: "Answer to the Complaint - Part 9",
+      urdu: [
         "تھے تو آبا وہ تمہارے ہی، مگر تم کیا ہو؟",
         "ہاتھ پر ہاتھ دھرے منتظرِ فردا ہو!"
       ],
-      "romanUrdu": [
+      romanUrdu: [
         "Thay to aaba woh tumhare hi, magar tum kya ho?",
         "Haath par haath dhare muntazir-e-farda ho!"
       ],
-      "english": [
+      english: [
         "They were your ancestors, but what are you?",
         "Sitting with hands on hands, waiting for tomorrow!"
       ]
   },
   {
-      "title": "خودی کی پہچان",
-      "englishTitle": "Recognition of the Self",
-      "urdu": [
+      title: "خودی کی پہچان",
+      englishTitle: "Recognition of the Self",
+      urdu: [
         "خودی کے ساز میں ہے عمرِ جاوداں کا سراغ",
         "خودی کے سوز سے روشن ہیں امتوں کے چراغ"
       ],
-      "romanUrdu": [
+      romanUrdu: [
         "Khudi ke saaz mein hai umr-e-jawidaan ka suraagh",
         "Khudi ke soz se roshan hain ummaton ke charaagh"
       ],
-      "english": [
+      english: [
         "In the music of the self is the trace of eternal life,",
         "From the passion of the self, the lamps of nations are lit."
       ]
   },
   {
-      "title": "عقل کی غلامی",
-      "englishTitle": "Slavery of the Intellect",
-      "urdu": [
+      title: "عقل کی غلامی",
+      englishTitle: "Slavery of the Intellect",
+      urdu: [
           "عقل کو اپنی غلامی میں گرفتار نہ کر",
           "دلِ بینا سے کر اسرارِ جہاں کی تحقیق"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Aql ko apni ghulami mein giraftar na kar",
           "Dil-e-beena se kar asrar-e-jahan ki tehqeeq"
       ],
-      "english": [
+      english: [
           "Do not imprison reason in your own slavery",
           "Investigate the secrets of the world with a seeing heart"
       ]
   },
   {
-      "title": "یقین",
-      "englishTitle": "Conviction",
-      "urdu": [
+      title: "یقین",
+      englishTitle: "Conviction",
+      urdu: [
           "یقین افراد کا سرمایہ تعمیرِ ملت ہے",
           "یہی قوت ہے جو صورت گرِ تقدیرِ ملت ہے"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Yaqeen afraad ka sarmaya-e-taameer-e-millat hai",
           "Yehi quwwat hai jo surat-gar-e-taqdeer-e-millat hai"
       ],
-      "english": [
+      english: [
           "Conviction of individuals is the capital for building a nation",
           "This is the power that shapes the destiny of a nation"
       ]
   },
   {
-      "title": "مردِ حر (ضرب)",
-      "englishTitle": "The Free Man (Strike)",
-      "urdu": [
+      title: "مردِ حر (ضرب)",
+      englishTitle: "The Free Man (Strike)",
+      urdu: [
           "مردِ حر کی ضرب ہے کاری وگرنہ",
           "ہے بے نیام بھی تیغِ سپاہی"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Mard-e-hur ki zarb hai kaari wagarna",
           "Hai be-niyaam bhi tegh-e-sipahi"
       ],
-      "english": [
+      english: [
           "The strike of a free man is effective, otherwise",
           "The soldier's sword is without a sheath"
       ]
   },
   {
-      "title": "تقلید",
-      "englishTitle": "Imitation",
-      "urdu": [
+      title: "تقلید",
+      englishTitle: "Imitation",
+      urdu: [
           "تقلید کی روش سے تو بہتر ہے خودکشی",
           "رستہ بھی ڈھونڈ، خضر کا سودا بھی چھوڑ دے"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Taqleed ki rawish se toh behtar hai khudkushi",
           "Rasta bhi dhoond, Khizr ka sauda bhi chhod de"
       ],
-      "english": [
+      english: [
           "Suicide is better than the path of imitation",
           "Find your own way, and leave the bargain of Khizr"
       ]
   },
   {
-      "title": "فطرت (نگہبانی)",
-      "englishTitle": "Nature (Guardianship)",
-      "urdu": [
+      title: "فطرت (نگہبانی)",
+      englishTitle: "Nature (Guardianship)",
+      urdu: [
         "فطرت کے مقاصد کی کرتا ہے نگہبانی",
         "یا بندۂ صحرائی یا مردِ کہستانی"
       ],
-      "romanUrdu": [
+      romanUrdu: [
         "Fitrat ke maqasid ki karta hai nigehbani",
         "Ya banda-e-sehrai ya mard-e-kohistani"
       ],
-      "english": [
+      english: [
         "He guards the purposes of nature",
         "Either the man of the desert or the man of the mountains"
       ]
   },
   {
-      "title": "دنیا کی حقیقت",
-      "englishTitle": "The Reality of the World",
-      "urdu": [
+      title: "دنیا کی حقیقت",
+      englishTitle: "The Reality of the World",
+      urdu: [
           "دنیا کو ہے پھر معرکۂ روح و بدن پیش",
           "تہذیب نے پھر اپنے درندوں کو ابھارا"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Dunya ko hai phir maarka-e-rooh-o-badan pesh",
           "Tehzeeb ne phir apne darindon ko ubhara"
       ],
-      "english": [
+      english: [
           "The world is again faced with the battle of soul and body",
           "Civilization has again incited its beasts"
       ]
   },
   {
-    "title": "عشق کی انتہا (بے کراں)",
-    "englishTitle": "The Zenith of Love (Boundless)",
-    "urdu": [
+    title: "عشق کی انتہا (بے کراں)",
+    englishTitle: "The Zenith of Love (Boundless)",
+    urdu: [
       "عشق کی ایک جست نے طے کر دیا قصہ تمام",
       "اس زمین و آسماں کو بے کراں سمجھا تھا میں"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Ishq ki ek jast ne tay kar diya qissa tamaam",
       "Is zameen-o-asman ko be-karan samjha tha main"
     ],
-    "english": [
+    english: [
       "One leap of love settled the whole matter",
       "I had considered this earth and sky to be boundless"
     ]
   },
   {
-    "title": "مقامِ مومن",
-    "englishTitle": "The Station of a Believer",
-    "urdu": [
+    title: "مقامِ مومن",
+    englishTitle: "The Station of a Believer",
+    urdu: [
       "مقامِ مومن از عرشِ بریں تر",
       "مقامِ من چہ پرسی، آں سوئے دیگر"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Maqam-e-momin az arsh-e-bareen tar",
       "Maqam-e-man che pursi, aan su-e-deegar"
     ],
-    "english": [
+    english: [
       "The station of a believer is higher than the highest heaven",
       "Why do you ask my station? It is on the other side"
     ]
   },
   {
-    "title": "زندگی کا راز",
-    "englishTitle": "The Secret of Life",
-    "urdu": [
+    title: "زندگی کا راز",
+    englishTitle: "The Secret of Life",
+    urdu: [
       "زندگی قطرہ و دریا و گہر بھی ہے یہی",
       "اپنے ہونے کا اگر راز تو پا جائے کہیں"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Zindagi qatra-o-darya-o-guhar bhi hai yehi",
       "Apne hone ka agar raaz tu pa jaaye kahin"
     ],
-    "english": [
+    english: [
       "Life is the drop, the river, and the pearl as well",
       "If you could find the secret of your own being somewhere"
     ]
   },
   {
-    "title": "قوتِ عشق (محمد)",
-    "englishTitle": "The Power of Love (Muhammad)",
-    "urdu": [
+    title: "قوتِ عشق (محمد)",
+    englishTitle: "The Power of Love (Muhammad)",
+    urdu: [
       "قوتِ عشق سے ہر پست کو بالا کر دے",
       "دہر میں اسمِ محمد سے اجالا کر دے"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Quwwat-e-ishq se har past ko baala kar de",
       "Dehr mein ism-e-Muhammad se ujala kar de"
     ],
-    "english": [
+    english: [
       "With the power of love, elevate every lowly thing",
       "In the world, illuminate with the name of Muhammad"
     ]
   },
   {
-    "title": "مردِ خود آگاہ",
-    "englishTitle": "The Self-Aware Man",
-    "urdu": [
+    title: "مردِ خود آگاہ",
+    englishTitle: "The Self-Aware Man",
+    urdu: [
       "مردِ خود آگاہ و خدا مست",
       "کعبہ و بت خانہ بر دست"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Mard-e-khud aagah-o-Khuda mast",
       "Kaaba-o-but-khana bar dast"
     ],
-    "english": [
+    english: [
       "The man who is self-aware and God-intoxicated",
       "Holds the Kaaba and the idol-temple in his hand"
     ]
   },
   {
-    "title": "جہانِ نو",
-    "englishTitle": "A New World",
-    "urdu": [
+    title: "جہانِ نو",
+    englishTitle: "A New World",
+    urdu: [
       "آئینِ نو سے ڈرنا، طرزِ کہن پہ اڑنا",
       "منزل یہی کٹھن ہے قوموں کی زندگی میں"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Aaeen-e-nau se darna, tarz-e-kuhan pe arna",
       "Manzil yehi kathin hai qaumon ki zindagi mein"
     ],
-    "english": [
+    english: [
       "To fear the new order, to insist on the old ways",
       "This is the difficult stage in the life of nations"
     ]
   },
   {
-    "title": "تقدیرِ امم",
-    "englishTitle": "Destiny of Nations",
-    "urdu": [
+    title: "تقدیرِ امم",
+    englishTitle: "Destiny of Nations",
+    urdu: [
       "نگاہِ مردِ مومن سے بدل جاتی ہیں تقدیریں",
       "جو ہو ذوقِ یقیں پیدا تو کٹ جاتی ہیں زنجیریں"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Nigah-e-mard-e-momin se badal jaati hain taqdeerein",
       "Jo ho zauq-e-yaqeen paida toh kat jaati hain zanjeerein"
     ],
-    "english": [
+    english: [
       "Destinies are changed by the gaze of a man of faith",
       "If the taste for conviction is born, the chains are cut"
     ]
   },
   {
-    "title": "اسرارِ زندگی",
-    "englishTitle": "Secrets of Life",
-    "urdu": [
+    title: "اسرارِ زندگی",
+    englishTitle: "Secrets of Life",
+    urdu: [
       "زندگی کی رہ میں چل، لیکن ذرا بچ بچ کے چل",
       "یہ سمجھ لے کوئی مینا خانہ بار ہے رہ میں"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Zindagi ki reh mein chal, lekin zara bach bach ke chal",
       "Yeh samajh le koi meena-khana-bar hai reh mein"
     ],
-    "english": [
+    english: [
       "Walk on the path of life, but walk with caution",
       "Understand that there is a tavern on the way"
     ]
   },
   {
-    "title": "انقلابِ زمانہ",
-    "englishTitle": "The Revolution of Time",
-    "urdu": [
+    title: "انقلابِ زمانہ",
+    englishTitle: "The Revolution of Time",
+    urdu: [
       "انقلاباتِ زمانہ کے ستم سے نہ ڈر",
       "ہے یہ طوفاں تری کشتی کا نگہباں"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Inqilabaat-e-zamana ke sitam se na dar",
       "Hai yeh toofan teri kashti ka nigehbaan"
     ],
-    "english": [
+    english: [
       "Do not fear the tyranny of the revolutions of time",
       "This storm is the guardian of your boat"
     ]
   },
   {
-    "title": "متاعِ بے بہا",
-    "englishTitle": "Priceless Treasure",
-    "urdu": [
+    title: "متاعِ بے بہا",
+    englishTitle: "Priceless Treasure",
+    urdu: [
       "متاعِ بے بہا ہے درد و سوزِ آرزو مندی",
       "مقامِ بندگی دے کر نہ لوں شانِ خداوندی"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Mataa-e-be-baha hai dard-o-soz-e-aarzoo-mandi",
       "Maqam-e-bandagi de kar na loon shaan-e-khudawandi"
     ],
-    "english": [
+    english: [
       "The pain and passion of longing is a priceless treasure",
       "I would not accept the majesty of Godhead in exchange for the station of servitude"
     ]
   },
   {
-    "title": "حیاتِ جاوداں",
-    "englishTitle": "Eternal Life",
-    "urdu": [
+    title: "حیاتِ جاوداں",
+    englishTitle: "Eternal Life",
+    urdu: [
       "زندگانی ہے صدف، قطرہ نیساں ہے خودی",
       "وہ گہر ہے کہ صدف جس کا نہ ہو آشنا"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Zindagani hai sadaf, qatra-e-neesan hai khudi",
       "Woh guhar hai ke sadaf jiska na ho aashna"
     ],
-    "english": [
+    english: [
       "Life is the shell, the Self is the drop of spring rain",
       "That is the pearl with which the shell is not familiar"
     ]
   },
   {
-    "title": "مردِ خدا (فروغ)",
-    "englishTitle": "Man of God (Radiance)",
-    "urdu": [
+    title: "مردِ خدا (فروغ)",
+    englishTitle: "Man of God (Radiance)",
+    urdu: [
       "مردِ خدا کا عمل عشق سے صاحب فروغ",
       "عشق ہے اصلِ حیات، موت ہے اس پر حرام"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Mard-e-Khuda ka amal ishq se sahib-e-furogh",
       "Ishq hai asl-e-hayat, maut hai is par haram"
     ],
-    "english": [
+    english: [
       "The deed of the man of God gets its radiance from love",
       "Love is the essence of life, death is forbidden to it"
     ]
   },
   {
-    "title": "عشق و علم (تیزی)",
-    "englishTitle": "Love and Knowledge (Swiftness)",
-    "urdu": [
+    title: "عشق و علم (تیزی)",
+    englishTitle: "Love and Knowledge (Swiftness)",
+    urdu: [
       "عشق کی تیزی سے بگڑے ہوئے کام بنتے ہیں",
       "علم کی سست روی سے راہوار تھک جاتے ہیں"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Ishq ki tezi se bigre hue kaam bante hain",
       "Ilm ki sust-rawi se rahwaar thak jaate hain"
     ],
-    "english": [
+    english: [
       "With the swiftness of love, spoiled tasks are accomplished",
       "With the slow pace of knowledge, steeds get tired"
     ]
   },
   {
-    "title": "بزمِ انجم",
-    "englishTitle": "The Assembly of Stars",
-    "urdu": [
+    title: "بزمِ انجم",
+    englishTitle: "The Assembly of Stars",
+    urdu: [
       "سورج نے جاتے جاتے شامِ سیہ قبا کو",
       "طشتِ افق سے لے کر لالے کے پھول مارے"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Suraj ne jaate jaate shaam-e-siyah qaba ko",
       "Tasht-e-ufaq se le kar laale ke phool maare"
     ],
-    "english": [
+    english: [
       "As it was setting, the sun threw poppy flowers",
       "From the platter of the horizon at the black-robed evening"
     ]
   },
   {
-    "title": "طلبۂ علی گڑھ کالج کے نام",
-    "englishTitle": "To the Students of Aligarh College",
-    "urdu": [
+    title: "طلبۂ علی گڑھ کالج کے نام",
+    englishTitle: "To the Students of Aligarh College",
+    urdu: [
       "اوروں کا ہے پیام اور، میرا پیام اور ہے",
       "عشق کے درد مند کا طرزِ کلام اور ہے"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Auron ka hai payaam aur, mera payaam aur hai",
       "Ishq ke dard-mand ka tarz-e-kalaam aur hai"
     ],
-    "english": [
+    english: [
       "The message of others is different, my message is different",
       "The style of speech of the one who feels the pain of love is different"
     ]
   },
   {
-    "title": "مسلم (مسافر)",
-    "englishTitle": "The Muslim (Traveler)",
-    "urdu": [
+    title: "مسلم (مسافر)",
+    englishTitle: "The Muslim (Traveler)",
+    urdu: [
       "ہر شے مسافر، ہر چیز راہی",
       "کیا چاند تارے، کیا مرغ و ماہی"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Har shai musafir, har cheez raahi",
       "Kya chaand taare, kya murgh-o-maahi"
     ],
-    "english": [
+    english: [
       "Every thing is a traveler, every thing is on a journey",
       "What of the moon and stars, what of the bird and fish"
     ]
   },
   {
-    "title": "فاطمہ بنت عبداللہ",
-    "englishTitle": "Fatima, Daughter of Abdullah",
-    "urdu": [
+    title: "فاطمہ بنت عبداللہ",
+    englishTitle: "Fatima, Daughter of Abdullah",
+    urdu: [
       "فاطمہ! تو آبروئے امتِ مرحوم ہے",
       "ذرہ ذرہ تیری مشتِ خاک کا معصوم ہے"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Fatima! Tu aabru-e-ummat-e-marhoom hai",
       "Zarra zarra teri musht-e-khaak ka masoom hai"
     ],
-    "english": [
+    english: [
       "Fatima! You are the honor of the blessed community",
       "Every particle of your handful of dust is innocent"
     ]
   },
   {
-      "title": "عصرِ حاضر",
-      "englishTitle": "The Present Age",
-      "urdu": [
+      title: "عصرِ حاضر",
+      englishTitle: "The Present Age",
+      urdu: [
           "عصرِ حاضر ملک الموت ہے تیرا، جس نے",
           "قبض کی روح تری دے کے تجھے فکر معاش"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Asr-e-haazir malik-ul-maut hai tera, jis ne",
           "Qabz ki rooh teri de ke tujhe fikr-e-maash"
       ],
-      "english": [
+      english: [
           "The present age is your angel of death, which has",
           "Seized your soul by giving you the worry of livelihood"
       ]
   },
   {
-      "title": "طلبہ سے",
-      "englishTitle": "To the Students",
-      "urdu": [
+      title: "طلبہ سے",
+      englishTitle: "To the Students",
+      urdu: [
           "خدا تجھے کسی طوفاں سے آشنا کر دے",
           "کہ تیرے بحر کی موجوں میں اضطراب نہیں"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Khuda tujhe kisi toofaan se aashna kar de",
           "Ke tere behr ki maujon mein iztiraab nahin"
       ],
-      "english": [
+      english: [
           "May God acquaint you with some storm",
           "For there is no restlessness in the waves of your sea"
       ]
   },
   {
-      "title": "مردِ مسلمان (عناصر)",
-      "englishTitle": "The Muslim Man (Elements)",
-      "urdu": [
+      title: "مردِ مسلمان (عناصر)",
+      englishTitle: "The Muslim Man (Elements)",
+      urdu: [
           "قہاری و غفاری و قدوسی و جبروت",
           "یہ چار عناصر ہوں تو بنتا ہے مسلمان"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Qahhari-o-Ghaffari-o-Quddusi-o-Jabroot",
           "Yeh chaar anasir hon to banta hai Musalman"
       ],
-      "english": [
+      english: [
           "Wrathfulness, forgiveness, purity, and power",
           "When these four elements combine, a Muslim is formed"
       ]
   },
   {
-      "title": "ہندوستانی بچوں کا قومی گیت",
-      "englishTitle": "National Song of Indian Children",
-      "urdu": [
+      title: "ہندوستانی بچوں کا قومی گیت",
+      englishTitle: "National Song of Indian Children",
+      urdu: [
           "چشتی نے جس زمیں میں پیغامِ حق سنایا",
           "نانک نے جس چمن میں وحدت کا گیت گایا"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Chishti ne jis zameen mein paigham-e-haq sunaya",
           "Nanak ne jis chaman mein wahdat ka geet gaya"
       ],
-      "english": [
+      english: [
           "The land where Chishti delivered the message of truth",
           "The garden where Nanak sang the song of unity"
       ]
   },
   {
-      "title": "ایک نوجوان کے نام",
-      "englishTitle": "To a Youth",
-      "urdu": [
+      title: "ایک نوجوان کے نام",
+      englishTitle: "To a Youth",
+      urdu: [
           "ترے صوفے ہیں افرنگی، ترے قالیں ہیں ایرانی",
           "لہو مجھ کو رلاتی ہے جوانوں کی تن آسانی"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Tere sofe hain Afrangi, tere qaaleen hain Irani",
           "Lahoo mujh ko rulati hai jawanon ki tan-aasani"
       ],
-      "english": [
+      english: [
           "Your sofas are European, your carpets are Persian",
           "The comfort-seeking of the youth makes me weep tears of blood"
       ]
   },
   {
-      "title": "غزل (چراغِ لالہ)",
-      "englishTitle": "Ghazal (Tulip's Lamp)",
-      "urdu": [
+      title: "غزل (چراغِ لالہ)",
+      englishTitle: "Ghazal (Tulip's Lamp)",
+      urdu: [
           "پھر چراغِ لالہ سے روشن ہوئے کوہ و دمن",
           "مجھ کو پھر نغموں پہ اکسانے لگا مرغِ چمن"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Phir chiragh-e-lala se roshan hue koh-o-daman",
           "Mujh ko phir naghmon pe uksane laga murgh-e-chaman"
       ],
-      "english": [
+      english: [
           "Again the mountains and plains are lit by the lamp of the tulip",
           "Again the bird of the garden began to incite me to sing"
       ]
   },
   {
-      "title": "نیا شوالہ",
-      "englishTitle": "The New Temple",
-      "urdu": [
+      title: "نیا شوالہ",
+      englishTitle: "The New Temple",
+      urdu: [
           "سچ کہہ دوں اے برہمن گر تو برا نہ مانے",
           "تیرے صنم کدوں کے بت ہو گئے پرانے"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Sach keh doon ae Brahman gar tu bura na maane",
           "Tere sanam-kadon ke but ho gaye purane"
       ],
-      "english": [
+      english: [
           "Shall I tell the truth, O Brahmin, if you don't mind?",
           "The idols of your temples have become old"
       ]
   },
   {
-      "title": "تصویر درد (سازِ طرب)",
-      "englishTitle": "The Picture of Pain (Music of Joy)",
-      "urdu": [
+      title: "تصویر درد (سازِ طرب)",
+      englishTitle: "The Picture of Pain (Music of Joy)",
+      urdu: [
           "کیا تجھ کو خبر نہیں کہ ماتم ہے بپا",
           "اے غافل! تو سازِ طرب میں ہے پڑا"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Kya tujh ko khabar nahin ke maatam hai bapa",
           "Ae ghaafil! Tu saaz-e-tarab mein hai pada"
       ],
-      "english": [
+      english: [
           "Do you not know that mourning is afoot?",
           "O heedless one! You are lost in the music of joy"
       ]
   },
   {
-    "title": "چاند",
-    "englishTitle": "The Moon",
-    "urdu": [
+    title: "چاند",
+    englishTitle: "The Moon",
+    urdu: [
       "اے چاند! حسن تیرا فطرت کی آبرو ہے",
       "نورِ جہاں فروزی تیری ہی رنگ و بو ہے"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Ae chaand! Husn tera fitrat ki aabru hai",
       "Noor-e-jahan-farozi teri hi rang-o-bu hai"
     ],
-    "english": [
+    english: [
       "O moon! Your beauty is the honor of nature",
       "The light that illuminates the world is your color and scent"
     ]
   },
   {
-    "title": "رباعیات",
-    "englishTitle": "Quatrains",
-    "urdu": [
+    title: "رباعیات",
+    englishTitle: "Quatrains",
+    urdu: [
       "افلاک سے آتا ہے نالوں کا جواب آخر",
       "کرتے ہیں خطاب آخر، اٹھتے ہیں حجاب آخر"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Aflaak se aata hai naalon ka jawaab aakhir",
       "Karte hain khitaab aakhir, uthte hain hijaab aakhir"
     ],
-    "english": [
+    english: [
       "From the heavens comes the answer to laments at last",
       "They address at last, the veils are lifted at last"
     ]
   },
   {
-    "title": "زندگی انسان کی",
-    "englishTitle": "The Life of a Human",
-    "urdu": [
+    title: "زندگی انسان کی",
+    englishTitle: "The Life of a Human",
+    urdu: [
       "زندگی انساں کی اک دم کے سوا کچھ بھی نہیں",
       "دم ہوا کی موج ہے، رم کے سوا کچھ بھی نہیں"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Zindagi insaan ki ik dam ke siwa kuch bhi nahin",
       "Dam hawa ki mauj hai, ram ke siwa kuch bhi nahin"
     ],
-    "english": [
+    english: [
       "The life of a human is nothing but a breath",
       "Breath is a wave of air, nothing but a fleeting moment"
     ]
   },
   {
-    "title": "میرا انجام",
-    "englishTitle": "My End",
-    "urdu": [
+    title: "میرا انجام",
+    englishTitle: "My End",
+    urdu: [
       "نہ گورِ سکندر، نہ ہے قبرِ دارا",
       "مٹے نامیوں کے نشاں کیسے کیسے"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Na gor-e-sikandar, na hai qabr-e-dara",
       "Mite naamiyon ke nishaan kaise kaise"
     ],
-    "english": [
+    english: [
       "Neither Alexander's grave nor Darius's tomb remains",
       "How the signs of the famous have been erased"
     ]
   },
   {
-    "title": "مردِ کامل",
-    "englishTitle": "The Perfect Man",
-    "urdu": [
+    title: "مردِ کامل",
+    englishTitle: "The Perfect Man",
+    urdu: [
       "ہزار خوف ہو لیکن زباں ہو دل کی رفیق",
       "یہی رہا ہے ازل سے قلندروں کا طریق"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Hazaar khauf ho lekin zabaan ho dil ki rafeeq",
       "Yahi raha hai azal se qalandaron ka tareeq"
     ],
-    "english": [
+    english: [
       "Though there be a thousand fears, let the tongue be the heart's companion",
       "This has been the way of the Qalandars since eternity"
     ]
   },
   {
-    "title": "سلطان ٹیپو کی وصیت",
-    "englishTitle": "The Testament of Tipu Sultan",
-    "urdu": [
+    title: "سلطان ٹیپو کی وصیت",
+    englishTitle: "The Testament of Tipu Sultan",
+    urdu: [
       "تو رہ نوردِ شوق ہے، منزل نہ کر قبول",
       "لیلیٰ بھی ہم نشیں ہو تو محمل نہ کر قبول"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Tu reh-naward-e-shauq hai, manzil na kar qubool",
       "Laila bhi hum-nasheen ho toh mehmil na kar qubool"
     ],
-    "english": [
+    english: [
       "You are a traveler of longing, do not accept any destination",
       "Even if Laila is your companion, do not accept the litter"
     ]
   },
   {
-    "title": "پیر و مرید - حصہ دوم",
-    "englishTitle": "The Spiritual Guide and Disciple - Part 2",
-    "urdu": [
+    title: "پیر و مرید - حصہ دوم",
+    englishTitle: "The Spiritual Guide and Disciple - Part 2",
+    urdu: [
       "کہا مرید نے، اے مرشدِ خدا آگاہ",
       "وہ حرفِ دلکش و رنگیں ہے برق سے بھی سوا"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Kaha mureed ne, 'Ae murshid-e-khuda aagah'",
       "'Woh harf-e-dilkash-o-rangeen hai barq se bhi siwa'"
     ],
-    "english": [
+    english: [
       "The disciple said, 'O God-aware guide,'",
       "'That captivating and colorful word is more than lightning.'"
     ]
   },
   {
-    "title": "پن اسلامزم",
-    "englishTitle": "Pan-Islamism",
-    "urdu": [
+    title: "پن اسلامزم",
+    englishTitle: "Pan-Islamism",
+    urdu: [
       "ایک ہوں مسلم حرم کی پاسبانی کے لیے",
       "نیل کے ساحل سے لے کر تا بہ خاکِ کاشغر"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Ek hon Muslim haram ki paasbaani ke liye",
       "Neel ke saahil se le kar taa ba-khaak-e-Kashghar"
     ],
-    "english": [
+    english: [
       "Let Muslims be one for the protection of the Sanctuary (Kaaba)",
       "From the banks of the Nile to the land of Kashgar"
     ]
   },
   {
-    "title": "شکوۂ تقدیر",
-    "englishTitle": "Complaint to Destiny",
-    "urdu": [
+    title: "شکوۂ تقدیر",
+    englishTitle: "Complaint to Destiny",
+    urdu: [
       "تھا جو ناخوب، بتدریج وہی خوب ہوا",
       "کہ غلامی میں بدل جاتا ہے قوموں کا ضمیر"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Tha jo na-khoob, ba-tadreej wahi khoob hua",
       "Ke ghulami mein badal jata hai qaumon ka zameer"
     ],
-    "english": [
+    english: [
       "What was not good, gradually became good",
       "For in slavery, the conscience of nations changes"
     ]
   },
   {
-    "title": "عالمِ برزخ",
-    "englishTitle": "The World of Barzakh",
-    "urdu": [
+    title: "عالمِ برزخ",
+    englishTitle: "The World of Barzakh",
+    urdu: [
       "موت کو سمجھے ہیں غافل اختتامِ زندگی",
       "ہے یہ شامِ زندگی، صبحِ دوامِ زندگی"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Maut ko samjhe hain ghafil ikhtitaam-e-zindagi",
       "Hai yeh shaam-e-zindagi, subh-e-dawaam-e-zindagi"
     ],
-    "english": [
+    english: [
       "The heedless consider death the end of life",
       "It is the evening of life, the morning of eternal life"
     ]
   },
   {
-    "title": "انسان (جہانِ تازہ)",
-    "englishTitle": "Man (New World)",
-    "urdu": [
+    title: "انسان (جہانِ تازہ)",
+    englishTitle: "Man (New World)",
+    urdu: [
       "جہانِ تازہ کی افکارِ تازہ سے ہے نمود",
       "کہ سنگ و خشت سے ہوتے نہیں جہاں پیدا"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Jahan-e-taaza ki afkaar-e-taaza se hai namood",
       "Ke sang-o-khisht se hote nahin jahan paida"
     ],
-    "english": [
+    english: [
       "The emergence of a new world is from new ideas",
       "For worlds are not born from stone and brick"
     ]
   },
   {
-    "title": "کوششِ ناتمام",
-    "englishTitle": "Unfinished Effort",
-    "urdu": [
+    title: "کوششِ ناتمام",
+    englishTitle: "Unfinished Effort",
+    urdu: [
       "ہے یاد مجھے نکتۂ سلمانِ خوش آہنگ",
       "دنیا نہیں، مردانِ جفاکش کے لیے تنگ"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Hai yaad mujhe nukta-e-Salman-e-khush-aahang",
       "Dunya nahin, mardaan-e-jafaakash ke liye tang"
     ],
-    "english": [
+    english: [
       "I remember the point of the sweet-voiced Salman",
       "The world is not narrow for the hardworking men"
     ]
   },
   {
-    "title": "دنیا (جائے عبرت)",
-    "englishTitle": "The World (Place of Warning)",
-    "urdu": [
+    title: "دنیا (جائے عبرت)",
+    englishTitle: "The World (Place of Warning)",
+    urdu: [
       "ہے یہ دنیا جائے عبرت، اور ہم غفلت میں ہیں",
       "موت ہے ہر آن، ہم سامانِ عشرت میں ہیں"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Hai yeh dunya jaa-e-ibrat, aur hum ghaflat mein hain",
       "Maut hai har aan, hum saamaan-e-ishrat mein hain"
     ],
-    "english": [
+    english: [
       "This world is a place of warning, and we are in heedlessness",
       "Death is every moment, and we are engrossed in the means of pleasure"
     ]
   },
   {
-    "title": "امید",
-    "englishTitle": "Hope",
-    "urdu": [
+    title: "امید",
+    englishTitle: "Hope",
+    urdu: [
       "امید ہی تو ہے جو ہم کو زندہ رکھتی ہے",
       "ورنہ کسے ہے طاقت جینے کی اس جہاں میں"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Umeed hi toh hai jo hum ko zinda rakhti hai",
       "Warna kise hai taaqat jeene ki is jahan mein"
     ],
-    "english": [
+    english: [
       "It is hope that keeps us alive",
       "Otherwise who has the strength to live in this world"
     ]
   },
   {
-    "title": "آزاں",
-    "englishTitle": "The Call to Prayer",
-    "urdu": [
+    title: "آزاں",
+    englishTitle: "The Call to Prayer",
+    urdu: [
       "وہ سحر جس سے لرزتا ہے شبستانِ وجود",
       "ہوتی ہے بندۂ مومن کی اذاں سے پیدا"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Woh seher jis se larazta hai shabistan-e-wujood",
       "Hoti hai banda-e-momin ki azaan se paida"
     ],
-    "english": [
+    english: [
       "The dawn that makes the abode of existence tremble",
       "Is born from the call to prayer of a man of faith"
     ]
   },
   {
-    "title": "فروغِ خودی",
-    "englishTitle": "The Radiance of the Self",
-    "urdu": [
+    title: "فروغِ خودی",
+    englishTitle: "The Radiance of the Self",
+    urdu: [
       "خودی کے ساز میں ہے عمرِ جاوداں کا سراغ",
       "خودی کے سوز سے روشن ہیں امتوں کے چراغ"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Khudi ke saaz mein hai umr-e-jawidaan ka suraagh",
       "Khudi ke soz se roshan hain ummaton ke charaagh"
     ],
-    "english": [
+    english: [
       "In the music of the self is the trace of eternal life,",
       "From the passion of the self, the lamps of nations are lit."
     ]
   },
   {
-    "title": "شکوہ - حصہ دہم",
-    "englishTitle": "The Complaint - Part 10",
-    "urdu": [
+    title: "شکوہ - حصہ دہم",
+    englishTitle: "The Complaint - Part 10",
+    urdu: [
       "کہاں وہ جوشِ عمل، وہ یقین کی گرمی",
       "وہ جذبہ ہائے دروں، وہ طبیعتِ خودداری"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Kahan woh josh-e-amal, woh yaqeen ki garmi",
       "Woh jazba-haaye daroon, woh tabiyat-e-khuddari"
     ],
-    "english": [
+    english: [
       "Where is that fervor of action, that warmth of faith,",
       "Those inner passions, that self-respecting nature?"
     ]
   },
     {
-    "title": "جوابِ شکوہ - حصہ دہم",
-    "englishTitle": "Answer to the Complaint - Part 10",
-    "urdu": [
+    title: "جوابِ شکوہ - حصہ دہم",
+    englishTitle: "Answer to the Complaint - Part 10",
+    urdu: [
       "یونانیانِ کہنہ روایت کے ہیں اسیر",
       "حکمت زمیں گیر ہے، فکر فلک رس نہیں"
     ],
-    "romanUrdu": [
+    romanUrdu: [
       "Yoonaniyan-e-kuhna riwayat ke hain aseer",
       "Hikmat zameen-geer hai, fikr falak-ras nahin"
     ],
-    "english": [
+    english: [
       "The ancient Greeks are prisoners of tradition,",
       "Wisdom is earth-bound, thought does not reach the heavens."
     ]
   },
   {
-      "title": "رخصت اے بزم جہاں",
-      "englishTitle": "Farewell, O Assembly of the World",
-      "urdu": [
+      title: "رخصت اے بزم جہاں",
+      englishTitle: "Farewell, O Assembly of the World",
+      urdu: [
           "رخصت اے بزم جہاں! سوئے وطن جاتا ہوں میں",
           "آہ! اس آباد ویرانے میں گھبراتا ہوں میں"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Rukhsat ae bazm-e-jahan! Soo-e-watan jaata hoon main",
           "Aah! Is aabaad veerane mein ghabrata hoon main"
       ],
-      "english": [
+      english: [
           "Farewell, O assembly of the world! I am going towards my homeland",
           "Alas! I feel suffocated in this populated wilderness"
       ]
   },
   {
-      "title": "بلاد اسلامیہ",
-      "englishTitle": "The Lands of Islam",
-      "urdu": [
+      title: "بلاد اسلامیہ",
+      englishTitle: "The Lands of Islam",
+      urdu: [
           "نظر اللہ پہ رکھتا ہے مسلمان غیور",
           "موت کیا شے ہے، فقط عالم معنی کا سفر"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Nazar Allah pe rakhta hai Musalman-e-ghayoor",
           "Maut kya shai hai, faqat aalam-e-maani ka safar"
       ],
-      "english": [
+      english: [
           "The self-respecting Muslim keeps his gaze on God",
           "What is death? Merely a journey to the world of meaning"
       ]
   },
   {
-      "title": "سید کی لوح تربت",
-      "englishTitle": "The Tablet on Sayyid's Tomb",
-      "urdu": [
+      title: "سید کی لوح تربت",
+      englishTitle: "The Tablet on Sayyid's Tomb",
+      urdu: [
           "اے کہ تیرا مرقد ہے جواب رفعت افلاک کا",
           "تیری لحد کی زیارت ہے دوا ہر دردناک کا"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Ae ke tera marqad hai jawaab-e-rif'at-e-aflaak ka",
           "Teri lehed ki ziyarat hai dawa har dard-naak ka"
       ],
-      "english": [
+      english: [
           "O you whose tomb is an answer to the loftiness of the heavens",
           "Visiting your grave is a cure for every afflicted one"
       ]
   },
   {
-      "title": "شمع و شاعر",
-      "englishTitle": "The Candle and the Poet",
-      "urdu": [
+      title: "شمع و شاعر",
+      englishTitle: "The Candle and the Poet",
+      urdu: [
           "میں بھی صفت شمع، سر تا پا سوز و گداز",
           "تو بھی مثال پروانہ، بے تاب و بے قرار"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Main bhi sifat-e-shama, sar ta pa soz-o-gudaaz",
           "Tu bhi misaal-e-parwana, be-taab-o-be-qaraar"
       ],
-      "english": [
+      english: [
           "I too, like the candle, am burning and melting from head to toe",
           "You too, like the moth, are restless and agitated"
       ]
   },
   {
-      "title": "مسلم نوجوان سے",
-      "englishTitle": "To the Muslim Youth",
-      "urdu": [
+      title: "مسلم نوجوان سے",
+      englishTitle: "To the Muslim Youth",
+      urdu: [
           "کبھی سوچا بھی ہے اے مرد مسلماں تو نے",
           "کیا ہے فولاد جسے کرتی ہے شمشیر تری"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Kabhi socha bhi hai ae mard-e-musalmaan tu ne",
           "Kya hai faulaad jise karti hai shamsheer teri"
       ],
-      "english": [
+      english: [
           "Have you ever thought, O Muslim man",
           "What is the steel that your sword makes?"
       ]
   },
   {
-      "title": "حضور رسالت مآب میں",
-      "englishTitle": "In the Presence of the Prophet",
-      "urdu": [
+      title: "حضور رسالت مآب میں",
+      englishTitle: "In the Presence of the Prophet",
+      urdu: [
           "گناہ گار ہوں، شرمندہ ہوں، سیاہ کار ہوں",
           "ترے حضور میں لایا ہوں نظرانہ ندامت کا"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Gunahgaar hoon, sharminda hoon, siyah-kaar hoon",
           "Tere huzoor mein laya hoon nazraana-e-nadamat ka"
       ],
-      "english": [
+      english: [
           "I am a sinner, I am ashamed, I am a wrongdoer",
           "I have brought to your presence the gift of repentance"
       ]
   },
   {
-      "title": "دو ستارے",
-      "englishTitle": "Two Stars",
-      "urdu": [
+      title: "دو ستارے",
+      englishTitle: "Two Stars",
+      urdu: [
           "اک ستارہ ہے کہ رفعت میں ہے ہم دوش ثریا",
           "اک ستارہ ہے کہ کھویا گیا پستی میں کہیں"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Ik sitara hai ke rif'at mein hai hum-dosh-e-Surayya",
           "Ik sitara hai ke khoya gaya pasti mein kahin"
       ],
-      "english": [
+      english: [
           "One star is so high that it is a companion to the Pleiades",
           "Another star is lost somewhere in the depths"
       ]
   },
   {
-      "title": "فلسفہ و مذہب",
-      "englishTitle": "Philosophy and Religion",
-      "urdu": [
+      title: "فلسفہ و مذہب",
+      englishTitle: "Philosophy and Religion",
+      urdu: [
           "فلسفہ و شعر کی اور حقیقت ہے کیا",
           "حرف تمنا جسے کہہ نہ سکیں روبرو"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Falsafa-o-sher ki aur haqeeqat hai kya",
           "Harf-e-tamanna jise keh na sakein ru-ba-ru"
       ],
-      "english": [
+      english: [
           "What else is the reality of philosophy and poetry",
           "But the word of desire that cannot be spoken face to face"
       ]
   },
   {
-      "title": "جگنو",
-      "englishTitle": "The Firefly",
-      "urdu": [
+      title: "جگنو",
+      englishTitle: "The Firefly",
+      urdu: [
           "جگنو کی روشنی ہے کاشانۂ چمن میں",
           "یا شمع جل رہی ہے پھولوں کی انجمن میں"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Jugnoo ki roshni hai kaashaana-e-chaman mein",
           "Ya shama jal rahi hai phoolon ki anjuman mein"
       ],
-      "english": [
+      english: [
           "Is it the light of a firefly in the garden's abode",
           "Or a candle burning in the assembly of flowers?"
       ]
   },
   {
-      "title": "پرندے کی فریاد",
-      "englishTitle": "A Bird's Lament",
-      "urdu": [
+      title: "پرندے کی فریاد",
+      englishTitle: "A Bird's Lament",
+      urdu: [
           "آتا ہے یاد مجھ کو گزرا ہوا زمانہ",
           "وہ باغ کی بہاریں، وہ سب کا چہچہانا"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Aata hai yaad mujh ko guzra hua zamana",
           "Woh bagh ki baharein, woh sab ka chehchehana"
       ],
-      "english": [
+      english: [
           "I remember the time that has passed",
           "The spring of that garden, the chirping of everyone"
       ]
   },
   {
-      "title": "سوامی رام تیرتھ",
-      "englishTitle": "Swami Ram Tirath",
-      "urdu": [
+      title: "سوامی رام تیرتھ",
+      englishTitle: "Swami Ram Tirath",
+      urdu: [
           "ہم بغل دریا سے ہے اے قطرہ بے تاب تو",
           "پہلے گوہر تھا بنا اب گوہر نایاب تو"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Hum-baghal darya se hai ae qatra-e-betaab tu",
           "Pehle gauhar tha bana ab gauhar-e-nayaab tu"
       ],
-      "english": [
+      english: [
           "You are embracing the river, O restless drop",
           "First you were a pearl, now you have become a rare pearl"
       ]
   },
   {
-      "title": "فردوس میں ایک مکالمہ",
-      "englishTitle": "A Dialogue in Paradise",
-      "urdu": [
+      title: "فردوس میں ایک مکالمہ",
+      englishTitle: "A Dialogue in Paradise",
+      urdu: [
           "کہتا تھا فردوس میں منصور سے کوئی",
           "کیا خوب تھا اگر نہ ہوتی سزا تری"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Kehta tha firdous mein Mansoor se koi",
           "Kya khoob tha agar na hoti saza teri"
       ],
-      "english": [
+      english: [
           "Someone said to Mansur in paradise",
           "How good it would have been if you were not punished"
       ]
   },
   {
-      "title": "مذہب اور سیاست",
-      "englishTitle": "Religion and Politics",
-      "urdu": [
+      title: "مذہب اور سیاست",
+      englishTitle: "Religion and Politics",
+      urdu: [
           "جدا ہو دیں سیاست سے تو رہ جاتی ہے چنگیزی",
           "نگہ ہو پاک و صاف و بے باک تو ہے قلندری"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Juda ho deen siyasat se toh reh jaati hai Changezi",
           "Nigah ho paak-o-saaf-o-be-baak toh hai qalandari"
       ],
-      "english": [
+      english: [
           "If religion is separated from politics, what remains is Genghis Khan's tyranny",
           "If the gaze is pure, clean, and fearless, that is the way of a Qalandar"
       ]
   },
   {
-      "title": "آرزو (عالم)",
-      "englishTitle": "Desire (World)",
-      "urdu": [
+      title: "آرزو (عالم)",
+      englishTitle: "Desire (World)",
+      urdu: [
           "چاہیے اس عالم میں اک اور ہی عالم مجھ کو",
           "کہ نہ ہو جس میں زمان و مکاں کی قید"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Chahiye is aalam mein ik aur hi aalam mujh ko",
           "Ke na ho jis mein zaman-o-makaan ki qaid"
       ],
-      "english": [
+      english: [
           "I need another world in this world",
           "In which there is no prison of time and space"
       ]
   },
   {
-      "title": "سقراط",
-      "englishTitle": "Socrates",
-      "urdu": [
+      title: "سقراط",
+      englishTitle: "Socrates",
+      urdu: [
           "کہا سقراط نے اک دن زہر کا پیالہ ہاتھوں میں",
           "جو میں کہتا ہوں وہ شاید کسی کو ناگوار گزرے"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Kaha Suqraat ne ik din zeher ka pyala haathon mein",
           "Jo main kehta hoon woh shayad kisi ko nagawaar guzre"
       ],
-      "english": [
+      english: [
           "One day Socrates said with a cup of poison in his hands",
           "What I say may be unpleasant to someone"
       ]
   },
   {
-      "title": "مسلمان عورت",
-      "englishTitle": "The Muslim Woman",
-      "urdu": [
+      title: "مسلمان عورت",
+      englishTitle: "The Muslim Woman",
+      urdu: [
           "جس علم کی تاثیر سے زن ہوتی ہے نا زن",
           "کہتے ہیں اسی علم کو ارباب نظر موت"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Jis ilm ki taaseer se zan hoti hai na-zan",
           "Kehte hain usi ilm ko arbaab-e-nazar maut"
       ],
-      "english": [
+      english: [
           "The knowledge whose effect makes a woman un-womanly",
           "The people of vision call that very knowledge death"
       ]
   },
   {
-      "title": "الحاد",
-      "englishTitle": "Atheism",
-      "urdu": [
+      title: "الحاد",
+      englishTitle: "Atheism",
+      urdu: [
           "خدا کے منکروں سے کیا بحث ہے کہ وہ خود",
           "اپنے وجود کی دلیل ہیں، پھر کیوں منکر ہیں"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Khuda ke munkiron se kya behas hai ke woh khud",
           "Apne wujood ki daleel hain, phir kyun munkir hain"
       ],
-      "english": [
+      english: [
           "What is the argument with the deniers of God, for they themselves",
           "Are the proof of their own existence, then why are they deniers?"
       ]
   },
   {
-      "title": "طلبا سے خطاب",
-      "englishTitle": "Address to Students",
-      "urdu": [
+      title: "طلبا سے خطاب",
+      englishTitle: "Address to Students",
+      urdu: [
           "مومن نہیں جو صاحب لولاک نہ ہو",
           "ضرب کلیم چاہیے اس دور میں"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Momin nahin jo saahib-e-laulaak na ho",
           "Zarb-e-Kaleem chahiye is daur mein"
       ],
-      "english": [
+      english: [
           "He is not a believer who is not a master of the universe",
           "The stroke of Moses is needed in this age"
       ]
   },
   {
-      "title": "قید خانہ میں معتمد کی فریاد",
-      "englishTitle": "The Lament of Mu'tamid in Prison",
-      "urdu": [
+      title: "قید خانہ میں معتمد کی فریاد",
+      englishTitle: "The Lament of Mu'tamid in Prison",
+      urdu: [
           "اک فغانِ بے شرر سینے میں باقی رہ گئی",
           "سوز بھی رخصت ہوا، جاتی رہی تاثیر بھی"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Ik faghan-e-be-sharar seene mein baaqi reh gayi",
           "Soz bhi rukhsat hua, jaati rahi taaseer bhi"
       ],
-      "english": [
+      english: [
           "A sparkless cry remains in my chest",
           "The passion has also departed, the effect is also gone"
       ]
   },
   {
-      "title": "فاطمہ (نسبت)",
-      "englishTitle": "Fatima (Relation)",
-      "urdu": [
+      title: "فاطمہ (نسبت)",
+      englishTitle: "Fatima (Relation)",
+      urdu: [
           "مریم از یک نسبت عیسی عزیز",
           "از سہ نسبت حضرت زہرا عزیز"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Maryam az yak nisbat-e-Isa azeez",
           "Az seh nisbat Hazrat-e-Zahra azeez"
       ],
-      "english": [
+      english: [
           "Mary is dear because of one relation to Jesus",
           "Hazrat Zahra is dear because of three relations"
       ]
   },
   {
-      "title": "دریوزۂ خلافت",
-      "englishTitle": "Begging for Caliphate",
-      "urdu": [
+      title: "دریوزۂ خلافت",
+      englishTitle: "Begging for Caliphate",
+      urdu: [
           "کیا خوب امیر فیصل کو سنوسی نے پیغام دیا",
           "تو نام و نسب کا حجازی ہے پر دل کا حجازی بن نہ سکا"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Kya khoob Ameer Faisal ko Sanusi ne paighaam diya",
           "Tu naam-o-nasab ka Hijazi hai par dil ka Hijazi ban na saka"
       ],
-      "english": [
+      english: [
           "What a wonderful message Sanusi gave to Ameer Faisal",
           "You are a Hijazi by name and lineage, but you could not become a Hijazi by heart"
       ]
   },
   {
-      "title": "ایک مکالمہ (جبریل و خدا)",
-      "englishTitle": "A Dialogue (Gabriel and God)",
-      "urdu": [
+      title: "ایک مکالمہ (جبریل و خدا)",
+      englishTitle: "A Dialogue (Gabriel and God)",
+      urdu: [
           "کہا جبریل نے اک دن خدا سے",
           "کہ اے باری! یہ دنیا ہے بری"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Kaha Jibreel ne ik din Khuda se",
           "Ke ae Baari! Yeh dunya hai buri"
       ],
-      "english": [
+      english: [
           "One day Gabriel said to God",
           "O Lord! This world is evil"
       ]
   },
   {
-      "title": "طارق کی دعا",
-      "englishTitle": "Tariq's Prayer",
-      "urdu": [
+      title: "طارق کی دعا",
+      englishTitle: "Tariq's Prayer",
+      urdu: [
           "یہ غازی، یہ تیرے پراسرار بندے",
           "جنھیں تو نے بخشا ہے ذوق خدائی"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Yeh ghazi, yeh tere pur-israr bande",
           "Jinhein tu ne bakhsha hai zauq-e-khudai"
       ],
-      "english": [
+      english: [
           "These warriors, these mysterious servants of Yours",
           "Whom You have granted the taste of divinity"
       ]
   },
   {
-      "title": "ہلالِ عید",
-      "englishTitle": "The Eid Crescent",
-      "urdu": [
+      title: "ہلالِ عید",
+      englishTitle: "The Eid Crescent",
+      urdu: [
           "اے ہلال عید! تو کیوں ہے خمیدہ و زار",
           "کیا تجھے بھی ہے کسی کی یاد میں رونا"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Ae hilal-e-eid! Tu kyun hai khamida-o-zaar",
           "Kya tujhe bhi hai kisi ki yaad mein rona"
       ],
-      "english": [
+      english: [
           "O crescent of Eid! Why are you bent and weeping?",
           "Do you also have to weep in someone's memory?"
       ]
   },
   {
-      "title": "مسلمان کا زوال (آشنا)",
-      "englishTitle": "The Decline of the Muslim (Acquainted)",
-      "urdu": [
+      title: "مسلمان کا زوال (آشنا)",
+      englishTitle: "The Decline of the Muslim (Acquainted)",
+      urdu: [
           "کبھی ہم بھی تھے آشنا تجھ سے اے حسن",
           "اب تو بیگانہ وار گزرتا ہے"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Kabhi hum bhi thay aashna tujh se ae husn",
           "Ab toh begana-waar guzarta hai"
       ],
-      "english": [
+      english: [
           "Once we too were acquainted with you, O beauty",
           "Now you pass by like a stranger"
       ]
   },
   {
-      "title": "شاعر اور حسن",
-      "englishTitle": "The Poet and Beauty",
-      "urdu": [
+      title: "شاعر اور حسن",
+      englishTitle: "The Poet and Beauty",
+      urdu: [
           "شاعر کی نوا ہو کہ مغنی کا نفس",
           "جس سے چمن افسردہ ہو وہ باد سحر کیا"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Shayar ki nawa ho ke mughanni ka nafas",
           "Jis se chaman afsurda ho woh baad-e-sehar kya"
       ],
-      "english": [
+      english: [
           "Be it the song of a poet or the breath of a singer",
           "What is the morning breeze that makes the garden wither?"
       ]
   },
   {
-      "title": "عورت (نور)",
-      "englishTitle": "Woman (Light)",
-      "urdu": [
+      title: "عورت (نور)",
+      englishTitle: "Woman (Light)",
+      urdu: [
           "عورت ہے فقط نور، سراپا ہے محبت",
           "وہ شمع ہے جو بزمِ ہستی کو منور کرے"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Aurat hai faqat noor, sarapa hai mohabbat",
           "Woh shama hai jo bazm-e-hasti ko munawwar kare"
       ],
-      "english": [
+      english: [
           "Woman is only light, she is love incarnate",
           "She is the candle that illuminates the assembly of existence"
       ]
   },
   {
-      "title": "جاوید سے - حصہ دوم",
-      "englishTitle": "To Javid - Part 2",
-      "urdu": [
+      title: "جاوید سے - حصہ دوم",
+      englishTitle: "To Javid - Part 2",
+      urdu: [
           "عمل سے بنتی ہے زندگی، جنت بھی جہنم بھی",
           "یہ خاکی اپنی فطرت میں نہ نوری ہے نہ ناری"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Amal se banti hai zindagi, jannat bhi jahannum bhi",
           "Yeh khaki apni fitrat mein na noori hai na naari"
       ],
-      "english": [
+      english: [
           "Life is made by action, both paradise and hell",
           "This creature of dust in its nature is neither of light nor of fire"
       ]
   },
   {
-    "title": "Rubai - Quatrain 1",
-    "englishTitle": "Quatrain 1",
-    "urdu": [
+    title: "Rubai - Quatrain 1",
+    englishTitle: "Quatrain 1",
+    urdu: [
         "ترا تن روح سے ناآشنا ہے",
         "عجب کیا آہ تیری نارسا ہے"
     ],
-    "romanUrdu": [
+    romanUrdu: [
         "Tera tan rooh se na-aashna hai",
         "Ajab kya aah teri na-rasa hai"
     ],
-    "english": [
+    english: [
         "Your body is a stranger to the soul,",
         "No wonder your sighs are ineffectual."
     ]
   },
   {
-      "title": "Rubai - Quatrain 2",
-      "englishTitle": "Quatrain 2",
-      "urdu": [
+      title: "Rubai - Quatrain 2",
+      englishTitle: "Quatrain 2",
+      urdu: [
           "تری نگاہ میں ثابت نہیں خدا کا وجود",
           "مری نگاہ میں ثابت نہیں وجود ترا"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Teri nigaah mein saabit nahin Khuda ka wujood",
           "Meri nigaah mein saabit nahin wujood tera"
       ],
-      "english": [
+      english: [
           "In your sight, the existence of God is not proven,",
           "In my sight, your existence is not proven."
       ]
   },
   {
-      "title": "Rubai - Quatrain 3",
-      "englishTitle": "Quatrain 3",
-      "urdu": [
+      title: "Rubai - Quatrain 3",
+      englishTitle: "Quatrain 3",
+      urdu: [
           "خودی میں گم ہے خدائی، تلاش کر غافل",
           "یہی ہے تیرے لیے اب صلاح کار کی راہ"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Khudi mein gum hai Khudai, talaash kar ghafil",
           "Yehi hai tere liye ab salaah-e-kaar ki raah"
       ],
-      "english": [
+      english: [
           "Divinity is lost in the Self, search for it, O heedless one,",
           "This is now the path of righteous action for you."
       ]
   },
   {
-      "title": "Rubai - Quatrain 4",
-      "englishTitle": "Quatrain 4",
-      "urdu": [
+      title: "Rubai - Quatrain 4",
+      englishTitle: "Quatrain 4",
+      urdu: [
           "علاج آتش رومی کے سوز میں ہے ترا",
           "تری خرد پہ ہے غالب فرنگیوں کا فسوں"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Ilaaj aatish-e-Rumi ke soz mein hai tera",
           "Teri khirad pe hai ghaalib Farangiyon ka fasoon"
       ],
-      "english": [
+      english: [
           "Your cure lies in the passion of Rumi's fire,",
           "Your intellect is dominated by the magic of the Franks."
       ]
   },
   {
-      "title": "Rubai - Quatrain 5",
-      "englishTitle": "Quatrain 5",
-      "urdu": [
+      title: "Rubai - Quatrain 5",
+      englishTitle: "Quatrain 5",
+      urdu: [
           "متاع بے بہا ہے درد و سوز آرزو مندی",
           "مقام بندگی دے کر نہ لوں شان خداوندی"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Mataa-e-be-baha hai dard-o-soz-e-aarzoo-mandi",
           "Maqam-e-bandagi de kar na loon shaan-e-khudawandi"
       ],
-      "english": [
+      english: [
           "Priceless treasure is the pain and passion of longing,",
           "I would not take the majesty of Godhead for the station of servitude."
       ]
   },
   {
-      "title": "Rubai - Quatrain 6",
-      "englishTitle": "Quatrain 6",
-      "urdu": [
+      title: "Rubai - Quatrain 6",
+      englishTitle: "Quatrain 6",
+      urdu: [
           "تو اپنی خودی اگر نہ کھوتا",
           "زناری برگساں نہ ہوتا"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Tu apni khudi agar na khota",
           "Zunnari-e-Bergson na hota"
       ],
-      "english": [
+      english: [
           "If you had not lost your Self,",
           "You would not have been a follower of Bergson."
       ]
   },
   {
-      "title": "Rubai - Quatrain 7",
-      "englishTitle": "Quatrain 7",
-      "urdu": [
+      title: "Rubai - Quatrain 7",
+      englishTitle: "Quatrain 7",
+      urdu: [
           "فطرت نے مجھے بخشے ہیں جوہر ملکوتی",
           "خاکی ہوں مگر خاک سے رکھتا نہیں پیوند"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Fitrat ne mujhe bakhshe hain jauhar-e-malakooti",
           "Khaaki hoon magar khaak se rakhta nahin paiwand"
       ],
-      "english": [
+      english: [
           "Nature has bestowed upon me angelic qualities,",
           "I am earthly, but I have no attachment to the earth."
       ]
   },
   {
-      "title": "Rubai - Quatrain 8",
-      "englishTitle": "Quatrain 8",
-      "urdu": [
+      title: "Rubai - Quatrain 8",
+      englishTitle: "Quatrain 8",
+      urdu: [
           "دلوں کو مرکز مہر و وفا کر",
           "حریم کبریا سے آشنا کر"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Dilon ko markaz-e-mehr-o-wafa kar",
           "Harem-e-kibriya se aashna kar"
       ],
-      "english": [
+      english: [
           "Make hearts the center of love and loyalty,",
           "Make them familiar with the sanctuary of greatness."
       ]
   },
   {
-      "title": "Rubai - Quatrain 9",
-      "englishTitle": "Quatrain 9",
-      "urdu": [
+      title: "Rubai - Quatrain 9",
+      englishTitle: "Quatrain 9",
+      urdu: [
           "عشق اب پیروی عقل خدا داد کرے",
           "آبرو کو کوچہ جاناں میں نہ برباد کرے"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Ishq ab pairavi-e-aql-e-khudadad kare",
           "Aabru koocha-e-jaanan mein na barbaad kare"
       ],
-      "english": [
+      english: [
           "Let love now follow God-given reason,",
           "Let it not ruin its honor in the lane of the beloved."
       ]
   },
   {
-      "title": "Rubai - Quatrain 10",
-      "englishTitle": "Quatrain 10",
-      "urdu": [
+      title: "Rubai - Quatrain 10",
+      englishTitle: "Quatrain 10",
+      urdu: [
           "آزاد کی اک آن ہے محکوم کا اک سال",
           "کس درجہ گراں سیر ہیں محکوم کے اوقات"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Aazad ki ik aan hai mehkoom ka ik saal",
           "Kis darja giran-sair hain mehkoom ke auqaat"
       ],
-      "english": [
+      english: [
           "A moment of the free is a year of the enslaved,",
           "How slow-moving are the times of the enslaved."
       ]
   },
   {
-      "title": "Rubai - Quatrain 11",
-      "englishTitle": "Quatrain 11",
-      "urdu": [
+      title: "Rubai - Quatrain 11",
+      englishTitle: "Quatrain 11",
+      urdu: [
           "تری دنیا جہان مرغ و ماہی",
           "مری دنیا میں ہے شاہین و شاہی"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Teri dunya jahan-e-murgh-o-maahi",
           "Meri dunya mein hai shaheen-o-shahi"
       ],
-      "english": [
+      english: [
           "Your world is the world of birds and fish,",
           "In my world, there is the falcon and sovereignty."
       ]
   },
   {
-      "title": "Rubai - Quatrain 12",
-      "englishTitle": "Quatrain 12",
-      "urdu": [
+      title: "Rubai - Quatrain 12",
+      englishTitle: "Quatrain 12",
+      urdu: [
           "تو اپنی سرنوشت اب اپنے قلم سے لکھ",
           "خالی رکھی ہے خامۂ حق نے تری جبیں"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Tu apni sar-nawisht ab apne qalam se likh",
           "Khaali rakhi hai khaama-e-haq ne teri jabeen"
       ],
-      "english": [
+      english: [
           "Now write your own destiny with your own pen,",
           "The pen of truth has left your forehead blank."
       ]
   },
   {
-      "title": "Rubai - Quatrain 13",
-      "englishTitle": "Quatrain 13",
-      "urdu": [
+      title: "Rubai - Quatrain 13",
+      englishTitle: "Quatrain 13",
+      urdu: [
           "خرد نے کہہ بھی دیا لا الہ تو کیا حاصل",
           "دل و نگاہ مسلماں نہیں تو کچھ بھی نہیں"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Khirad ne keh bhi diya La ilah toh kya haasil",
           "Dil-o-nigah musalman nahin toh kuch bhi nahin"
       ],
-      "english": [
+      english: [
           "Even if reason says 'There is no god', what is the gain?",
           "If the heart and sight are not Muslim, it is nothing."
       ]
   },
   {
-      "title": "Rubai - Quatrain 14",
-      "englishTitle": "Quatrain 14",
-      "urdu": [
+      title: "Rubai - Quatrain 14",
+      englishTitle: "Quatrain 14",
+      urdu: [
           "وہ قوم نہیں لائق ہنگامہ فردا",
           "جس قوم کی تقدیر میں امروز نہیں ہے"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Woh qaum nahin laaiq-e-hangaama-e-farda",
           "Jis qaum ki taqdeer mein imroz nahin hai"
       ],
-      "english": [
+      english: [
           "That nation is not worthy of the tumult of tomorrow,",
           "The nation in whose destiny there is no today."
       ]
   },
   {
-      "title": "Rubai - Quatrain 15",
-      "englishTitle": "Quatrain 15",
-      "urdu": [
+      title: "Rubai - Quatrain 15",
+      englishTitle: "Quatrain 15",
+      urdu: [
           "اک دانش نورانی، اک دانش برہانی",
           "ہے دانش برہانی، حیرت کی فراوانی"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Ik daanish-e-noorani, ik daanish-e-burhaani",
           "Hai daanish-e-burhaani, hairat ki faraawani"
       ],
-      "english": [
+      english: [
           "One is luminous wisdom, one is demonstrative wisdom,",
           "Demonstrative wisdom is an abundance of bewilderment."
       ]
   },
   {
-      "title": "Ghazal - Payam-e-Mashriq",
-      "englishTitle": "Ghazal - Message of the East",
-      "urdu": [
+      title: "Ghazal - Payam-e-Mashriq",
+      englishTitle: "Ghazal - Message of the East",
+      urdu: [
           "بیا کہ قاعدہ آسمان بگردانیم",
           "قضا بہ گردش رطل گران بگردانیم"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Biya ke qaida-e-aasman bagardanaim",
           "Qaza ba gardish-e-ratl-e-giran bagardanaim"
       ],
-      "english": [
+      english: [
           "Come, let us change the rule of the sky,",
           "Let us change destiny with the circulation of a heavy cup."
       ]
   },
   {
-      "title": "Ghazal - Zabur-e-Ajam",
-      "englishTitle": "Ghazal - Persian Psalms",
-      "urdu": [
+      title: "Ghazal - Zabur-e-Ajam",
+      englishTitle: "Ghazal - Persian Psalms",
+      urdu: [
           "دلِ ما را بہ زلفِ خویش بستی",
           "بہ یک نظارہ صد جا دل شکستی"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Dil-e-ma ra ba zulf-e-khwesh basti",
           "Ba yak nazara sad ja dil shikasti"
       ],
-      "english": [
+      english: [
           "You tied my heart to your tresses,",
           "With one glance, you broke a hundred hearts."
       ]
   },
   {
-      "title": "Ghazal - Bal-e-Jibril",
-      "englishTitle": "Ghazal - Gabriel's Wing",
-      "urdu": [
+      title: "Ghazal - Bal-e-Jibril",
+      englishTitle: "Ghazal - Gabriel's Wing",
+      urdu: [
           "کبھی دریا سے مثل موج ابھر کر",
           "کبھی دریا کے سینے میں اتر کر"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Kabhi darya se misl-e-mauj ubhar kar",
           "Kabhi darya ke seene mein utar kar"
       ],
-      "english": [
+      english: [
           "Sometimes rising from the river like a wave,",
           "Sometimes descending into the heart of the river."
       ]
   },
   {
-      "title": "Ghazal - Zarb-e-Kalim",
-      "englishTitle": "Ghazal - The Rod of Moses",
-      "urdu": [
+      title: "Ghazal - Zarb-e-Kalim",
+      englishTitle: "Ghazal - The Rod of Moses",
+      urdu: [
           "خودی کی جلوتوں میں مصطفائی",
           "خودی کی خلوتوں میں کبریائی"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Khudi ki jilwaton mein Mustafai",
           "Khudi ki khalwaton mein Kibriyai"
       ],
-      "english": [
+      english: [
           "In the manifestations of the self, there is the quality of Mustafa,",
           "In the solitudes of the self, there is the quality of the Most High."
       ]
   },
   {
-      "title": "Ghazal - Armaghan-e-Hijaz",
-      "englishTitle": "Ghazal - The Gift of Hijaz",
-      "urdu": [
+      title: "Ghazal - Armaghan-e-Hijaz",
+      englishTitle: "Ghazal - The Gift of Hijaz",
+      urdu: [
           "وہ بحر ہے آدمی کہ جس کا",
           "ہر قطرہ ہے بحر بے کراں"
       ],
-      "romanUrdu": [
+      romanUrdu: [
           "Woh behr hai aadmi ke jis ka",
           "Har qatra hai behr-e-be-karan"
       ],
-      "english": [
+      english: [
           "Man is an ocean of which",
           "Every drop is a boundless ocean."
       ]
   }
 ]
+
+    
