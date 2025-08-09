@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://allamaiqbal.huzi.pk/sitemap.xml
