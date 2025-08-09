@@ -1,5 +1,12 @@
 
-export const allPoems = [
+export const allPoems: {
+  title: string;
+  englishTitle: string;
+  urdu: string[];
+  romanUrdu: string[];
+  english: string[];
+  isPopular?: boolean;
+}[] = [
   {
     title: 'مسجد قرطبہ (Masjid-e-Qurtaba)',
     englishTitle: 'The Mosque of Cordoba',
@@ -14,7 +21,8 @@ export const allPoems = [
     english: [
       'The chain of day and night, the engraver of events,',
       'The chain of day and night, the source of life and death.',
-    ]
+    ],
+    isPopular: true,
   },
   {
     title: 'شکوہ (Shikwa)',
@@ -30,7 +38,8 @@ export const allPoems = [
     english: [
       'Why should I be a loser, forgetting all gain?',
       'Why not think of tomorrow, and bewail yesterday\'s pain?',
-    ]
+    ],
+    isPopular: true,
   },
   {
     title: 'جواب شکوہ (Jawab-e-Shikwa)',
@@ -46,7 +55,8 @@ export const allPoems = [
     english: [
       'The word that comes from the heart has an effect,',
       'It has no wings, but it has the power to fly.',
-    ]
+    ],
+    isPopular: true,
   },
   {
     title: 'خودی کو کر بلند اتنا',
@@ -63,6 +73,7 @@ export const allPoems = [
       'Elevate your self so high that before every decree of destiny,',
       'God himself asks his slave, "Tell me, what is your will?"',
     ],
+    isPopular: true,
   },
   {
     title: 'ستاروں سے آگے جہاں اور بھی ہیں',
@@ -79,6 +90,7 @@ export const allPoems = [
       'There are worlds beyond the stars,',
       'There are still more tests of love.',
     ],
+    isPopular: true,
   },
   {
     title: 'لب پہ آتی ہے دعا',
@@ -95,6 +107,7 @@ export const allPoems = [
       'My longing comes to my lips as a prayer.',
       'May my life be like that of a candle, O Lord!',
     ],
+    isPopular: true,
   },
   {
     title: 'تیرے عشق کی انتہا چاہتا ہوں',
@@ -190,7 +203,8 @@ export const allPoems = [
     english: [
         'Do not be intimidated by the fierceness of the opposing wind, O eagle,',
         'It only blows to make you fly higher.'
-    ]
+    ],
+    isPopular: true,
   },
   {
     title: 'یا رب، دلِ مسلم کو وہ زندہ تمنا دے',
@@ -382,7 +396,8 @@ export const allPoems = [
     english: [
       'You are a falcon, flight is your calling,',
       'There are other skies before you.'
-    ]
+    ],
+    isPopular: true,
   },
   {
     title: 'جہاں میں اہلِ ایماں صورتِ خورشید جیتے ہیں',
@@ -833,262 +848,6 @@ export const allPoems = [
     ]
   },
   {
-    title: "بانگِ درا: بچوں کی دعا",
-    englishTitle: "The Call of the Marching Bell: A Child's Prayer",
-    urdu: [
-      "زندگی ہو مری پروانے کی صورت یارب",
-      "علم کی شمع سے ہو مجھ کو محبت یارب"
-    ],
-    romanUrdu: [
-      "Zindagi ho meri parwane ki surat Ya Rab!",
-      "Ilm ki shama se ho mujhko mohabbat Ya Rab!"
-    ],
-    english: [
-      "May my life be like that of a moth, O Lord!",
-      "May I love the candle of knowledge, O Lord!"
-    ]
-  },
-  {
-    title: "بانگِ درا: ترانۂ ملی",
-    englishTitle: "The Call of the Marching Bell: Anthem of the Community",
-    urdu: [
-      "چین و عرب ہمارا، ہندوستان ہمارا",
-      "مسلم ہیں ہم، وطن ہے سارا جہاں ہمارا"
-    ],
-    romanUrdu: [
-      "Cheen o Arab hamara, Hindustan hamara,",
-      "Muslim hain hum, watan hai saara jahan hamara"
-    ],
-    english: [
-      "China and Arabia are ours, India is ours,",
-      "We are Muslims, the whole world is our homeland"
-    ]
-  },
-  {
-    title: "بانگِ درا: ترانۂ ہندی",
-    englishTitle: "The Call of the Marching Bell: Song of India",
-    urdu: [
-      "سارے جہاں سے اچھا ہندوستان ہمارا",
-      "ہم بلبلیں ہیں اس کی، یہ گلستاں ہمارا"
-    ],
-    romanUrdu: [
-      "Saare jahan se achha Hindustan hamara,",
-      "Hum bulbulain hain iski, yeh gulistan hamara"
-    ],
-    english: [
-      "Better than the entire world is our India,",
-      "We are its nightingales, and it is our garden"
-    ]
-  },
-  {
-    title: "پیامِ مشرق: لالۂ صحرا",
-    englishTitle: "Message of the East: The Tulip of the Desert",
-    urdu: [
-      "گفتم، ای سوسن! تو را رنگیں قبا از کیست؟",
-      "گفتا، ز خون من است این جامہ زیبا"
-    ],
-    romanUrdu: [
-      "Guftam, ay susan! To ra rangeen qaba az keest?",
-      "Gufta, za khoon-e-man ast een jama-e-zeba"
-    ],
-    english: [
-      "I said, O Lily! From whom is your colorful robe?",
-      "It said, this beautiful garment is from my own blood"
-    ]
-  },
-  {
-    title: "زبورِ عجم: دعا",
-    englishTitle: "Persian Psalms: Prayer",
-    urdu: [
-      "یارب درون سینہ دل با خبر بدہ",
-      "در بادہ نشہ را نگرم آن نظر بدہ"
-    ],
-    romanUrdu: [
-      "Ya Rab daroon-e-seena dil-e-bakhabar bideh,",
-      "Dar baada nasha ra nigaram aan nazar bideh"
-    ],
-    english: [
-      "O Lord, give me a knowing heart within my chest,",
-      "Give me the sight to see the intoxication in the wine"
-    ]
-  },
-  {
-    title: "جاوید نامہ: تمحیدِ آسمانی",
-    englishTitle: "The Book of Eternity: Celestial Prelude",
-    urdu: [
-      "آسمان گفت، ای فلک! این پیچ و تاب تست",
-      "یا درون سینہ من اضطراب تست"
-    ],
-    romanUrdu: [
-      "Aasman guft, ay falak! Een paich-o-taab-e-tust,",
-      "Ya daroon-e-seena-e-man iztirab-e-tust"
-    ],
-    english: [
-      "The sky said, O heavens! Is this your twisting and turning,",
-      "Or is it your restlessness within my heart?"
-    ]
-  },
-  {
-    title: "پس چہ بائد کرد: خطاب بہ جاوید",
-    englishTitle: "What Should Then Be Done: Address to Javid",
-    urdu: [
-      "اے پسر! ذوق نگہ از پدر آموز",
-      "رمز جان از نفس شعلہ ور آموز"
-    ],
-    romanUrdu: [
-      "Ay pisar! Zauq-e-nigah az pidar aamoz,",
-      "Ramz-e-jaan az nafas-e-sho'la war aamoz"
-    ],
-    english: [
-      "O son! Learn the joy of seeing from your father,",
-      "Learn the secret of the soul from the flaming breath"
-    ]
-  },
-  {
-    title: "ارمغانِ حجاز: ابلیس کی مجلسِ شوریٰ",
-    englishTitle: "Gift of Hijaz: The Parliament of Iblis",
-    urdu: [
-      "گفت شیطان کہ جہان رنگ و بو",
-      "ما گرفتیم از خدایان کہ او"
-    ],
-    romanUrdu: [
-      "Guft Shaitan keh jahan-e-rang-o-boo,",
-      "Ma giriftem az khudayan keh oo"
-    ],
-    english: [
-      "Satan said that this world of color and smell,",
-      "We took it from the gods that he created"
-    ]
-  },
-  {
-    title: "بالِ جبریل: ایک آرزو",
-    englishTitle: "Gabriel's Wing: A Wish",
-    urdu: [
-      "دنیا کی محفلوں سے اکتا گیا ہوں یارب",
-      "کیا لطف انجمن کا جب دل ہی بجھ گیا ہو"
-    ],
-    romanUrdu: [
-      "Dunya ki mehfilon se ukta gaya hoon Ya Rab,",
-      "Kya lutf anjuman ka jab dil hi bujh gaya ho"
-    ],
-    english: [
-      "I am weary of the gatherings of the world, O Lord,",
-      "What is the joy of an assembly when the heart itself is extinguished?"
-    ]
-  },
-  {
-    title: "بالِ جبریل: ساقی نامہ",
-    englishTitle: "Gabriel's Wing: The Book of the Saqi",
-    urdu: [
-      "ہوا خیمہ زن کاروان بہار",
-      "ارم بن گیا دامن کوہسار"
-    ],
-    romanUrdu: [
-      "Hua khaima-zan karvan-e-bahar,",
-      "Iram ban gaya daman-e-kohsar"
-    ],
-    english: [
-      "The caravan of spring has pitched its tent,",
-      "The foothills have become the Garden of Iram"
-    ]
-  },
-  {
-    title: "ضربِ کلیم: شاہین",
-    englishTitle: "The Rod of Moses: The Eagle",
-    urdu: [
-      "کیا میں نے اس خاکداں سے کنارا",
-      "جہاں رزق کا نام ہے آب و دانہ"
-    ],
-    romanUrdu: [
-      "Kiya maine uss khakdan se kinara,",
-      "Jahan rizq ka naam hai aab o dana"
-    ],
-    english: [
-      "I have turned away from that dust-heap,",
-      "Where sustenance is called water and grain"
-    ]
-  },
-  {
-    title: "ضربِ کلیم: علم و عشق",
-    englishTitle: "The Rod of Moses: Knowledge and Love",
-    urdu: [
-      "علم نے مجھ سے کہا عشق ہے دیوانہ پن",
-      "عشق نے مجھ سے کہا علم ہے تخمین و ظن"
-    ],
-    romanUrdu: [
-      "Ilm ne mujhse kaha ishq hai deewana-pan,",
-      "Ishq ne mujhse kaha ilm hai takhmeen-o-zan"
-    ],
-    english: [
-      "Knowledge said to me, love is madness,",
-      "Love said to me, knowledge is conjecture and doubt"
-    ]
-  },
-  {
-    title: "بانگِ درا: ماں کا خواب",
-    englishTitle: "The Call of the Marching Bell: A Mother's Dream",
-    urdu: [
-      "میں سوئی جو اک شب تو دیکھا یہ خواب",
-      "بڑھا اور جس سے مرا اضطراب"
-    ],
-    romanUrdu: [
-      "Main soyi jo ik shab toh dekha yeh khwab,",
-      "Badha aur jis se mera iztirab"
-    ],
-    english: [
-      "One night as I slept, I saw this dream,",
-      "Which increased my anxiety even more"
-    ]
-  },
-  {
-    title: "بانگِ درا: ہمالہ",
-    englishTitle: "The Call of the Marching Bell: The Himalayas",
-    urdu: [
-      "اے ہمالہ! اے فصیل کشور ہندوستاں",
-      "چومتا ہے تیری پیشانی کو جھک کر آسماں"
-    ],
-    romanUrdu: [
-      "Ae Himala! Ae faseel-e-kishwar-e-Hindustan,",
-      "Choomta hai teri peshani ko jhuk kar aasman"
-    ],
-    english: [
-      "O Himalayas! O rampart of the country of India,",
-      "The sky bows to kiss your forehead"
-    ]
-  },
-  {
-    title: "بالِ جبریل: لینن خدا کے حضور میں",
-    englishTitle: "Gabriel's Wing: Lenin in God's Presence",
-    urdu: [
-      "اے کہ ترے ضمیر پر جب سے ہے انکشاف ذات",
-      "ذوق سخن بہانہ ہے، اصل ہے واردات قلب"
-    ],
-    romanUrdu: [
-      "Ae ke tere zameer par jab se hai inkishaf-e-zaat,",
-      "Zauq-e-sukhan bahana hai, asl hai waridat-e-qalb"
-    ],
-    english: [
-      "O you, on whose conscience since the revelation of the self,",
-      "The taste for poetry is an excuse, the reality is the heart's experiences"
-    ]
-  },
-  {
-    title: "ضربِ کلیم: اجتہاد",
-    englishTitle: "The Rod of Moses: Independent Reasoning",
-    urdu: [
-      "ہند میں حکمت دیں کوئی کہاں سے سیکھے",
-      "نہ کہیں لذت کردار، نہ افکار عمیق"
-    ],
-    romanUrdu: [
-      "Hind mein hikmat-e-deen koi kahan se seekhe,",
-      "Na kahin lazzat-e-kirdar, na afkar-e-ameeq"
-    ],
-    english: [
-      "From where can one learn the wisdom of religion in India?",
-      "There is neither the joy of character, nor profound thoughts"
-    ]
-  },
-  {
     title: 'طلوعِ اسلام',
     englishTitle: 'The Rise of Islam',
     urdu: ['دلیل صبح روشن ہے ستاروں کی تنک تابی', 'افق سے آفتاب ابھرا گیا دور گراں خوابی'],
@@ -1362,22 +1121,6 @@ export const allPoems = [
     ]
   },
   {
-    title: "بندگی نامہ - غلامی",
-    englishTitle: "Book of Servitude - Slavery",
-    urdu: [
-        "غلامی کیا ہے؟ ذوقِ حسن و زیبائی سے محرومی",
-        "جسے زیبا کہیں آزاد بندے، ہے وہی زیبا"
-    ],
-    romanUrdu: [
-        "Ghulami kya hai? Zauq-e-husn-o-zebaai se mehroomi",
-        "Jise zeba kahein azaad bande, hai wohi zeba"
-    ],
-    english: [
-        "What is slavery? Deprivation of the taste for beauty and grace.",
-        "Whatever free men call beautiful, that alone is beautiful."
-    ]
-  },
-  {
     title: "عروجِ آدمِ خاکی",
     englishTitle: "The Ascent of Man",
     urdu: [
@@ -1410,22 +1153,6 @@ export const allPoems = [
     ]
   },
   {
-    title: "مکتب و خانقاہ",
-    englishTitle: "School and Monastery",
-    urdu: [
-        "مکتبوں میں کہیں رعنائی افکار بھی ہے؟",
-        "خانقاہوں میں کہیں لذتِ اسرار بھی ہے؟"
-    ],
-    romanUrdu: [
-        "Maktabon mein kahin ra'naai-e-afkaar bhi hai?",
-        "Khanqahon mein kahin lazzat-e-asraar bhi hai?"
-    ],
-    english: [
-        "Is there anywhere in the schools the beauty of thoughts?",
-        "Is there anywhere in the monasteries the joy of secrets?"
-    ]
-  },
-  {
     title: "دلِ مردہ",
     englishTitle: "The Dead Heart",
     urdu: [
@@ -1455,22 +1182,6 @@ export const allPoems = [
     english: [
         "On the nurturing and training of the Self it depends,",
         "That in a handful of dust an all-consuming fire is born."
-    ]
-  },
-  {
-    title: "مردِ حُر",
-    englishTitle: "The Free Man",
-    urdu: [
-        "مردِ حُر کا عمل بے غرض، بے نمود",
-        "اس کی ہر سانس پیامِ ابدیت"
-    ],
-    romanUrdu: [
-        "Mard-e-hur ka amal be-gharaz, be-namood",
-        "Uski har saans payaam-e-abdiyat"
-    ],
-    english: [
-        "The action of a free man is selfless, without display,",
-        "His every breath is a message of eternity."
     ]
   },
   {
@@ -1708,19 +1419,6 @@ export const allPoems = [
     ]
   },
   {
-    title: "جاوید کے نام (دیارِ عشق)",
-    englishTitle: "To Javid (Realm of Love)",
-    urdu: [
-      "نیا زمانہ، نئے صبح و شام پیدا کر"
-    ],
-    romanUrdu: [
-      "Naya zamana, naye subah-o-shaam paida kar"
-    ],
-    english: [
-      "Create a new era, new mornings and evenings."
-    ]
-  },
-  {
     title: "علم (بندۂ مومن)",
     englishTitle: "Knowledge (Man of Faith)",
     urdu: [
@@ -1766,22 +1464,6 @@ export const allPoems = [
     english: [
       "Their ruin is from freedom of thought,",
       "Those who do not possess the knack for thought and reflection."
-    ]
-  },
-  {
-    title: "جنگِ یرموک کا ایک واقعہ",
-    englishTitle: "An Incident from the Battle of Yarmouk",
-    urdu: [
-      "اک مردِ پیر، رومی و شامی برابر",
-      "لڑتے تھے، گو تھے دونوں کے انداز محشر"
-    ],
-    romanUrdu: [
-      "Ik mard-e-peer, Rumi-o-Shaami barabar",
-      "Larte thay, go thay dono ke andaaz-e-mahshar"
-    ],
-    english: [
-      "An old man, equal to a Roman and a Syrian,",
-      "They fought, though the styles of both were apocalyptic."
     ]
   },
   {
@@ -1865,22 +1547,6 @@ export const allPoems = [
     ]
   },
   {
-    title: "گلہ",
-    englishTitle: "Reproach",
-    urdu: [
-      "شکوہ اللہ سے، خاکم بدہن، ہے مجھ کو",
-      "کہ مقدر میں مرے کیوں تری فرقت ٹھہری"
-    ],
-    romanUrdu: [
-      "Shikwa Allah se, khaakam-ba-dahan, hai mujh ko",
-      "Ke muqaddar mein mere kyun teri furqat thehri"
-    ],
-    english: [
-      "I have a complaint to God, may my mouth be filled with dust,",
-      "Why was separation from you destined for me?"
-    ]
-  },
-  {
     title: "تعلیم (روحِ انسانی)",
     englishTitle: "Education (Human Soul)",
     urdu: [
@@ -1945,22 +1611,6 @@ export const allPoems = [
     ]
   },
   {
-    title: "بے عمل دل",
-    englishTitle: "The Heart Without Action",
-    urdu: [
-      "دل ہے مسلماں ترا، نہ میں کافر",
-      "تو نہ نمازی، نہ میں بے وضو"
-    ],
-    romanUrdu: [
-      "Dil hai musalman tera, na main kaafir",
-      "Tu na namazi, na main be-wuzu"
-    ],
-    english: [
-      "Your heart is Muslim, and I am not an infidel,",
-      "You are not a prayer-performer, nor am I without ablution."
-    ]
-  },
-  {
     title: "فقیر",
     englishTitle: "The Ascetic",
     urdu: [
@@ -1977,38 +1627,6 @@ export const allPoems = [
     ]
   },
   {
-    title: "مسلمان کا انجام",
-    englishTitle: "The Destiny of the Muslim",
-    urdu: [
-        "وہ قوم کہ جس کی خاک میں ہے سوزِ آرزو",
-        "هرگز نہ ہو سکے گی کبھی سرد اسکی خو"
-    ],
-    romanUrdu: [
-        "Woh qaum ke jis ki khaak mein hai soz-e-aarzoo",
-        "Hargiz na ho sakegi kabhi sard uski khoo"
-    ],
-    english: [
-        "The nation in whose dust there is the passion of desire,",
-        "Its nature can never become cold."
-    ]
-  },
-  {
-    title: "دنیا عمل کی",
-    englishTitle: "The World of Action",
-    urdu: [
-        "ہے عمل لازمی تکمیلِ تمنا کے لیے",
-        "ورنہ رنگیں خیالات سے کیا ہوتا ہے"
-    ],
-    romanUrdu: [
-        "Hai amal laazmi takmeel-e-tamanna ke liye",
-        "Warna rangeen khayalaat se kya hota hai"
-    ],
-    english: [
-        "Action is necessary for the fulfillment of desire,",
-        "Otherwise, what comes of colorful thoughts?"
-    ]
-  },
-  {
     title: "خرد (نیک و بد)",
     englishTitle: "Intellect (Good and Evil)",
     urdu: [
@@ -2022,22 +1640,6 @@ export const allPoems = [
     english: [
         "Reason is not aware of good and evil,",
         "The tyrant keeps exceeding its limits."
-    ]
-  },
-  {
-    title: "حوادث",
-    englishTitle: "Calamities",
-    urdu: [
-        "زمانے سے نہ گھبرا، نہ حوادث سے الجھ",
-        "کہ یہ آتے ہیں تجھ کو آزمانے کے لیے"
-    ],
-    romanUrdu: [
-        "Zamane se na ghabra, na hawadis se ulajh",
-        "Ke yeh aate hain tujh ko aazmane ke liye"
-    ],
-    english: [
-        "Do not be frightened by the age, nor get entangled in calamities,",
-        "For they come to test you."
     ]
   },
   {
@@ -2070,22 +1672,6 @@ export const allPoems = [
     english: [
         "Even today, if the faith of Abraham is born,",
         "Fire can create the quality of a garden."
-    ]
-  },
-  {
-    title: "فقر و غنا",
-    englishTitle: "Poverty and Riches",
-    urdu: [
-        "فقرِ مومن، قاہری و دلبری",
-        "فقرِ کافر، مکاری و ساحری"
-    ],
-    romanUrdu: [
-        "Faqr-e-momin, qahiri-o-dilbari",
-        "Faqr-e-kafir, makkari-o-sahiri"
-    ],
-    english: [
-        "The spiritual poverty of a believer is dominance and heart-winning,",
-        "The poverty of an infidel is cunning and sorcery."
     ]
   },
   {
@@ -2166,22 +1752,6 @@ export const allPoems = [
     ]
   },
   {
-    title: "مردِ مومن (جلال)",
-    englishTitle: "The Man of Faith (Majesty)",
-    urdu: [
-        "مردِ مومن کا جلال، اللہ کا جلال",
-        "اس کا غصہ، اس کی رحمت، سب خدا کے کام ہیں"
-    ],
-    romanUrdu: [
-        "Mard-e-momin ka jalal, Allah ka jalal",
-        "Uska ghussa, uski rehmat, sab Khuda ke kaam hain"
-    ],
-    english: [
-        "The majesty of a man of faith is the majesty of God,",
-        "His anger, his mercy, all are the works of God."
-    ]
-  },
-  {
     title: "فقرِ غیور",
     englishTitle: "Self-Respecting Poverty",
     urdu: [
@@ -2230,22 +1800,6 @@ export const allPoems = [
     ]
   },
   {
-    title: "علم و عمل (وبال)",
-    englishTitle: "Knowledge and Action (Burden)",
-    urdu: [
-        "علم بے عمل، وبالِ جان",
-        "عمل بے علم، گمراہیِ راہ"
-    ],
-    romanUrdu: [
-        "Ilm be-amal, wabaal-e-jaan",
-        "Amal be-ilm, gumraahi-e-raah"
-    ],
-    english: [
-        "Knowledge without action is a burden on the soul,",
-        "Action without knowledge is the straying from the path."
-    ]
-  },
-  {
     title: "ملتِ بیضا",
     englishTitle: "The Radiant Nation",
     urdu: [
@@ -2259,22 +1813,6 @@ export const allPoems = [
     english: [
         "I have learned this lesson from the ascension of Mustafa,",
         "That the heavens are within the reach of the world of humanity."
-    ]
-  },
-  {
-    title: "فلسفہ ملت",
-    englishTitle: "Philosophy of the Nation",
-    urdu: [
-        "افراد سے ہے قوم، نہ کہ قوم سے افراد",
-        "ہر فرد ہے ملت کے مقدر کا ستارہ"
-    ],
-    romanUrdu: [
-        "Afraad se hai qaum, na keh qaum se afraad",
-        "Har fard hai millat ke muqaddar ka sitara"
-    ],
-    english: [
-        "The nation is from individuals, not individuals from the nation,",
-        "Every individual is a star of the nation's destiny."
     ]
   },
   {
@@ -2358,150 +1896,6 @@ export const allPoems = [
     ]
   },
   {
-    title: "مسجدِ قرطبہ - حصہ اول",
-    englishTitle: "The Mosque of Cordoba - Part 1",
-    urdu: [
-        "سلسلۂ روز و شب، تارِ حریرِ دو رنگ",
-        "جس سے بناتی ہے ذات اپنی قبائے صفات"
-    ],
-    romanUrdu: [
-        "Silsila-e-roz-o-shab, taar-e-hareer-e-do-rang",
-        "Jis se banati hai Zaat apni qaba-e-sifat"
-    ],
-    english: [
-        "The chain of day and night, a two-colored silken thread,",
-        "From which the Self weaves its robe of attributes."
-    ]
-  },
-  {
-    title: "مسجدِ قرطبہ - حصہ دوم",
-    englishTitle: "The Mosque of Cordoba - Part 2",
-    urdu: [
-        "سلسلۂ روز و شب، سازِ ازل کی فغاں",
-        "جس سے دکھاتی ہے ذات زیر و بمِ ممکنات"
-    ],
-    romanUrdu: [
-        "Silsila-e-roz-o-shab, saaz-e-azal ki faghan",
-        "Jis se dikhati hai Zaat zer-o-bam-e-mumkinat"
-    ],
-    english: [
-        "The chain of day and night, the lament of the eternal music,",
-        "Through which the Self reveals the highs and lows of possibilities."
-    ]
-  },
-  {
-    title: "طلوعِ اسلام - حصہ اول",
-    englishTitle: "The Rise of Islam - Part 1",
-    urdu: [
-        "غلامی میں کام آتی ہیں نہ شمشیریں نہ تدبیریں",
-        "جو ہو ذوقِ یقیں پیدا تو کٹ جاتی ہیں زنجیریں"
-    ],
-    romanUrdu: [
-        "Ghulami mein kaam aati hain na shamsheerein na tadbeerein",
-        "Jo ho zauq-e-yaqeen paida toh kat jaati hain zanjeerein"
-    ],
-    english: [
-        "In slavery neither swords nor plans are of any avail",
-        "If the taste of faith is created, chains are cut asunder"
-    ]
-  },
-  {
-    title: "شکوہ - حصہ اول",
-    englishTitle: "The Complaint - Part 1",
-    urdu: [
-        "ہم سے پہلے تھا عجب تیرے جہاں کا منظر",
-        "کہیں مسجود تھے پتھر، کہیں معبود شجر"
-    ],
-    romanUrdu: [
-        "Hum se pehle tha ajab tere jahan ka manzar",
-        "Kahin masjood thay pathar, kahin ma'bood shajar"
-    ],
-    english: [
-        "Before us, the scene of your world was strange",
-        "Somewhere stones were worshipped, somewhere trees were deities"
-    ]
-  },
-  {
-    title: "جوابِ شکوہ - حصہ اول",
-    englishTitle: "Answer to the Complaint - Part 1",
-    urdu: [
-        "عقل ہے تیری سپر، عشق ہے شمشیر تری",
-        "مرے درویش! خلافت ہے جہاں گیر تری"
-    ],
-    romanUrdu: [
-        "Aql hai teri sipar, ishq hai shamsheer teri",
-        "Mere darvesh! Khilafat hai jahan-geer teri"
-    ],
-    english: [
-        "Intellect is your shield, love is your sword",
-        "My dervish! Your dominion is world-conquering"
-    ]
-  },
-  {
-    title: "ساقی نامہ - حصہ اول",
-    englishTitle: "Book of the Saqi - Part 1",
-    urdu: [
-        "پلایا مجھے اس نے یہ کہہ کے ساقی",
-        "کہ معذور ہوں میں، ہے نیت اپاہج"
-    ],
-    romanUrdu: [
-        "Pilaya mujhe isne yeh keh ke sagi",
-        "Ke ma'zoor hoon main, hai niyat apaahij"
-    ],
-    english: [
-        "The Saqi served me saying this:",
-        "'I am helpless, my intention is crippled.'"
-    ]
-  },
-  {
-    title: "ذوق و شوق - حصہ اول",
-    englishTitle: "Taste and Longing - Part 1",
-    urdu: [
-        "تیرے آزاد بندوں کی نہ یہ دنیا، نہ وہ دنیا",
-        "یہاں مرنے کی پابندی، وہاں جینے کی پابندی"
-    ],
-    romanUrdu: [
-        "Tere azaad bandon ki na yeh dunya, na woh dunya",
-        "Yahan marne ki pabandi, wahan jeene ki pabandi"
-    ],
-    english: [
-        "For Your free servants, there is neither this world nor that world",
-        "Here, there is the restriction of dying; there, the restriction of living."
-    ]
-  },
-  {
-    title: "لینن خدا کے حضور میں - حصہ اول",
-    englishTitle: "Lenin in God's Presence - Part 1",
-    urdu: [
-        "تو قادر و عادل ہے مگر تیرے جہاں میں",
-        "ہیں تلخ بہت بندۂ مزدور کے اوقات"
-    ],
-    romanUrdu: [
-        "Tu qadir o adil hai magar tere jahan mein",
-        "Hain talkh bahut banda-e-mazdoor ke auqaat"
-    ],
-    english: [
-        "You are powerful and just, but in Your world",
-        "The hours of the laborer are very bitter"
-    ]
-  },
-  {
-    title: "ابلیس کی مجلسِ شوریٰ - حصہ اول",
-    englishTitle: "The Parliament of Iblis - Part 1",
-    urdu: [
-        "لا کر برہمنوں کو سیاست کے بیچ میں",
-        "زناریوں کو دیرِ کہن سے نکال دو"
-    ],
-    romanUrdu: [
-        "La kar brahmanon ko siyasat ke beech mein",
-        "Zunnariyon ko dair-e-kuhan se nikal do"
-    ],
-    english: [
-        "Bring the Brahmins into the midst of politics",
-        "Expel the wearers of the sacred thread from the ancient temple"
-    ]
-  },
-  {
     title: "پنجاب کے دہقان سے",
     englishTitle: "To the Peasant of Punjab",
     urdu: [
@@ -2518,29 +1912,6 @@ export const allPoems = [
     ]
   },
   {
-    title: "نصیحتِ اقبال",
-    englishTitle: "Iqbal's Advice",
-    urdu: ["خودی نہ بیچ، غریبی میں نام پیدا کر"],
-    romanUrdu: ["Khudi na bech, ghareebi mein naam paida kar"],
-    english: ["Do not sell your Self; make a name for yourself in poverty"],
-  },
-  {
-    title: "بچے کی دعا (وطن)",
-    englishTitle: "A Child's Prayer (Homeland)",
-    urdu: [
-      "ہو میرے دم سے یونہی میرے وطن کی زینت",
-      "جس طرح پھول سے ہوتی ہے چمن کی زینت",
-    ],
-    romanUrdu: [
-      "Ho mere dum se yunhi mere watan ki zeenat",
-      "Jis tarah phool se hoti hai chaman ki zeenat",
-    ],
-    english: [
-      "May my homeland be adorned through me",
-      "Just as a garden is adorned by a flower",
-    ],
-  },
-  {
     title: "ترانۂ ہندی (مذہب)",
     englishTitle: "Song of India (Religion)",
     urdu: [
@@ -2554,7 +1925,7 @@ export const allPoems = [
     english: [
       "Religion does not teach us to bear animosity among ourselves",
       "We are Indians, our homeland is India",
-    ],
+    ]
   },
   {
     title: "ترانۂ ملی (توحید)",
@@ -2570,7 +1941,7 @@ export const allPoems = [
     english: [
       "The trust of monotheism is in our hearts",
       "It is not easy to erase our name and sign",
-    ],
+    ]
   },
   {
     title: "تصویرِ درد (خانماں برباد)",
@@ -2586,7 +1957,7 @@ export const allPoems = [
     english: [
       "Do not ask me about the pleasure of remaining homeless",
       "I have built and blown away hundreds of nests",
-    ],
+    ]
   },
   {
     title: "عشق اور موت (زندگی)",
@@ -2602,20 +1973,7 @@ export const allPoems = [
     english: [
       "Life is beyond the thought of profit and loss",
       "Sometimes it is life, and sometimes it is the surrender of life",
-    ],
-  },
-  {
-    title: "محبت (جنوں)",
-    englishTitle: "Love (Madness)",
-    urdu: ["محبت کا جنوں باقی نہیں ہے", "مسلمانوں میں خوں باقی نہیں ہے"],
-    romanUrdu: [
-      "Mohabbat ka junoon baqi nahin hai",
-      "Musalmanon mein khoon baqi nahin hai",
-    ],
-    english: [
-      "The madness of love does not remain",
-      "There is no blood left in the Muslims",
-    ],
+    ]
   },
   {
     title: "خودی (سرِ زندگانی)",
@@ -2631,7 +1989,7 @@ export const allPoems = [
     english: [
       "Immerse yourself in the self, O heedless one! This is the secret of life",
       "Emerge from the circle of evening and morning and become eternal",
-    ],
+    ]
   },
   {
     title: "تقدیر (جرمِ ضعیفی)",
@@ -2647,7 +2005,7 @@ export const allPoems = [
     english: [
       "This has been the eternal decree of the judge of destiny",
       "The punishment for the crime of weakness is sudden death",
-    ],
+    ]
   },
   {
     title: "لالۂ صحرا (دشت کی پہنائی)",
@@ -2663,17 +2021,7 @@ export const allPoems = [
     english: [
       "This blue dome, this world of loneliness",
       "The vastness of this desert frightens me",
-    ],
-  },
-  {
-    title: "فرشتوں کا سلام",
-    englishTitle: "The Angels' Salutation",
-    urdu: ["آدم کو بہشت سے نکالا", "پر اس کے نصیب میں تھی پرواز"],
-    romanUrdu: ["Adam ko bahisht se nikala", "Par uske naseeb mein thi parwaaz"],
-    english: [
-      "Adam was expelled from paradise",
-      "But flight was in his destiny",
-    ],
+    ]
   },
   {
     title: "فرمانِ خدا (انقلاب)",
@@ -2689,7 +2037,7 @@ export const allPoems = [
     english: [
       "The life that has no revolution is death",
       "The life of the spirit of nations is the struggle of revolution",
-    ],
+    ]
   },
   {
     title: "مومن (اللہ کا ہاتھ)",
@@ -2705,7 +2053,7 @@ export const allPoems = [
     english: [
       "The hand of a believer is the hand of God",
       "Dominant and creative, problem-solving, resourceful",
-    ],
+    ]
   },
   {
     title: "مسلمان اور جدید دنیا",
@@ -2721,7 +2069,7 @@ export const allPoems = [
     english: [
       "You have consented to the slavery of Europe",
       "My complaint is with you, not with Europe",
-    ],
+    ]
   },
   {
     title: "شاہین (درویش)",
@@ -2734,7 +2082,7 @@ export const allPoems = [
     english: [
       "I am the dervish of the world of birds",
       "For the falcon does not build a nest",
-    ],
+    ]
   },
   {
     title: "علم اور عشق (دانش)",
@@ -2750,7 +2098,7 @@ export const allPoems = [
     english: [
       "One is luminous wisdom, one is demonstrative wisdom",
       "Demonstrative wisdom is an abundance of bewilderment",
-    ],
+    ]
   },
   {
     title: "لا و الا",
@@ -2766,17 +2114,7 @@ export const allPoems = [
     english: [
       "This wealth and property of the world, these relationships and connections",
       "Are idols of imagination and doubt, There is no god but God",
-    ],
-  },
-  {
-    title: "آزادی (لحظہ)",
-    englishTitle: "Freedom (Moment)",
-    urdu: ["آزادی کا اک لحظہ ہے بہتر", "اس نوے سالہ محکومی سے"],
-    romanUrdu: ["Aazadi ka ik lehza hai behtar", "Us nau-sala mehkoomi se"],
-    english: [
-      "A single moment of freedom is better",
-      "Than ninety years of slavery",
-    ],
+    ]
   },
   {
     title: "جاوید کے نام (فطرت شناس)",
@@ -2792,7 +2130,7 @@ export const allPoems = [
     english: [
       "If God gives you a heart that knows nature",
       "Create speech from the silence of the tulip and the rose",
-    ],
+    ]
   },
   {
     title: "ابلیس کا فرمان (سیاست)",
@@ -2808,7 +2146,7 @@ export const allPoems = [
     english: [
       "Bring the Brahmins into the midst of politics",
       "Expel the wearers of the sacred thread from the ancient temple",
-    ],
+    ]
   },
   {
     title: "مشرق (خداوند)",
@@ -2824,7 +2162,7 @@ export const allPoems = [
     english: [
       "The lords of the East are the white men of Europe",
       "The lords of the West are shining metals",
-    ],
+    ]
   },
   {
     title: "اشتراکیت",
@@ -2840,7 +2178,7 @@ export const allPoems = [
     english: [
       "You are powerful and just, but in Your world",
       "The hours of the laborer are very bitter",
-    ],
+    ]
   },
   {
     title: "سرمایہ داری",
@@ -2856,7 +2194,7 @@ export const allPoems = [
     english: [
       "Arise from deep slumber, deep slumber, deep slumber",
       "Arise from deep slumber",
-    ],
+    ]
   },
   {
     title: "مذہب (مسجد)",
@@ -2872,7 +2210,7 @@ export const allPoems = [
     english: [
       "The men of fervent faith built the mosque in a single night",
       "But my heart is an old sinner, it could not become a prayerful one in years",
-    ],
+    ]
   },
   {
     title: "آزادیِ نسواں",
@@ -2888,7 +2226,7 @@ export const allPoems = [
     english: [
       "There is nothing in this debate whether it is a woman or a man",
       "The one who has the spark is the one who performs miracles",
-    ],
+    ]
   },
   {
     title: "فلسفہ (دانش)",
@@ -2904,7 +2242,7 @@ export const allPoems = [
     english: [
       "One is demonstrative wisdom, one is Greek philosophy",
       "This one shows the way, that one leads astray from the destination",
-    ],
+    ]
   },
   {
     title: "شعاعِ امید (نغمۂ توحید)",
@@ -2920,65 +2258,7 @@ export const allPoems = [
     english: [
       "The fleeing night will end with the appearance of the sun",
       "This garden will be filled with the song of monotheism",
-    ],
-  },
-  {
-    title: "طلوعِ اسلام - حصہ دوم",
-    englishTitle: "The Rise of Islam - Part 2",
-    urdu: [
-      "کوئی اندازہ کر سکتا ہے اس کے زورِ بازو کا!",
-      "نگاہِ مردِ مومن سے بدل جاتی ہیں تقدیریں",
-    ],
-    romanUrdu: [
-      "Koi andaza kar sakta hai uske zor-e-baazu ka!",
-      "Nigah-e-mard-e-momin se badal jaati hain taqdeerein",
-    ],
-    english: [
-      "Can anyone estimate the strength of his arm!",
-      "Destinies are changed by the gaze of a man of faith",
-    ],
-  },
-  {
-    title: "مسجدِ قرطبہ - حصہ چہارم",
-    englishTitle: "The Mosque of Cordoba - Part 4",
-    urdu: [
-      "مرد خدا کا عمل، عشق سے صاحب فروغ",
-      "عشق ہے اصل حیات، موت ہے اس پر حرام",
-    ],
-    romanUrdu: [
-      "Mard-e-Khuda ka amal, ishq se sahib-e-furogh",
-      "Ishq hai asl-e-hayat, maut hai is par haram",
-    ],
-    english: [
-      "The action of the man of God gains radiance from Love",
-      "Love is the essence of life, death is forbidden to it",
-    ],
-  },
-  {
-    title: "ساقی نامہ - حصہ دوم",
-    englishTitle: "Book of the Saqi - Part 2",
-    urdu: ["زمانے کے انداز بدلے گئے", "نیا راگ ہے، ساز بدلے گئے"],
-    romanUrdu: ["Zamane ke andaaz badle gaye", "Naya raag hai, saaz badle gaye"],
-    english: [
-      "The ways of the world have changed",
-      "The melody is new, the instruments have changed",
-    ],
-  },
-  {
-    title: "ذوق و شوق - حصہ دوم",
-    englishTitle: "Taste and Longing - Part 2",
-    urdu: [
-      "خودی ہو علم سے محکم تو غیرتِ جبریل",
-      "اگر ہو عشق سے محکم تو صورِ اسرافیل",
-    ],
-    romanUrdu: [
-      "Khudi ho ilm se mohkam to ghairat-e-Jibreel",
-      "Agar ho ishq se mohkam to soor-e-Israfeel",
-    ],
-    english: [
-      "If the self is strengthened by knowledge, it is the envy of Gabriel",
-      "If it is strengthened by love, it is the trumpet of Israfil.",
-    ],
+    ]
   },
   {
     title: "خودی اور بے خودی",
@@ -2994,7 +2274,7 @@ export const allPoems = [
     english: [
       "In the exuberance and vehemence of selfhood there is no arrogance and pride,",
       "Even if there is pride, it is not without the pleasure of humility.",
-    ],
+    ]
   },
   {
     title: "روحِ ارضی آدم کا استقبال کرتی ہے",
@@ -3397,22 +2677,6 @@ export const allPoems = [
     ]
   },
   {
-    title: "آزادیِ افکار",
-    englishTitle: "Freedom of Thought",
-    urdu: [
-        "آزادیِ افکار سے ہے ان کی تباہی",
-        "رکھتے نہیں جو فکر و تدبر کا سلیقہ"
-    ],
-    romanUrdu: [
-        "Aazadi-e-afkaar se hai unki tabahi",
-        "Rakhte nahin jo fikr o tadabbur ka saleeqa"
-    ],
-    english: [
-        "Their ruin comes from freedom of thought",
-        "Those who do not possess the knack for thought and reflection"
-    ]
-  },
-  {
     title: "مومن کی پہچان",
     englishTitle: "The Identity of a Believer",
     urdu: [
@@ -3541,22 +2805,6 @@ export const allPoems = [
     ]
   },
   {
-    title: 'شاہین و ماہی',
-    englishTitle: 'The Falcon and the Fish',
-    urdu: [
-        'کہا شاہیں نے کہ اے ماہی! تو ہے دریائے بے پایاں',
-        'کہا ماہی نے کہ اے شاہیں! ترا افلاک میں ہے آشیاں'
-    ],
-    romanUrdu: [
-        'Kaha shaheen ne ke ae maahi! Tu hai darya-e-be-payan',
-        'Kaha maahi ne ke ae shaheen! Tera aflaak mein hai aashiyan'
-    ],
-    english: [
-        'The falcon said, O fish! You are a boundless river',
-        'The fish said, O falcon! Your nest is in the heavens'
-    ]
-  },
-  {
     title: 'فقرِ مومن',
     englishTitle: 'The Believer\'s Poverty',
     urdu: [
@@ -3621,22 +2869,6 @@ export const allPoems = [
     ]
   },
   {
-    title: 'تاتاری کا خواب',
-    englishTitle: 'The Tatar\'s Dream',
-    urdu: [
-        'دیکھا تھا کل میں نے اک خواب',
-        'کہ حلقہ کیے میرے گرد تھے احباب'
-    ],
-    romanUrdu: [
-        'Dekha tha kal maine ik khwab',
-        'Ke halqa kiye mere gird thay ahbab'
-    ],
-    english: [
-        'Yesterday I saw a dream',
-        'That friends had formed a circle around me'
-    ]
-  },
-  {
     title: 'دانش و حکمت',
     englishTitle: 'Knowledge and Wisdom',
     urdu: [
@@ -3698,22 +2930,6 @@ export const allPoems = [
     english: [
         'The world of cause and effect is under my control',
         'You have only seen the colorfulness of the moonlight'
-    ]
-  },
-  {
-    title: 'زندگی کا سفر',
-    englishTitle: 'The Journey of Life',
-    urdu: [
-        'ہر گام پہ اک تازہ تماشا نظر آیا',
-        'کچھ دیر نہ ٹھہرا دلِ آوارہ ہمارا'
-    ],
-    romanUrdu: [
-        'Har gaam pe ik taaza tamasha nazar aaya',
-        'Kuch der na thehra dil-e-awara hamara'
-    ],
-    english: [
-        'At every step a new spectacle appeared',
-        'My vagrant heart did not stay for a moment'
     ]
   },
   {
@@ -3794,22 +3010,6 @@ export const allPoems = [
     english: [
         'Divinity is lost in the Self, search for it, O heedless one',
         'This is now the right course of action for you in the world'
-    ]
-  },
-  {
-    title: 'اسلامی تہذیب',
-    englishTitle: 'Islamic Civilization',
-    urdu: [
-        'تہذیبِ نوی کارگہِ شیشہ گراں ہے',
-        'آدابِ جنوں شاعرِ مشرق کو سکھا دو'
-    ],
-    romanUrdu: [
-        'Tehzeeb-e-navi kaargah-e-sheesha-garan hai',
-        'Aadaab-e-junoon shayar-e-mashriq ko sikha do'
-    ],
-    english: [
-        'The new civilization is a workshop of glassmakers',
-        'Teach the etiquette of madness to the poet of the East'
     ]
   },
   {
@@ -4613,8 +3813,8 @@ export const allPoems = [
     ]
   },
   {
-    title: 'مومن کی فراست',
-    englishTitle: 'The Insight of a Believer',
+    title: 'مومن کی فراست (یقین)',
+    englishTitle: 'The Insight of a Believer (Certainty)',
     urdu: [
         'مومن کی فراست سے بدل جاتی ہیں تقدیریں',
         'ایماں ہو تو پیدا ہو ہر اک کام میں آسانی'
@@ -4693,8 +3893,8 @@ export const allPoems = [
     ]
   },
   {
-    title: 'مومن کی دعا',
-    englishTitle: 'The Believer\'s Prayer',
+    title: 'مومن کی دعا (درد)',
+    englishTitle: 'The Believer\'s Prayer (Pain)',
     urdu: [
         'عطا کر ایسا دردِ دل کہ میں روؤں تمام رات',
         'عطا کر ایسی چشمِ تر کہ میں دیکھوں تری ذات'
@@ -4738,22 +3938,6 @@ export const allPoems = [
     english: [
         'Keep your connection with the nation firm,',
         'Stay attached to the tree, and hope for spring.'
-    ]
-  },
-  {
-    title: 'زندگی کی حقیقت',
-    englishTitle: 'The Reality of Life',
-    urdu: [
-        'زندگی کی حقیقت کو نہ سمجھا تو نے',
-        'اک تماشا ہے فقط، اور تماشائی ہے تو'
-    ],
-    romanUrdu: [
-        'Zindagi ki haqeeqat ko na samjha tu ne',
-        'Ik tamasha hai faqat, aur tamashai hai tu'
-    ],
-    english: [
-        'You have not understood the reality of life,',
-        'It is only a spectacle, and you are the spectator.'
     ]
   },
   {
@@ -4805,8 +3989,8 @@ export const allPoems = [
     ]
   },
   {
-    title: 'عقل کا فریب',
-    englishTitle: 'The Deception of Reason',
+    title: 'فریب خوردہ شاہیں',
+    englishTitle: 'The Deceived Falcon',
     urdu: [
         'فریب خوردہ شاہیں ہے جو پالے کرگسوں میں',
         'اسے کیا خبر کہ کیا ہے راہ و رسمِ شاہبازی'
@@ -4965,8 +4149,8 @@ export const allPoems = [
     ]
   },
   {
-    title: 'مومن کی موت',
-    englishTitle: 'The Believer\'s Death',
+    title: 'مومن کی موت (شام)',
+    englishTitle: 'The Believer\'s Death (Evening)',
     urdu: [
         'موت کو سمجھے ہیں غافل اختتامِ زندگی',
         'ہے یہ شامِ زندگی، صبحِ دوامِ زندگی'
@@ -5061,8 +4245,8 @@ export const allPoems = [
     ]
   },
   {
-    title: 'مومن کی غیرت',
-    englishTitle: 'The Believer\'s Self-Respect',
+    title: 'مومن کی غیرت (شاہی)',
+    englishTitle: 'The Believer\'s Self-Respect (Royalty)',
     urdu: [
         'مومن ہے تو کرتا ہے فقیری میں بھی شاہی',
         'مومن نہیں تو مردِ مسلماں بھی ہے کافر'
@@ -5109,8 +4293,8 @@ export const allPoems = [
     ]
   },
   {
-    title: 'مومن کا یقین',
-    englishTitle: 'The Believer\'s Faith',
+    title: 'مومن کا یقین (آتش)',
+    englishTitle: 'The Believer\'s Faith (Fire)',
     urdu: [
         'یقین مثلِ خلیل آتش نشینی',
         'یقین اللہ مستی، خود گزینی'
@@ -5141,8 +4325,8 @@ export const allPoems = [
     ]
   },
   {
-    title: 'مومن کا استغنا',
-    englishTitle: 'The Believer\'s Independence',
+    title: 'مومن کا استغنا (فقر)',
+    englishTitle: 'The Believer\'s Independence (Poverty)',
     urdu: [
         'فقر کے ہیں معجزات، تاج و سریر و سپاہ',
         'فقر ہے میروں کا میر، فقر ہے شاہوں کا شاہ'
@@ -5173,8 +4357,8 @@ export const allPoems = [
     ]
   },
   {
-    title: 'مومن کی آزادی',
-    englishTitle: 'The Believer\'s Freedom',
+    title: 'مومن کی آزادی (گرفتار)',
+    englishTitle: 'The Believer\'s Freedom (Captive)',
     urdu: [
         'آزاد کا اندیشہ حقیقت سے منور',
         'محکوم کا اندیشہ گرفتارِ خرافات'
@@ -5237,8 +4421,8 @@ export const allPoems = [
     ]
   },
   {
-    title: 'مومن کا مقام',
-    englishTitle: 'The Believer\'s Station',
+    title: 'مومن کا مقام (عشق)',
+    englishTitle: 'The Believer\'s Station (Love)',
     urdu: [
         'ستاروں سے آگے جہاں اور بھی ہیں',
         'ابھی عشق کے امتحاں اور بھی ہیں'

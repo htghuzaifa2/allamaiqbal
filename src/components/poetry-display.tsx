@@ -14,6 +14,7 @@ import { PaginationControl } from '@/components/pagination-control';
 import { useTheme } from 'next-themes';
 import { useMounted } from '@/hooks/use-mounted';
 import { StaticPaginationControl } from './static-pagination-control';
+import { Badge } from '@/components/ui/badge';
 
 const PAGE_SIZE = 50;
 
@@ -48,10 +49,13 @@ export function PoetryDisplay() {
           return (
             <Card
               key={`${startIndex}-${index}`}
-              className="poem-card overflow-hidden shadow-lg transition-all duration-300 ease-in-out hover:shadow-xl"
+              className="poem-card relative overflow-hidden shadow-lg transition-all duration-300 ease-in-out hover:shadow-xl"
               style={getAnimationDelay(index)}
             >
               <CardHeader>
+                {poem.isPopular && (
+                  <Badge className="absolute top-4 right-4 bg-accent text-accent-foreground shadow-md">Popular</Badge>
+                )}
                 <div className="flex items-baseline gap-4">
                   <span className="text-xl font-bold text-primary/80">#{poemNumber}</span>
                   <div className="flex-1">

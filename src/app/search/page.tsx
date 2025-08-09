@@ -15,6 +15,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft } from 'lucide-react';
 import { StaticPaginationControl } from '@/components/static-pagination-control';
+import { Badge } from '@/components/ui/badge';
 
 const PAGE_SIZE = 50;
 const totalPoems = allPoems.length;
@@ -82,9 +83,12 @@ export default function SearchPage() {
             return (
               <Card
                 key={`${poem.englishTitle}-${originalIndex}`}
-                className="poem-card overflow-hidden shadow-lg transition-all duration-300 ease-in-out hover:shadow-xl"
+                className="poem-card relative overflow-hidden shadow-lg transition-all duration-300 ease-in-out hover:shadow-xl"
               >
                 <CardHeader>
+                  {poem.isPopular && (
+                    <Badge className="absolute top-4 right-4 bg-accent text-accent-foreground shadow-md">Popular</Badge>
+                  )}
                   <div className="flex items-baseline gap-4">
                     <span className="text-xl font-bold text-primary/80">#{poemNumber}</span>
                     <div className="flex-1">
