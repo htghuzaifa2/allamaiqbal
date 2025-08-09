@@ -153,7 +153,7 @@ export const allPoems = [
     ],
     romanUrdu: [
         'Nigah-e-faqr mein shaan-e-Sikandari kya hai',
-        'Khiraj ki jo gada हो woh Qaisari kya hai'
+        'Khiraj ki jo gada ho woh Qaisari kya hai'
     ],
     english: [
         'In the gaze of poverty, what is the majesty of Alexander?',
@@ -785,22 +785,6 @@ export const allPoems = [
     ]
   },
   {
-    title: 'Kyun Ziyaan Kaar Banun, Sood Faramosh Rahun',
-    englishTitle: 'Why Should I Be a Loser, and Remain Oblivious to Gain?',
-    urdu: [
-      'کیوں زیاں کار بنوں، سود فراموش رہوں',
-      'فکر فردا نہ کروں، محو غم دوش رہوں'
-    ],
-    romanUrdu: [
-        'Kyun ziyaan kaar banun, sood faramosh rahun',
-        'Fikr-e-farda na karun, mehv-e-gham-e-dosh rahun'
-    ],
-    english: [
-      'Why should I become a loser, and remain forgetful of profit?',
-      'Why should I not worry about tomorrow, and remain engrossed in the sorrow of yesterday?'
-    ]
-  },
-  {
     title: 'Tu Raaz-e-Kun Fakan Hai',
     englishTitle: 'You Are the Secret of Creation',
     urdu: [
@@ -1009,22 +993,6 @@ export const allPoems = [
     ]
   },
   {
-    title: "Bang-e-Dara: Shikwa (Stanza 1)",
-    englishTitle: "The Call of the Marching Bell: The Complaint (Stanza 1)",
-    urdu: [
-      "کیوں زیاں کار بنوں، سود فراموش رہوں",
-      "فکر فردا نہ کروں محو غم دوش رہوں"
-    ],
-    romanUrdu: [
-      "Kyun ziyan kaar banun, sood faramosh rahun,",
-      "Fikr-e-farda na karun, mehv-e-gham-e-dosh rahun"
-    ],
-    english: [
-      "Why should I be a loser, forgetting all gain?",
-      "Why not think of tomorrow, and bewail yesterday's pain?"
-    ]
-  },
-  {
     title: "Bang-e-Dara: Shikwa (Stanza 2)",
     englishTitle: "The Call of the Marching Bell: The Complaint (Stanza 2)",
     urdu: [
@@ -1038,22 +1006,6 @@ export const allPoems = [
     english: [
       "Why should I listen to the nightingale’s lament and be all ears?",
       "Am I, my companion, a flower to remain silent?"
-    ]
-  },
-  {
-    title: "Bang-e-Dara: Jawab-e-Shikwa (Stanza 1)",
-    englishTitle: "The Call of the Marching Bell: Answer to the Complaint (Stanza 1)",
-    urdu: [
-      "دل سے جو بات نکلتی ہے، اثر رکھتی ہے",
-      "پر نہیں، طاقت پرواز مگر رکھتی ہے"
-    ],
-    romanUrdu: [
-      "Dil se jo baat nikalti hai, asar rakhti hai,",
-      "Par nahin, taaqat-e-parwaz magar rakhti hai"
-    ],
-    english: [
-      "The word that comes from the heart has an effect,",
-      "It has no wings, but it has the power to fly"
     ]
   },
   {
@@ -1166,22 +1118,6 @@ export const allPoems = [
     english: [
       "Satan said that this world of color and smell,",
       "We took it from the gods that he created"
-    ]
-  },
-  {
-    title: "Armaghan-e-Hijaz: Iblees Ki Majlis-e-Shura",
-    englishTitle: "Gift of Hijaz: The Parliament of Iblis",
-    urdu: [
-      "جمہوریت اک طرز حکومت ہے کہ جس میں",
-      "بندوں کو گنا کرتے ہیں تولا نہیں کرتے"
-    ],
-    romanUrdu: [
-      "Jamhooriyat ek tarz-e-hukoomat hai ke jis mein",
-      "Bandon ko gina karte hain, tola nahin karte"
-    ],
-    english: [
-      "Democracy is a system of government in which",
-      "Men are counted, not weighed"
     ]
   },
   {
@@ -1363,23 +1299,9 @@ export const allPoems = [
   {
     title: 'Shikwa (The Complaint)',
     englishTitle: 'The Complaint',
-    urdu: ['نطق کو سو ناز ہیں تیرے لبِ اعجاز پر', 'ہر نفس میرا ہے مدیونِ دمِ عیسٰی ترا'],
-    romanUrdu: ['Nutuq ko sau naaz hain tere lab-e-ijaz par', 'Har nafas mera hai madyun-e-dam-e-Isa tera'],
-    english: ['My speech is proud of your miraculous lips', 'Every breath of mine is indebted to your Christ-like breath'],
-  },
-  {
-    title: 'Shikwa (The Complaint)',
-    englishTitle: 'The Complaint',
     urdu: ['ہم سے پہلے تھا عجب تیرے جہاں کا منظر', 'کہیں مسجود تھے پتھر، کہیں معبود شجر'],
     romanUrdu: ['Hum se pehle tha ajab tere jahan ka manzar', 'Kahin masjood thay pathar, kahin ma\'bood shajar'],
     english: ['Before us, the scene of your world was strange', 'Somewhere stones were worshipped, somewhere trees were deities'],
-  },
-  {
-    title: 'Jawab-e-Shikwa (Answer to the Complaint)',
-    englishTitle: 'Answer to the Complaint',
-    urdu: ['آئی آواز، غم انگیز ہے افسانہ ترا', 'اشکِ بے تاب سے لبریز ہے پیمانہ ترا'],
-    romanUrdu: ['Aayi awaaz, gham-angez hai afsana tera', 'Ashk-e-betaab se labrez hai paimana tera'],
-    english: ['A voice came, "Your tale is sorrowful"', '"Your cup is overflowing with restless tears"'],
   },
   {
     title: 'Jawab-e-Shikwa (Answer to the Complaint)',
@@ -1396,25 +1318,11 @@ export const allPoems = [
     english: ['The faintness of the stars is a sign of a bright morning', 'The sun has risen from the horizon, the era of deep slumber is over'],
   },
   {
-    title: 'Tulu-e-Islam (The Rise of Islam)',
-    englishTitle: 'The Rise of Islam',
-    urdu: ['مسلماں کو مسلماں کر دیا طوفان مغرب نے', 'تلاطم ہائے دریا ہی سے ہے گوہر کی سیرابی'],
-    romanUrdu: ['Musalman ko musalman kar diya toofan-e-maghrib ne', 'Talatum-haaye darya hi se hai gohar ki sairabi'],
-    english: ['The storm from the West has made the Muslim a true Muslim', 'The nourishment of the pearl comes from the tumult of the sea'],
-  },
-  {
     title: 'Shua-e-Umeed (Ray of Hope)',
     englishTitle: 'Ray of Hope',
     urdu: ['سورج نے دیا اپنی شعاعوں کو یہ پیغام', 'دنیا ہے عجب چیز کبھی صبح کبھی شام'],
     romanUrdu: ['Suraj ne diya apni shuaon ko yeh paigham', 'Dunya hai ajab cheez kabhi subah kabhi shaam'],
     english: ['The sun gave this message to its rays', 'The world is a strange thing, sometimes morning, sometimes evening'],
-  },
-  {
-    title: 'Shua-e-Umeed (Ray of Hope)',
-    englishTitle: 'Ray of Hope',
-    urdu: ['اک شوخ کرن، بولی کہ اے نور کے دریا', 'اس موجۂ مضطر کی مجھے لے کے خبر آ'],
-    romanUrdu: ['Ik shokh kiran, boli ke ae noor ke darya', 'Iss mauja-e-muztar ki mujhe le ke khabar aa'],
-    english: ['A playful ray said, "O river of light!"', '"Bring me news of this restless wave"'],
   },
   {
     title: 'Zauq-o-Shauq (Taste and Longing)',
@@ -1424,25 +1332,11 @@ export const allPoems = [
     english: ['There is no passion in the heart, no feeling in the soul', 'You have no regard for the message of Muhammad'],
   },
   {
-    title: 'Zauq-o-Shauq (Taste and Longing)',
-    englishTitle: 'Taste and Longing',
-    urdu: ['آہ، اس راز سے واقف ہے نہ ملا، نہ فقیہ', 'وحدت افکار کی بے وحدت کردار ہے خام'],
-    romanUrdu: ['Aah, iss raaz se waqif hai na mullah, na faqeeh', 'Wahdat-e-afkaar ki be-wahdat-e-kirdaar hai khaam'],
-    english: ['Alas, neither the mullah nor the jurist is aware of this secret', 'Unity of thought without unity of character is raw'],
-  },
-  {
     title: 'Falsafa-e-Gham (The Philosophy of Grief)',
     englishTitle: 'The Philosophy of Grief',
     urdu: ['کہتے ہیں غم جہاں میں پیہم ہے', 'کون کہتا ہے کہ عالم، عالم ہے'],
     romanUrdu: ['Kehte hain gham jahan mein paiham hai', 'Kaun kehta hai ke aalam, aalam hai'],
     english: ['They say grief in the world is constant', 'Who says the world is a world (of joy)?'],
-  },
-  {
-    title: 'Falsafa-e-Gham (The Philosophy of Grief)',
-    englishTitle: 'The Philosophy of Grief',
-    urdu: ['آدمی کے لیے نہیں ہے گریز', 'غم سے، جب تک کہ ہے وہ آدم خیز'],
-    romanUrdu: ['Aadmi ke liye nahin hai gurez', 'Gham se, jab tak ke hai woh aadam-khaiz'],
-    english: ['For man there is no escape', 'From grief, as long as he is born of Adam'],
   },
   {
     title: 'Saqi Nama (Book of the Saqi)',
@@ -1452,32 +1346,11 @@ export const allPoems = [
     english: ['The ways of the world have changed', 'The melody is new, the instruments have changed'],
   },
   {
-    title: 'Saqi Nama (Book of the Saqi)',
-    englishTitle: 'Book of the Saqi',
-    urdu: ['خرد کو غلامی سے آزاد کر', 'جوانوں کو پیروں کا استاد کر'],
-    romanUrdu: ['Khirad ko ghulami se aazad kar', 'Jawanon ko peeron ka ustaad kar'],
-    english: ['Free the intellect from slavery', 'Make the youth the teachers of the old'],
-  },
-  {
     title: 'Masjid-e-Qurtaba (The Mosque of Cordoba)',
     englishTitle: 'The Mosque of Cordoba',
     urdu: ['ہے مگر اس نقش میں رنگ ثبات دوام', 'جس کو کیا ہو کسی مرد خدا نے تمام'],
     romanUrdu: ['Hai magar is naqsh mein rang-e-sabaat-e-dawaam', 'Jis ko kiya ho kisi mard-e-Khuda ne tamaam'],
     english: ['But in this design is the color of eternal stability', 'Which some man of God has perfected'],
-  },
-  {
-    title: 'Masjid-e-Qurtaba (The Mosque of Cordoba)',
-    englishTitle: 'The Mosque of Cordoba',
-    urdu: ['تیرا جلال و جمال، مرد خدا کی دلیل', 'وہ بھی جلیل و جمیل، تو بھی جلیل و جمیل'],
-    romanUrdu: ['Tera jalal-o-jamal, mard-e-Khuda ki daleel', 'Woh bhi jaleel-o-jameel, tu bhi jaleel-o-jameel'],
-    english: ['Your majesty and beauty are proof of the man of God', 'He too is majestic and beautiful, you too are majestic and beautiful'],
-  },
-  {
-    title: 'Shikwa (The Complaint)',
-    englishTitle: 'The Complaint',
-    urdu: ['جورِ مسلم نے بنایا ہے اسے پھر پرسوز', 'نالہ ہائے شب گیر کا محرم ہے یہ'],
-    romanUrdu: ['Jaur-e-Muslim ne banaya hai ise phir pur-soz', 'Nala-haaye shab-geer ka mehram hai yeh'],
-    english: ['The Muslim\'s lament has again made it passionate', 'It is the confidant of the late-night cries'],
   },
   {
     title: 'Shikwa (The Complaint)',
@@ -1489,23 +1362,9 @@ export const allPoems = [
   {
     title: 'Jawab-e-Shikwa (Answer to the Complaint)',
     englishTitle: 'Answer to the Complaint',
-    urdu: ['شور ہے، ہو گئے دنیا سے مسلماں نابود', 'ہم یہ کہتے ہیں کہ تھے بھی کہیں مسلم موجود؟'],
-    romanUrdu: ['Shor hai, ho gaye dunya se Musalman nabood', 'Hum yeh kehte hain ke thay bhi kahin Muslim maujood?'],
-    english: ['There is a clamor that Muslims have vanished from the world', 'We ask, were there even any Muslims present anywhere?'],
-  },
-  {
-    title: 'Jawab-e-Shikwa (Answer to the Complaint)',
-    englishTitle: 'Answer to the Complaint',
     urdu: ['باپ کا علم نہ بیٹے کو اگر ازبر ہو', 'پھر پسر قابلِ میراثِ پدر کیونکر ہو!'],
     romanUrdu: ['Baap ka ilm na bete ko agar azbar ho', 'Phir pisar qaabil-e-meeras-e-pidar kyun-kar ho!'],
     english: ['If the son has not memorized the father\'s knowledge', 'Then how can the son be worthy of the father\'s inheritance!'],
-  },
-  {
-    title: 'Tulu-e-Islam (The Rise of Islam)',
-    englishTitle: 'The Rise of Islam',
-    urdu: ['غلامی میں نہ کام آتی ہیں شمشیریں، نہ تدبیریں', 'جو ہو ذوقِ یقیں پیدا تو کٹ جاتی ہیں زنجیریں'],
-    romanUrdu: ['Ghulami mein na kaam aati hain shamsheerein, na tadbeerein', 'Jo ho zauq-e-yaqeen paida toh kat jaati hain zanjeerein'],
-    english: ['In slavery neither swords nor schemes are of any avail', 'If the taste of faith is born, chains are cut asunder'],
   },
   {
     title: 'Tulu-e-Islam (The Rise of Islam)',
@@ -1522,32 +1381,11 @@ export const allPoems = [
     english: ['The colorful leaf of the rose is from my theme', 'My verse is a drop of my blood'],
   },
   {
-    title: 'Khizr-e-Rah (Khizr, the Guide)',
-    englishTitle: 'Khizr, the Guide',
-    urdu: ['زندگی قطرہ و قلزم ہمہ اوست', 'مرگ آسان و مشکل ہمہ اوست'],
-    romanUrdu: ['Zindagi qatra-o-qulzam hama oost', 'Marg aasaan-o-mushkil hama oost'],
-    english: ['Life, the drop and the ocean, is all He', 'Death, easy and difficult, is all He'],
-  },
-  {
     title: 'Walida Marhuma Ki Yaad Mein (In Memory of My Late Mother)',
     englishTitle: 'In Memory of My Late Mother',
     urdu: ['آسماں تیری لحد پر شبنم افشانی کرے', 'سبزۂ نورستہ اس گھر کی نگہبانی کرے'],
     romanUrdu: ['Aasman teri lehed par shabnam-afshani kare', 'Sabza-e-naurasta is ghar ki nigehbani kare'],
     english: ['May the sky sprinkle dew on your grave', 'May the fresh greenery guard this house'],
-  },
-  {
-    title: 'Walida Marhuma Ki Yaad Mein (In Memory of My Late Mother)',
-    englishTitle: 'In Memory of My Late Mother',
-    urdu: ['زندگی تھی تری مہتاب سے تابندہ تر', 'خوب تر تھا صبح کے تارے سے بھی تیرا سفر'],
-    romanUrdu: ['Zindagi thi teri mahtaab se taabinda-tar', 'Khoob-tar tha subah ke taare se bhi tera safar'],
-    english: ['Your life was more luminous than the moon', 'Your journey was more beautiful than the morning star'],
-  },
-  {
-    title: 'Ek Pahar aur Gilahri (A Mountain and a Squirrel)',
-    englishTitle: 'A Mountain and a Squirrel',
-    urdu: ['کوئی پہاڑ یہ کہتا تھا اک گلہری سے', 'تجھے ہو شرم تو پانی میں جا کے ڈوب مرے'],
-    romanUrdu: ['Koi pahar yeh kehta tha ik gilheri se', 'Tujhe ho sharm to paani mein ja ke doob mare'],
-    english: ['A mountain was saying this to a squirrel', '"If you have any shame, go and drown in water"'],
   },
   {
     title: 'Ek Pahar aur Gilahri (A Mountain and a Squirrel)',
@@ -1910,13 +1748,6 @@ export const allPoems = [
     english: ['Fatima! You are the honor of the blessed community', 'Every particle of your handful of dust is innocent'],
   },
   {
-    title: 'Iblis o Jibril (Iblis and Gabriel)',
-    englishTitle: 'Iblis and Gabriel',
-    urdu: ['کہا ابلیس نے، "اے جبرئیل! میں کام کا تیرے"', 'کہ تو ساحل پہ رہ کر مست رہتا ہے تماشے میں'],
-    romanUrdu: ['Kaha Iblees ne, "Ae Jibreel! Main kaam ka tere"', 'Ke tu saahil pe reh kar mast rehta hai tamashe mein'],
-    english: ['Iblis said, "O Gabriel! I am of use to you"', '"For you remain intoxicated with the spectacle, staying on the shore"'],
-  },
-  {
     title: 'Momin (The Believer)',
     englishTitle: 'The Believer',
     urdu: ['ہو حلقۂ یاراں تو بریشم کی طرح نرم', 'رزمِ حق و باطل ہو تو فولاد ہے مومن'],
@@ -1929,27 +1760,6 @@ export const allPoems = [
     urdu: ['یارب! دلِ مسلم کو وہ زندہ تمنا دے', 'جو قلب کو گرما دے، جو روح کو تڑپا دے'],
     romanUrdu: ['Ya Rab! Dil-e-muslim ko woh zinda tamanna de', 'Jo qalb ko garma de, jo rooh ko tarpa de'],
     english: ['O Lord! Grant the Muslim heart that living desire', 'Which warms the heart, which stirs the soul'],
-  },
-  {
-    title: 'Masjid-e-Qurtaba (The Mosque of Cordoba)',
-    englishTitle: 'The Mosque of Cordoba',
-    urdu: ['وادیِ کہسار میں غرقِ شفق ہے آفتاب', 'شعلہ ہائے سرخ رو، بالائے کہساراں ہوئے'],
-    romanUrdu: ['Wadi-e-kohsaar mein gharq-e-shafaq hai aaftab', 'Shola-haaye surkh-roo, baalaaye kohsaaraan hue'],
-    english: ['In the valley of mountains, the sun is drowned in twilight', 'The red-faced flames rose above the mountains'],
-  },
-  {
-    title: 'Shikwa (The Complaint)',
-    englishTitle: 'The Complaint',
-    urdu: ['تجھ سے کچھ شکوہ نہیں میری نمازوں کا امام', 'میں وہ کافر کہ اذانوں سے بھی بیزار ہوا'],
-    romanUrdu: ['Tujh se kuch shikwa nahin meri namazon ka imam', 'Main woh kaafir ke azaanon se bhi bezaar hua'],
-    english: ['I have no complaint with you, O leader of my prayers', 'I am that infidel who became weary even of the call to prayer'],
-  },
-  {
-    title: 'Jawab-e-Shikwa (Answer to the Complaint)',
-    englishTitle: 'Answer to the Complaint',
-    urdu: ['کون ہے تارکِ آئینِ رسولِ مختار؟', 'مصلحت وقت کی ہے کس کے عمل کا معیار؟'],
-    romanUrdu: ['Kaun hai taarik-e-aaeen-e-Rasool-e-Mukhtar?', 'Maslehat-e-waqt ki hai kis ke amal ka mayaar?'],
-    english: ['Who has abandoned the laws of the chosen Prophet?', 'Whose actions are judged by the expediency of the time?'],
   },
   {
     title: 'Asr-e-Hazir (The Present Age)',
@@ -2006,13 +1816,6 @@ export const allPoems = [
     urdu: ['ہے یہی بہتر الٰہیات میں الجھا رہے', 'یہ کتاب اللہ کی تاویلات میں الجھا رہے'],
     romanUrdu: ['Hai yehi behtar ilaahiyat mein uljha rahe', 'Yeh kitab-ullah ki taweelaat mein uljha rahe'],
     english: ['It is better that he remains entangled in theology', 'That he remains entangled in the interpretations of the Book of God'],
-  },
-  {
-    title: 'Sardaron Ke Naam',
-    englishTitle: 'To the Leaders',
-    urdu: ['تم نے لوٹی ہیں غریبوں کی کمائی برسوں', 'تم نے بیچی ہے ضمیروں کی کمائی برسوں'],
-    romanUrdu: ['Tum ne looti hain ghareebon ki kamaai barson', 'Tum ne bechi hai zameeron ki kamaai barson'],
-    english: ['For years you have looted the earnings of the poor', 'For years you have sold the earnings of consciences'],
   },
   {
     title: 'Shaheen o Mahi',
