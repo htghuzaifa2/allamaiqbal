@@ -2997,22 +2997,6 @@ export const allPoems = [
     ],
   },
   {
-    title: "زندگی",
-    englishTitle: "Life",
-    urdu: [
-      "برگِ گل رنگیں ز مضمونِ من است",
-      "مصرعِ من قطرۂ خونِ من است"
-    ],
-    romanUrdu: [
-      "Barg-e-gul rangeen za mazmoon-e-man ast",
-      "Misra-e-man qatra-e-khoon-e-man ast"
-    ],
-    english: [
-      "The colorful leaf of the rose is from my theme",
-      "My verse is a drop of my blood"
-    ]
-  },
-  {
     title: "روحِ ارضی آدم کا استقبال کرتی ہے",
     englishTitle: "The Earthly Spirit Welcomes Adam",
     urdu: [
@@ -3378,19 +3362,6 @@ export const allPoems = [
     english: [
         "In the eyes of religion, what is indifference to politics?",
         "The caliphate of the earth and religion is the government of God"
-    ]
-  },
-  {
-    title: "ملت",
-    englishTitle: "Nation",
-    urdu: [
-        "خاص ہے ترکیب میں قومِ رسولِ ہاشمی"
-    ],
-    romanUrdu: [
-        "Khaas hai tarkeeb mein qaum-e-Rasool-e-Hashmi"
-    ],
-    english: [
-        "The nation of the Hashimite Prophet is special in its composition"
     ]
   },
   {
@@ -4345,7 +4316,7 @@ export const allPoems = [
         'وہ گہر ہے کہ صدف جس کا نہ ہو آشنا'
     ],
     romanUrdu: [
-        'Zindagani hai sadaf, qatra-e-neesan hai khudi',
+        'Zindagi hai sadaf, qatra-e-neesan hai khudi',
         'Woh guhar hai ke sadaf jiska na ho aashna'
     ],
     english: [
@@ -4368,6 +4339,999 @@ export const allPoems = [
         'Let awareness spread the net of hearing as much as it wants',
         'The object is a phoenix of its world of speech'
     ]
+  },
+  {
+    title: "زندگی",
+    englishTitle: "Life",
+    urdu: [
+        "برگِ گل رنگیں ز مضمونِ من است",
+        "مصرعِ من قطرۂ خونِ من است"
+    ],
+    romanUrdu: [
+        "Barg-e-gul rangeen za mazmoon-e-man ast",
+        "Misra-e-man qatra-e-khoon-e-man ast"
+    ],
+    english: [
+        "The colorful leaf of the rose is from my theme",
+        "My verse is a drop of my blood"
+    ]
+  },
+  {
+    title: 'عشق و آزادی',
+    englishTitle: 'Love and Freedom',
+    urdu: [
+        'عشق سے پیدا نوائے زندگی میں زیر و بم',
+        'عشق سے مٹی کی تصویروں میں سوزِ دم بدم'
+    ],
+    romanUrdu: [
+        'Ishq se paida nawa-e-zindagi mein zer-o-bam',
+        'Ishq se mitti ki tasweeron mein soz-e-dam-ba-dam'
+    ],
+    english: [
+        'From love arise the highs and lows in the song of life,',
+        'From love, there is a continuous passion in the pictures of clay.'
+    ]
+  },
+  {
+    title: 'مردِ خدا',
+    englishTitle: 'Man of God',
+    urdu: [
+        'ہاتھ ہے الله کا بندہ مومن کا ہاتھ',
+        'غالب و کار آفریں، کارکشا، کارساز'
+    ],
+    romanUrdu: [
+        'Hath hai Allah ka banda-e-momin ka hath',
+        'Ghalib-o-kaar aafreen, kaar-kusha, kaar-saaz'
+    ],
+    english: [
+        'The hand of a believer is the hand of God,',
+        'Dominant and creative, solver of difficulties, resourceful.'
+    ]
+  },
+  {
+    title: 'فقرِ شاہی',
+    englishTitle: 'Kingly Poverty',
+    urdu: [
+        'میرا طریق امیری نہیں فقیری ہے',
+        'خودی نہ بیچ غریبی میں نام پیدا کر'
+    ],
+    romanUrdu: [
+        'Mera tareeq ameeri nahin faqeeri hai',
+        'Khudi na bech ghareebi mein naam paida kar'
+    ],
+    english: [
+        'My way is not of opulence, but of poverty,',
+        'Do not sell your self, make a name for yourself in poverty.'
+    ]
+  },
+  {
+    title: 'عقل و وجدان',
+    englishTitle: 'Intellect and Intuition',
+    urdu: [
+        'عقل کو ملتی نہیں اپنے جنوں سے نجات',
+        'اہلِ خرد کے لیے ہے یہ زمانہ قمار'
+    ],
+    romanUrdu: [
+        'Aql ko milti nahin apne junoon se nijaat',
+        'Ahl-e-khirad ke liye hai yeh zamana qumar'
+    ],
+    english: [
+        'Reason finds no escape from its madness,',
+        'For the people of intellect, this age is a gamble.'
+    ]
+  },
+  {
+    title: 'حیاتِ جاوداں',
+    englishTitle: 'Eternal Life',
+    urdu: [
+        'زندگانی ہے صدف، قطرۂ نیساں ہے خودی',
+        'وہ گہر ہے کہ صدف جس کا نہ ہو آشنا'
+    ],
+    romanUrdu: [
+        'Zindagani hai sadaf, qatra-e-neesan hai khudi',
+        'Woh gauhar hai ke sadaf jis ka na ho aashna'
+    ],
+    english: [
+        'Life is the shell, the Self is the drop of spring rain,',
+        'That is a pearl whose shell is not its intimate.'
+    ]
+  },
+  {
+    title: 'مسلمانِ ہندی',
+    englishTitle: 'The Indian Muslim',
+    urdu: [
+        'غریب و سادہ و رنگیں ہے داستانِ حرم',
+        'نہایت اس کی حسین، ابتدا ہے اسماعیل'
+    ],
+    romanUrdu: [
+        'Ghareeb o saada o rangeen hai dastaan-e-haram',
+        'Nihayat iski Hussain, ibtida hai Ismail'
+    ],
+    english: [
+        'The story of the sanctuary is simple, humble, and colorful,',
+        'Its end is Hussain, its beginning is Ismail.'
+    ]
+  },
+  {
+    title: 'مومن کی دنیا',
+    englishTitle: 'The World of a Believer',
+    urdu: [
+        'جہاں تمام ہے میراثِ مردِ مومن کی',
+        'کلامِ حق ہے دلیل اس کی، لا یتغیر'
+    ],
+    romanUrdu: [
+        'Jahan tamam hai meeras-e-mard-e-momin ki',
+        'Kalam-e-Haq hai daleel iski, la yataghayyar'
+    ],
+    english: [
+        'The entire world is the heritage of the man of faith,',
+        'The word of Truth is its proof, which does not change.'
+    ]
+  },
+  {
+    title: 'عشق کی پرواز',
+    englishTitle: 'The Flight of Love',
+    urdu: [
+        'عشق پرواز ہے، رہبر نہیں لیتا کوئی',
+        'خود بخود طے ہے یہ رہ، ہمسفر ہوتا نہیں'
+    ],
+    romanUrdu: [
+        'Ishq parwaz hai, rehbar nahin leta koi',
+        'Khud ba khud tai hai yeh reh, humsafar hota nahin'
+    ],
+    english: [
+        'Love is a flight, it takes no guide,',
+        'This path is traversed automatically, there is no fellow traveler.'
+    ]
+  },
+  {
+    title: 'بندگی',
+    englishTitle: 'Servitude',
+    urdu: [
+        'آدمیت احترامِ آدمی',
+        'باخبر شو از مقامِ آدمی'
+    ],
+    romanUrdu: [
+        'Adamiyat ehtiram-e-aadmi',
+        'Ba-khabar sho az maqam-e-aadmi'
+    ],
+    english: [
+        'Humanity is respect for man,',
+        'Be aware of the station of man.'
+    ]
+  },
+  {
+    title: 'فقر کی خودی',
+    englishTitle: 'The Self of Poverty',
+    urdu: [
+        'فقر ذوق و شوق و تسلیم و رضاست',
+        'ما امینیم، ایں متاعِ مصطفیٰ ست'
+    ],
+    romanUrdu: [
+        'Faqr zauq o shauq o tasleem o raza ast',
+        'Ma ameenaim, een mata-e-Mustafa st'
+    ],
+    english: [
+        'Poverty is taste, longing, submission, and acceptance,',
+        'We are the trustees, this is the wealth of Mustafa.'
+    ]
+  },
+  {
+    title: 'خود شناسی',
+    englishTitle: 'Self-Knowledge',
+    urdu: [
+        'تو اپنی خودی اگر نہ کھوتا',
+        'زناری برگساں نہ ہوتا'
+    ],
+    romanUrdu: [
+        'Tu apni khudi agar na khota',
+        'Zunnari-e-Bergson na hota'
+    ],
+    english: [
+        'If you had not lost your Self,',
+        'You would not be a follower of Bergson.'
+    ]
+  },
+  {
+    title: 'مردِ حر',
+    englishTitle: 'The Free Man',
+    urdu: [
+        'مردِ حر دہر میں مانندِ شعاعِ خورشید',
+        'زیست اس کی ہے کہ خود اپنی تجلی سے جئے'
+    ],
+    romanUrdu: [
+        'Mard-e-hur dehr mein manind-e-shua-e-khursheed',
+        'Zeest iski hai ke khud apni tajalli se jiye'
+    ],
+    english: [
+        'The free man in the world is like a ray of the sun,',
+        'His life is that he lives by his own radiance.'
+    ]
+  },
+  {
+    title: 'اسلامی قومیت',
+    englishTitle: 'Islamic Nationhood',
+    urdu: [
+        'اپنی ملت پر قیاس اقوامِ مغرب سے نہ کر',
+        'خاص ہے ترکیب میں قومِ رسولِ ہاشمی'
+    ],
+    romanUrdu: [
+        'Apni millat par qiyas aqwam-e-maghrib se na kar',
+        'Khaas hai tarkeeb mein qaum-e-Rasool-e-Hashmi'
+    ],
+    english: [
+        'Do not compare your nation with the nations of the West,',
+        'The nation of the Hashimite Prophet is special in its composition.'
+    ]
+  },
+  {
+    title: 'حیاتِ نو',
+    englishTitle: 'New Life',
+    urdu: [
+        'آشکارا ہیں مری آنکھوں پہ اسرارِ حیات',
+        'کہہ نہیں سکتا، لبوں پہ ہے مرے مہرِ سکوت'
+    ],
+    romanUrdu: [
+        'Aashkara hain meri aankhon pe israr-e-hayat',
+        'Keh nahin sakta, labon pe hai mere mohr-e-sukoot'
+    ],
+    english: [
+        'The secrets of life are manifest to my eyes,',
+        'I cannot speak, the seal of silence is on my lips.'
+    ]
+  },
+  {
+    title: 'خودی کی بیداری',
+    englishTitle: 'The Awakening of the Self',
+    urdu: [
+        'خودی ہو زندہ تو ہے فقر بھی شہنشاہی',
+        'نہیں ہے سنجر و طغرل سے کم شکوہِ فقیر'
+    ],
+    romanUrdu: [
+        'Khudi ho zinda to hai faqr bhi shehenshahi',
+        'Nahin hai Sanjar o Tughral se kam shikoh-e-faqeer'
+    ],
+    english: [
+        'If the Self is alive, poverty too is kingship,',
+        'The glory of a fakir is not less than that of Sanjar and Tughral.'
+    ]
+  },
+  {
+    title: 'زندگی کا اصل',
+    englishTitle: 'The Essence of Life',
+    urdu: [
+        'زندگی در عمل پوشیدہ است',
+        'اصلِ او در ذوقِ تولیدہ است'
+    ],
+    romanUrdu: [
+        'Zindagi dar amal posheeda ast',
+        'Asl-e-oo dar zauq-e-tauleeda ast'
+    ],
+    english: [
+        'Life is hidden in action,',
+        'Its essence is in the joy of creation.'
+    ]
+  },
+  {
+    title: 'مومن کی فراست',
+    englishTitle: 'The Insight of a Believer',
+    urdu: [
+        'مومن کی فراست سے بدل جاتی ہیں تقدیریں',
+        'ایماں ہو تو پیدا ہو ہر اک کام میں آسانی'
+    ],
+    romanUrdu: [
+        'Momin ki firasat se badal jaati hain taqdeerein',
+        'Imaan ho to paida ho har ik kaam mein aasani'
+    ],
+    english: [
+        'Destinies change with the insight of a believer,',
+        'If there is faith, ease is created in every task.'
+    ]
+  },
+  {
+    title: 'عشق کی حقیقت',
+    englishTitle: 'The Reality of Love',
+    urdu: [
+        'عشق سے روحِ دیگر پیدا کر',
+        'عشق سے عالمِ دیگر پیدا کر'
+    ],
+    romanUrdu: [
+        'Ishq se rooh-e-deegar paida kar',
+        'Ishq se aalam-e-deegar paida kar'
+    ],
+    english: [
+        'Create another soul from love,',
+        'Create another world from love.'
+    ]
+  },
+  {
+    title: 'مومن کا مقام',
+    englishTitle: 'The Station of a Believer',
+    urdu: [
+        'مومن نہیں جوکھتا کسی نشیب و فراز میں',
+        'اس کا مقام ہے ورائے سپہرِ بریں'
+    ],
+    romanUrdu: [
+        'Momin nahin jukhta kisi nasheb o faraz mein',
+        'Uska maqam hai waraye sipehr-e-bareen'
+    ],
+    english: [
+        'A believer does not bow in any low or high place,',
+        'His station is beyond the highest heaven.'
+    ]
+  },
+  {
+    title: 'عقل اور عشق کی جنگ',
+    englishTitle: 'The War of Reason and Love',
+    urdu: [
+        'عقل کہتی ہے کہ دنیا رنگ و بو کا کھیل ہے',
+        'عشق کہتا ہے کہ یہ سب ذوقِ جستجو کا کھیل ہے'
+    ],
+    romanUrdu: [
+        'Aql kehti hai ke dunya rang-o-boo ka khel hai',
+        'Ishq kehta hai ke yeh sab zauq-e-justujoo ka khel hai'
+    ],
+    english: [
+        'Reason says the world is a game of color and smell,',
+        'Love says it is all a game of the joy of quest.'
+    ]
+  },
+  {
+    title: 'آزادی کا نغمہ',
+    englishTitle: 'The Song of Freedom',
+    urdu: [
+        'آزاد کی رگ سخت ہے مانندِ رگِ سنگ',
+        'محکوم کی رگ نرم ہے مانندِ رگِ تاک'
+    ],
+    romanUrdu: [
+        'Aazad ki rag sakht hai manind-e-rag-e-sang',
+        'Mehkoom ki rag narm hai manind-e-rag-e-taak'
+    ],
+    english: [
+        'The vein of a free man is hard like the vein of a stone,',
+        'The vein of an enslaved man is soft like the vein of a grapevine.'
+    ]
+  },
+  {
+    title: 'مومن کی دعا',
+    englishTitle: 'The Believer\'s Prayer',
+    urdu: [
+        'عطا کر ایسا دردِ دل کہ میں روؤں تمام رات',
+        'عطا کر ایسی چشمِ تر کہ میں دیکھوں تری ذات'
+    ],
+    romanUrdu: [
+        'Ata kar aisa dard-e-dil ke main roun tamam raat',
+        'Ata kar aisi chashm-e-tar ke main dekhun teri zaat'
+    ],
+    english: [
+        'Grant such a pain in the heart that I may weep all night,',
+        'Grant such a moist eye that I may see Your essence.'
+    ]
+  },
+  {
+    title: 'مردِ مومن کی پہچان',
+    englishTitle: 'The Identity of the Man of Faith',
+    urdu: [
+        'گفتارِ دلبرانہ، کردارِ قاہرانہ',
+        'یہ ہے نشانِ مردِ مومن، زمانہ زمانہ'
+    ],
+    romanUrdu: [
+        'Guftaar-e-dilbarana, kirdaar-e-qahiraana',
+        'Yeh hai nishan-e-mard-e-momin, zamana zamana'
+    ],
+    english: [
+        'Heart-winning speech, dominant character,',
+        'This is the sign of a man of faith, for all time.'
+    ]
+  },
+  {
+    title: 'تقدیرِ ملت',
+    englishTitle: 'The Destiny of the Nation',
+    urdu: [
+        'ملت کے ساتھ رابطہ استوار رکھ',
+        'پیوستہ رہ شجر سے، امیدِ بہار رکھ'
+    ],
+    romanUrdu: [
+        'Millat ke saath raabta ustuwaar rakh',
+        'Paiwasta reh shajar se, ummeed-e-bahaar rakh'
+    ],
+    english: [
+        'Keep your connection with the nation firm,',
+        'Stay attached to the tree, and hope for spring.'
+    ]
+  },
+  {
+    title: 'زندگی کی حقیقت',
+    englishTitle: 'The Reality of Life',
+    urdu: [
+        'زندگی کی حقیقت کو نہ سمجھا تو نے',
+        'اک تماشا ہے فقط، اور تماشائی ہے تو'
+    ],
+    romanUrdu: [
+        'Zindagi ki haqeeqat ko na samjha tu ne',
+        'Ik tamasha hai faqat, aur tamashai hai tu'
+    ],
+    english: [
+        'You have not understood the reality of life,',
+        'It is only a spectacle, and you are the spectator.'
+    ]
+  },
+  {
+    title: 'مومن کا یقین',
+    englishTitle: 'The Believer\'s Conviction',
+    urdu: [
+        'یقین افراد کا سرمایہ تعمیرِ ملت ہے',
+        'یہی قوت ہے جو صورت گرِ تقدیرِ ملت ہے'
+    ],
+    romanUrdu: [
+        'Yaqeen afraad ka sarmaya-e-taameer-e-millat hai',
+        'Yehi quwwat hai jo surat-gar-e-taqdeer-e-millat hai'
+    ],
+    english: [
+        'Conviction of individuals is the capital for the construction of the nation,',
+        'This is the power that shapes the destiny of the nation.'
+    ]
+  },
+  {
+    title: 'خودی کی طاقت',
+    englishTitle: 'The Power of the Self',
+    urdu: [
+        'خودی کی جلوتوں میں مصطفائی',
+        'خودی کی خلوتوں میں کبریائی'
+    ],
+    romanUrdu: [
+        'Khudi ki jilwaton mein Mustafai',
+        'Khudi ki khalwaton mein Kibriyai'
+    ],
+    english: [
+        'In the manifestations of the Self is the quality of Mustafa,',
+        'In the solitudes of the Self is the quality of God.'
+    ]
+  },
+  {
+    title: 'مسلمان کی غیرت',
+    englishTitle: 'The Muslim\'s Self-Respect',
+    urdu: [
+        'غیرت ہے بڑی چیز جہانِ تگ و دو میں',
+        'پہناتی ہے درویش کو تاجِ سرِ دارا'
+    ],
+    romanUrdu: [
+        'Ghairat hai bari cheez jahan-e-tag-o-do mein',
+        'Pehnati hai darvesh ko taaj-e-sar-e-Dara'
+    ],
+    english: [
+        'Self-respect is a great thing in the world of struggle,',
+        'It places the crown of Darius on the head of a dervish.'
+    ]
+  },
+  {
+    title: 'عقل کا فریب',
+    englishTitle: 'The Deception of Reason',
+    urdu: [
+        'فریب خوردہ شاہیں ہے جو پالے کرگسوں میں',
+        'اسے کیا خبر کہ کیا ہے راہ و رسمِ شاہبازی'
+    ],
+    romanUrdu: [
+        'Fareb-khurda shaheen hai jo paale kargason mein',
+        'Use kya khabar ke kya hai rah-o-rasm-e-shahbazi'
+    ],
+    english: [
+        'The falcon that is raised among vultures is deceived,',
+        'What does it know of the ways and customs of falconry?'
+    ]
+  },
+  {
+    title: 'مومن کی موت',
+    englishTitle: 'The Death of a Believer',
+    urdu: [
+        'موت اک سخت حقیقت ہے مگر کیسی سخت',
+        'زندگانی سے بھی ہوتی ہے کبھی یہ شیریں'
+    ],
+    romanUrdu: [
+        'Maut ik sakht haqeeqat hai magar kaisi sakht',
+        'Zindagani se bhi hoti hai kabhi yeh sheereen'
+    ],
+    english: [
+        'Death is a harsh reality, but how harsh,',
+        'Sometimes it is sweeter than life itself.'
+    ]
+  },
+  {
+    title: 'عشق کی نماز',
+    englishTitle: 'The Prayer of Love',
+    urdu: [
+        'وہ سجدہ روحِ زمیں جس سے کانپ جاتی تھی',
+        'اسی کو آج ترستے ہیں منبر و محراب'
+    ],
+    romanUrdu: [
+        'Woh sajda rooh-e-zameen jis se kaanp jaati thi',
+        'Usi ko aaj taraste hain mimbar o mehrab'
+    ],
+    english: [
+        'The prostration that made the soul of the earth tremble,',
+        'Today the pulpit and the prayer-niche long for it.'
+    ]
+  },
+  {
+    title: 'مردانِ حر',
+    englishTitle: 'Free Men',
+    urdu: [
+        'مردانِ حر کی ضرب ہے کاری و بے پناہ',
+        'اللہ کے شیروں کو آتی نہیں روباہی'
+    ],
+    romanUrdu: [
+        'Mardan-e-hur ki zarb hai kaari o be-panah',
+        'Allah ke sheron ko aati nahin rubahi'
+    ],
+    english: [
+        'The strike of free men is effective and irresistible,',
+        'The lions of God do not know cunningness.'
+    ]
+  },
+  {
+    title: 'زندگی کا سفر',
+    englishTitle: 'The Journey of Life',
+    urdu: [
+        'سفر ہے شرط مسافر نواز بہتیرے',
+        'ہزارہا شجرِ سایہ دار راہ میں ہیں'
+    ],
+    romanUrdu: [
+        'Safar hai shart musafir nawaz bahutere',
+        'Hazarha shajar-e-saayadar raah mein hain'
+    ],
+    english: [
+        'Travel is the condition, there are many who are hospitable to travelers,',
+        'There are thousands of shady trees on the way.'
+    ]
+  },
+  {
+    title: 'مومن کا دل',
+    englishTitle: 'The Believer\'s Heart',
+    urdu: [
+        'دلِ بیدار فاروقی، دلِ بیدار کراری',
+        'مسِ آدم کے حق میں کیمیا ہے دل کی بیداری'
+    ],
+    romanUrdu: [
+        'Dil-e-bedaar Farooqi, dil-e-bedaar Karrari',
+        'Mis-e-Adam ke haq mein keemiya hai dil ki bedaari'
+    ],
+    english: [
+        'The awakened heart of Farooq, the awakened heart of Karrar,',
+        'For the copper of Adam, the awakening of the heart is alchemy.'
+    ]
+  },
+  {
+    title: 'عشق کا مقام',
+    englishTitle: 'The Station of Love',
+    urdu: [
+        'مقامِ عشق کوئی نہ جانے',
+        'کہ ہے یہ وادیِ بے راہ و بے نشاں'
+    ],
+    romanUrdu: [
+        'Maqam-e-ishq koi na jaane',
+        'Ke hai yeh wadi-e-be-raah o be-nishaan'
+    ],
+    english: [
+        'No one knows the station of love,',
+        'For it is a pathless and trackless valley.'
+    ]
+  },
+  {
+    title: 'مومن کی نظر',
+    englishTitle: 'The Believer\'s Gaze',
+    urdu: [
+        'کوئی اندازہ کر سکتا ہے اس کے زورِ بازو کا',
+        'نگاہِ مردِ مومن سے بدل جاتی ہیں تقدیریں'
+    ],
+    romanUrdu: [
+        'Koi andaza kar sakta hai uske zor-e-baazu ka',
+        'Nigah-e-mard-e-momin se badal jaati hain taqdeerein'
+    ],
+    english: [
+        'Can anyone estimate the strength of his arm?',
+        'Destinies change with the gaze of a man of faith.'
+    ]
+  },
+  {
+    title: 'مومن کی پرواز',
+    englishTitle: 'The Believer\'s Flight',
+    urdu: [
+        'پرواز ہے دونوں کی اسی ایک فضا میں',
+        'شاہیں کا جہاں اور ہے، کرگس کا جہاں اور'
+    ],
+    romanUrdu: [
+        'Parwaz hai dono ki isi ek faza mein',
+        'Shaheen ka jahan aur hai, kargas ka jahan aur'
+    ],
+    english: [
+        'The flight of both is in this same atmosphere,',
+        'The world of the falcon is different, the world of the vulture is different.'
+    ]
+  },
+  {
+    title: 'مومن کی زندگی',
+    englishTitle: 'The Believer\'s Life',
+    urdu: [
+        'ہر لحظہ ہے مومن کی نئی شان، نئی آن',
+        'گفتار میں، کردار میں، اللہ کی برہان'
+    ],
+    romanUrdu: [
+        'Har lehza hai momin ki nayi shaan, nayi aan',
+        'Guftaar mein, kirdaar mein, Allah ki burhan'
+    ],
+    english: [
+        'Every moment a believer has new dignity, new grace,',
+        'In speech, in character, the proof of God.'
+    ]
+  },
+  {
+    title: 'مومن کی تقدیر',
+    englishTitle: 'The Believer\'s Destiny',
+    urdu: [
+        'تو اپنی سرنوشت اب اپنے قلم سے لکھ',
+        'خالی رکھی ہے خامۂ حق نے تری جبیں'
+    ],
+    romanUrdu: [
+        'Tu apni sarnawisht ab apne qalam se likh',
+        'Khaali rakhi hai khama-e-haq ne teri jabeen'
+    ],
+    english: [
+        'Now write your own destiny with your own pen,',
+        'The pen of Truth has left your forehead blank.'
+    ]
+  },
+  {
+    title: 'مومن کی موت',
+    englishTitle: 'The Death of a Believer',
+    urdu: [
+        'موت کو سمجھے ہیں غافل اختتامِ زندگی',
+        'ہے یہ شامِ زندگی، صبحِ دوامِ زندگی'
+    ],
+    romanUrdu: [
+        'Maut ko samjhe hain ghafil ikhtitam-e-zindagi',
+        'Hai yeh shaam-e-zindagi, subh-e-dawaam-e-zindagi'
+    ],
+    english: [
+        'The heedless consider death the end of life,',
+        'It is the evening of life, the morning of eternal life.'
+    ]
+  },
+  {
+    title: 'مومن کا جہاد',
+    englishTitle: 'The Believer\'s Struggle',
+    urdu: [
+        'جہادِ زندگانی میں ہیں یہ مردوں کی شمشیریں',
+        'یقینِ محکم، عملِ پیہم، محبت فاتحِ عالم'
+    ],
+    romanUrdu: [
+        'Jihad-e-zindagani mein hain yeh mardon ki shamsheerein',
+        'Yaqeen-e-mohkam, amal-e-paiham, mohabbat faateh-e-aalam'
+    ],
+    english: [
+        'In the struggle of life, these are the swords of men,',
+        'Firm conviction, constant action, love, the conqueror of the world.'
+    ]
+  },
+  {
+    title: 'مومن کا فقر',
+    englishTitle: 'The Believer\'s Poverty',
+    urdu: [
+        'فقرِ مومن قاہری و دلبری',
+        'فقرِ کافر مکاری و ساحری'
+    ],
+    romanUrdu: [
+        'Faqr-e-momin qahiri-o-dilbari',
+        'Faqr-e-kafir makkari-o-sahiri'
+    ],
+    english: [
+        'The poverty of a believer is dominance and heart-winning,',
+        'The poverty of an infidel is cunning and sorcery.'
+    ]
+  },
+  {
+    title: 'مومن کا استغنا',
+    englishTitle: 'The Believer\'s Independence',
+    urdu: [
+        'اے طائرِ لاہوتی اس رزق سے موت اچھی',
+        'جس رزق سے آتی ہو پرواز میں کوتاہی'
+    ],
+    romanUrdu: [
+        'Ae tair-e-lahooti us rizq se maut achi',
+        'Jis rizq se aati ho parwaaz mein kotaahi'
+    ],
+    english: [
+        'O celestial bird, death is better than that sustenance',
+        'From which comes a hindrance in flight.'
+    ]
+  },
+  {
+    title: 'مومن کی خودی',
+    englishTitle: 'The Believer\'s Self',
+    urdu: [
+        'خودی کو کر بلند اتنا کہ ہر تقدیر سے پہلے',
+        'خدا بندے سے خود پوچھے بتا تیری رضا کیا ہے'
+    ],
+    romanUrdu: [
+        'Khudi ko kar buland itna ke har taqdeer se pehle',
+        'Khuda bande se khud pooche bata teri raza kya hai'
+    ],
+    english: [
+        'Elevate your Self so high that before every decree of destiny,',
+        'God Himself asks His servant, "Tell me, what is your will?"'
+    ]
+  },
+  {
+    title: 'مومن کی حیات',
+    englishTitle: 'The Believer\'s Life',
+    urdu: [
+        'حیات کیا ہے؟ خیال و نظر کی مجذوبی',
+        'خودی کی موت ہے اندیشہ ہائے گونا گوں'
+    ],
+    romanUrdu: [
+        'Hayat kya hai? Khayal o nazar ki majzoobi',
+        'Khudi ki maut hai andesha-haaye goona-goon'
+    ],
+    english: [
+        'What is life? The absorption of thought and vision,',
+        'The death of the Self is various anxieties.'
+    ]
+  },
+  {
+    title: 'مومن کی غیرت',
+    englishTitle: 'The Believer\'s Self-Respect',
+    urdu: [
+        'مومن ہے تو کرتا ہے فقیری میں بھی شاہی',
+        'مومن نہیں تو مردِ مسلماں بھی ہے کافر'
+    ],
+    romanUrdu: [
+        'Momin hai to karta hai faqeeri mein bhi shahi',
+        'Momin nahin to mard-e-musalman bhi hai kafir'
+    ],
+    english: [
+        'If one is a believer, he reigns even in poverty,',
+        'If one is not a believer, even a Muslim man is an infidel.'
+    ]
+  },
+  {
+    title: 'مومن کا عشق',
+    englishTitle: 'The Believer\'s Love',
+    urdu: [
+        'عشق کی اک جست نے طے کر دیا قصہ تمام',
+        'اس زمین و آسماں کو بے کراں سمجھا تھا میں'
+    ],
+    romanUrdu: [
+        'Ishq ki ik jast ne tai kar diya qissa tamaam',
+        'Is zameen o aasman ko be-karaan samjha tha main'
+    ],
+    english: [
+        'One leap of love settled the whole matter,',
+        'I had thought this earth and sky to be boundless.'
+    ]
+  },
+  {
+    title: 'مومن کا عمل',
+    englishTitle: 'The Believer\'s Action',
+    urdu: [
+        'عمل سے زندگی بنتی ہے جنت بھی، جہنم بھی',
+        'یہ خاکی اپنی فطرت میں نہ نوری ہے نہ ناری ہے'
+    ],
+    romanUrdu: [
+        'Amal se zindagi banti hai jannat bhi, jahannum bhi',
+        'Yeh khaki apni fitrat mein na noori hai na naari hai'
+    ],
+    english: [
+        'Life is made by action, both paradise and hell,',
+        'This earthly creature in its nature is neither of light nor of fire.'
+    ]
+  },
+  {
+    title: 'مومن کا یقین',
+    englishTitle: 'The Believer\'s Faith',
+    urdu: [
+        'یقین مثلِ خلیل آتش نشینی',
+        'یقین اللہ مستی، خود گزینی'
+    ],
+    romanUrdu: [
+        'Yaqeen misl-e-Khaleel aatish-nisheeni',
+        'Yaqeen Allah-masti, khud-gazeeni'
+    ],
+    english: [
+        'Faith is to sit in the fire like Abraham,',
+        'Faith is intoxication with God, self-choosing.'
+    ]
+  },
+  {
+    title: 'مومن کا توکل',
+    englishTitle: 'The Believer\'s Trust in God',
+    urdu: [
+        'توکل کا یہ مطلب ہے کہ خنجر تیز رکھ اپنا',
+        'پھر انجام اس کی تیزی کا مقدر کے حوالے کر'
+    ],
+    romanUrdu: [
+        'Tawakkul ka yeh matlab hai ke khanjar tez rakh apna',
+        'Phir anjaam uski tezi ka muqaddar ke hawale kar'
+    ],
+    english: [
+        'Trust in God means to keep your dagger sharp,',
+        'Then leave the outcome of its sharpness to destiny.'
+    ]
+  },
+  {
+    title: 'مومن کا استغنا',
+    englishTitle: 'The Believer\'s Independence',
+    urdu: [
+        'فقر کے ہیں معجزات، تاج و سریر و سپاہ',
+        'فقر ہے میروں کا میر، فقر ہے شاہوں کا شاہ'
+    ],
+    romanUrdu: [
+        'Faqr ke hain maujizaat, taaj o sareer o sipaah',
+        'Faqr hai meeron ka meer, faqr hai shahon ka shaah'
+    ],
+    english: [
+        'The miracles of poverty are the crown, throne, and army,',
+        'Poverty is the chief of chiefs, poverty is the king of kings.'
+    ]
+  },
+  {
+    title: 'مومن کی بصیرت',
+    englishTitle: 'The Believer\'s Insight',
+    urdu: [
+        'دلِ بینا بھی کر خدا سے طلب',
+        'آنکھ کا نور دل کا نور نہیں'
+    ],
+    romanUrdu: [
+        'Dil-e-beena bhi kar Khuda se talab',
+        'Aankh ka noor dil ka noor nahin'
+    ],
+    english: [
+        'Ask God for a seeing heart as well,',
+        'The light of the eye is not the light of the heart.'
+    ]
+  },
+  {
+    title: 'مومن کی آزادی',
+    englishTitle: 'The Believer\'s Freedom',
+    urdu: [
+        'آزاد کا اندیشہ حقیقت سے منور',
+        'محکوم کا اندیشہ گرفتارِ خرافات'
+    ],
+    romanUrdu: [
+        'Aazad ka andesha haqeeqat se munawwar',
+        'Mehkoom ka andesha giraftaar-e-khurafaat'
+    ],
+    english: [
+        'The thought of a free man is illumined by reality,',
+        'The thought of an enslaved man is caught in absurdities.'
+    ]
+  },
+  {
+    title: 'مومن کی ہمت',
+    englishTitle: 'The Believer\'s Courage',
+    urdu: [
+        'تندیِ بادِ مخالف سے نہ گھبرا اے عقاب',
+        'یہ تو چلتی ہے تجھے اونچا اڑانے کے لیے'
+    ],
+    romanUrdu: [
+        'Tundi-e-baad-e-mukhalif se na ghabra ae uqaab',
+        'Yeh to chalti hai tujhe ooncha udaane ke liye'
+    ],
+    english: [
+        'Do not be intimidated by the fierceness of the opposing wind, O eagle,',
+        'It blows only to make you fly higher.'
+    ]
+  },
+  {
+    title: 'مومن کی دنیا',
+    englishTitle: 'The Believer\'s World',
+    urdu: [
+        'وہی جہاں ہے ترا جس کو تو کرے پیدا',
+        'یہ سنگ و خشت نہیں جو تری نگاہ میں ہے'
+    ],
+    romanUrdu: [
+        'Wohi jahan hai tera jis ko tu kare paida',
+        'Yeh sang o khisht nahin jo teri nigah mein hai'
+    ],
+    english: [
+        'Your world is the one that you create,',
+        'Not this world of stone and brick that is in your sight.'
+    ]
+  },
+  {
+    title: 'مومن کی تقدیر',
+    englishTitle: 'The Believer\'s Destiny',
+    urdu: [
+        'تقدیر کے قاضی کا یہ فتویٰ ہے ازل سے',
+        'ہے جرمِ ضعیفی کی سزا مرگِ مفاجات'
+    ],
+    romanUrdu: [
+        'Taqdeer ke qaazi ka yeh fatwa hai azal se',
+        'Hai jurm-e-zaeefi ki saza marg-e-mafajaat'
+    ],
+    english: [
+        'This has been the eternal decree of the judge of destiny,',
+        'The punishment for the crime of weakness is sudden death.'
+    ]
+  },
+  {
+    title: 'مومن کی زندگی',
+    englishTitle: 'The Believer\'s Life',
+    urdu: [
+        'حیات کیا ہے؟ فقط اک تب و تابِ مستعار',
+        'خودی ہے زندہ تو یہ زندگی ہے پائیدار'
+    ],
+    romanUrdu: [
+        'Hayat kya hai? Faqat ik tab o taab-e-mustaar',
+        'Khudi hai zinda to yeh zindagi hai paayedaar'
+    ],
+    english: [
+        'What is life? Only a borrowed fever and glow,',
+        'If the Self is alive, this life is enduring.'
+    ]
+  },
+  {
+    title: 'مومن کی دعا',
+    englishTitle: 'The Believer\'s Prayer',
+    urdu: [
+        'یا رب دلِ مسلم کو وہ زندہ تمنا دے',
+        'جو قلب کو گرما دے، جو روح کو تڑپا دے'
+    ],
+    romanUrdu: [
+        'Ya Rab dil-e-Muslim ko woh zinda tamanna de',
+        'Jo qalb ko garma de, jo rooh ko tadpa de'
+    ],
+    english: [
+        'O Lord, grant the Muslim heart that living aspiration,',
+        'Which may warm the heart and stir the soul.'
+    ]
+  },
+  {
+    title: 'مومن کا نصب العین',
+    englishTitle: 'The Believer\'s Goal',
+    urdu: [
+        'مقصد ہو اگر تربیتِ نوعِ بشر',
+        'ہو سکتی ہے بے منتِ اغیار بھی تعلیم'
+    ],
+    romanUrdu: [
+        'Maqsad ho agar tarbiyat-e-nau-e-bashar',
+        'Ho sakti hai be-minnat-e-aghyar bhi taaleem'
+    ],
+    english: [
+        'If the purpose is the education of the human race,',
+        'Education can be had even without the obligation of others.'
+    ]
+  },
+  {
+    title: 'مومن کی شمشیر',
+    englishTitle: 'The Believer\'s Sword',
+    urdu: [
+        'ہو اگر خود نگر و خود گر و خود گیر خودی',
+        'یہ بھی ممکن ہے کہ تو موت سے بھی مر نہ سکے'
+    ],
+    romanUrdu: [
+        'Ho agar khud-nigar o khud-gar o khud-geer khudi',
+        'Yeh bhi mumkin hai ke tu maut se bhi mar na sake'
+    ],
+    english: [
+        'If the Self is self-seeing, self-making, and self-possessing,',
+        'It is also possible that you may not die even from death.'
+    ]
+  },
+  {
+    title: 'مومن کا مقام',
+    englishTitle: 'The Believer\'s Station',
+    urdu: [
+        'ستاروں سے آگے جہاں اور بھی ہیں',
+        'ابھی عشق کے امتحاں اور بھی ہیں'
+    ],
+    romanUrdu: [
+        'Sitaron se aage jahan aur bhi hain',
+        'Abhi ishq ke imtihaan aur bhi hain'
+    ],
+    english: [
+        'There are worlds beyond the stars,',
+        'There are still more tests of love.'
+    ]
   }
 ]
+    
     
