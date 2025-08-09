@@ -1,5 +1,4 @@
 
-
 export const allPoems = [
   {
     title: 'مسجد قرطبہ (Masjid-e-Qurtaba)',
@@ -1347,8 +1346,8 @@ export const allPoems = [
     ]
   },
   {
-    title: 'فرمانِ خدا',
-    englishTitle: 'The Command of God',
+    title: 'فرمانِ خدا (فرشتوں سے)',
+    englishTitle: 'The Command of God (to the Angels)',
     urdu: [
       'فرمانِ خدا فرشتوں سے',
       'اٹھو! میری دنیا کے غریبوں کو جگا دو'
@@ -1494,15 +1493,12 @@ export const allPoems = [
     title: "قومیتِ اسلامی",
     englishTitle: "Islamic Nationalism",
     urdu: [
-        "اپنی ملت پر قیاس اقوامِ مغرب سے نہ کر",
         "خاص ہے ترکیب میں قومِ رسولِ ہاشمی"
     ],
     romanUrdu: [
-        "Apni millat par qiyas aqwaam-e-maghrib se na kar",
         "Khaas hai tarkeeb mein qaum-e-Rasool-e-Hashmi"
     ],
     english: [
-        "Do not compare your nation with the nations of the West,",
         "The nation of the Hashimite Prophet is special in its composition."
     ]
   },
@@ -1590,15 +1586,12 @@ export const allPoems = [
     title: "فرد اور ملت",
     englishTitle: "The Individual and the Nation",
     urdu: [
-        "فرد قائم ربطِ ملت سے ہے، تنہا کچھ نہیں",
         "موج ہے دریا میں، اور بیرونِ دریا کچھ نہیں"
     ],
     romanUrdu: [
-        "Fard qaim rabt-e-millat se hai, tanha kuch nahin",
         "Mauj hai darya mein, aur beroon-e-darya kuch nahin"
     ],
     english: [
-        "An individual is established by his link with the nation, alone he is nothing,",
         "The wave is in the river, and outside the river, it is nothing."
     ]
   },
@@ -1667,8 +1660,8 @@ export const allPoems = [
     ]
   },
   {
-    title: "عقل و عشق",
-    englishTitle: "Reason and Love",
+    title: "عقل و عشق کا مقابلہ",
+    englishTitle: "The Contest of Reason and Love",
     urdu: [
         "عقل عیار ہے، سو بھیس بنا لیتی ہے",
         "عشق بے چارہ نہ ملا ہے، نہ زاہد، نہ حکیم"
@@ -1731,24 +1724,21 @@ export const allPoems = [
     ]
   },
   {
-    title: "جاوید کے نام",
-    englishTitle: "To Javid",
+    title: "جاوید کے نام (دیارِ عشق)",
+    englishTitle: "To Javid (Realm of Love)",
     urdu: [
-      "دیارِ عشق میں اپنا مقام پیدا کر",
       "نیا زمانہ، نئے صبح و شام پیدا کر"
     ],
     romanUrdu: [
-      "Diyar-e-ishq mein apna maqam paida kar",
       "Naya zamana, naye subah-o-shaam paida kar"
     ],
     english: [
-      "Create your own place in the land of love,",
       "Create a new era, new mornings and evenings."
     ]
   },
   {
-    title: "علم",
-    englishTitle: "Knowledge",
+    title: "علم (بندۂ مومن)",
+    englishTitle: "Knowledge (Man of Faith)",
     urdu: [
       "علم کی حد سے پرے، بندۂ مومن کے لیے",
       "لذتِ شوق بھی ہے، نعمتِ دیدار بھی ہے"
@@ -1859,8 +1849,8 @@ export const allPoems = [
     ]
   },
   {
-    title: "آزاد مرد",
-    englishTitle: "The Free Man",
+    title: "آزاد مرد (ابدیت)",
+    englishTitle: "The Free Man (Eternity)",
     urdu: [
       "آزاد کا ہر لحظہ پیامِ ابدیت",
       "محکوم کا ہر لحظہ نئی مرگِ مفاجات"
@@ -1875,7 +1865,7 @@ export const allPoems = [
     ]
   },
   {
-    title: "ضمِ صوفی",
+    title: "ذمِ صوفی",
     englishTitle: "In Dispraise of the Sufi",
     urdu: [
       "یہ ذکرِ نیم شبی، یہ مراقبے، یہ سرور",
@@ -1907,8 +1897,8 @@ export const allPoems = [
     ]
   },
   {
-    title: "تعلیم",
-    englishTitle: "Education",
+    title: "تعلیم (روحِ انسانی)",
+    englishTitle: "Education (Human Soul)",
     urdu: [
       "شیخِ مکتب ہے اک عمارت گر",
       "جس کی صنعت ہے روحِ انسانی"
@@ -1955,8 +1945,8 @@ export const allPoems = [
     ]
   },
   {
-    title: "عشق",
-    englishTitle: "Love",
+    title: "عشق (حجاب)",
+    englishTitle: "Love (Veil)",
     urdu: [
       "عشق بھی ہو حجاب میں، حسن بھی ہو حجاب میں",
       "یا تو خود آشکار ہو یا مجھے آشکار کر"
@@ -2007,7 +1997,7 @@ export const allPoems = [
     englishTitle: "The Destiny of the Muslim",
     urdu: [
         "وہ قوم کہ جس کی خاک میں ہے سوزِ آرزو",
-        "ہرگز نہ ہو سکے گی کبھی سرد اسکی خو"
+        "هرگز نہ ہو سکے گی کبھی سرد اسکی خو"
     ],
     romanUrdu: [
         "Woh qaum ke jis ki khaak mein hai soz-e-aarzoo",
@@ -2019,7 +2009,7 @@ export const allPoems = [
     ]
   },
   {
-    title: "دنیا عمل",
+    title: "دنیا عمل کی",
     englishTitle: "The World of Action",
     urdu: [
         "ہے عمل لازمی تکمیلِ تمنا کے لیے",
@@ -2035,8 +2025,8 @@ export const allPoems = [
     ]
   },
   {
-    title: "خرد",
-    englishTitle: "Intellect",
+    title: "خرد (نیک و بد)",
+    englishTitle: "Intellect (Good and Evil)",
     urdu: [
         "خرد واقف نہیں ہے نیک و بد سے",
         "بڑھی جاتی ہے ظالم اپنی حد سے"
@@ -2118,21 +2108,18 @@ export const allPoems = [
     title: "بحرِ زندگی",
     englishTitle: "The Ocean of Life",
     urdu: [
-        "موج ہے دریا میں اور بیرونِ دریا کچھ نہیں",
         "زندگی طوفاں ہے، ساحل کچھ نہیں"
     ],
     romanUrdu: [
-        "Mauj hai darya mein aur beroon-e-darya kuch nahin",
         "Zindagi toofan hai, sahil kuch nahin"
     ],
     english: [
-        "The wave is in the river, and outside the river, it is nothing,",
         "Life is a storm, the shore is nothing."
     ]
   },
   {
-    title: "دعا",
-    englishTitle: "Prayer",
+    title: "دعا (تقدیر)",
+    englishTitle: "Prayer (Destiny)",
     urdu: [
         "تری دعا سے قضا تو بدل نہیں سکتی",
         "مگر ہے اس سے یہ ممکن کہ تو بدل جائے"
@@ -2195,8 +2182,8 @@ export const allPoems = [
     ]
   },
   {
-    title: "مردِ مومن",
-    englishTitle: "The Man of Faith",
+    title: "مردِ مومن (جلال)",
+    englishTitle: "The Man of Faith (Majesty)",
     urdu: [
         "مردِ مومن کا جلال، اللہ کا جلال",
         "اس کا غصہ، اس کی رحمت، سب خدا کے کام ہیں"
@@ -2259,8 +2246,8 @@ export const allPoems = [
     ]
   },
   {
-    title: "علم و عمل",
-    englishTitle: "Knowledge and Action",
+    title: "علم و عمل (وبال)",
+    englishTitle: "Knowledge and Action (Burden)",
     urdu: [
         "علم بے عمل، وبالِ جان",
         "عمل بے علم، گمراہیِ راہ"
@@ -2323,8 +2310,8 @@ export const allPoems = [
     ]
   },
   {
-    title: "انقلاب",
-    englishTitle: "Revolution",
+    title: "انقلاب (خودی)",
+    englishTitle: "Revolution (Selfhood)",
     urdu: [
         "تری خودی میں اگر انقلاب ہو پیدا",
         "عجب نہیں کہ یہ چار سو بدل جائے"
@@ -2347,7 +2334,7 @@ export const allPoems = [
     ],
     romanUrdu: [
         "Khudi na ho toh sukhan kuch nahin magar ik harf",
-        "Khudi ho toh sukhan ik jahan-e-taaza"
+        "Khudi हो toh sukhan ik jahan-e-taaza"
     ],
     english: [
         "If there is no self, speech is nothing but a word,",
@@ -2560,8 +2547,8 @@ export const allPoems = [
       ]
   },
   {
-      title: "بچے کی دعا",
-      englishTitle: "A Child's Prayer",
+      title: "بچے کی دعا (وطن)",
+      englishTitle: "A Child's Prayer (Homeland)",
       urdu: [
           "ہو میرے دم سے یونہی میرے وطن کی زینت",
           "جس طرح پھول سے ہوتی ہے چمن کی زینت"
@@ -2576,8 +2563,8 @@ export const allPoems = [
       ]
   },
   {
-      title: "ترانۂ ہندی",
-      englishTitle: "Song of India",
+      title: "ترانۂ ہندی (مذہب)",
+      englishTitle: "Song of India (Religion)",
       urdu: [
           "مذہب نہیں سکھاتا آپس میں بیر رکھنا",
           "ہندی ہیں ہم، وطن ہے ہندوستاں ہمارا"
@@ -2592,8 +2579,8 @@ export const allPoems = [
       ]
   },
   {
-      title: "ترانۂ ملی",
-      englishTitle: "Anthem of the Community",
+      title: "ترانۂ ملی (توحید)",
+      englishTitle: "Anthem of the Community (Monotheism)",
       urdu: [
           "توحید کی امانت سینوں میں ہے ہمارے",
           "آساں نہیں مٹانا نام و نشاں ہمارا"
@@ -2608,8 +2595,8 @@ export const allPoems = [
       ]
   },
   {
-      title: "تصویرِ درد",
-      englishTitle: "Picture of Pain",
+      title: "تصویرِ درد (خانماں برباد)",
+      englishTitle: "Picture of Pain (Homeless)",
       urdu: [
           "نہ پوچھ مجھ سے لذتِ خانماں برباد رہنے کی",
           "نشیمن سینکڑوں میں نے بنا کر پھونک ڈالے ہیں"
@@ -2624,8 +2611,8 @@ export const allPoems = [
       ]
   },
   {
-      title: "عشق اور موت",
-      englishTitle: "Love and Death",
+      title: "عشق اور موت (زندگی)",
+      englishTitle: "Love and Death (Life)",
       urdu: [
           "برتر از اندیشۂ سود و زیاں ہے زندگی",
           "ہے کبھی جاں اور کبھی تسلیمِ جاں ہے زندگی"
@@ -2640,8 +2627,8 @@ export const allPoems = [
       ]
   },
   {
-      title: "محبت",
-      englishTitle: "Love",
+      title: "محبت (جنوں)",
+      englishTitle: "Love (Madness)",
       urdu: [
           "محبت کا جنوں باقی نہیں ہے",
           "مسلمانوں میں خوں باقی نہیں ہے"
@@ -2656,8 +2643,8 @@ export const allPoems = [
       ]
   },
   {
-      title: "خودی",
-      englishTitle: "Selfhood",
+      title: "خودی (سرِ زندگانی)",
+      englishTitle: "Selfhood (Secret of Life)",
       urdu: [
           "خودی میں ڈوب جا غافل! یہ سرِ زندگانی ہے",
           "نکل کر حلقۂ شام و سحر سے جاوداں ہو جا"
@@ -2672,8 +2659,8 @@ export const allPoems = [
       ]
   },
   {
-      title: "تقدیر",
-      englishTitle: "Destiny",
+      title: "تقدیر (جرمِ ضعیفی)",
+      englishTitle: "Destiny (Crime of Weakness)",
       urdu: [
           "تقدیر کے قاضی کا یہ فتویٰ ہے ازل سے",
           "ہے جرمِ ضعیفی کی سزا مرگِ مفاجات"
@@ -2688,8 +2675,8 @@ export const allPoems = [
       ]
   },
   {
-      title: "لالۂ صحرا",
-      englishTitle: "Tulip of the Desert",
+      title: "لالۂ صحرا (دشت کی پہنائی)",
+      englishTitle: "Tulip of the Desert (Vastness of the Desert)",
       urdu: [
           "یہ گنبدِ مینائی، یہ عالمِ تنہائی",
           "مجھ کو تو ڈراتی ہے اس دشت کی پہنائی"
@@ -2720,8 +2707,8 @@ export const allPoems = [
       ]
   },
   {
-      title: "فرمانِ خدا",
-      englishTitle: "God's Command",
+      title: "فرمانِ خدا (انقلاب)",
+      englishTitle: "God's Command (Revolution)",
       urdu: [
           "جس میں نہ ہو انقلاب، موت ہے وہ زندگی",
           "روحِ امم کی حیات کشمکشِ انقلاب"
@@ -2736,8 +2723,8 @@ export const allPoems = [
       ]
   },
   {
-      title: "مومن",
-      "englishTitle": "The Believer",
+      title: "مومن (اللہ کا ہاتھ)",
+      "englishTitle": "The Believer (Hand of God)",
       "urdu": [
           "ہاتھ ہے اللہ کا بندۂ مومن کا ہاتھ",
           "غالب و کار آفریں، کار کشا، کار ساز"
@@ -2768,8 +2755,8 @@ export const allPoems = [
       ]
   },
   {
-      "title": "شاہین",
-      "englishTitle": "The Falcon",
+      "title": "شاہین (درویش)",
+      "englishTitle": "The Falcon (Dervish)",
       "urdu": [
         "پرندوں کی دنیا کا درویش ہوں میں",
         "کہ شاہیں بناتا نہیں آشیانہ"
@@ -2784,8 +2771,8 @@ export const allPoems = [
       ]
   },
   {
-      "title": "علم اور عشق",
-      "englishTitle": "Knowledge and Love",
+      "title": "علم اور عشق (دانش)",
+      "englishTitle": "Knowledge and Love (Wisdom)",
       "urdu": [
           "اک دانشِ نورانی، اک دانشِ برہانی",
           "ہے دانشِ برہانی، حیرت کی فراوانی"
@@ -2816,8 +2803,8 @@ export const allPoems = [
     ]
   },
   {
-    "title": "آزادی",
-    "englishTitle": "Freedom",
+    "title": "آزادی (لحظہ)",
+    "englishTitle": "Freedom (Moment)",
     "urdu": [
       "آزادی کا اک لحظہ ہے بہتر",
       "اس نوے سالہ محکومی سے"
@@ -2832,8 +2819,8 @@ export const allPoems = [
     ]
   },
   {
-    "title": "جاوید کے نام",
-    "englishTitle": "To Javid",
+    "title": "جاوید کے نام (فطرت شناس)",
+    "englishTitle": "To Javid (Nature Knower)",
     "urdu": [
       "خدا اگر دلِ فطرت شناس دے تجھ کو",
       "سکوتِ لالہ و گل سے کلام پیدا کر"
@@ -2848,8 +2835,8 @@ export const allPoems = [
     ]
   },
   {
-    "title": "ابلیس کا فرمان",
-    "englishTitle": "Iblis's Command",
+    "title": "ابلیس کا فرمان (سیاست)",
+    "englishTitle": "Iblis's Command (Politics)",
     "urdu": [
       "لا کر برہمنوں کو سیاست کے بیچ میں",
       "زناریوں کو دیرِ کہن سے نکال دو"
@@ -2864,8 +2851,8 @@ export const allPoems = [
     ]
   },
   {
-    "title": "مشرق",
-    "englishTitle": "The East",
+    "title": "مشرق (خداوند)",
+    "englishTitle": "The East (Lords)",
     "urdu": [
       "مشرق کے خداوند سفیدانِ فرنگی",
       "مغرب کے خداوند درخشندہ فلزات"
@@ -2912,8 +2899,8 @@ export const allPoems = [
       ]
   },
   {
-      "title": "مذہب",
-      "englishTitle": "Religion",
+      "title": "مذہب (مسجد)",
+      "englishTitle": "Religion (Mosque)",
       "urdu": [
           "مسجد تو بنا دی شب بھر میں ایماں کی حرارت والوں نے",
           "من اپنا پرانا پاپی ہے، برسوں میں نمازی بن نہ سکا"
@@ -2944,8 +2931,8 @@ export const allPoems = [
       ]
   },
   {
-      "title": "فلسفہ",
-      "englishTitle": "Philosophy",
+      "title": "فلسفہ (دانش)",
+      "englishTitle": "Philosophy (Wisdom)",
       "urdu": [
           "ایک دانشِ برہانی، اک فلسفۂ یونانی",
           "یہ راہ دکھاتی ہے، وہ منزل سے بھٹکاتی ہے"
@@ -2960,8 +2947,8 @@ export const allPoems = [
       ]
   },
   {
-      "title": "شعاعِ امید",
-      "englishTitle": "Ray of Hope",
+      "title": "شعاعِ امید (نغمۂ توحید)",
+      "englishTitle": "Ray of Hope (Song of Monotheism)",
       "urdu": [
           "شب گریزاں ہو گی آخر جلوۂ خورشید سے",
           "یہ چمن معمور ہو گا نغمۂ توحید سے"
@@ -3408,8 +3395,8 @@ export const allPoems = [
       ]
   },
   {
-      "title": "مردِ حر",
-      "englishTitle": "The Free Man",
+      "title": "مردِ حر (ضرب)",
+      "englishTitle": "The Free Man (Strike)",
       "urdu": [
           "مردِ حر کی ضرب ہے کاری وگرنہ",
           "ہے بے نیام بھی تیغِ سپاہی"
@@ -3440,8 +3427,8 @@ export const allPoems = [
       ]
   },
   {
-      "title": "فطرت",
-      "englishTitle": "Nature",
+      "title": "فطرت (نگہبانی)",
+      "englishTitle": "Nature (Guardianship)",
       "urdu": [
         "فطرت کے مقاصد کی کرتا ہے نگہبانی",
         "یا بندۂ صحرائی یا مردِ کہستانی"
@@ -3472,8 +3459,8 @@ export const allPoems = [
       ]
   },
   {
-    "title": "عشق کی انتہا",
-    "englishTitle": "The Zenith of Love",
+    "title": "عشق کی انتہا (بے کراں)",
+    "englishTitle": "The Zenith of Love (Boundless)",
     "urdu": [
       "عشق کی ایک جست نے طے کر دیا قصہ تمام",
       "اس زمین و آسماں کو بے کراں سمجھا تھا میں"
@@ -3520,8 +3507,8 @@ export const allPoems = [
     ]
   },
   {
-    "title": "قوتِ عشق",
-    "englishTitle": "The Power of Love",
+    "title": "قوتِ عشق (محمد)",
+    "englishTitle": "The Power of Love (Muhammad)",
     "urdu": [
       "قوتِ عشق سے ہر پست کو بالا کر دے",
       "دہر میں اسمِ محمد سے اجالا کر دے"
@@ -3648,8 +3635,8 @@ export const allPoems = [
     ]
   },
   {
-    "title": "مردِ خدا",
-    "englishTitle": "Man of God",
+    "title": "مردِ خدا (فروغ)",
+    "englishTitle": "Man of God (Radiance)",
     "urdu": [
       "مردِ خدا کا عمل عشق سے صاحب فروغ",
       "عشق ہے اصلِ حیات، موت ہے اس پر حرام"
@@ -3664,8 +3651,8 @@ export const allPoems = [
     ]
   },
   {
-    "title": "عشق و علم",
-    "englishTitle": "Love and Knowledge",
+    "title": "عشق و علم (تیزی)",
+    "englishTitle": "Love and Knowledge (Swiftness)",
     "urdu": [
       "عشق کی تیزی سے بگڑے ہوئے کام بنتے ہیں",
       "علم کی سست روی سے راہوار تھک جاتے ہیں"
@@ -3712,8 +3699,8 @@ export const allPoems = [
     ]
   },
   {
-    "title": "مسلم",
-    "englishTitle": "The Muslim",
+    "title": "مسلم (مسافر)",
+    "englishTitle": "The Muslim (Traveler)",
     "urdu": [
       "ہر شے مسافر، ہر چیز راہی",
       "کیا چاند تارے، کیا مرغ و ماہی"
@@ -3776,8 +3763,8 @@ export const allPoems = [
       ]
   },
   {
-      "title": "مردِ مسلمان",
-      "englishTitle": "The Muslim Man",
+      "title": "مردِ مسلمان (عناصر)",
+      "englishTitle": "The Muslim Man (Elements)",
       "urdu": [
           "قہاری و غفاری و قدوسی و جبروت",
           "یہ چار عناصر ہوں تو بنتا ہے مسلمان"
@@ -3824,8 +3811,8 @@ export const allPoems = [
       ]
   },
   {
-      "title": "غزل",
-      "englishTitle": "Ghazal",
+      "title": "غزل (چراغِ لالہ)",
+      "englishTitle": "Ghazal (Tulip's Lamp)",
       "urdu": [
           "پھر چراغِ لالہ سے روشن ہوئے کوہ و دمن",
           "مجھ کو پھر نغموں پہ اکسانے لگا مرغِ چمن"
@@ -3856,8 +3843,8 @@ export const allPoems = [
       ]
   },
   {
-      "title": "تصویر درد",
-      "englishTitle": "The Picture of Pain",
+      "title": "تصویر درد (سازِ طرب)",
+      "englishTitle": "The Picture of Pain (Music of Joy)",
       "urdu": [
           "کیا تجھ کو خبر نہیں کہ ماتم ہے بپا",
           "اے غافل! تو سازِ طرب میں ہے پڑا"
@@ -4032,8 +4019,8 @@ export const allPoems = [
     ]
   },
   {
-    "title": "انسان",
-    "englishTitle": "Man",
+    "title": "انسان (جہانِ تازہ)",
+    "englishTitle": "Man (New World)",
     "urdu": [
       "جہانِ تازہ کی افکارِ تازہ سے ہے نمود",
       "کہ سنگ و خشت سے ہوتے نہیں جہاں پیدا"
@@ -4064,8 +4051,8 @@ export const allPoems = [
     ]
   },
   {
-    "title": "دنیا",
-    "englishTitle": "The World",
+    "title": "دنیا (جائے عبرت)",
+    "englishTitle": "The World (Place of Warning)",
     "urdu": [
       "ہے یہ دنیا جائے عبرت، اور ہم غفلت میں ہیں",
       "موت ہے ہر آن، ہم سامانِ عشرت میں ہیں"
@@ -4368,8 +4355,8 @@ export const allPoems = [
       ]
   },
   {
-      "title": "آرزو",
-      "englishTitle": "Desire",
+      "title": "آرزو (عالم)",
+      "englishTitle": "Desire (World)",
       "urdu": [
           "چاہیے اس عالم میں اک اور ہی عالم مجھ کو",
           "کہ نہ ہو جس میں زمان و مکاں کی قید"
@@ -4464,8 +4451,8 @@ export const allPoems = [
       ]
   },
   {
-      "title": "فاطمہ",
-      "englishTitle": "Fatima",
+      "title": "فاطمہ (نسبت)",
+      "englishTitle": "Fatima (Relation)",
       "urdu": [
           "مریم از یک نسبت عیسی عزیز",
           "از سہ نسبت حضرت زہرا عزیز"
@@ -4496,8 +4483,8 @@ export const allPoems = [
       ]
   },
   {
-      "title": "ایک مکالمہ",
-      "englishTitle": "A Dialogue",
+      "title": "ایک مکالمہ (جبریل و خدا)",
+      "englishTitle": "A Dialogue (Gabriel and God)",
       "urdu": [
           "کہا جبریل نے اک دن خدا سے",
           "کہ اے باری! یہ دنیا ہے بری"
@@ -4544,8 +4531,8 @@ export const allPoems = [
       ]
   },
   {
-      "title": "مسلمان کا زوال",
-      "englishTitle": "The Decline of the Muslim",
+      "title": "مسلمان کا زوال (آشنا)",
+      "englishTitle": "The Decline of the Muslim (Acquainted)",
       "urdu": [
           "کبھی ہم بھی تھے آشنا تجھ سے اے حسن",
           "اب تو بیگانہ وار گزرتا ہے"
@@ -4576,8 +4563,8 @@ export const allPoems = [
       ]
   },
   {
-      "title": "عورت",
-      "englishTitle": "Woman",
+      "title": "عورت (نور)",
+      "englishTitle": "Woman (Light)",
       "urdu": [
           "عورت ہے فقط نور، سراپا ہے محبت",
           "وہ شمع ہے جو بزمِ ہستی کو منور کرے"
@@ -4848,8 +4835,8 @@ export const allPoems = [
       ]
   },
   {
-      "title": "Ghazal - From Payam-e-Mashriq",
-      "englishTitle": "Ghazal - From Message of the East",
+      "title": "Ghazal - Payam-e-Mashriq",
+      "englishTitle": "Ghazal - Message of the East",
       "urdu": [
           "بیا کہ قاعدہ آسمان بگردانیم",
           "قضا بہ گردش رطل گران بگردانیم"
@@ -4864,8 +4851,8 @@ export const allPoems = [
       ]
   },
   {
-      "title": "Ghazal - From Zabur-e-Ajam",
-      "englishTitle": "Ghazal - From Persian Psalms",
+      "title": "Ghazal - Zabur-e-Ajam",
+      "englishTitle": "Ghazal - Persian Psalms",
       "urdu": [
           "دلِ ما را بہ زلفِ خویش بستی",
           "بہ یک نظارہ صد جا دل شکستی"
@@ -4880,8 +4867,8 @@ export const allPoems = [
       ]
   },
   {
-      "title": "Ghazal - From Bal-e-Jibril",
-      "englishTitle": "Ghazal - From Gabriel's Wing",
+      "title": "Ghazal - Bal-e-Jibril",
+      "englishTitle": "Ghazal - Gabriel's Wing",
       "urdu": [
           "کبھی دریا سے مثل موج ابھر کر",
           "کبھی دریا کے سینے میں اتر کر"
@@ -4896,8 +4883,8 @@ export const allPoems = [
       ]
   },
   {
-      "title": "Ghazal - From Zarb-e-Kalim",
-      "englishTitle": "Ghazal - From The Rod of Moses",
+      "title": "Ghazal - Zarb-e-Kalim",
+      "englishTitle": "Ghazal - The Rod of Moses",
       "urdu": [
           "خودی کی جلوتوں میں مصطفائی",
           "خودی کی خلوتوں میں کبریائی"
@@ -4912,8 +4899,8 @@ export const allPoems = [
       ]
   },
   {
-      "title": "Ghazal - From Armaghan-e-Hijaz",
-      "englishTitle": "Ghazal - From The Gift of Hijaz",
+      "title": "Ghazal - Armaghan-e-Hijaz",
+      "englishTitle": "Ghazal - The Gift of Hijaz",
       "urdu": [
           "وہ بحر ہے آدمی کہ جس کا",
           "ہر قطرہ ہے بحر بے کراں"
@@ -4928,5 +4915,3 @@ export const allPoems = [
       ]
   }
 ]
-
-    
