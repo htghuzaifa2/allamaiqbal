@@ -5,7 +5,7 @@ import { ThemeProvider as NextThemesProvider, useTheme } from 'next-themes';
 import type { ThemeProviderProps } from 'next-themes/dist/types';
 
 function ThemeProvider({ children, ...props }: ThemeProviderProps) {
-  return <NextThemesProvider {...props}>{children}</NextThemesProvider>;
+  return <NextThemesProvider {...props} disableTransitionOnChange>{children}</NextThemesProvider>;
 }
 
 export { ThemeProvider, useTheme };

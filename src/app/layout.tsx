@@ -51,13 +51,15 @@ export default function RootLayout({
         <link
           href="https://fonts.googleapis.com/css2?family=Literata:wght@400;700&family=Playfair+Display:wght@700&display=swap"
           rel="stylesheet"
+          preload="true"
         />
       </head>
-      <body className="font-body antialiased">
+      <body className="font-body antialiased transition-colors duration-300">
         <ThemeProvider
           attribute="class"
           storageKey="iqbalverse-theme"
           defaultTheme="dark"
+          disableTransitionOnChange
         >
           <div className="flex min-h-screen flex-col bg-background">
             <Header />
