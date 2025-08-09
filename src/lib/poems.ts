@@ -1555,5 +1555,310 @@ export const allPoems = [
     urdu: ['نہیں ہے چیز نکمی کوئی زمانے میں', 'کوئی برا نہیں قدرت کے کارخانے میں'],
     romanUrdu: ['Nahin hai cheez nikammi koi zamane mein', 'Koi bura nahin qudrat ke karkhane mein'],
     english: ['Nothing is useless in this world', 'Nothing is bad in the factory of nature'],
+  },
+  {
+    title: 'Asrar-e-Khudi (The Secrets of the Self)',
+    englishTitle: 'The Secrets of the Self',
+    urdu: [
+      'پیکرِ ہستی ز اسرارِ خودیست',
+      'ہر چہ می بینی ز اسرارِ خودیست'
+    ],
+    romanUrdu: [
+      'Paikar-e-hasti ze asrar-e-khudist',
+      'Har cheh mi beeni ze asrar-e-khudist'
+    ],
+    english: [
+      'The form of existence is from the secrets of the Self,',
+      'Whatever you see is from the secrets of the Self.'
+    ]
+  },
+  {
+    title: 'Rumuz-e-Bekhudi (The Mysteries of Selflessness)',
+    englishTitle: 'The Mysteries of Selflessness',
+    urdu: [
+      'فرد قائم ربطِ ملت سے ہے، تنہا کچھ نہیں',
+      'موج ہے دریا میں اور بیرونِ دریا کچھ نہیں'
+    ],
+    romanUrdu: [
+      'Fard qaim rabt-e-millat se hai, tanha kuch nahin',
+      'Mauj hai darya mein aur beroon-e-darya kuch nahin'
+    ],
+    english: [
+      'An individual exists by connection with the nation, alone he is nothing,',
+      'The wave is in the river, and outside the river, it is nothing.'
+    ]
+  },
+  {
+    title: 'Payam-e-Mashriq (Message of the East)',
+    englishTitle: 'Message of the East',
+    urdu: [
+      'گفتگوئے کفر و دیں آخر کجا خواہد کشید؟',
+      'این چراغِ کشتہ را بادِ صبا خواہد کشید'
+    ],
+    romanUrdu: [
+      'Guftagu-e-kufr o deen aakhir kuja khwahad kasheed?',
+      'Een chiragh-e-kushta ra baad-e-saba khwahad kasheed'
+    ],
+    english: [
+      'Where will the debate of infidelity and faith ultimately lead?',
+      'The morning breeze will extinguish this dead lamp.'
+    ]
+  },
+  {
+    title: 'Zabur-e-Ajam (Persian Psalms)',
+    englishTitle: 'Persian Psalms',
+    urdu: [
+      'ضمیرِ لالہ میں روشن چراغِ آرزو کر دے',
+      'چمن کے ذرے ذرے کو شہیدِ جستجو کر دے'
+    ],
+    romanUrdu: [
+      'Zameer-e-lala mein roshan chiragh-e-aarzoo kar de',
+      'Chaman ke zarre zarre ko shaheed-e-justujoo kar de'
+    ],
+    english: [
+      'Light the lamp of desire in the heart of the tulip,',
+      'Make every speck of the garden a martyr to the quest.'
+    ]
+  },
+  {
+    title: 'Javid Nama (The Book of Eternity)',
+    englishTitle: 'The Book of Eternity',
+    urdu: [
+      'زندہ رود از خودی بے گانہ شد',
+      'در تلاشِِ شاہدے دیوانہ شد'
+    ],
+    romanUrdu: [
+      'Zinda Rud az khudi begana shud',
+      'Dar talash-e-shahiday deewana shud'
+    ],
+    english: [
+      'The Living Stream became a stranger to its Self,',
+      'It became mad in search of a witness.'
+    ]
+  },
+  {
+    title: 'Bal-e-Jibril (Gabriel\'s Wing)',
+    englishTitle: 'Gabriel\'s Wing',
+    urdu: [
+      'حادثہ وہ جو ابھی پردۂ افلاک میں ہے',
+      'عکس اس کا مرے آئینے ادراک میں ہے'
+    ],
+    romanUrdu: [
+      'Hadisa woh jo abhi parda-e-aflaak mein hai',
+      'Aks uska mere aaina-e-idraak mein hai'
+    ],
+    english: [
+      'The event that is still behind the veil of the heavens,',
+      'Its reflection is in the mirror of my perception.'
+    ]
+  },
+  {
+    title: 'Zarb-e-Kalim (The Rod of Moses)',
+    englishTitle: 'The Rod of Moses',
+    urdu: [
+      'دل کی آزادی شہنشاہی، شکم سامانِ موت',
+      'فیصلہ تیرا ترے ہاتھوں میں ہے، دل یا شکم؟'
+    ],
+    romanUrdu: [
+      'Dil ki aazadi shehenshahi, shikam samaan-e-maut',
+      'Faisla tera tere haathon mein hai, dil ya shikam?'
+    ],
+    english: [
+      'Freedom of the heart is sovereignty, the belly is the provision of death,',
+      'The decision is in your hands: the heart or the belly?'
+    ]
+  },
+  {
+    title: 'Armaghan-e-Hijaz (The Gift of Hijaz)',
+    englishTitle: 'The Gift of Hijaz',
+    urdu: [
+      'حرم رسوا ہوا پیرِ حرم کی کم نگاہی سے',
+      'جوانانِ تتاری کس قدر صاحب نظر نکلے'
+    ],
+    romanUrdu: [
+      'Haram ruswa hua peer-e-haram ki kam-nigahi se',
+      'Jawanan-e-Tatari kis qadar sahib-e-nazar nikle'
+    ],
+    english: [
+      'The sanctuary was disgraced by the shortsightedness of its guardian,',
+      'How insightful the Tatar youths turned out to be.'
+    ]
+  },
+  {
+    title: 'Ishq o Aql (Love and Intellect)',
+    englishTitle: 'Love and Intellect',
+    urdu: [
+      'عشق کی اک جست نے طے کر دیا قصہ تمام',
+      'اس زمین و آسماں کو بے کراں سمجھا تھا میں'
+    ],
+    romanUrdu: [
+      'Ishq ki ik jast ne tai kar diya qissa tamaam',
+      'Iss zameen o aasman ko be-karaan samjha tha main'
+    ],
+    english: [
+      'One leap of love settled the whole matter,',
+      'I had thought this earth and sky to be boundless.'
+    ]
+  },
+  {
+    title: 'Farishton ka Geet (Song of the Angels)',
+    englishTitle: 'Song of the Angels',
+    urdu: [
+      'عقل کو تنقید سے فرصت نہیں',
+      'عشق پر اعمال کی بنیاد رکھ'
+    ],
+    romanUrdu: [
+      'Aql ko tanqeed se fursat nahin',
+      'Ishq par aamaal ki bunyad rakh'
+    ],
+    english: [
+      'Reason has no time for criticism,',
+      'Lay the foundation of your deeds on Love.'
+    ]
+  },
+  {
+    title: 'Dard-e-Ishq (The Pain of Love)',
+    englishTitle: 'The Pain of Love',
+    urdu: [
+      'مری نوائے شوق سے شور حریمِ ذات میں',
+      'غلغلہ ہائے الاماں بتکدۂ صفات میں'
+    ],
+    romanUrdu: [
+      'Meri nawa-e-shauq se shor hareem-e-zaat mein',
+      'Ghulghula-haaye al-amaan butkada-e-sifaat mein'
+    ],
+    english: [
+      'From the cry of my longing, there is a tumult in the sanctuary of the Self,',
+      'Cries for mercy in the idol-temple of attributes.'
+    ]
+  },
+  {
+    title: 'Haqeeqat-e-Husn (The Reality of Beauty)',
+    englishTitle: 'The Reality of Beauty',
+    urdu: [
+      'خدا سے حسن نے اک روز یہ سوال کیا',
+      'جہاں میں کیوں نہ مجھے تو نے لازوال کیا'
+    ],
+    romanUrdu: [
+      'Khuda se husn ne ik roz yeh sawal kiya',
+      'Jahan mein kyun na mujhe tu ne la-zawaal kiya'
+    ],
+    english: [
+      'One day, Beauty asked God this question:',
+      '"Why did you not make me eternal in the world?"'
+    ]
+  },
+  {
+    title: 'Shaheen (The Falcon)',
+    englishTitle: 'The Falcon',
+    urdu: [
+      'جھپٹنا، پلٹنا، پلٹ کر جھپٹنا',
+      'لہو گرم رکھنے کا ہے اک بہانہ'
+    ],
+    romanUrdu: [
+      'Jhapatna, palatna, palat kar jhapatna',
+      'Lahu garam rakhne ka hai ik bahana'
+    ],
+    english: [
+      'To swoop, to retreat, and to swoop again after retreating,',
+      'Is but an excuse to keep the blood warm.'
+    ]
+  },
+  {
+    title: 'Masoomana Sawal (An Innocent Question)',
+    englishTitle: 'An Innocent Question',
+    urdu: [
+      'ماں نے کہا کہ بیٹا، اللہ کو یاد کر لے',
+      'بولا، وہ کون ہے جو ہم سے بھی ہے بڑا'
+    ],
+    romanUrdu: [
+      'Maa ne kaha ke beta, Allah ko yaad kar le',
+      'Bola, woh kaun hai jo hum se bhi hai bara'
+    ],
+    english: [
+      'The mother said, "Son, remember God."',
+      'He asked, "Who is he that is greater even than us?"'
+    ]
+  },
+  {
+    title: 'Ruh-e-Arzi Adam Ka Istaqbal Karti Hai',
+    englishTitle: 'The Spirit of the Earth Welcomes Adam',
+    urdu: [
+      'کھول آنکھ، زمیں دیکھ، فلک دیکھ، فضا دیکھ',
+      'مشرق سے ابھرتے ہوئے سورج کو ذرا دیکھ'
+    ],
+    romanUrdu: [
+      'Khol aankh, zameen dekh, falak dekh, faza dekh',
+      'Mashriq se ubharte hue suraj ko zara dekh'
+    ],
+    english: [
+      'Open your eye, see the earth, see the sky, see the space,',
+      'Behold the sun rising from the East.'
+    ]
+  },
+  {
+    title: 'Aql Gofil Hai',
+    englishTitle: 'Reason is Heedless',
+    urdu: [
+      'عقل گو آستاں سے دور نہیں',
+      'اس کی تقدیر میں حضور نہیں'
+    ],
+    romanUrdu: [
+      'Aql go aastaan se duur nahin',
+      'Uski taqdeer mein huzoor nahin'
+    ],
+    english: [
+      'Though reason is not far from the threshold,',
+      'Presence before the beloved is not in its destiny.'
+    ]
+  },
+  {
+    title: 'Farman-e-Khuda (The Command of God)',
+    englishTitle: 'The Command of God',
+    urdu: [
+      'فرمانِ خدا فرشتوں سے',
+      'اٹھو! میری دنیا کے غریبوں کو جگا دو'
+    ],
+    romanUrdu: [
+      'Farman-e-Khuda farishton se',
+      'Utho! Meri dunya ke ghareebon ko jaga do'
+    ],
+    english: [
+      'God\'s command to the angels:',
+      '"Arise! Awaken the poor of my world."'
+    ]
+  },
+  {
+    title: 'Ek Falsafa Zada Syed Zade Ke Naam',
+    englishTitle: 'To a Philosophy-Stricken Son of a Sayyid',
+    urdu: [
+      'ترا جوہر ہے نوری، پاک ہے تو',
+      'فروغِ دیدۂ افلاک ہے تو'
+    ],
+    romanUrdu: [
+      'Tera jauhar hai noori, paak hai tu',
+      'Farogh-e-deeda-e-aflaak hai tu'
+    ],
+    english: [
+      'Your essence is of light, you are pure,',
+      'You are the light of the eye of the heavens.'
+    ]
+  },
+  {
+    title: 'Taqdeer',
+    englishTitle: 'Destiny',
+    urdu: [
+      'نہ ستاروں میں ہے، نہ افلاک میں',
+      'تقدیر خودی میں ہے، نہ کہ خاک میں'
+    ],
+    romanUrdu: [
+      'Na sitaron mein hai, na aflaak mein',
+      'Taqdeer khudi mein hai, na keh khaak mein'
+    ],
+    english: [
+      'It is not in the stars, nor in the heavens,',
+      'Destiny is in the Self, not in the dust.'
+    ]
   }
 ];
+
