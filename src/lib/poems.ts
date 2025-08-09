@@ -2161,7 +2161,7 @@ export const allPoems = [
   },
   {
     title: "Rubai - Quatrain 1",
-    "englishTitle": "Quatrain 1",
+    englishTitle: "Quatrain 1",
     urdu: [
         "ترا تن روح سے ناآشنا ہے",
         "عجب کیا آہ تیری نارسا ہے"
@@ -2208,8 +2208,8 @@ export const allPoems = [
     ]
   },
   {
-    title: "Ghazal - From Bal-e-Jibril",
-    englishTitle: "Ghazal - From Gabriel's Wing",
+    title: "Ghazal - From Bal-e-Jibril 1",
+    englishTitle: "Ghazal - From Gabriel's Wing 1",
     urdu: [
         "عالمِ آب و خاک و باد، سرِ عیاں ہے تو کہ میں",
         "وہ جو نظر سے ہے نہاں، اس کا جہاں ہے تو کہ میں"
@@ -2224,8 +2224,8 @@ export const allPoems = [
     ]
   },
   {
-    title: "Ghazal - From Zarb-e-Kalim",
-    englishTitle: "Ghazal - From The Rod of Moses",
+    title: "Ghazal - From Zarb-e-Kalim 1",
+    englishTitle: "Ghazal - From The Rod of Moses 1",
     urdu: [
         "تو اپنی خودی اگر نہ کھوتا",
         "زنّاری برگساں نہ ہوتا"
@@ -2320,8 +2320,8 @@ export const allPoems = [
     ]
   },
   {
-    title: "Ghazal - From Bal-e-Jibril",
-    englishTitle: "Ghazal - From Gabriel's Wing",
+    title: "Ghazal - From Bal-e-Jibril 2",
+    englishTitle: "Ghazal - From Gabriel's Wing 2",
     urdu: [
         "میرے جنوں کا نتیجہ ضرور نکلے گا",
         "اسی سیاہ سمندر سے نور نکلے گا"
@@ -2336,8 +2336,8 @@ export const allPoems = [
     ]
   },
   {
-    title: "Ghazal - From Zarb-e-Kalim",
-    englishTitle: "Ghazal - From The Rod of Moses",
+    title: "Ghazal - From Zarb-e-Kalim 2",
+    englishTitle: "Ghazal - From The Rod of Moses 2",
     urdu: [
         "نہ تخت و تاج میں، نے لشکر و سپاہ میں ہے",
         "جو بات مردِ قلندر کی بارگاہ میں ہے"
@@ -2448,8 +2448,8 @@ export const allPoems = [
     ]
   },
   {
-    title: "Ghazal - From Bal-e-Jibril",
-    englishTitle: "Ghazal - From Gabriel's Wing",
+    title: "Ghazal - From Bal-e-Jibril 3",
+    englishTitle: "Ghazal - From Gabriel's Wing 3",
     urdu: [
         "مکتبوں میں کہیں رعنائی افکار بھی ہے؟",
         "خانقاہوں میں کہیں لذتِ اسرار بھی ہے؟"
@@ -2464,8 +2464,8 @@ export const allPoems = [
     ]
   },
   {
-    title: "Ghazal - From Zarb-e-Kalim",
-    englishTitle: "Ghazal - From The Rod of Moses",
+    title: "Ghazal - From Zarb-e-Kalim 3",
+    englishTitle: "Ghazal - From The Rod of Moses 3",
     urdu: [
         "دل مردہ دل نہیں ہے، اسے زندہ کر دوبارہ",
         "کہ یہی ہے امتوں کے مرضِ کہن کا چارہ"
@@ -2576,8 +2576,8 @@ export const allPoems = [
     ]
   },
   {
-    title: "Ghazal - From Bal-e-Jibril",
-    englishTitle: "Ghazal - From Gabriel's Wing",
+    title: "Ghazal - From Bal-e-Jibril 4",
+    englishTitle: "Ghazal - From Gabriel's Wing 4",
     urdu: [
         "عشق قاتل سے بھی، مقتول سے ہمدردی بھی",
         "یہ بتا کس سے محبت کی جزا مانگے گا؟"
@@ -2592,8 +2592,8 @@ export const allPoems = [
     ]
   },
   {
-    title: "Ghazal - From Zarb-e-Kalim",
-    englishTitle: "Ghazal - From The Rod of Moses",
+    title: "Ghazal - From Zarb-e-Kalim 4",
+    englishTitle: "Ghazal - From The Rod of Moses 4",
     urdu: [
         "آج بھی ہو جو براہیم کا ایماں پیدا",
         "آگ کر سکتی ہے اندازِ گلستاں پیدا"
@@ -2704,8 +2704,8 @@ export const allPoems = [
     ]
   },
   {
-    title: "Ghazal - From Bal-e-Jibril",
-    englishTitle: "Ghazal - From Gabriel's Wing",
+    title: "Ghazal - From Bal-e-Jibril 5",
+    englishTitle: "Ghazal - From Gabriel's Wing 5",
     urdu: [
         "عشق کی ایک جست نے طے کر دیا قصہ تمام",
         "اس زمین و آسماں کو بے کراں سمجھا تھا میں"
@@ -2720,8 +2720,8 @@ export const allPoems = [
     ]
   },
   {
-    title: "Ghazal - From Zarb-e-Kalim",
-    englishTitle: "Ghazal - From The Rod of Moses",
+    title: "Ghazal - From Zarb-e-Kalim 5",
+    englishTitle: "Ghazal - From The Rod of Moses 5",
     urdu: [
         "ہزار خوف ہو، لیکن زباں ہو دل کی رفیق",
         "یہی رہا ہے ازل سے قلندروں کا طریق"
@@ -2832,8 +2832,8 @@ export const allPoems = [
     ]
   },
   {
-    title: "Ghazal - From Bal-e-Jibril",
-    englishTitle: "Ghazal - From Gabriel's Wing",
+    title: "Ghazal - From Bal-e-Jibril 6",
+    englishTitle: "Ghazal - From Gabriel's Wing 6",
     urdu: [
         "اچھا ہے دل کے ساتھ رہے پاسبانِ عقل",
         "لیکن کبھی کبھی اسے تنہا بھی چھوڑ دے"
@@ -2848,10 +2848,10 @@ export const allPoems = [
     ]
   },
   {
-    title: "Ghazal - From Zarb-e-Kalim",
-    englishTitle: "Ghazal - From The Rod of Moses",
+    title: "Ghazal - From Zarb-e-Kalim 6",
+    englishTitle: "Ghazal - From The Rod of Moses 6",
     urdu: [
-        "دھونڈ رہا ہے فرنگ عیشِ جہاں کا دوام",
+        "ڈھونڈ رہا ہے فرنگ عیشِ جہاں کا دوام",
         "وائے تمنائے خام، وائے تمنائے خام"
     ],
     romanUrdu: [
@@ -2960,8 +2960,8 @@ export const allPoems = [
     ]
   },
   {
-    title: "Ghazal - From Bal-e-Jibril",
-    englishTitle: "Ghazal - From Gabriel's Wing",
+    title: "Ghazal - From Bal-e-Jibril 7",
+    englishTitle: "Ghazal - From Gabriel's Wing 7",
     urdu: [
         "عشق کی آگ کو بھڑکا دے، دلوں کو گرما دے",
         "میری اس خاکستر میں کوئی شرارہ تو نہیں"
@@ -2976,8 +2976,8 @@ export const allPoems = [
     ]
   },
   {
-    title: "Ghazal - From Zarb-e-Kalim",
-    englishTitle: "Ghazal - From The Rod of Moses",
+    title: "Ghazal - From Zarb-e-Kalim 7",
+    englishTitle: "Ghazal - From The Rod of Moses 7",
     urdu: [
         "تری نگاہ میں ثابت نہیں خدا کا وجود",
         "مری نگاہ میں ثابت نہیں وجود ترا"
@@ -3088,8 +3088,8 @@ export const allPoems = [
     ]
   },
   {
-    title: "Ghazal - From Bal-e-Jibril",
-    englishTitle: "Ghazal - From Gabriel's Wing",
+    title: "Ghazal - From Bal-e-Jibril 8",
+    englishTitle: "Ghazal - From Gabriel's Wing 8",
     urdu: [
         "عشق کے مضراب سے نغمہ تارِ حیات",
         "عشق سے نورِ حیات، عشق سے نارِ حیات"
@@ -3104,8 +3104,8 @@ export const allPoems = [
     ]
   },
   {
-    title: "Ghazal - From Zarb-e-Kalim",
-    englishTitle: "Ghazal - From The Rod of Moses",
+    title: "Ghazal - From Zarb-e-Kalim 8",
+    englishTitle: "Ghazal - From The Rod of Moses 8",
     urdu: [
         "وہ حرفِ راز کہ مجھ کو سکھا گیا ہے جنوں",
         "خدا مجھے نفسِ جبرئیل دے تو کہوں"
@@ -3137,7 +3137,7 @@ export const allPoems = [
   },
   {
     title: 'Mard-e-Azad',
-    englishTitle: 'The Free Man',
+    englishTitle: 'The Free Man 1',
     urdu: [
       "مردِ آزاد کا عمل ہے بے غرض",
       "اس کی ہر اک سانس ہے پیغامِ موت"
@@ -3313,7 +3313,7 @@ export const allPoems = [
   },
   {
     title: 'Javid Se',
-    englishTitle: 'To Javid',
+    englishTitle: 'To Javid 1',
     urdu: [
       "غافل نہ ہو خودی سے، کر اپنی پاسبانی",
       "شاید کسی حرم کا تو بھی ہے آستانی"
@@ -3456,7 +3456,7 @@ export const allPoems = [
     ]
   },
   {
-    title: 'Masjid-e-Qurtuba (Part 3)',
+    title: 'Masjid-e-Qurtuba (Part 6)',
     englishTitle: 'The Mosque of Cordoba - Part 6',
     urdu: [
       'آنی و فانی تمام معجزہ ہائے ہنر',
@@ -3998,7 +3998,7 @@ export const allPoems = [
   },
   {
     title: 'Talba Se (Part 2)',
-    englishTitle: 'To the Students',
+    englishTitle: 'To the Students (Part 2)',
     urdu: [
       'جوانوں کو میری آہِ سحر دے',
       'پھر ان شاہیں بچوں کو بال و پر دے'
@@ -4030,7 +4030,7 @@ export const allPoems = [
   },
   {
     title: 'Hindustani Bachon Ka Qaumi Geet (Part 2)',
-    englishTitle: 'National Song of Indian Children',
+    englishTitle: 'National Song of Indian Children (Part 2)',
     urdu: [
       'میرا وطن وہی ہے، میرا وطن وہی ہے',
       'وہ دیس ہے ہمارا، وہ دیس ہے ہمارا'
@@ -4046,7 +4046,7 @@ export const allPoems = [
   },
   {
     title: 'Ek Naujawan Ke Naam (Part 2)',
-    englishTitle: 'To a Youth',
+    englishTitle: 'To a Youth (Part 2)',
     urdu: [
       'نہ اٹھا پھر کوئی رومی عجم کے لالہ زاروں سے',
       'وہی آب و گلِ ایراں، وہی تبریز ہے ساقی'
@@ -4110,7 +4110,7 @@ export const allPoems = [
   },
   {
     title: 'Farzandan-e-Hind Se (Part 2)',
-    englishTitle: 'To the Sons of India',
+    englishTitle: 'To the Sons of India (Part 2)',
     urdu: [
       'ہزاروں سال نرگس اپنی بے نوری پہ روتی ہے',
       'بڑی مشکل سے ہوتا ہے چمن میں دیدہ ور پیدا'
@@ -4142,7 +4142,7 @@ export const allPoems = [
   },
   {
     title: 'Naya Shivala (Part 2)',
-    englishTitle: 'The New Temple',
+    englishTitle: 'The New Temple (Part 2)',
     urdu: [
       'آ، غیریت کے پردے اک بار پھر اٹھا دیں',
       'بچھڑوں کو پھر ملا دیں، نقشِ دوئی مٹا دیں'
@@ -4157,8 +4157,8 @@ export const allPoems = [
     ]
   },
   {
-    title: 'Tasveer-e-Dard',
-    englishTitle: 'The Picture of Pain',
+    title: 'Tasveer-e-Dard (Part 2)',
+    englishTitle: 'The Picture of Pain (Part 2)',
     urdu: [
       'رلاتا ہے ترا نظارہ اے ہندوستاں! مجھ کو',
       'کہ عبرت خیز ہے تیرا فسانہ سب فسانوں میں'
@@ -4173,8 +4173,8 @@ export const allPoems = [
     ]
   },
   {
-    title: 'Chand',
-    englishTitle: 'The Moon',
+    title: 'Chand (Part 2)',
+    englishTitle: 'The Moon (Part 2)',
     urdu: [
       'تو ہے قندیلِ رواقِ دیدۂ افلاک کی',
       'میں ہوں اک آوارہ ذرہ، خاک کی پوشاک کی'
@@ -4254,7 +4254,7 @@ export const allPoems = [
   },
   {
     title: 'Mera Anjaam (Part 2)',
-    englishTitle: 'My End',
+    englishTitle: 'My End (Part 2)',
     urdu: [
       'میں ہوں وہ شمع کہ جلتی ہے فقط راتوں کو',
       'جب سحر ہوتی ہے، خاموش ہو جاتی ہوں میں'
@@ -4270,7 +4270,7 @@ export const allPoems = [
   },
   {
     title: 'Javaid Ke Naam (Part 2)',
-    englishTitle: 'To Javaid',
+    englishTitle: 'To Javaid (Part 2)',
     urdu: [
       'خدا اگر دلِ فطرت شناس دے تجھ کو',
       'سکوتِ لالہ و گل سے کلام پیدا کر'
