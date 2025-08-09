@@ -25,7 +25,7 @@ export function ThemeToggle() {
     )
   }
 
-  const iconClass = theme === 'blue' ? 'theme-toggle-button' : '';
+  const iconClass = (theme === 'blue' || theme === 'orange') ? 'theme-toggle-button' : '';
 
   return (
     <DropdownMenu>

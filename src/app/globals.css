@@ -114,38 +114,38 @@
 
 /* Animations for Blue Theme and styles for Orange theme */
 @layer utilities {
-  .blue .page-title {
+  .blue .page-title, .orange .page-title {
     animation: slideInDown 0.7s ease-out forwards, text-glow 2s ease-in-out infinite alternate;
   }
   
-  .blue .page-description {
+  .blue .page-description, .orange .page-description {
      animation: slideInUp 0.7s ease-out 0.2s forwards;
      opacity: 0;
   }
 
-  .blue .poem-card {
+  .blue .poem-card, .orange .poem-card {
     animation: fadeIn 0.8s ease-out forwards;
     opacity: 0;
     border-color: transparent;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
-  .blue .poem-card:hover {
+  .blue .poem-card:hover, .orange .poem-card:hover {
     transform: translateY(-5px) scale(1.02);
     @apply shadow-2xl;
     box-shadow: 0 0 15px hsl(var(--primary) / 0.5), 0 0 30px hsl(var(--accent) / 0.3);
   }
 
-  .blue .pagination-control-container {
+  .blue .pagination-control-container, .orange .pagination-control-container {
      animation: popIn 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
   }
   
-  .blue .pagination-button:hover {
+  .blue .pagination-button:hover, .orange .pagination-button:hover {
     @apply bg-primary/80;
     transform: scale(1.1);
   }
 
-  .blue .theme-toggle-button {
+  .blue .theme-toggle-button, .orange .theme-toggle-button {
     animation: icon-glow 2s ease-in-out infinite alternate;
   }
 

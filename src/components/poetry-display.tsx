@@ -35,7 +35,7 @@ export function PoetryDisplay() {
   };
 
   const getAnimationDelay = (index: number) => {
-    if (mounted && theme === 'blue') {
+    if (mounted && (theme === 'blue' || theme === 'orange')) {
       return { animationDelay: `${index * 100}ms` };
     }
     return {};
@@ -54,7 +54,7 @@ export function PoetryDisplay() {
             >
               <CardHeader>
                 {poem.isPopular && (
-                  <Badge className="absolute top-4 right-4 bg-accent text-accent-foreground shadow-md">Popular</Badge>
+                  <Badge variant="popular" className="absolute top-4 right-4 shadow-md">Popular</Badge>
                 )}
                 <div className="flex items-baseline gap-4">
                   <span className="text-xl font-bold text-primary/80">#{poemNumber}</span>
