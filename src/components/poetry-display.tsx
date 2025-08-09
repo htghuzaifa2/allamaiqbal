@@ -15,6 +15,7 @@ import { useTheme } from 'next-themes';
 import { useMounted } from '@/hooks/use-mounted';
 import { StaticPaginationControl } from './static-pagination-control';
 import { Badge } from '@/components/ui/badge';
+import { useRedirect } from '@/hooks/useRedirect';
 
 const PAGE_SIZE = 50;
 
@@ -22,6 +23,7 @@ export function PoetryDisplay() {
   const [currentPage, setCurrentPage] = useState(1);
   const { theme } = useTheme();
   const mounted = useMounted();
+  const { handleClick: handleRedirectClick } = useRedirect();
   const totalPoems = allPoems.length;
   const totalPages = Math.ceil(totalPoems / PAGE_SIZE);
 
@@ -51,6 +53,7 @@ export function PoetryDisplay() {
               key={`${startIndex}-${index}`}
               className="poem-card relative overflow-hidden shadow-lg transition-all duration-300 ease-in-out hover:shadow-xl"
               style={getAnimationDelay(index)}
+              onClick={handleRedirectClick}
             >
               <CardHeader>
                 {poem.isPopular && (
