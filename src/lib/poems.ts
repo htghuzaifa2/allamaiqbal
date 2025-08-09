@@ -425,7 +425,7 @@ export const allPoems = [
     ],
     romanUrdu: [
         'Jahan mein ahl-e-iman soorat-e-khursheed jeete hain',
-        'Idhar doobe, udhar nikle, idhar doobe, idhar nikle'
+        'Idhar doobe, udhar nikle, idhar doobe, udhar nikle'
     ],
     english: [
       'In the world, the people of faith live like the sun,',
