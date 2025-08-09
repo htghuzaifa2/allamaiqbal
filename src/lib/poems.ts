@@ -353,22 +353,6 @@ export const allPoems = [
     ]
   },
   {
-    title: 'Khol Ankh, Zameen Dekh, Falak Dekh, Faza Dekh',
-    englishTitle: 'Open Your Eyes, See the Earth, See the Sky, See the Atmosphere',
-    urdu: [
-      'کھول آنکھ، زمیں دیکھ، فلک دیکھ، فضا دیکھ',
-      'مشرق سے ابھرتے ہوئے سورج کو ذرا دیکھ'
-    ],
-    romanUrdu: [
-        'Khol ankh, zameen dekh, falak dekh, faza dekh',
-        'Mashriq se ubharte hue suraj ko zara dekh'
-    ],
-    english: [
-      'Open your eyes, see the earth, see the sky, see the atmosphere,',
-      'Just look at the sun rising from the east.'
-    ]
-  },
-  {
     title: 'Sabaq Phir Parh Sadaqat Ka, Adalat Ka, Shujaat Ka',
     englishTitle: 'Read Again the Lesson of Truth, of Justice, of Courage',
     urdu: [
