@@ -65,7 +65,7 @@ export function PoetryDisplay() {
                 </div>
               </CardHeader>
               <CardContent>
-                <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+                <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
                   <div className="space-y-2 text-right" dir="rtl">
                     <h3 className="mb-2 text-xl font-semibold text-primary">اردو</h3>
                     {poem.urdu.map((line, lineIndex) => (

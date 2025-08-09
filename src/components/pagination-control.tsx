@@ -48,7 +48,7 @@ export function PaginationControl({ currentPage, totalPages, onPageChange }: Pag
   };
   
   return (
-    <div className="pagination-control-container fixed bottom-4 right-4 z-50">
+    <div className="pagination-control-container fixed bottom-4 right-4 z-50 hidden md:block">
        <div className={cn("flex items-center gap-1 transition-all duration-300 ease-in-out", isOpen ? "translate-x-0 opacity-100" : "translate-x-10 opacity-0 pointer-events-none")}>
          <Button onClick={() => handlePageClick(1)} size="icon" variant="outline" disabled={currentPage === 1} className="pagination-button h-8 w-8 rounded-full transition-all duration-200"><ChevronsLeft /></Button>
          <Button onClick={() => handlePageClick(currentPage - 1)} size="icon" variant="outline" disabled={currentPage === 1} className="pagination-button h-8 w-8 rounded-full transition-all duration-200"><ChevronLeft /></Button>
