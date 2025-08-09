@@ -4869,22 +4869,6 @@ export const allPoems = [
     ]
   },
   {
-    title: 'زندگی کا سفر',
-    englishTitle: 'The Journey of Life',
-    urdu: [
-        'سفر ہے شرط مسافر نواز بہتیرے',
-        'ہزارہا شجرِ سایہ دار راہ میں ہیں'
-    ],
-    romanUrdu: [
-        'Safar hai shart musafir nawaz bahutere',
-        'Hazarha shajar-e-saayadar raah mein hain'
-    ],
-    english: [
-        'Travel is the condition, there are many who are hospitable to travelers,',
-        'There are thousands of shady trees on the way.'
-    ]
-  },
-  {
     title: 'مومن کا دل',
     englishTitle: 'The Believer\'s Heart',
     urdu: [
@@ -4982,7 +4966,7 @@ export const allPoems = [
   },
   {
     title: 'مومن کی موت',
-    englishTitle: 'The Death of a Believer',
+    englishTitle: 'The Believer\'s Death',
     urdu: [
         'موت کو سمجھے ہیں غافل اختتامِ زندگی',
         'ہے یہ شامِ زندگی، صبحِ دوامِ زندگی'
@@ -5218,70 +5202,6 @@ export const allPoems = [
     english: [
         'Do not be intimidated by the fierceness of the opposing wind, O eagle,',
         'It blows only to make you fly higher.'
-    ]
-  },
-  {
-    title: 'مومن کی دنیا',
-    englishTitle: 'The Believer\'s World',
-    urdu: [
-        'وہی جہاں ہے ترا جس کو تو کرے پیدا',
-        'یہ سنگ و خشت نہیں جو تری نگاہ میں ہے'
-    ],
-    romanUrdu: [
-        'Wohi jahan hai tera jis ko tu kare paida',
-        'Yeh sang o khisht nahin jo teri nigah mein hai'
-    ],
-    english: [
-        'Your world is the one that you create,',
-        'Not this world of stone and brick that is in your sight.'
-    ]
-  },
-  {
-    title: 'مومن کی تقدیر',
-    englishTitle: 'The Believer\'s Destiny',
-    urdu: [
-        'تقدیر کے قاضی کا یہ فتویٰ ہے ازل سے',
-        'ہے جرمِ ضعیفی کی سزا مرگِ مفاجات'
-    ],
-    romanUrdu: [
-        'Taqdeer ke qaazi ka yeh fatwa hai azal se',
-        'Hai jurm-e-zaeefi ki saza marg-e-mafajaat'
-    ],
-    english: [
-        'This has been the eternal decree of the judge of destiny,',
-        'The punishment for the crime of weakness is sudden death.'
-    ]
-  },
-  {
-    title: 'مومن کی زندگی',
-    englishTitle: 'The Believer\'s Life',
-    urdu: [
-        'حیات کیا ہے؟ فقط اک تب و تابِ مستعار',
-        'خودی ہے زندہ تو یہ زندگی ہے پائیدار'
-    ],
-    romanUrdu: [
-        'Hayat kya hai? Faqat ik tab o taab-e-mustaar',
-        'Khudi hai zinda to yeh zindagi hai paayedaar'
-    ],
-    english: [
-        'What is life? Only a borrowed fever and glow,',
-        'If the Self is alive, this life is enduring.'
-    ]
-  },
-  {
-    title: 'مومن کی دعا',
-    englishTitle: 'The Believer\'s Prayer',
-    urdu: [
-        'یا رب دلِ مسلم کو وہ زندہ تمنا دے',
-        'جو قلب کو گرما دے، جو روح کو تڑپا دے'
-    ],
-    romanUrdu: [
-        'Ya Rab dil-e-Muslim ko woh zinda tamanna de',
-        'Jo qalb ko garma de, jo rooh ko tadpa de'
-    ],
-    english: [
-        'O Lord, grant the Muslim heart that living aspiration,',
-        'Which may warm the heart and stir the soul.'
     ]
   },
   {
