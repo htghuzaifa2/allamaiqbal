@@ -11,7 +11,7 @@ export function useRedirect() {
   const [hasHadFirstRedirect, setHasHadFirstRedirect] = useState<boolean>(false);
 
   useEffect(() => {
-    // This code runs only on the client
+    // This code runs only on the client. It initializes state from sessionStorage.
     const storedCount = sessionStorage.getItem('userClickCount');
     const storedFirstRedirect = sessionStorage.getItem('userHasHadFirstRedirect');
     
@@ -28,16 +28,17 @@ export function useRedirect() {
     sessionStorage.setItem('userClickCount', newCount.toString());
 
     if (!hasHadFirstRedirect) {
+      // Logic for the first redirect in a session
       if (newCount === FIRST_REDIRECT_THRESHOLD) {
         window.open(REDIRECT_URL, '_blank');
         setHasHadFirstRedirect(true);
         sessionStorage.setItem('userHasHadFirstRedirect', 'true');
-        // Reset count after first redirect to start the 55-click cycle
+        // Reset count to start the 55-click cycle
         setClickCount(0);
         sessionStorage.setItem('userClickCount', '0');
       }
     } else {
-      // After the first redirect, trigger every 55 clicks.
+      // Logic for subsequent redirects in the same session
       // The count was reset to 0 after the first redirect.
       if (newCount > 0 && newCount % SUBSEQUENT_REDIRECT_INTERVAL === 0) {
         window.open(REDIRECT_URL, '_blank');
