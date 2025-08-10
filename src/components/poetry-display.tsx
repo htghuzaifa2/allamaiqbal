@@ -15,6 +15,7 @@ import { useTheme } from 'next-themes';
 import { useMounted } from '@/hooks/use-mounted';
 import { StaticPaginationControl } from './static-pagination-control';
 import { Badge } from '@/components/ui/badge';
+import { AdsterraBannerAd } from './adsterra-ads';
 
 const PAGE_SIZE = 50;
 
@@ -93,6 +94,7 @@ export function PoetryDisplay() {
                   </div>
                 </CardContent>
               </Card>
+              {(index + 1) % 25 === 0 && <AdsterraBannerAd key={`ad-${index}`} />}
             </React.Fragment>
           )
         })}

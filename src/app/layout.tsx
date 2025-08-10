@@ -3,6 +3,7 @@ import { LayoutProvider } from '@/components/layout-provider';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/header';
 import './globals.css';
+import { AdsterraSocialBar } from '@/components/adsterra-ads';
 
 export const metadata: Metadata = {
   title: 'Allama Iqbal Poetry – Urdu & English Verses with Transliteration',
@@ -60,6 +61,7 @@ export default function RootLayout({
             <main className="flex-grow">{children}</main>
           <Toaster />
         </LayoutProvider>
+        <AdsterraSocialBar />
       </body>
     </html>
   );

@@ -17,6 +17,7 @@ import { ArrowLeft } from 'lucide-react';
 import { StaticPaginationControl } from '@/components/static-pagination-control';
 import { Badge } from '@/components/ui/badge';
 import Fuse from 'fuse.js';
+import { AdsterraBannerAd } from './adsterra-ads';
 
 const PAGE_SIZE = 50;
 
@@ -139,6 +140,7 @@ export function SearchResults() {
                     </div>
                   </CardContent>
                 </Card>
+                {(index + 1) % 25 === 0 && <AdsterraBannerAd key={`ad-${index}`} />}
               </React.Fragment>
             )
           })}
