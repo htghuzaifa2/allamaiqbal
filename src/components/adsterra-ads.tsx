@@ -8,7 +8,7 @@ export function AdsterraAds() {
     <>
       {/* 
         Adsterra Social Bar Ad Unit
-        This is your active Social Bar script.
+        This script is loaded on all pages.
       */}
       <Script
         id="adsterra-social-bar"
@@ -22,8 +22,8 @@ export function AdsterraAds() {
 
 /**
  * Adsterra Banner Ad.
- * This component now contains your Native Banner ad code.
- * It will be displayed between poems.
+ * This component contains the Native Banner ad code.
+ * It is displayed between poems.
  */
 export function AdsterraBannerAd() {
     return (
@@ -32,7 +32,7 @@ export function AdsterraBannerAd() {
                 id="adsterra-native-banner-script"
                 strategy="lazyOnload"
                 async={true}
-                data-cfasync="false"
+                data-cfasync={false}
                 src="//pl27391280.profitableratecpm.com/80b1d23fe81d799143c72e85121699bf/invoke.js" 
             />
             <div id="container-80b1d23fe81d799143c72e85121699bf"></div>
