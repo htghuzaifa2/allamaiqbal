@@ -51,7 +51,8 @@ export default function RootLayout({
         <link
           href="https://fonts.googleapis.com/css2?family=Literata:wght@400;700&family=Playfair+Display:wght@700&display=swap"
           rel="stylesheet"
-          preload="true"
+          as="style"
+          
         />
       </head>
       <body className="font-body antialiased transition-colors duration-300">
