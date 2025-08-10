@@ -8,13 +8,13 @@ export function AdsterraAds() {
     <>
       {/* 
         Adsterra Social Bar Ad Unit
-        Replace the 'src' with your actual Social Bar script link from Adsterra.
-        This script will automatically create the social bar ad.
+        This is your active Social Bar script.
       */}
       <Script
         id="adsterra-social-bar"
         strategy="lazyOnload"
-        src="//pl23719929.highcpmgate.com/08/8a/b2/088ab2ce2876618d34d3d875080ca25e.js" 
+        type='text/javascript'
+        src='//pl27391411.profitableratecpm.com/2e/9f/13/2e9f137c2e929905630b5d05eee423bf.js'
       />
 
       {/* 
@@ -27,23 +27,20 @@ export function AdsterraAds() {
 }
 
 /**
- * Placeholder for a Banner Ad.
- * Adsterra will provide you with a div and a script.
- * You can place this component wherever you want a banner to appear.
- * Remember to replace the ad unit code inside the script.
+ * Adsterra Banner Ad.
+ * This component now contains your Native Banner ad code.
+ * It will be displayed between poems.
  */
 export function AdsterraBannerAd() {
     return (
         <div className="my-4 flex justify-center">
-            {/* 
-                This is a placeholder for an Adsterra Banner ad.
-                Adsterra typically provides a script that looks something like this.
-                You will need to replace the 'src' with the one from your Adsterra account.
-            */}
             <Script 
-                async 
-                src="//pl23719929.highcpmgate.com/e9/f8/f4/e9f8f4a83424d622f18398ba5da9319d.js" 
+                id="adsterra-native-banner-script"
+                async={true}
+                data-cfasync="false"
+                src="//pl27391280.profitableratecpm.com/80b1d23fe81d799143c72e85121699bf/invoke.js" 
             />
+            <div id="container-80b1d23fe81d799143c72e85121699bf"></div>
         </div>
     );
 }
