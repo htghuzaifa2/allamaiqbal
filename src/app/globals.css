@@ -104,11 +104,14 @@
 }
 
 @layer base {
+  html, body {
+    @apply overflow-x-hidden;
+  }
   * {
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground overflow-x-hidden transition-colors duration-300;
+    @apply bg-background text-foreground transition-colors duration-300;
   }
 }
 
@@ -136,11 +139,11 @@
     box-shadow: 0 0 15px hsl(var(--primary) / 0.5), 0 0 30px hsl(var(--accent) / 0.3);
   }
 
-  .blue .pagination-control-container, .orange .pagination-control-container {
+  .pagination-control-container, .static-pagination-control {
      animation: popIn 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
   }
   
-  .blue .pagination-button:hover, .orange .pagination-button:hover {
+  .pagination-button:hover {
     @apply bg-primary/80;
     transform: scale(1.1);
   }
