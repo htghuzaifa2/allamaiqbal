@@ -17,7 +17,6 @@ import { ArrowLeft } from 'lucide-react';
 import { StaticPaginationControl } from '@/components/static-pagination-control';
 import { Badge } from '@/components/ui/badge';
 import Fuse from 'fuse.js';
-import { AdsterraBannerAd } from './adsterra-ads';
 
 const PAGE_SIZE = 50;
 
@@ -94,7 +93,6 @@ export function SearchResults() {
           {paginatedResults.map((poem, index) => {
             const originalIndex = poemIndexMap.get(poem.englishTitle) ?? -1;
             const poemNumber = totalPoems - originalIndex;
-            const isAdSpot = (index + 1) % 25 === 0;
             return (
               <React.Fragment key={`${poem.englishTitle}-${originalIndex}`}>
                 <Card
@@ -141,7 +139,6 @@ export function SearchResults() {
                     </div>
                   </CardContent>
                 </Card>
-                {isAdSpot && <AdsterraBannerAd />}
               </React.Fragment>
             )
           })}

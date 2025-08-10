@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import { LayoutProvider } from '@/components/layout-provider';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/header';
-import { AdsterraSocialBar } from '@/components/adsterra-ads';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -54,7 +53,6 @@ export default function RootLayout({
           rel="stylesheet"
           as="style"
         />
-        <AdsterraSocialBar />
       </head>
       <body className="font-body antialiased">
         <LayoutProvider>
