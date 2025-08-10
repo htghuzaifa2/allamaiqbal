@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { useState } from 'react';
+import Script from 'next/script';
 import {
   Card,
   CardContent,
@@ -15,9 +16,23 @@ import { useTheme } from 'next-themes';
 import { useMounted } from '@/hooks/use-mounted';
 import { StaticPaginationControl } from './static-pagination-control';
 import { Badge } from '@/components/ui/badge';
-import { AdsterraBannerAd } from './adsterra-ads';
 
 const PAGE_SIZE = 50;
+
+function AdsterraBannerAd() {
+  return (
+      <div className="my-4 flex justify-center">
+          <Script
+              id={`adsterra-native-banner-${Math.random()}`}
+              strategy="lazyOnload"
+              async={true}
+              data-cfasync="false"
+              src="//pl27391280.profitableratecpm.com/80b1d23fe81d799143c72e85121699bf/invoke.js"
+          />
+          <div id="container-80b1d23fe81d799143c72e85121699bf"></div>
+      </div>
+  );
+}
 
 export function PoetryDisplay() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -47,7 +62,7 @@ export function PoetryDisplay() {
       <div className="space-y-8">
         {displayedPoems.map((poem, index) => {
           const poemNumber = totalPoems - (startIndex + index);
-          const isAdSpot = (index + 1) % 25 === 0; // Show an ad every 25 poems
+          const isAdSpot = (index + 1) % 25 === 0;
           return (
             <React.Fragment key={`${poem.englishTitle}-${startIndex}-${index}`}>
               <Card

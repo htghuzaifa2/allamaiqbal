@@ -1,9 +1,8 @@
 import type { Metadata } from 'next';
-import { ThemeProvider } from '@/components/theme-provider';
+import { LayoutProvider } from '@/components/layout-provider';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/header';
-import { LayoutProvider } from '@/components/layout-provider';
-import { AdsterraAds } from '@/components/adsterra-ads';
+import Script from 'next/script';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -55,9 +54,14 @@ export default function RootLayout({
           rel="stylesheet"
           as="style"
         />
-        <AdsterraAds />
+        <Script
+          id="adsterra-social-bar"
+          strategy="lazyOnload"
+          type='text/javascript'
+          src='//pl27391411.profitableratecpm.com/2e/9f/13/2e9f137c2e929905630b5d05eee423bf.js'
+        />
       </head>
-      <body className="font-body antialiased transition-colors duration-300">
+      <body className="font-body antialiased">
         <LayoutProvider>
             <Header />
             <main className="flex-grow">{children}</main>

@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { useSearchParams } from 'next/navigation';
+import Script from 'next/script';
 import { allPoems } from '@/lib/poems';
 import {
   Card,
@@ -17,7 +18,6 @@ import { ArrowLeft } from 'lucide-react';
 import { StaticPaginationControl } from '@/components/static-pagination-control';
 import { Badge } from '@/components/ui/badge';
 import Fuse from 'fuse.js';
-import { AdsterraBannerAd } from './adsterra-ads';
 
 const PAGE_SIZE = 50;
 
@@ -39,6 +39,21 @@ const fuseOptions = {
 };
 
 const fuse = new Fuse(allPoems, fuseOptions);
+
+function AdsterraBannerAd() {
+    return (
+        <div className="my-4 flex justify-center">
+            <Script 
+                id={`adsterra-native-banner-${Math.random()}`}
+                strategy="lazyOnload"
+                async={true}
+                data-cfasync={false}
+                src="//pl27391280.profitableratecpm.com/80b1d23fe81d799143c72e85121699bf/invoke.js" 
+            />
+            <div id="container-80b1d23fe81d799143c72e85121699bf"></div>
+        </div>
+    );
+}
 
 export function SearchResults() {
   const searchParams = useSearchParams();
@@ -94,7 +109,7 @@ export function SearchResults() {
           {paginatedResults.map((poem, index) => {
             const originalIndex = poemIndexMap.get(poem.englishTitle) ?? -1;
             const poemNumber = totalPoems - originalIndex;
-            const isAdSpot = (index + 1) % 25 === 0; // Show an ad every 25 poems
+            const isAdSpot = (index + 1) % 25 === 0;
             return (
               <React.Fragment key={`${poem.englishTitle}-${originalIndex}`}>
                 <Card
