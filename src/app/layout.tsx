@@ -54,12 +54,11 @@ export default function RootLayout({
           rel="stylesheet"
           as="style"
         />
-        <Script
+        <script
           id="adsterra-social-bar"
-          strategy="lazyOnload"
           type='text/javascript'
           src='//pl27391411.profitableratecpm.com/2e/9f/13/2e9f137c2e929905630b5d05eee423bf.js'
-        />
+        ></script>
       </head>
       <body className="font-body antialiased">
         <LayoutProvider>

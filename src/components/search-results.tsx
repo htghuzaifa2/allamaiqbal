@@ -43,12 +43,22 @@ const fuse = new Fuse(allPoems, fuseOptions);
 function AdsterraBannerAd() {
     return (
         <div className="my-4 flex justify-center">
-            <Script 
+            <Script
                 id={`adsterra-native-banner-${Math.random()}`}
                 strategy="lazyOnload"
-                async={true}
-                data-cfasync={false}
-                src="//pl27391280.profitableratecpm.com/80b1d23fe81d799143c72e85121699bf/invoke.js" 
+                dangerouslySetInnerHTML={{
+                  __html: `
+                    (async function() {
+                      var script = document.createElement('script');
+                      script.async = true;
+                      script.src = '//pl27391280.profitableratecpm.com/80b1d23fe81d799143c72e85121699bf/invoke.js';
+                      var "container" = document.createElement('div');
+                      "container".id = 'container-80b1d23fe81d799143c72e85121699bf';
+                      document.currentScript.parentNode.insertBefore("container", document.currentScript.nextSibling);
+                      document.currentScript.parentNode.insertBefore(script, document.currentScript.nextSibling);
+                    })();
+                  `,
+                }}
             />
             <div id="container-80b1d23fe81d799143c72e85121699bf"></div>
         </div>
