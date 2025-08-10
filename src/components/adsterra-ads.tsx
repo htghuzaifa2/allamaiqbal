@@ -27,34 +27,16 @@ export function AdsterraBannerAd() {
     const scriptInjectedRef = useRef(false);
 
     useEffect(() => {
-        if (scriptInjectedRef.current) {
-            return;
-        }
-
-        const script = document.createElement('script');
-        script.async = true;
-        script.setAttribute('data-cfasync', 'false');
-        script.src = '//pl27391280.profitableratecpm.com/80b1d23fe81d799143c72e85121699bf/invoke.js';
-
-        const adContainer = adContainerRef.current;
-        if (adContainer) {
-            adContainer.appendChild(script);
+        if (adContainerRef.current && !scriptInjectedRef.current) {
+            const script = document.createElement('script');
+            script.async = true;
+            script.setAttribute('data-cfasync', 'false');
+            script.src = '//pl27391280.profitableratecpm.com/80b1d23fe81d799143c72e85121699bf/invoke.js';
+            adContainerRef.current.appendChild(script);
             scriptInjectedRef.current = true;
-        }
-        
-        return () => {
-            if (adContainer && script.parentNode === adContainer) {
-                adContainer.removeChild(script);
-                // Also remove the ad content div if it exists
-                const adContent = adContainer.querySelector('#container-80b1d23fe81d799143c72e85121699bf');
-                if (adContent) {
-                    adContainer.removeChild(adContent);
-                }
-                scriptInjectedRef.current = false;
-            }
         }
     }, []);
 
-    // The ad script itself creates the div with the specific ID, so we just need a container
-    return <div ref={adContainerRef} className="my-4"/>;
+    // The ad script itself creates the div with the specific ID, but we need a container to append the script to.
+    return <div ref={adContainerRef} id="container-80b1d23fe81d799143c72e85121699bf" className="my-4"/>;
 }

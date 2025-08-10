@@ -94,7 +94,7 @@ export function PoetryDisplay() {
                   </div>
                 </CardContent>
               </Card>
-              {(index + 1) % 25 === 0 && <AdsterraBannerAd key={`ad-${index}`} />}
+              {(index + 1) % 25 === 0 && <AdsterraBannerAd key={`ad-${poem.englishTitle}-${index}`} />}
             </React.Fragment>
           )
         })}

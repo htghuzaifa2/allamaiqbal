@@ -140,7 +140,7 @@ export function SearchResults() {
                     </div>
                   </CardContent>
                 </Card>
-                {(index + 1) % 25 === 0 && <AdsterraBannerAd key={`ad-${index}`} />}
+                {(index + 1) % 25 === 0 && <AdsterraBannerAd key={`ad-search-${poem.englishTitle}-${index}`} />}
               </React.Fragment>
             )
           })}
