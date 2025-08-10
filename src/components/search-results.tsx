@@ -1,5 +1,6 @@
 'use client';
 
+import React from 'react';
 import { useSearchParams } from 'next/navigation';
 import { allPoems } from '@/lib/poems';
 import {
@@ -16,6 +17,7 @@ import { ArrowLeft } from 'lucide-react';
 import { StaticPaginationControl } from '@/components/static-pagination-control';
 import { Badge } from '@/components/ui/badge';
 import Fuse from 'fuse.js';
+import { AdsterraBannerAd } from './adsterra-ads';
 
 const PAGE_SIZE = 50;
 
@@ -89,55 +91,58 @@ export function SearchResults() {
 
       <div className="mx-auto max-w-7xl">
         <div className="space-y-8">
-          {paginatedResults.map((poem) => {
+          {paginatedResults.map((poem, index) => {
             const originalIndex = poemIndexMap.get(poem.englishTitle) ?? -1;
             const poemNumber = totalPoems - originalIndex;
+            const isAdSpot = (index + 1) % 25 === 0; // Show an ad every 25 poems
             return (
-              <Card
-                key={`${poem.englishTitle}-${originalIndex}`}
-                className="poem-card relative overflow-hidden shadow-lg transition-all duration-300 ease-in-out hover:shadow-xl"
-              >
-                <CardHeader>
-                  {poem.isPopular && (
-                    <Badge variant="popular" className="absolute top-4 right-4 shadow-md">Popular</Badge>
-                  )}
-                  <div className="flex items-baseline gap-4">
-                    <span className="text-xl font-bold text-primary/80">#{poemNumber}</span>
-                    <div className="flex-1">
-                      <CardTitle className="font-headline text-2xl md:text-3xl">{poem.englishTitle}</CardTitle>
-                      <CardDescription className="text-lg md:text-xl">{poem.title}</CardDescription>
+              <React.Fragment key={`${poem.englishTitle}-${originalIndex}`}>
+                <Card
+                  className="poem-card relative overflow-hidden shadow-lg transition-all duration-300 ease-in-out hover:shadow-xl"
+                >
+                  <CardHeader>
+                    {poem.isPopular && (
+                      <Badge variant="popular" className="absolute top-4 right-4 shadow-md">Popular</Badge>
+                    )}
+                    <div className="flex items-baseline gap-4">
+                      <span className="text-xl font-bold text-primary/80">#{poemNumber}</span>
+                      <div className="flex-1">
+                        <CardTitle className="font-headline text-2xl md:text-3xl">{poem.englishTitle}</CardTitle>
+                        <CardDescription className="text-lg md:text-xl">{poem.title}</CardDescription>
+                      </div>
                     </div>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-                    <div className="space-y-2 text-right" dir="rtl">
-                      <h3 className="mb-2 text-xl font-semibold text-primary">اردو</h3>
-                      {poem.urdu.map((line, lineIndex) => (
-                        <p key={lineIndex} className="font-body text-xl">
-                          {line}
-                        </p>
-                      ))}
+                  </CardHeader>
+                  <CardContent>
+                    <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+                      <div className="space-y-2 text-right" dir="rtl">
+                        <h3 className="mb-2 text-xl font-semibold text-primary">اردو</h3>
+                        {poem.urdu.map((line, lineIndex) => (
+                          <p key={lineIndex} className="font-body text-xl">
+                            {line}
+                          </p>
+                        ))}
+                      </div>
+                       <div className="space-y-2">
+                         <h3 className="mb-2 text-xl font-semibold text-primary">Roman</h3>
+                         {poem.romanUrdu && poem.romanUrdu.map((line, lineIndex) => (
+                          <p key={lineIndex} className="font-body text-lg">
+                            {line}
+                          </p>
+                        ))}
+                      </div>
+                      <div className="space-y-2">
+                        <h3 className="mb-2 text-xl font-semibold text-primary">English</h3>
+                        {poem.english.map((line, lineIndex) => (
+                          <p key={lineIndex} className="font-body text-lg italic">
+                            {line}
+                          </p>
+                        ))}
+                      </div>
                     </div>
-                     <div className="space-y-2">
-                       <h3 className="mb-2 text-xl font-semibold text-primary">Roman</h3>
-                       {poem.romanUrdu && poem.romanUrdu.map((line, lineIndex) => (
-                        <p key={lineIndex} className="font-body text-lg">
-                          {line}
-                        </p>
-                      ))}
-                    </div>
-                    <div className="space-y-2">
-                      <h3 className="mb-2 text-xl font-semibold text-primary">English</h3>
-                      {poem.english.map((line, lineIndex) => (
-                        <p key={lineIndex} className="font-body text-lg italic">
-                          {line}
-                        </p>
-                      ))}
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+                  </CardContent>
+                </Card>
+                {isAdSpot && <AdsterraBannerAd />}
+              </React.Fragment>
             )
           })}
         </div>

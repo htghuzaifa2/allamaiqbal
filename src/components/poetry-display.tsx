@@ -47,7 +47,7 @@ export function PoetryDisplay() {
       <div className="space-y-8">
         {displayedPoems.map((poem, index) => {
           const poemNumber = totalPoems - (startIndex + index);
-          const isAdSpot = (index + 1) % 5 === 0; // Show an ad every 5 poems
+          const isAdSpot = (index + 1) % 25 === 0; // Show an ad every 25 poems
           return (
             <React.Fragment key={`${poem.englishTitle}-${startIndex}-${index}`}>
               <Card
