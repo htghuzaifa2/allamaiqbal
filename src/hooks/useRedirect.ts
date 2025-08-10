@@ -1,29 +1,28 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useCallback } from 'react';
 
 const REDIRECT_URL = 'https://huzi.pk';
 const REDIRECT_INTERVAL = 33;
 
 export function useRedirect() {
-  const [clickCount, setClickCount] = useState(0);
+  const handleClick = useCallback(() => {
+    try {
+      // Get the current count from sessionStorage, or default to 0
+      const currentCount = parseInt(sessionStorage.getItem('userClickCount') || '0', 10);
+      const newCount = currentCount + 1;
+      
+      // Save the new count back to sessionStorage
+      sessionStorage.setItem('userClickCount', newCount.toString());
 
-  // On component mount, get the click count from sessionStorage.
-  useEffect(() => {
-    const storedCount = sessionStorage.getItem('userClickCount');
-    setClickCount(storedCount ? parseInt(storedCount, 10) : 0);
-  }, []);
-
-  const handleClick = () => {
-    const newCount = clickCount + 1;
-    setClickCount(newCount);
-    sessionStorage.setItem('userClickCount', newCount.toString());
-
-    // Check if the new count is a multiple of the interval.
-    if (newCount > 0 && newCount % REDIRECT_INTERVAL === 0) {
-      window.open(REDIRECT_URL, '_blank');
+      // Check if the new count is a multiple of the interval
+      if (newCount > 0 && newCount % REDIRECT_INTERVAL === 0) {
+        window.open(REDIRECT_URL, '_blank');
+      }
+    } catch (error) {
+      console.error("Error in redirect logic:", error);
     }
-  };
+  }, []);
 
   return { handleClick };
 }

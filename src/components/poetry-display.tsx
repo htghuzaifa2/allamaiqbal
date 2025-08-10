@@ -50,7 +50,7 @@ export function PoetryDisplay() {
           return (
             <Card
               key={`${startIndex}-${index}`}
-              className="poem-card relative overflow-hidden shadow-lg transition-all duration-300 ease-in-out hover:shadow-xl"
+              className="poem-card relative overflow-hidden shadow-lg transition-all duration-300 ease-in-out hover:shadow-xl cursor-pointer"
               style={getAnimationDelay(index)}
               onClick={handleRedirectClick}
             >
