@@ -49,7 +49,7 @@ export function PoetryDisplay() {
           const poemNumber = totalPoems - (startIndex + index);
           const isAdSpot = (index + 1) % 5 === 0; // Show an ad every 5 poems
           return (
-            <React.Fragment key={`${startIndex}-${index}`}>
+            <React.Fragment key={`${poem.englishTitle}-${startIndex}-${index}`}>
               <Card
                 className="poem-card relative overflow-hidden shadow-lg transition-all duration-300 ease-in-out hover:shadow-xl cursor-pointer"
                 style={getAnimationDelay(index)}
