@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/header';
+import { LayoutProvider } from '@/components/layout-provider';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -52,22 +53,14 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Literata:wght@400;700&family=Playfair+Display:wght@700&display=swap"
           rel="stylesheet"
           as="style"
-          
         />
       </head>
-      <body className="font-body antialiased">
-        <ThemeProvider
-          attribute="class"
-          storageKey="iqbalverse-theme"
-          defaultTheme="orange"
-          disableTransitionOnChange
-        >
-          <div className="flex min-h-screen flex-col bg-background">
+      <body className="font-body antialiased transition-colors duration-300">
+        <LayoutProvider>
             <Header />
             <main className="flex-grow">{children}</main>
-          </div>
           <Toaster />
-        </ThemeProvider>
+        </LayoutProvider>
       </body>
     </html>
   );
