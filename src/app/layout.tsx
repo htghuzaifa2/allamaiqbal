@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { LayoutProvider } from '@/components/layout-provider';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/header';
-import Script from 'next/script';
+import { AdsterraSocialBar } from '@/components/adsterra-ads';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -54,11 +54,7 @@ export default function RootLayout({
           rel="stylesheet"
           as="style"
         />
-        <script
-          id="adsterra-social-bar"
-          type='text/javascript'
-          src='//pl27391411.profitableratecpm.com/2e/9f/13/2e9f137c2e929905630b5d05eee423bf.js'
-        ></script>
+        <AdsterraSocialBar />
       </head>
       <body className="font-body antialiased">
         <LayoutProvider>

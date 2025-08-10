@@ -2,7 +2,6 @@
 
 import React from 'react';
 import { useSearchParams } from 'next/navigation';
-import Script from 'next/script';
 import { allPoems } from '@/lib/poems';
 import {
   Card,
@@ -18,6 +17,7 @@ import { ArrowLeft } from 'lucide-react';
 import { StaticPaginationControl } from '@/components/static-pagination-control';
 import { Badge } from '@/components/ui/badge';
 import Fuse from 'fuse.js';
+import { AdsterraBannerAd } from './adsterra-ads';
 
 const PAGE_SIZE = 50;
 
@@ -39,31 +39,6 @@ const fuseOptions = {
 };
 
 const fuse = new Fuse(allPoems, fuseOptions);
-
-function AdsterraBannerAd() {
-    return (
-        <div className="my-4 flex justify-center">
-            <Script
-                id={`adsterra-native-banner-${Math.random()}`}
-                strategy="lazyOnload"
-                dangerouslySetInnerHTML={{
-                  __html: `
-                    (async function() {
-                      var script = document.createElement('script');
-                      script.async = true;
-                      script.src = '//pl27391280.profitableratecpm.com/80b1d23fe81d799143c72e85121699bf/invoke.js';
-                      var "container" = document.createElement('div');
-                      "container".id = 'container-80b1d23fe81d799143c72e85121699bf';
-                      document.currentScript.parentNode.insertBefore("container", document.currentScript.nextSibling);
-                      document.currentScript.parentNode.insertBefore(script, document.currentScript.nextSibling);
-                    })();
-                  `,
-                }}
-            />
-            <div id="container-80b1d23fe81d799143c72e85121699bf"></div>
-        </div>
-    );
-}
 
 export function SearchResults() {
   const searchParams = useSearchParams();
