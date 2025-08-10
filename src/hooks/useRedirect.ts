@@ -7,19 +7,14 @@ const FIRST_REDIRECT_THRESHOLD = 25;
 const SUBSEQUENT_REDIRECT_INTERVAL = 55;
 
 export function useRedirect() {
+  // useState is used to hold the count in the component's memory.
   const [clickCount, setClickCount] = useState<number>(0);
-  const [hasHadFirstRedirect, setHasHadFirstRedirect] = useState<boolean>(false);
 
+  // useEffect runs on the client and initializes the count from sessionStorage.
   useEffect(() => {
-    // This code runs only on the client. It initializes state from sessionStorage.
     const storedCount = sessionStorage.getItem('userClickCount');
-    const storedFirstRedirect = sessionStorage.getItem('userHasHadFirstRedirect');
-    
     const initialCount = storedCount ? parseInt(storedCount, 10) : 0;
-    const initialFirstRedirect = storedFirstRedirect ? JSON.parse(storedFirstRedirect) : false;
-
     setClickCount(initialCount);
-    setHasHadFirstRedirect(initialFirstRedirect);
   }, []);
 
   const handleClick = () => {
@@ -27,19 +22,20 @@ export function useRedirect() {
     setClickCount(newCount);
     sessionStorage.setItem('userClickCount', newCount.toString());
 
-    if (!hasHadFirstRedirect) {
-      // Logic for the first redirect in a session
+    // Check if the first redirect has occurred in this session.
+    const firstRedirectDone = sessionStorage.getItem('firstRedirectDone') === 'true';
+
+    if (!firstRedirectDone) {
       if (newCount === FIRST_REDIRECT_THRESHOLD) {
         window.open(REDIRECT_URL, '_blank');
-        setHasHadFirstRedirect(true);
-        sessionStorage.setItem('userHasHadFirstRedirect', 'true');
-        // Reset count to start the 55-click cycle
+        sessionStorage.setItem('firstRedirectDone', 'true');
+        // Reset count for the subsequent interval logic.
         setClickCount(0);
         sessionStorage.setItem('userClickCount', '0');
       }
     } else {
-      // Logic for subsequent redirects in the same session
-      // The count was reset to 0 after the first redirect.
+      // After the first redirect, check for intervals of 55.
+      // The counter was reset to 0, so we check for multiples of 55.
       if (newCount > 0 && newCount % SUBSEQUENT_REDIRECT_INTERVAL === 0) {
         window.open(REDIRECT_URL, '_blank');
       }
