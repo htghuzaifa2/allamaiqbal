@@ -21,22 +21,15 @@ export function AdsterraSocialBar() {
 }
 
 export function AdsterraBannerAd() {
-  const adContainerRef = React.useRef<HTMLDivElement>(null);
+  const adHtml = `
+    <script async="async" data-cfasync="false" src="//pl27391280.profitableratecpm.com/80b1d23fe81d799143c72e85121699bf/invoke.js"></script>
+    <div id="container-80b1d23fe81d799143c72e85121699bf"></div>
+  `;
 
-  useEffect(() => {
-    if (adContainerRef.current && adContainerRef.current.children.length === 0) {
-      const script = document.createElement('script');
-      script.async = true;
-      script.setAttribute('data-cfasync', 'false');
-      script.src = '//pl27391280.profitableratecpm.com/80b1d23fe81d799143c72e85121699bf/invoke.js';
-      
-      const adContainer = document.createElement('div');
-      adContainer.id = 'container-80b1d23fe81d799143c72e85121699bf';
-
-      adContainerRef.current.appendChild(script);
-      adContainerRef.current.appendChild(adContainer);
-    }
-  }, []);
-
-  return <div ref={adContainerRef} className="my-4 flex justify-center"></div>;
+  return (
+    <div 
+      className="my-4 flex justify-center" 
+      dangerouslySetInnerHTML={{ __html: adHtml }} 
+    />
+  );
 }
