@@ -3,6 +3,7 @@ import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/header';
 import { LayoutProvider } from '@/components/layout-provider';
+import { AdsterraAds } from '@/components/adsterra-ads';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -54,6 +55,7 @@ export default function RootLayout({
           rel="stylesheet"
           as="style"
         />
+        <AdsterraAds />
       </head>
       <body className="font-body antialiased transition-colors duration-300">
         <LayoutProvider>
