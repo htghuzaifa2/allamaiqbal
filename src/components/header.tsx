@@ -16,7 +16,7 @@ export function Header() {
             className="rounded-full"
           />
           <h1 className="font-headline text-lg font-bold text-primary sm:text-xl">
-            Iqbal's Poetry
+            allamaiqbal.huzi.pk
           </h1>
         </Link>
         <div className="flex items-center gap-2">

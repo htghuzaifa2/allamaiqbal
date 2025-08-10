@@ -5,13 +5,13 @@ import { Header } from '@/components/header';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Allama Iqbal Poetry | allamaiqbal.huzi.pk',
+  title: 'Allama Iqbal Poetry – Urdu & English Verses with Transliteration',
   description:
-    "An extensive collection of Allama Iqbal's poetry in Urdu with English translations. Explore the profound verses and wisdom of the Spiritual Father of Pakistan on allamaiqbal.huzi.pk.",
-  keywords: ['Allama Iqbal', 'Iqbal poetry', 'Urdu poetry', 'English translation', 'IqbalVerse', 'Spiritual Father of Pakistan', 'allamaiqbal.huzi.pk'],
+    "Discover the timeless poetry of Allama Iqbal in Urdu, Roman transliteration, and English translation. Explore his most celebrated verses—Shikwa, Jawab-e-Shikwa, Khudi, and more—and learn their profound meanings.",
+  keywords: ['Allama Iqbal poetry', 'Iqbal Urdu poems', 'Allama Iqbal transliteration', 'Allama Iqbal English translation', 'Shikwa poem', 'Jawab-e-Shikwa poetry', 'Iqbal strong faith poetry', 'Iqbal Khudi poem'],
   openGraph: {
-    title: 'Allama Iqbal Poetry | allamaiqbal.huzi.pk',
-    description: "An extensive collection of Allama Iqbal's poetry in Urdu with English translations.",
+    title: 'Allama Iqbal Poetry – Urdu & English Verses with Transliteration',
+    description: "Discover the timeless poetry of Allama Iqbal in Urdu, Roman transliteration, and English translation. Explore his most celebrated verses—Shikwa, Jawab-e-Shikwa, Khudi, and more—and learn their profound meanings.",
     url: 'https://allamaiqbal.huzi.pk',
     siteName: 'Allama Iqbal Poetry',
     images: [
@@ -27,8 +27,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Allama Iqbal Poetry | allamaiqbal.huzi.pk',
-    description: "An extensive collection of Allama Iqbal's poetry in Urdu with English translations.",
+    title: 'Allama Iqbal Poetry – Urdu & English Verses with Transliteration',
+    description: "Discover the timeless poetry of Allama Iqbal in Urdu, Roman transliteration, and English translation.",
     images: ['https://i.postimg.cc/sxTp3Zkv/Dr-allama-muhammad-iqbal.webp'],
   },
 };
