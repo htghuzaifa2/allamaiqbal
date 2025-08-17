@@ -24,16 +24,19 @@ export function AdsterraSocialBar() {
 
 export function AdsterraBannerAd() {
     const adContainerRef = useRef<HTMLDivElement>(null);
-    const scriptInjectedRef = useRef(false);
 
     useEffect(() => {
-        if (adContainerRef.current && !scriptInjectedRef.current) {
+        const adContainer = adContainerRef.current;
+        if (adContainer) {
+            // Clear previous ad content
+            adContainer.innerHTML = '';
+
             const script = document.createElement('script');
             script.async = true;
             script.setAttribute('data-cfasync', 'false');
             script.src = '//pl27391280.profitableratecpm.com/80b1d23fe81d799143c72e85121699bf/invoke.js';
-            adContainerRef.current.appendChild(script);
-            scriptInjectedRef.current = true;
+            
+            adContainer.appendChild(script);
         }
     }, []);
 
