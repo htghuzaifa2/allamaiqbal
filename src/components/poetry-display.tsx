@@ -60,33 +60,33 @@ export function PoetryDisplay() {
                   <div className="flex items-baseline gap-4">
                     <span className="text-xl font-bold text-primary/80">#{poemNumber}</span>
                     <div className="flex-1">
-                      <CardTitle className="font-headline text-2xl">{poem.englishTitle}</CardTitle>
-                      <CardDescription className="text-lg">{poem.title}</CardDescription>
+                      <CardTitle className="font-headline text-xl md:text-2xl">{poem.englishTitle}</CardTitle>
+                      <CardDescription className="text-base md:text-lg">{poem.title}</CardDescription>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
                     <div className="space-y-2 text-right" dir="rtl">
-                      <h3 className="mb-2 text-xl font-semibold text-primary">اردو</h3>
+                      <h3 className="mb-2 text-lg md:text-xl font-semibold text-primary">اردو</h3>
                       {poem.urdu.map((line, lineIndex) => (
-                        <p key={lineIndex} className="poem-text font-body text-xl">
+                        <p key={lineIndex} className="poem-text font-body text-lg md:text-xl">
                           {line}
                         </p>
                       ))}
                     </div>
                     <div className="space-y-2">
-                       <h3 className="mb-2 text-xl font-semibold text-primary">Roman</h3>
+                       <h3 className="mb-2 text-lg md:text-xl font-semibold text-primary">Roman</h3>
                        {poem.romanUrdu && poem.romanUrdu.map((line, lineIndex) => (
-                        <p key={lineIndex} className="poem-text font-body text-lg">
+                        <p key={lineIndex} className="poem-text font-body text-base md:text-lg">
                           {line}
                         </p>
                       ))}
                     </div>
                     <div className="space-y-2">
-                      <h3 className="mb-2 text-xl font-semibold text-primary">English</h3>
+                      <h3 className="mb-2 text-lg md:text-xl font-semibold text-primary">English</h3>
                       {poem.english.map((line, lineIndex) => (
-                        <p key={lineIndex} className="poem-text font-body text-lg italic">
+                        <p key={lineIndex} className="poem-text font-body text-base md:text-lg italic">
                           {line}
                         </p>
                       ))}

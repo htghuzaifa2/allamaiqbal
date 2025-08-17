@@ -82,7 +82,7 @@ export function SearchResults() {
         <h1 className="page-title font-headline text-3xl font-bold tracking-tight md:text-5xl">
           Search Results
         </h1>
-        <p className="page-description mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
+        <p className="page-description mx-auto mt-4 max-w-2xl text-base text-muted-foreground md:text-lg">
           {searchResults.length > 0
             ? `Showing ${startIndex + 1}-${Math.min(endIndex, searchResults.length)} of ${searchResults.length} results for "${query}"`
             : `No results found for "${query}"`}
@@ -106,33 +106,33 @@ export function SearchResults() {
                     <div className="flex items-baseline gap-4">
                       <span className="text-xl font-bold text-primary/80">#{poemNumber}</span>
                       <div className="flex-1">
-                        <CardTitle className="font-headline text-2xl md:text-3xl">{poem.englishTitle}</CardTitle>
-                        <CardDescription className="text-lg md:text-xl">{poem.title}</CardDescription>
+                        <CardTitle className="font-headline text-xl md:text-2xl">{poem.englishTitle}</CardTitle>
+                        <CardDescription className="text-base md:text-lg">{poem.title}</CardDescription>
                       </div>
                     </div>
                   </CardHeader>
                   <CardContent>
                     <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
                       <div className="space-y-2 text-right" dir="rtl">
-                        <h3 className="mb-2 text-xl font-semibold text-primary">اردو</h3>
+                        <h3 className="mb-2 text-lg md:text-xl font-semibold text-primary">اردو</h3>
                         {poem.urdu.map((line, lineIndex) => (
-                          <p key={lineIndex} className="font-body text-xl">
+                          <p key={lineIndex} className="font-body text-lg md:text-xl">
                             {line}
                           </p>
                         ))}
                       </div>
                        <div className="space-y-2">
-                         <h3 className="mb-2 text-xl font-semibold text-primary">Roman</h3>
+                         <h3 className="mb-2 text-lg md:text-xl font-semibold text-primary">Roman</h3>
                          {poem.romanUrdu && poem.romanUrdu.map((line, lineIndex) => (
-                          <p key={lineIndex} className="font-body text-lg">
+                          <p key={lineIndex} className="font-body text-base md:text-lg">
                             {line}
                           </p>
                         ))}
                       </div>
                       <div className="space-y-2">
-                        <h3 className="mb-2 text-xl font-semibold text-primary">English</h3>
+                        <h3 className="mb-2 text-lg md:text-xl font-semibold text-primary">English</h3>
                         {poem.english.map((line, lineIndex) => (
-                          <p key={lineIndex} className="font-body text-lg italic">
+                          <p key={lineIndex} className="font-body text-base md:text-lg italic">
                             {line}
                           </p>
                         ))}

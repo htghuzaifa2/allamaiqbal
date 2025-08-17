@@ -35,20 +35,24 @@ export function AdsterraBannerAd({ adKey }: { adKey: string }) {
 
     useEffect(() => {
         const adContainer = adContainerRef.current;
-        if (adContainer) {
-            // Clear previous ad content to force a reload
-            adContainer.innerHTML = '';
+        
+        const timer = setTimeout(() => {
+            if (adContainer) {
+                // Clear previous ad content to force a reload
+                adContainer.innerHTML = '';
 
-            const script = document.createElement('script');
-            script.id = scriptId;
-            script.async = true;
-            script.setAttribute('data-cfasync', 'false');
-            script.src = '//pl27391280.profitableratecpm.com/80b1d23fe81d799143c72e85121699bf/invoke.js';
-            
-            adContainer.appendChild(script);
-        }
+                const script = document.createElement('script');
+                script.id = scriptId;
+                script.async = true;
+                script.setAttribute('data-cfasync', 'false');
+                script.src = '//pl27391280.profitableratecpm.com/80b1d23fe81d799143c72e85121699bf/invoke.js';
+                
+                adContainer.appendChild(script);
+            }
+        }, 50); // Small delay to ensure DOM is ready
         
         return () => {
+            clearTimeout(timer);
             const existingScript = document.getElementById(scriptId);
             if (existingScript && existingScript.parentElement) {
                 existingScript.parentElement.removeChild(existingScript);
