@@ -3,7 +3,7 @@
 import { useCallback } from 'react';
 
 const REDIRECT_URL = 'https://huzi.pk';
-const REDIRECT_INTERVAL = 33;
+const REDIRECT_INTERVAL = 55;
 
 export function useRedirect() {
   const handleClick = useCallback(() => {
