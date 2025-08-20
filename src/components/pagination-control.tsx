@@ -52,7 +52,7 @@ export function PaginationControl({
           size="icon"
           variant={i === currentPage ? 'default' : 'outline'}
           onClick={() => handlePageClick(i)}
-          className="pagination-button h-8 w-8 rounded-full transition-all duration-200"
+          className="pagination-button h-8 w-8 rounded-full transition-all duration-200 hover:bg-primary/80 hover:text-primary-foreground"
         >
           {i}
         </Button>
@@ -77,7 +77,7 @@ export function PaginationControl({
             size="icon"
             variant="outline"
             disabled={currentPage === 1}
-            className="pagination-button h-8 w-8 rounded-full transition-all duration-200"
+            className="pagination-button h-8 w-8 rounded-full transition-all duration-200 hover:bg-primary/80 hover:text-primary-foreground"
           >
             <ChevronsLeft />
           </Button>
@@ -86,7 +86,7 @@ export function PaginationControl({
             size="icon"
             variant="outline"
             disabled={currentPage === 1}
-            className="pagination-button h-8 w-8 rounded-full transition-all duration-200"
+            className="pagination-button h-8 w-8 rounded-full transition-all duration-200 hover:bg-primary/80 hover:text-primary-foreground"
           >
             <ChevronLeft />
           </Button>
@@ -100,7 +100,7 @@ export function PaginationControl({
             size="icon"
             variant="outline"
             disabled={currentPage === totalPages}
-            className="pagination-button h-8 w-8 rounded-full transition-all duration-200"
+            className="pagination-button h-8 w-8 rounded-full transition-all duration-200 hover:bg-primary/80 hover:text-primary-foreground"
           >
             <ChevronRight />
           </Button>
@@ -109,7 +109,7 @@ export function PaginationControl({
             size="icon"
             variant="outline"
             disabled={currentPage === totalPages}
-            className="pagination-button h-8 w-8 rounded-full transition-all duration-200"
+            className="pagination-button h-8 w-8 rounded-full transition-all duration-200 hover:bg-primary/80 hover:text-primary-foreground"
           >
             <ChevronsRight />
           </Button>

@@ -16,6 +16,7 @@ import { useMounted } from '@/hooks/use-mounted';
 import { StaticPaginationControl } from './static-pagination-control';
 import { Badge } from '@/components/ui/badge';
 import { AdsterraBannerAd } from './adsterra-ads';
+import { ScrollToTopButton } from './scroll-to-top-button';
 
 const PAGE_SIZE = 50;
 
@@ -111,6 +112,7 @@ export function PoetryDisplay() {
         totalPages={totalPages}
         onPageChange={handlePageChange}
       />
+      <ScrollToTopButton />
     </div>
   );
 }
