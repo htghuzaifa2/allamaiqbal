@@ -31,17 +31,17 @@ export function ScrollToTopButton() {
   }, []);
 
   return (
-    <div className="fixed bottom-4 left-4 z-50">
+    <div className="fixed bottom-6 left-6 z-50">
       <Button
         size="icon"
         onClick={scrollToTop}
         className={cn(
-          'rounded-full shadow-lg transition-all duration-300 hover:scale-110',
+          'scroll-to-top-button h-12 w-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:bg-primary/90',
           isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-0 pointer-events-none'
         )}
         aria-label="Scroll to top"
       >
-        <ArrowUp className="h-5 w-5" />
+        <ArrowUp className="h-6 w-6" />
       </Button>
     </div>
   );

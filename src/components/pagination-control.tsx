@@ -119,13 +119,13 @@ export function PaginationControl({
       <Button
         size="icon"
         onClick={() => setIsOpen(!isOpen)}
-        className="absolute bottom-0 right-0 z-10 rounded-full shadow-lg transition-transform duration-300 hover:scale-110"
+        className="absolute bottom-0 right-0 z-10 h-12 w-12 rounded-full shadow-lg transition-transform duration-300 hover:scale-110"
         aria-expanded={isOpen}
       >
         {isOpen ? (
-          <X className="h-5 w-5" />
+          <X className="h-6 w-6" />
         ) : (
-          <MoreHorizontal className="h-5 w-5" />
+          <MoreHorizontal className="h-6 w-6" />
         )}
         <span className="sr-only">Toggle Pagination</span>
       </Button>
