@@ -4,28 +4,23 @@ import React, { useEffect, useRef } from 'react';
 
 export function AdsterraSocialBar() {
   useEffect(() => {
-    // Check if the script is already present to avoid duplicates
-    if (document.getElementById('adsterra-social-bar-script')) {
-      return;
-    }
-
     const script = document.createElement('script');
-    script.id = 'adsterra-social-bar-script';
     script.type = 'text/javascript';
     script.src = '//pl27391411.profitableratecpm.com/2e/9f/13/2e9f137c2e929905630b5d05eee423bf.js';
     script.async = true;
-    document.head.appendChild(script);
+    
+    document.body.appendChild(script);
 
     return () => {
-      // Cleanup script on component unmount
-      const existingScript = document.getElementById('adsterra-social-bar-script');
+      // Try to find and remove the script when the component unmounts
+      const existingScript = document.querySelector(`script[src="${script.src}"]`);
       if (existingScript) {
-        document.head.removeChild(existingScript);
+        document.body.removeChild(existingScript);
       }
     };
   }, []);
 
-  return null; // This component doesn't render anything itself
+  return null;
 }
 
 
@@ -35,31 +30,33 @@ export function AdsterraBannerAd({ adKey }: { adKey: string }) {
 
     useEffect(() => {
         const adContainer = adContainerRef.current;
-        
-        const timer = setTimeout(() => {
-            if (adContainer) {
-                // Clear previous ad content to force a reload
-                adContainer.innerHTML = '';
+        if (!adContainer) return;
 
-                const script = document.createElement('script');
-                script.id = scriptId;
-                script.async = true;
-                script.setAttribute('data-cfasync', 'false');
-                script.src = '//pl27391280.profitableratecpm.com/80b1d23fe81d799143c72e85121699bf/invoke.js';
-                
-                adContainer.appendChild(script);
-            }
-        }, 50); // Small delay to ensure DOM is ready
+        // Clear previous ad content to force a reload
+        adContainer.innerHTML = '';
+        const containerDiv = document.createElement('div');
+        containerDiv.id = 'container-80b1d23fe81d799143c72e85121699bf';
+        adContainer.appendChild(containerDiv);
+
+        const script = document.createElement('script');
+        script.id = scriptId;
+        script.async = true;
+        script.setAttribute('data-cfasync', 'false');
+        script.src = '//pl27391280.profitableratecpm.com/80b1d23fe81d799143c72e85121699bf/invoke.js';
+        
+        adContainer.appendChild(script);
         
         return () => {
-            clearTimeout(timer);
+            // Cleanup on component unmount
             const existingScript = document.getElementById(scriptId);
             if (existingScript && existingScript.parentElement) {
                 existingScript.parentElement.removeChild(existingScript);
             }
+            if (adContainer) {
+                adContainer.innerHTML = '';
+            }
         }
     }, [adKey, scriptId]); // Re-run effect if the key changes
 
-    // The ad script itself creates the div with the specific ID, but we need a container to append the script to.
-    return <div ref={adContainerRef} id="container-80b1d23fe81d799143c72e85121699bf" className="my-4"/>;
+    return <div ref={adContainerRef} className="my-4"/>;
 }
