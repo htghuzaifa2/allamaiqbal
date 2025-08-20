@@ -9,27 +9,38 @@ export function ScrollToTopButton() {
   const [isVisible, setIsVisible] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
 
-  const handleScroll = () => {
-    // Visibility
-    if (window.scrollY > 300) {
-      setIsVisible(true);
-    } else {
-      setIsVisible(false);
-    }
+  useEffect(() => {
+    const handleScroll = () => {
+      // Visibility logic
+      if (window.scrollY > 300) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
 
-    // Progress
-    const scrollTop = document.documentElement.scrollTop;
-    const scrollHeight = document.documentElement.scrollHeight;
-    const clientHeight = document.documentElement.clientHeight;
-    const totalScrollable = scrollHeight - clientHeight;
+      // Progress calculation logic
+      const scrollTop = document.documentElement.scrollTop;
+      const scrollHeight = document.documentElement.scrollHeight;
+      const clientHeight = document.documentElement.clientHeight;
+      const totalScrollable = scrollHeight - clientHeight;
+      
+      if (totalScrollable > 0) {
+        const progress = (scrollTop / totalScrollable) * 100;
+        setScrollProgress(progress);
+      } else {
+        setScrollProgress(0);
+      }
+    };
     
-    if (totalScrollable > 0) {
-      const progress = (scrollTop / totalScrollable) * 100;
-      setScrollProgress(progress);
-    } else {
-      setScrollProgress(0);
-    }
-  };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    
+    // Initial check in case the page is already scrolled
+    handleScroll();
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -38,15 +49,6 @@ export function ScrollToTopButton() {
     });
   };
 
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    // Initial check in case the page is reloaded with a scroll position
-    handleScroll(); 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-  
   const radius = 20;
   const circumference = 2 * Math.PI * radius;
   const offset = circumference - (scrollProgress / 100) * circumference;
@@ -57,8 +59,8 @@ export function ScrollToTopButton() {
         size="icon"
         onClick={scrollToTop}
         className={cn(
-          'scroll-to-top-button relative h-12 w-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:bg-primary/90 bg-background/50 backdrop-blur-sm',
-          isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-0 pointer-events-none'
+          'scroll-to-top-button relative h-12 w-12 rounded-full shadow-lg transition-opacity duration-300 hover:scale-110 hover:bg-primary/90 bg-background/50 backdrop-blur-sm',
+          isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'
         )}
         aria-label="Scroll to top"
       >
@@ -68,7 +70,6 @@ export function ScrollToTopButton() {
           height="48"
           viewBox="0 0 48 48"
         >
-          {/* Background Circle */}
           <circle
             className="stroke-current text-border"
             cx="24"
@@ -77,7 +78,6 @@ export function ScrollToTopButton() {
             strokeWidth="4"
             fill="transparent"
           />
-          {/* Progress Circle */}
           <circle
             className="stroke-current text-primary transition-all duration-300 ease-linear"
             cx="24"
