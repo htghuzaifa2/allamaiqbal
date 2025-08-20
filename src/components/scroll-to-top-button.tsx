@@ -49,7 +49,7 @@ export function ScrollToTopButton() {
     });
   };
 
-  const radius = 20;
+  const radius = 24;
   const circumference = 2 * Math.PI * radius;
   const offset = circumference - (scrollProgress / 100) * circumference;
 
@@ -59,39 +59,39 @@ export function ScrollToTopButton() {
         size="icon"
         onClick={scrollToTop}
         className={cn(
-          'scroll-to-top-button relative h-12 w-12 rounded-full shadow-lg transition-opacity duration-300 hover:scale-110 hover:bg-primary/90 bg-background/50 backdrop-blur-sm',
+          'scroll-to-top-button relative h-14 w-14 rounded-full shadow-lg transition-opacity duration-300 hover:scale-110 hover:bg-primary/90 bg-background/50 backdrop-blur-sm',
           isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'
         )}
         aria-label="Scroll to top"
       >
         <svg
           className="absolute h-full w-full"
-          width="48"
-          height="48"
-          viewBox="0 0 48 48"
+          width="56"
+          height="56"
+          viewBox="0 0 56 56"
         >
           <circle
             className="stroke-current text-border"
-            cx="24"
-            cy="24"
+            cx="28"
+            cy="28"
             r={radius}
             strokeWidth="4"
             fill="transparent"
           />
           <circle
             className="stroke-current text-primary transition-all duration-300 ease-linear"
-            cx="24"
-            cy="24"
+            cx="28"
+            cy="28"
             r={radius}
             strokeWidth="4"
             fill="transparent"
             strokeDasharray={circumference}
             strokeDashoffset={offset}
-            transform="rotate(-90 24 24)"
+            transform="rotate(-90 28 28)"
             strokeLinecap="round"
           />
         </svg>
-        <ArrowUp className="h-6 w-6" />
+        <ArrowUp className="h-7 w-7" />
       </Button>
     </div>
   );
