@@ -9,21 +9,25 @@ export function ScrollToTopButton() {
   const [isVisible, setIsVisible] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
 
-  const toggleVisibilityAndSetProgress = () => {
-    const scrolled = document.documentElement.scrollTop;
-    const windowHeight = document.documentElement.clientHeight;
-    const docHeight = document.documentElement.scrollHeight;
-    const totalScrollable = docHeight - windowHeight;
-
+  const handleScroll = () => {
+    // Visibility
     if (window.scrollY > 300) {
       setIsVisible(true);
     } else {
       setIsVisible(false);
     }
+
+    // Progress
+    const scrollTop = document.documentElement.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight;
+    const clientHeight = document.documentElement.clientHeight;
+    const totalScrollable = scrollHeight - clientHeight;
     
     if (totalScrollable > 0) {
-      const progress = (scrolled / totalScrollable) * 100;
+      const progress = (scrollTop / totalScrollable) * 100;
       setScrollProgress(progress);
+    } else {
+      setScrollProgress(0);
     }
   };
 
@@ -35,9 +39,11 @@ export function ScrollToTopButton() {
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', toggleVisibilityAndSetProgress);
+    window.addEventListener('scroll', handleScroll);
+    // Initial check in case the page is reloaded with a scroll position
+    handleScroll(); 
     return () => {
-      window.removeEventListener('scroll', toggleVisibilityAndSetProgress);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
   
