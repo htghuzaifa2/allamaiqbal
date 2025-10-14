@@ -1,9 +1,13 @@
+
 import type { Metadata } from 'next';
+import dynamic from 'next/dynamic';
 import { LayoutProvider } from '@/components/layout-provider';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/header';
 import './globals.css';
 import { AdsterraSocialBar } from '@/components/adsterra-ads';
+
+const ProductPopup = dynamic(() => import('@/components/product-popup').then(m => m.ProductPopup), { ssr: false });
 
 export const metadata: Metadata = {
   title: 'Allama Iqbal Poetry – Urdu & English Verses with Transliteration',
@@ -60,6 +64,7 @@ export default function RootLayout({
             <Header />
             <main className="flex-grow">{children}</main>
           <Toaster />
+          <ProductPopup />
         </LayoutProvider>
         <AdsterraSocialBar />
       </body>
