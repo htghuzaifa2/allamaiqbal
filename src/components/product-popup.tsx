@@ -1,4 +1,3 @@
-
 "use client"
 
 import { useState, useEffect } from 'react'
@@ -106,7 +105,7 @@ export function ProductPopup() {
   return (
     <div
       className={cn(
-        'fixed bottom-4 right-4 z-50 w-80 transform transition-all duration-500 ease-in-out',
+        'fixed bottom-4 left-4 z-50 w-80 transform transition-all duration-500 ease-in-out',
         isVisible && !isFading ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
       )}
     >
