@@ -31,7 +31,7 @@ export function ProductPopup() {
   };
 
   useEffect(() => {
-    // This effect should only run once on the client to set up timers
+    // This effect runs only once on mount to schedule the initial appearance.
     if (typeof window === 'undefined') {
       return;
     }
@@ -56,24 +56,24 @@ export function ProductPopup() {
       initialTimeout = setTimeout(showPopup, INITIAL_APPEAR_DELAY);
     }
 
+    // Cleanup function to clear the timer if the component unmounts.
     return () => {
       clearTimeout(initialTimeout);
     };
-  }, []); // Empty dependency array to run only once on mount
+  }, []); // Empty dependency array ensures this runs only once on mount.
 
   useEffect(() => {
-    // This effect handles the product rotation when the popup is visible
+    // This effect handles the product rotation ONLY when the popup is visible.
     if (!isVisible) {
       return;
     }
 
     const rotationInterval = setInterval(() => {
-      // Check visibility state directly inside the interval
-      if (document.visibilityState === 'visible') {
         setIsFading(true);
         setTimeout(() => {
           setProduct(prevProduct => {
             let newProduct = getRandomProduct();
+            // Ensure we don't show the same product twice in a row
             while (newProduct.slug === prevProduct?.slug) {
               newProduct = getRandomProduct();
             }
@@ -81,13 +81,13 @@ export function ProductPopup() {
           });
           setIsFading(false);
         }, 500); // fade duration
-      }
     }, PRODUCT_ROTATION_INTERVAL);
 
+    // Cleanup function to clear the interval when the popup is hidden or unmounts.
     return () => {
       clearInterval(rotationInterval);
     };
-  }, [isVisible]); // Re-run this effect when visibility changes
+  }, [isVisible]); // This effect re-runs whenever 'isVisible' changes.
 
   const handleDismiss = () => {
     setIsFading(true);
