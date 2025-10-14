@@ -32,13 +32,10 @@ export function ProductPopup() {
   };
 
   useEffect(() => {
-    // This effect should only run on the client
+    // This effect should only run once on the client to set up timers
     if (typeof window === 'undefined') {
       return;
     }
-
-    const dismissedUntil = localStorage.getItem('product-popup-dismissed-until');
-    const now = Date.now();
 
     const showPopup = () => {
       setProduct(getRandomProduct());
@@ -46,16 +43,33 @@ export function ProductPopup() {
       setIsFading(false);
     };
 
+    const dismissedUntil = localStorage.getItem('product-popup-dismissed-until');
+    const now = Date.now();
+
     let initialTimeout: NodeJS.Timeout;
 
     if (dismissedUntil && now < parseInt(dismissedUntil, 10)) {
+      // If we are in a cooldown period, set a timer to show it after the cooldown.
       const timeUntilShow = parseInt(dismissedUntil, 10) - now;
       initialTimeout = setTimeout(showPopup, timeUntilShow);
     } else {
+      // Otherwise, show it after the initial delay.
       initialTimeout = setTimeout(showPopup, INITIAL_APPEAR_DELAY);
     }
 
+    return () => {
+      clearTimeout(initialTimeout);
+    };
+  }, []); // Empty dependency array to run only once on mount
+
+  useEffect(() => {
+    // This effect handles the product rotation when the popup is visible
+    if (!isVisible) {
+      return;
+    }
+
     const rotationInterval = setInterval(() => {
+      // Check visibility state directly inside the interval
       if (document.visibilityState === 'visible') {
         setIsFading(true);
         setTimeout(() => {
@@ -67,15 +81,14 @@ export function ProductPopup() {
             return newProduct;
           });
           setIsFading(false);
-        }, 500);
+        }, 500); // fade duration
       }
     }, PRODUCT_ROTATION_INTERVAL);
 
     return () => {
-      clearTimeout(initialTimeout);
       clearInterval(rotationInterval);
     };
-  }, []);
+  }, [isVisible]); // Re-run this effect when visibility changes
 
   const handleDismiss = () => {
     setIsFading(true);
@@ -83,7 +96,7 @@ export function ProductPopup() {
       setIsVisible(false);
       const dismissedUntil = Date.now() + DISMISS_COOLDOWN;
       localStorage.setItem('product-popup-dismissed-until', dismissedUntil.toString());
-    }, 500);
+    }, 500); // match fade duration
   };
 
   if (!product || !isVisible) {
