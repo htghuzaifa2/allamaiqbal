@@ -2,28 +2,6 @@
 
 import React, { useEffect, useRef } from 'react';
 
-export function AdsterraSocialBar() {
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.src = '//pl27391411.profitableratecpm.com/2e/9f/13/2e9f137c2e929905630b5d05eee423bf.js';
-    script.async = true;
-    
-    document.body.appendChild(script);
-
-    return () => {
-      // Try to find and remove the script when the component unmounts
-      const existingScript = document.querySelector(`script[src="${script.src}"]`);
-      if (existingScript) {
-        document.body.removeChild(existingScript);
-      }
-    };
-  }, []);
-
-  return null;
-}
-
-
 export function AdsterraBannerAd({ adKey }: { adKey: string }) {
     const adContainerRef = useRef<HTMLDivElement>(null);
     const scriptId = `adsterra-banner-script-${adKey}`;
