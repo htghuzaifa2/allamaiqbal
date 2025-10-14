@@ -2,7 +2,10 @@
 
 import { ThemeProvider } from '@/components/theme-provider';
 import { useRedirect } from '@/hooks/useRedirect';
+import dynamic from 'next/dynamic';
 import { useEffect } from 'react';
+
+const ProductPopup = dynamic(() => import('@/components/product-popup').then(m => m.ProductPopup), { ssr: false });
 
 export function LayoutProvider({
   children,
@@ -23,10 +26,10 @@ export function LayoutProvider({
       attribute="class"
       storageKey="iqbalverse-theme"
       defaultTheme="orange"
-      disableTransitionOnChange
     >
       <div className="flex min-h-screen flex-col bg-background" onClick={handleClick}>
         {children}
+        <ProductPopup />
       </div>
     </ThemeProvider>
   );

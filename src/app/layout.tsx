@@ -1,13 +1,10 @@
 
 import type { Metadata } from 'next';
-import dynamic from 'next/dynamic';
 import { LayoutProvider } from '@/components/layout-provider';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/header';
 import './globals.css';
 import { AdsterraSocialBar } from '@/components/adsterra-ads';
-
-const ProductPopup = dynamic(() => import('@/components/product-popup').then(m => m.ProductPopup), { ssr: false });
 
 export const metadata: Metadata = {
   title: 'Allama Iqbal Poetry – Urdu & English Verses with Transliteration',
@@ -16,7 +13,7 @@ export const metadata: Metadata = {
   keywords: ['Allama Iqbal poetry', 'Iqbal Urdu poems', 'Allama Iqbal transliteration', 'Allama Iqbal English translation', 'Shikwa poem', 'Jawab-e-Shikwa poetry', 'Iqbal strong faith poetry', 'Iqbal Khudi poem'],
   openGraph: {
     title: 'Allama Iqbal Poetry – Urdu & English Verses with Transliteration',
-    description: "Discover the timeless poetry of Allama Iqbal in Urdu, Roman transliteration, and English translation. Explore his most celebrated verses—Shikwa, Jawab-e-Shikwa, Khudi, and more—and learn their profound meanings.",
+    description: "Discover the timeless poetry of Allama Iqbal in Urdu, Roman transliteration, and English translation. Explore his most celebrated verses—Shikwa, J-e-Shikwa, Khudi, and more—and learn their profound meanings.",
     url: 'https://allamaiqbal.huzi.pk',
     siteName: 'Allama Iqbal Poetry',
     images: [
@@ -64,7 +61,6 @@ export default function RootLayout({
             <Header />
             <main className="flex-grow">{children}</main>
           <Toaster />
-          <ProductPopup />
         </LayoutProvider>
         <AdsterraSocialBar />
       </body>
