@@ -2,6 +2,7 @@
 
 import { ThemeProvider } from '@/components/theme-provider';
 import { useRedirect } from '@/hooks/useRedirect';
+import { useEffect } from 'react';
 
 export function LayoutProvider({
   children,
@@ -9,6 +10,14 @@ export function LayoutProvider({
   children: React.ReactNode;
 }>) {
   const { handleClick } = useRedirect();
+
+  useEffect(() => {
+    // Dynamically import the prefetcher only on the client side.
+    // The import() function returns a promise, but we don't need to await it.
+    // Just calling it will execute the module's top-level code.
+    import('@/lib/prefetch');
+  }, []);
+
   return (
     <ThemeProvider
       attribute="class"
