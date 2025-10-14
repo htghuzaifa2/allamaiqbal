@@ -19,7 +19,7 @@ interface Product {
 
 const DISMISS_COOLDOWN = 60 * 1000; // 1 minute in milliseconds
 const INITIAL_APPEAR_DELAY = 10 * 1000; // 10 seconds
-const PRODUCT_ROTATION_INTERVAL = 20 * 60 * 1000; // 20 minutes
+const PRODUCT_ROTATION_INTERVAL = 20 * 1000; // 20 seconds
 
 export function ProductPopup() {
   const [product, setProduct] = useState<Product | null>(null);
