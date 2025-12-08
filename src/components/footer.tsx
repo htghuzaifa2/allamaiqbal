@@ -19,7 +19,7 @@ export function Footer() {
             </Link>
           </p>
         </div>
-        <div className="relative mx-auto max-w-3xl overflow-hidden rounded-lg shadow-2xl" style={{ paddingTop: '56.25%' }}>
+        <div className="relative overflow-hidden rounded-lg shadow-2xl" style={{ paddingTop: '56.25%' }}>
           <iframe
             className="absolute top-0 left-0 h-full w-full"
             src="https://www.youtube-nocookie.com/embed/qFmyV1Oextg?si=2pTJPq8WsNnZBCxs"
