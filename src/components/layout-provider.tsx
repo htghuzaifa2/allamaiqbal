@@ -4,6 +4,7 @@ import { ThemeProvider } from '@/components/theme-provider';
 import { useRedirect } from '@/hooks/useRedirect';
 import dynamic from 'next/dynamic';
 import { useEffect } from 'react';
+import { Footer } from './footer';
 
 const ProductPopup = dynamic(() => import('@/components/product-popup').then(m => m.ProductPopup), { ssr: false });
 
@@ -30,6 +31,7 @@ export function LayoutProvider({
       <div className="flex min-h-screen flex-col bg-background" onClick={handleClick}>
         {children}
         <ProductPopup />
+        <Footer />
       </div>
     </ThemeProvider>
   );
