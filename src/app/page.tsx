@@ -1,4 +1,23 @@
 import { PoetryDisplay } from '@/components/poetry-display';
+import { Suspense } from 'react';
+
+function HomePageFallback() {
+  return (
+    <div className="container mx-auto px-4 py-8 md:py-12">
+      <section className="mb-12 text-center">
+        <h1 className="page-title font-headline text-4xl font-bold tracking-tight md:text-6xl">
+          The Poetry of Allama Iqbal
+        </h1>
+        <p className="page-description mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
+          Explore the profound verses of Muhammad Iqbal, the "Spiritual Father
+          of Pakistan."
+        </p>
+      </section>
+      {/* You can add a skeleton loader for the poetry display here if you want */}
+    </div>
+  );
+}
+
 
 export default function Home() {
   return (
@@ -12,7 +31,9 @@ export default function Home() {
           of Pakistan."
         </p>
       </section>
-      <PoetryDisplay />
+      <Suspense fallback={<HomePageFallback />}>
+        <PoetryDisplay />
+      </Suspense>
     </div>
   );
 }

@@ -1,7 +1,8 @@
+
 'use client';
 
 import React from 'react';
-import { useState } from 'react';
+import { useSearchParams, useRouter } from 'next/navigation';
 import {
   Card,
   CardContent,
@@ -17,21 +18,30 @@ import { StaticPaginationControl } from './static-pagination-control';
 import { Badge } from '@/components/ui/badge';
 import { ScrollToTop } from './scroll-to-top';
 
-const PAGE_SIZE = 50;
+const PAGE_SIZE = 25;
 
 export function PoetryDisplay() {
-  const [currentPage, setCurrentPage] = useState(1);
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const page = searchParams.get('page') ? parseInt(searchParams.get('page') as string, 10) : 1;
+  
+  const [currentPage, setCurrentPage] = React.useState(page);
   const { theme } = useTheme();
   const mounted = useMounted();
   const totalPoems = allPoems.length;
   const totalPages = Math.ceil(totalPoems / PAGE_SIZE);
 
+  React.useEffect(() => {
+    setCurrentPage(page);
+  }, [page]);
+
   const startIndex = (currentPage - 1) * PAGE_SIZE;
   const endIndex = startIndex + PAGE_SIZE;
   const displayedPoems = allPoems.slice(startIndex, endIndex);
 
-  const handlePageChange = (page: number) => {
-    setCurrentPage(page);
+  const handlePageChange = (newPage: number) => {
+    setCurrentPage(newPage);
+    router.push(`/?page=${newPage}`, { scroll: false });
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
