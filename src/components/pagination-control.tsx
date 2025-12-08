@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useState } from 'react';
@@ -62,7 +63,7 @@ export function PaginationControl({
   };
 
   return (
-    <div className="pagination-control-container fixed bottom-24 right-4 z-50">
+    <div className="pagination-control-container fixed bottom-24 right-20 z-50">
       <div
         className={cn(
           'flex items-center gap-2 transition-all duration-300 ease-in-out sm:flex-row flex-col-reverse',
@@ -132,3 +133,4 @@ export function PaginationControl({
     </div>
   );
 }
+
