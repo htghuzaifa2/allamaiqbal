@@ -1,3 +1,4 @@
+
 'use client';
 
 import React from 'react';
@@ -145,11 +146,13 @@ export function SearchResults() {
         </div>
 
         {searchResults.length > PAGE_SIZE && (
-          <StaticPaginationControl 
-            currentPage={currentPage}
-            totalPages={totalPages}
-            onPageChange={handlePageChange}
-          />
+          <div className="mt-8">
+            <StaticPaginationControl 
+              currentPage={currentPage}
+              totalPages={totalPages}
+              onPageChange={handlePageChange}
+            />
+          </div>
         )}
       </div>
     </div>

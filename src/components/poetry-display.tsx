@@ -53,7 +53,7 @@ export function PoetryDisplay() {
   };
 
   return (
-    <div className="mx-auto max-w-7xl pb-24">
+    <div className="mx-auto max-w-7xl pb-12">
       <div className="space-y-8">
         {displayedPoems.map((poem, index) => {
           const poemNumber = totalPoems - (startIndex + index);
