@@ -37,7 +37,13 @@ function HomePageFallback() {
   );
 }
 
-export default function Home() {
+export default function Home({
+  searchParams,
+}: {
+  searchParams?: { page?: string };
+}) {
+  const currentPage = Number(searchParams?.page) || 1;
+
   return (
     <div className="container mx-auto px-4 py-8 md:py-12">
       <Suspense fallback={<HomePageFallback />}>
@@ -50,7 +56,7 @@ export default function Home() {
             of Pakistan."
           </p>
         </section>
-        <PoetryDisplay />
+        <PoetryDisplay currentPage={currentPage} />
       </Suspense>
     </div>
   );
