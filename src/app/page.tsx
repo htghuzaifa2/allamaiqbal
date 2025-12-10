@@ -3,6 +3,8 @@ import { PoetryDisplay } from '@/components/poetry-display';
 import { Skeleton } from '@/components/ui/skeleton';
 import { Suspense } from 'react';
 
+export const runtime = 'edge';
+
 function HomePageFallback() {
   return (
     <>
